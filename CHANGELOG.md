@@ -21,6 +21,9 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - XP and Reputation Bars, Raid Tools, the damage meter and the Cooldown Manager viewers now use the same Visibility settings as the rest of EldoUI (preset, Show, the extra rules behind the gear, faded opacity). Your Hide in combat, mouse-over and opacity choices carry over.
 - Importing: one Import and export page with one paste box for every string (EldoUI, EllesmereUI, ElvUI and Edit Mode). It tells which kind you pasted and shows what it imports before you click Import. The separate "Import from other UIs" page is gone; its choices are on the same page.
 
+### Fixed
+- Map Notes City services: mount vendors and stable masters no longer show as innkeepers.
+
 ## [0.6.5001] - 2026-10-13
 
 ### Highlights
