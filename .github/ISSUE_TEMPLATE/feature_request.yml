@@ -1,0 +1,19 @@
+name: Feature request
+description: An idea for EldoUI.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like EldoUI to show or do, and where on screen?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+      description: The situation where you would use it.
+  - type: markdown
+    attributes:
+      value: EldoUI only changes how the game looks and what it shows. Features that play for you or read hidden combat data are not possible under Blizzard's addon rules.

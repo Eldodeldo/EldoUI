@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: EldoUI wiki
+    url: https://github.com/Eldodeldo/EldoUI/wiki
+    about: Getting started, modules, layouts, commands and the FAQ.

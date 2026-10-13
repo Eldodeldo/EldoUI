@@ -1,0 +1,36 @@
+name: Bug report
+description: Something in EldoUI does not work or shows an error.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make EldoUI better. Type `/eui errors` in game, select the error and click **As issue**, then press Ctrl+C and paste it below. That text already holds the EldoUI version, the game build and the modules you use.
+  - type: textarea
+    id: report
+    attributes:
+      label: Error report
+      description: Paste the text from "As issue", or describe what you saw.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen
+      description: What were you doing when it happened? Steps help us find it quickly.
+      placeholder: |
+        1. Opened the world map
+        2. Clicked a dungeon pin
+        3. The error appeared
+  - type: input
+    id: version
+    attributes:
+      label: EldoUI version
+      description: Shown at the top of `/eui`.
+      placeholder: "0.6.5001"
+  - type: textarea
+    id: addons
+    attributes:
+      label: Other addons
+      description: Optional. Other addons you had on when it happened.

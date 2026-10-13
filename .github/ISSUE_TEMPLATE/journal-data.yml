@@ -1,0 +1,72 @@
+name: Journal data
+description: New or changed WoW Forever content for the Journal (quests, dungeons, zone levels, attunement steps, rares).
+title: "Journal data: "
+labels: ["journal-data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping the Journal keep up with WoW Forever. Its quest and dungeon suggestions come from Classic data plus what players report here.
+
+        **How to get the export block:** in game, open the Journal, go to **My adventure**, and press **Report new content**. Copy the whole `!EUJD1!` block from the box and paste it below. It holds only what the game showed you (quests, givers and where they stand, dungeons, zone levels) and never your character's name. Nothing is sent from the game.
+
+        **Do not copy from Wowhead** or from another addon's data. We can only use what you saw in the game yourself.
+
+        A bot reads this form, turns the block into data, and it is added to the Journal after a review. If something is missing, it comments and tells you what to add.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of data
+      description: Pick the closest one. "Several of these" is fine for a block from a long play session.
+      options:
+        - New quest
+        - Changed quest
+        - Quest gone
+        - New dungeon or raid
+        - Dungeon level range
+        - Attunement step
+        - Zone level range
+        - Rare
+        - Several of these
+    validations:
+      required: true
+  - type: textarea
+    id: block
+    attributes:
+      label: Export block
+      description: The `!EUJD1!` block from Report new content. Needed for everything except "Quest gone".
+      render: text
+      placeholder: "!EUJD1!z..."
+  - type: input
+    id: ids
+    attributes:
+      label: Quest, NPC, or map IDs (if you know them)
+      description: For "Quest gone", list the quest IDs here, separated by commas.
+      placeholder: "e.g. 1234, 5678"
+  - type: input
+    id: where
+    attributes:
+      label: Where, and at which level
+      description: The zone or dungeon, and your character's level when you saw it.
+      placeholder: "e.g. Goldshire, level 6"
+    validations:
+      required: true
+  - type: textarea
+    id: shown
+    attributes:
+      label: What did the game show?
+      description: In your own words, for example "the quest window offered it at level 8" or "the quest giver was not there".
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Drag an image here if you have one.
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Where it comes from
+      options:
+        - label: I saw this in the game myself and did not copy it from Wowhead or another addon.
+          required: true

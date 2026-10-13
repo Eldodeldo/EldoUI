@@ -1,0 +1,676 @@
+{
+  "schema": 1,
+  "name": "EldoUI",
+  "summary": "An AI-made, deeply modular UI for WoW: Forever. Turn every module on or off, pick one of 17 layout presets, and move and style everything yourself.",
+  "license": "Apache-2.0",
+  "licenseNotes": "The EldoUI_LootData folder is GPL-3.0-or-later (generated from CMaNGOS classic-db); EldoUI_Emoji graphics are CC-BY 4.0 (Twemoji). See THIRD_PARTY_NOTICES.md.",
+  "categories": [
+    "User Interface"
+  ],
+  "authors": [
+    {
+      "name": "Eldodeldo",
+      "role": "Author"
+    }
+  ],
+  "links": {
+    "source": "https://github.com/Eldodeldo/EldoUI",
+    "issues": "https://github.com/Eldodeldo/EldoUI/issues",
+    "releases": "https://github.com/Eldodeldo/EldoUI/releases"
+  },
+  "overview": "overview.md",
+  "features": [
+    {
+      "module": "InfoBar",
+      "title": "Info Bar",
+      "text": "Full-width bars and your own datatext panels with clock, gold, durability, stats and more.",
+      "wiki": "modules",
+      "page": "features/interface.md#info-bar"
+    },
+    {
+      "module": "Minimap",
+      "title": "Minimap",
+      "text": "Square or round minimap with zone, coordinates, clock, button placement and an addon button bin.",
+      "wiki": "modules",
+      "page": "features/interface.md#minimap"
+    },
+    {
+      "module": "Tooltip",
+      "title": "Tooltip",
+      "text": "Clean tooltips in the game's own style with quality and class borders, a tidy info area and a movable anchor.",
+      "wiki": "modules",
+      "page": "features/interface.md#tooltip"
+    },
+    {
+      "module": "Maps",
+      "title": "Maps",
+      "text": "World map, quest log, flight map, battlefield map and UI widgets: skin, position, scale, coordinates and fading.",
+      "wiki": "modules",
+      "page": "features/interface.md#maps"
+    },
+    {
+      "module": "ObjectiveTracker",
+      "title": "Quest Tracker",
+      "text": "Blizzard's quest and objective tracker: EldoUI look, mover, height, font, fade in combat and Questie support.",
+      "wiki": "modules",
+      "page": "features/interface.md#quest-tracker"
+    },
+    {
+      "module": "StatusBars",
+      "title": "XP and Reputation Bars",
+      "text": "Experience, rested XP, reputation, honor and pet experience bars in one movable stack.",
+      "wiki": "modules",
+      "page": "features/interface.md#xp-and-reputation-bars"
+    },
+    {
+      "module": "MicroMenu",
+      "title": "Micro Menu and Bags",
+      "text": "Move, resize and restyle Blizzard's micro menu and bag bar, or fold them into the Info Bar and bag window.",
+      "wiki": "modules",
+      "page": "features/interface.md#micro-menu-and-bags"
+    },
+    {
+      "module": "Notifications",
+      "title": "Messages",
+      "text": "Toasts, banners, talking head, raid warnings, red error text, zone text, ready checks and cutscenes.",
+      "wiki": "modules",
+      "page": "features/interface.md#messages"
+    },
+    {
+      "module": "Loot",
+      "title": "Loot",
+      "text": "Loot window, group roll bars, loot history and loot toasts in the EldoUI look.",
+      "wiki": "modules",
+      "page": "features/interface.md#loot"
+    },
+    {
+      "module": "Character",
+      "title": "Character Panel",
+      "text": "The character window, its slots and side panels in the EldoUI look.",
+      "wiki": "modules",
+      "page": "features/interface.md#character-panel"
+    },
+    {
+      "module": "Social",
+      "title": "Friends and Social",
+      "text": "Friends, guild, calendar, group finder and PvP windows in the EldoUI look, with class colors, a friends search and movable windows.",
+      "wiki": "modules",
+      "page": "features/interface.md#friends-and-social"
+    },
+    {
+      "module": "NPCWindows",
+      "title": "NPC Windows",
+      "text": "Quest, gossip and other NPC dialogs, the pet stable and the barber shop in the EldoUI look.",
+      "wiki": "modules",
+      "page": "features/interface.md#npc-windows"
+    },
+    {
+      "module": "Skins",
+      "title": "Window Skins",
+      "text": "Spellbook, talents, professions, trainer, Legacy, collections, socketing, dressing room, and inspect windows in the EldoUI look.",
+      "wiki": "modules",
+      "page": "features/interface.md#window-skins"
+    },
+    {
+      "module": "SystemUI",
+      "title": "System Windows",
+      "text": "Game menu, Settings, AddOn list, keybinds, macros and pop-ups in the EldoUI look, with a few safe extras.",
+      "wiki": "modules",
+      "page": "features/interface.md#system-windows"
+    },
+    {
+      "module": "EditMode",
+      "title": "Edit Mode",
+      "text": "EldoUI's frames inside Blizzard's Edit Mode, positions per Edit Mode layout, and warnings when both place the same frame.",
+      "wiki": "modules",
+      "page": "features/interface.md#edit-mode"
+    },
+    {
+      "module": "Integrations",
+      "title": "Integrations",
+      "text": "Layouts place Details!, RestedXP guides, BigWigs bars and Questie's tracker, with an EldoUI look where the addon allows it.",
+      "wiki": "modules",
+      "page": "features/interface.md#integrations"
+    },
+    {
+      "module": "Reminders",
+      "title": "Buff and Consumable Reminders",
+      "text": "A large icon when a class buff, gathering tracking or a chosen consumable is missing or running out.",
+      "wiki": "modules",
+      "page": "features/interface.md#buff-and-consumable-reminders"
+    },
+    {
+      "module": "Counters",
+      "title": "Counters",
+      "text": "Watch items, currencies and gold as small movable counters, with goals and the session gain.",
+      "wiki": "modules",
+      "page": "features/interface.md#counters"
+    },
+    {
+      "module": "AFK",
+      "title": "AFK Screen",
+      "text": "A calm screen with your character, zone, away time and whispers while you are marked Away.",
+      "wiki": "modules",
+      "page": "features/interface.md#afk-screen"
+    },
+    {
+      "module": "Fanfare",
+      "title": "Sound and Fun",
+      "text": "Sounds, big text, screen flashes and icons for moments in the game: level up, epic loot, whispers, queue pops, boss kills and more. Fully customizable triggers.",
+      "wiki": "modules",
+      "page": "features/interface.md#sound-and-fun"
+    },
+    {
+      "module": "UnitFrames",
+      "title": "Unit Frames",
+      "text": "Player, target, focus, pet, target-of-target, boss, party pet and party target frames, plus Blizzard's own unit frames and cast bar.",
+      "wiki": "modules",
+      "page": "features/combat.md#unit-frames"
+    },
+    {
+      "module": "ActionBars",
+      "title": "Action Bars",
+      "text": "Eight flat action bars, pet and stance bars, cooldown numbers, proc glow and fade rules.",
+      "wiki": "modules",
+      "page": "features/combat.md#action-bars"
+    },
+    {
+      "module": "Nameplates",
+      "title": "Nameplates",
+      "text": "Slim nameplates per unit type, with cast bar, your debuffs, quest and elite icons, style filters and a target highlight.",
+      "wiki": "modules",
+      "page": "features/combat.md#nameplates"
+    },
+    {
+      "module": "Auras",
+      "title": "Buffs and Debuffs",
+      "text": "Your buffs (right-click to cancel), debuffs, weapon enchants and boss mechanic auras, plus Blizzard's buff frames.",
+      "wiki": "modules",
+      "page": "features/combat.md#buffs-and-debuffs"
+    },
+    {
+      "module": "ClassPower",
+      "title": "Player Power",
+      "text": "Health, power, combo points, druid mana and a GCD bar under your character, plus Blizzard's class resource frames.",
+      "wiki": "modules",
+      "page": "features/combat.md#player-power"
+    },
+    {
+      "module": "AuraGroups",
+      "title": "Aura Groups",
+      "text": "Your own rows of aura icons, each with its own mover: pick the spells, the unit and whether only yours count. The game shows each aura; EldoUI only places and dresses the icons.",
+      "wiki": "modules",
+      "page": "features/combat.md#aura-groups"
+    },
+    {
+      "module": "CombatHUD",
+      "title": "Combat HUD",
+      "text": "Skins and places Blizzard's own combat displays: damage meter, swing timer, loss of control, mirror and quest timers, death recap. Plus EldoUI's threat meter, combat timer and cursor ring.",
+      "wiki": "modules",
+      "page": "features/combat.md#combat-hud"
+    },
+    {
+      "module": "CooldownManager",
+      "title": "Cooldown Manager",
+      "text": "Skins and places Blizzard's own Cooldown Manager (essential, utility, buff icons and buff bars). Blizzard keeps tracking every cooldown; EldoUI only changes the look and the position. Plus EldoUI's own rows (a fallback when Blizzard's has no spells, trinkets and mobility), which you can rearrange into your own groups and free icons with their own looks and labels.",
+      "wiki": "modules",
+      "page": "features/combat.md#cooldown-manager"
+    },
+    {
+      "module": "Quickdraw",
+      "title": "Quickdraw",
+      "text": "Hold a key for a ring, fan or grid of your own spells, items, macros, mounts and markers; let go on one to use it.",
+      "wiki": "modules",
+      "page": "features/combat.md#quickdraw"
+    },
+    {
+      "module": "PetCare",
+      "title": "Pet Care",
+      "text": "Hunters: Feed Pet button next to the pet frame, unhappy pet and low food warnings.",
+      "wiki": "modules",
+      "page": "features/combat.md#pet-care"
+    },
+    {
+      "module": "Alerts",
+      "title": "Danger Alerts",
+      "text": "GTFO-style sound alarms: standing in bad stuff (spell list), breath, fatigue, attacked while AFK.",
+      "wiki": "modules",
+      "page": "features/combat.md#danger-alerts"
+    },
+    {
+      "module": "EnemySpotter",
+      "title": "Enemy Spotter",
+      "text": "A small list of hostile players seen on nameplates, with class color, level and how long ago.",
+      "wiki": "modules",
+      "page": "features/combat.md#enemy-spotter"
+    },
+    {
+      "module": "GroupFrames",
+      "title": "Party and Raid",
+      "text": "Party, raid, main tank and pet frames with role, leader, status, aggro, buff, debuff, defensive and boss-mechanic indicators.",
+      "wiki": "modules",
+      "page": "features/group.md#party-and-raid"
+    },
+    {
+      "module": "ClickCast",
+      "title": "Click Casting",
+      "text": "Bind spells and macros to clicks on party, raid and unit frames, and see every binding in the frame's tooltip.",
+      "wiki": "modules",
+      "page": "features/group.md#click-casting"
+    },
+    {
+      "module": "RaidTools",
+      "title": "Raid Tools",
+      "text": "A bar with ready check, role check, pull countdown, world markers, target icons and group tools for leaders and assists.",
+      "wiki": "modules",
+      "page": "features/group.md#raid-tools"
+    },
+    {
+      "module": "DungeonRoutes",
+      "title": "Dungeon Routes",
+      "text": "The packs, patrols and bosses of every Classic dungeon on a map, with routes of numbered pulls. Edit routes on the map with notes and arrows, share them or send them to your group, and see the dungeon floor on the world map inside a dungeon. Planning only.",
+      "wiki": "modules",
+      "page": "features/group.md#dungeon-routes"
+    },
+    {
+      "module": "Chat",
+      "title": "Chat",
+      "text": "Chat on an EldoUI panel: clean tabs, clickable links, keyword alerts, saved history, search, a right panel and the error log.",
+      "wiki": "modules",
+      "page": "features/chat-social.md#chat"
+    },
+    {
+      "module": "Messages",
+      "title": "Instant Messages",
+      "text": "EIM: whispers (and, if you like, guild and group chat) in their own messenger windows, with contact info and a history browser.",
+      "wiki": "modules",
+      "page": "features/chat-social.md#instant-messages"
+    },
+    {
+      "module": "ChatBubbles",
+      "title": "Chat Bubbles",
+      "text": "Flat EldoUI speech bubbles with the EldoUI font, and control over which bubbles show, also in instances.",
+      "wiki": "modules",
+      "page": "features/chat-social.md#chat-bubbles"
+    },
+    {
+      "module": "Bags",
+      "title": "Bags",
+      "text": "All bags and the bank in EldoUI windows with categories and a bag bar, item counts across your characters, search with filters, offline viewing and a Blizzard skin mode.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#bags"
+    },
+    {
+      "module": "BagActions",
+      "title": "Bag Actions",
+      "text": "Alt-click an item in your bags to disenchant it or pick its lock, with an exclude list and a quality cap. Off until you turn it on.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#bag-actions"
+    },
+    {
+      "module": "LootGuide",
+      "title": "Loot Guide",
+      "text": "Loot journal, best-in-slot sets, wishlist and loot lines in item tooltips.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#loot-guide"
+    },
+    {
+      "module": "Attunements",
+      "title": "Attunements",
+      "text": "Attunements, keys and dungeon quest chains as a tab in the Loot Guide: a flowchart or step list per chain, progress for each of your characters, an optional guild view you ask for with a click, and step toasts.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#loot-guide"
+    },
+    {
+      "module": "Adventure",
+      "title": "My Adventure",
+      "text": "A journal of your own journey as the first tab in the Journal window: levels, places, dungeons, quests, companions, and keepsakes written up as a story of your road from 1 to 60, with attunement progress and tips for where to go next.",
+      "wiki": "my-adventure",
+      "page": "features/items-economy.md#my-adventure"
+    },
+    {
+      "module": "Upgrades",
+      "title": "Upgrades",
+      "text": "Pawn-style upgrade arrows from a stat-weight scale: tooltips, bags, merchants, loot rolls and quest rewards.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#upgrades"
+    },
+    {
+      "module": "Auction",
+      "title": "Auction House",
+      "text": "Shopping lists, quick selling with price checks, canceling, full scans, crafting costs and a price database for the auction house.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#auction-house"
+    },
+    {
+      "module": "Merchant",
+      "title": "Merchant",
+      "text": "Repair, sell gray items, restock with exact amounts, fill ammo, and an item list for the merchant window.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#merchant"
+    },
+    {
+      "module": "Mail",
+      "title": "Mail",
+      "text": "Open all, select and return letters, address book and a log of the mail you send.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#mail"
+    },
+    {
+      "module": "Trade",
+      "title": "Trade",
+      "text": "Trade window look, mover, who you trade with, what each side's items are worth, and a gold trade log.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#trade"
+    },
+    {
+      "module": "MobInfo",
+      "title": "Mob and Loot Info",
+      "text": "Tracks what you loot from each mob and shows drop rates in item and mob tooltips.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#mob-and-loot-info"
+    },
+    {
+      "module": "QoL",
+      "title": "Quality of Life",
+      "text": "Summon and resurrection prompts, social blocks, quest helpers and reward values, flight timer, durability figure, screen edge panels, sound and game settings.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#quality-of-life"
+    },
+    {
+      "module": "Training",
+      "title": "Training",
+      "text": "What your class trainer can teach you now and later, with costs, totals, an ignore list, weapon skills and pet training. Its own window, a spellbook tab and an info bar block.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#training"
+    },
+    {
+      "module": "Talents",
+      "title": "Talent Planner",
+      "text": "Plan your talents in a planner window with a level guide, see your plan on Blizzard's talent page, learn the next planned point with one click and share plans.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#talent-planner"
+    },
+    {
+      "module": "Legacy",
+      "title": "Legacy Planner",
+      "text": "Plan your Legacy points: a draft next to your current build with a cost check against the season cap, named profiles for all your characters, and a challenge browser. It never spends a point.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#legacy-planner"
+    },
+    {
+      "module": "CastFX",
+      "title": "Cast Bar Effects",
+      "text": "Themed cast bars with sparks, trails, particles and finish effects, for EldoUI's and Blizzard's cast bars.",
+      "wiki": "modules",
+      "page": "features/combat.md#cast-bar-effects"
+    },
+    {
+      "module": "Instances",
+      "title": "Instances",
+      "text": "Hourly instance count, a run log with stats, reset notices and a battleground log.",
+      "wiki": "modules",
+      "page": "features/group.md#instances"
+    },
+    {
+      "module": "CombatText",
+      "title": "Combat Text",
+      "text": "Scrolling combat text in movable areas with notifications, nameplate numbers and a Blizzard hand-off.",
+      "wiki": "modules",
+      "page": "features/combat.md#combat-text"
+    },
+    {
+      "module": "Battlegrounds",
+      "title": "Battleground Timers",
+      "text": "Queue, start, capture, winner and flag timers for battlegrounds.",
+      "wiki": "modules",
+      "page": "features/group.md#battleground-timers"
+    },
+    {
+      "module": "CooldownPulse",
+      "title": "Cooldown Pulse",
+      "text": "A center pulse when your own spell or item is ready again.",
+      "wiki": "modules",
+      "page": "features/combat.md#cooldown-pulse"
+    },
+    {
+      "module": "TrackingBars",
+      "title": "Tracking Bars",
+      "text": "One bar per spell for aura time, stacks, cooldown or charges, under the cooldown rows.",
+      "wiki": "modules",
+      "page": "features/combat.md#tracking-bars"
+    },
+    {
+      "module": "ConsumableBar",
+      "title": "Consumable Bar",
+      "text": "A small bar with your best food, drink, potions, bandage and healthstone for your level, with counts and cooldowns. One click uses one.",
+      "wiki": "modules",
+      "page": "features/combat.md#consumable-bar"
+    },
+    {
+      "module": "EncounterTimeline",
+      "title": "Encounter Timeline",
+      "text": "A small timeline right of center that shows the timers your boss mod publishes as icons sliding towards now, with a big icon for the next one, pull and break timers, and test fights.",
+      "wiki": "modules",
+      "page": "features/combat.md#encounter-timeline"
+    },
+    {
+      "module": "Characters",
+      "title": "Alts",
+      "text": "An Alts window with overview, search, professions, mail, quests, grids, level log and agenda for all your characters.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#alts"
+    },
+    {
+      "module": "DBM",
+      "title": "Deadly Boss Mods",
+      "text": "Deadly Boss Mods with EldoUI's look, layout placement and quiet chat.",
+      "wiki": "modules",
+      "page": "features/interface.md#deadly-boss-mods"
+    },
+    {
+      "module": "Waypoints",
+      "title": "Waypoints",
+      "text": "/way coordinates, an arrow with distance and arrival time, and waypoint pins on the world map and minimap.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#waypoints"
+    },
+    {
+      "module": "Snapshots",
+      "title": "Bar Snapshots",
+      "text": "Save your action bars, macros and key bindings and restore them with one click, with automatic backups and an offer after a reset.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#bar-snapshots"
+    },
+    {
+      "module": "Camp",
+      "title": "Camp Helper",
+      "text": "Campfire tooltips with slots, features seen and class-buff clashes, a camp panel with buff timers, and a warning before Camp Benefits ends.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#camp-helper"
+    },
+    {
+      "module": "QuestTint",
+      "title": "New in Forever",
+      "text": "Quests that are new in WoW: Forever get a tag in the quest window and a tint in the quest log and quest giver lists.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#new-in-forever"
+    },
+    {
+      "module": "Gathering",
+      "title": "Gathering",
+      "text": "Remembers every herb, ore vein and chest you gather and shows them as pins on the world map and minimap.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#gathering"
+    },
+    {
+      "module": "MapNotes",
+      "title": "Map Notes",
+      "text": "One button on the world map shows or hides every EldoUI pin at once, with a tick per group; rares with their drops, your own notes, and HandyNotes when it is installed.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#map-notes"
+    },
+    {
+      "module": "RareScanner",
+      "title": "Rare Scanner",
+      "text": "A click-to-target card and one sound when a rare shows up on the minimap, a nameplate, your target or a yell; a tooltip line and an Info Bar overview of this session.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#rare-scanner"
+    },
+    {
+      "module": "ZoneInfo",
+      "title": "Zone Info",
+      "text": "Hover a zone on the world map to see its level range, gathering skill ranges colored by your skill, its dungeons and territory, plus an optional zone toast.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#zone-info"
+    },
+    {
+      "module": "Farming",
+      "title": "Farming",
+      "text": "A farming session bar with time, looted gold, item value and XP, each per hour, and sessions saved per zone.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#farming"
+    },
+    {
+      "module": "Camera",
+      "title": "Camera Situations",
+      "text": "The camera zooms to your chosen distance when you talk to an NPC, fight, ride, go indoors or enter a city, and back again afterwards.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#camera-situations"
+    },
+    {
+      "module": "PlayerNotes",
+      "title": "Player Notes",
+      "text": "Your own notes and Good/Avoid marks on players, on their tooltip, with a journal of who you grouped with and a warning when an Avoid player joins.",
+      "wiki": "modules",
+      "page": "features/chat-social.md#player-notes"
+    },
+    {
+      "module": "Streamer",
+      "title": "Streamer Mode",
+      "text": "Aliases in place of real character names on EldoUI's frames, tooltips and chat while you stream or record.",
+      "wiki": "modules",
+      "page": "features/chat-social.md#streamer-mode"
+    },
+    {
+      "module": "ChatInput",
+      "title": "Chat Input",
+      "text": "Long chat messages in parts you send one Enter at a time, a letter counter, undo and redo, draft recovery and an opt-in party \"is typing\" line.",
+      "wiki": "modules",
+      "page": "features/chat-social.md#chat-input"
+    },
+    {
+      "module": "Finder",
+      "title": "Finder",
+      "text": "One search box for game panels, EldoUI settings, mounts, toys, bag items, macros, places and commands; using something is always your own click.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#finder"
+    },
+    {
+      "module": "Macros",
+      "title": "Macro Editor",
+      "text": "A wider macro editor with a live syntax check, a condition builder and an icon search by spell or item name.",
+      "wiki": "modules",
+      "page": "features/interface.md#macro-editor"
+    },
+    {
+      "module": "Appearances",
+      "title": "Appearances",
+      "text": "A small mark on item buttons in bags, vendors, loot, rolls and mail that says whether you have the item's look, and an \"Appearance:\" tooltip line.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#appearances"
+    },
+    {
+      "module": "ProfessionPlanner",
+      "title": "Profession Planner",
+      "text": "Pin recipes and see every reagent you need, what you have on all characters, a shopping list and a cheapest leveling plan.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#profession-planner"
+    },
+    {
+      "module": "RaidLoot",
+      "title": "Raid Loot",
+      "text": "softres.it and That's My BiS imports on tooltips and loot rolls, and a GDKP ledger with sales, cuts and payouts.",
+      "wiki": "modules",
+      "page": "features/group.md#raid-loot"
+    },
+    {
+      "module": "Fishing",
+      "title": "Fishing",
+      "text": "Fishing mode: one key casts, then loots the bobber; a bar with Cast, Lure and Swap, and a catch log per spot.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#fishing"
+    },
+    {
+      "module": "ReadyReport",
+      "title": "Ready Check Report",
+      "text": "On a ready check, one panel lists each member's missing buffs, flask or elixir, food and shared durability, with one-click Post to group.",
+      "wiki": "modules",
+      "page": "features/group.md#ready-check-report"
+    },
+    {
+      "module": "MobAbilities",
+      "title": "Cast Tooltips and Mob Abilities",
+      "text": "The spell tooltip on the target and focus cast bars, the abilities each mob cast in front of you, and reputation info on tokens.",
+      "wiki": "modules",
+      "page": "features/combat.md#cast-tooltips-and-mob-abilities"
+    },
+    {
+      "module": "SpellEfficiency",
+      "title": "Spell Efficiency",
+      "text": "Damage or healing per second and per mana, and the mana cost as a share of your pool, on spell tooltips.",
+      "wiki": "modules",
+      "page": "features/combat.md#spell-efficiency"
+    },
+    {
+      "module": "Hardcore",
+      "title": "Hardcore",
+      "text": "For Hardcore characters: a death log, death alerts, a Tell the guild card, PvP-flag warnings and Self-Found reminders.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#hardcore"
+    },
+    {
+      "module": "SplitTimer",
+      "title": "Split Timer",
+      "text": "A leveling timer that races your own best, with a card at each level-up and a Splits tab in the Characters window.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#split-timer"
+    },
+    {
+      "module": "Transport",
+      "title": "Transport Maps",
+      "text": "Flight masters, boats, zeppelins, the tram and portals on the world map, with where each one goes.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#transport-maps"
+    },
+    {
+      "module": "ZoneQuests",
+      "title": "Zone Quests",
+      "text": "Every zone's done and remaining quests with their givers, optional quest giver pins on the world map and a quest count in the zone tooltip.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#zone-quests"
+    },
+    {
+      "module": "QuestDrops",
+      "title": "Quest Starter Drops",
+      "text": "Creatures that can drop an item that starts a quest say so in their tooltip and with a small icon on their EldoUI nameplate.",
+      "wiki": "modules",
+      "page": "features/items-economy.md#quest-starter-drops"
+    },
+    {
+      "module": "PartyQuests",
+      "title": "Party Quests",
+      "text": "In a group, compare your quests with your party (Shared, Only mine, Only theirs), with one-click Share and Ask and progress sync with members who run EldoUI (addon messages only, never chat).",
+      "wiki": "modules",
+      "page": "features/group.md#party-quests"
+    },
+    {
+      "module": "Dialogue",
+      "title": "NPC Dialog",
+      "text": "An optional dialog view for quest and gossip NPCs with big text, numbered choices, Space to go on and Esc to leave.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#npc-dialog"
+    }
+  ],
+  "screenshots": []
+}
