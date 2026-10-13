@@ -7,6 +7,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 ## [Unreleased]
 
 ### Improved
+- Accent colors read better as text: with a dark accent such as Crimson or Violet, titles, active tabs, links and highlighted words use a lighter shade of the same color, while bars, lines and swatches keep the color you picked.
+- Status colors are easier to tell apart with color blindness: the "good" green leans toward blue-green, and the good, warning and problem inks on parchment pages are teal, olive brown and wine.
 - One "Copy settings from" button on every page with several frames of one kind: Unit Frames, Group Frames (each section), Nameplates (each plate type), Action Bars, Combat Text areas, Info Bar panels, Aura Groups and Tracking Bars. Before anything is copied, it shows which settings will change and asks to confirm; the on/off switch and the position stay as they are.
 - Danger Alerts has six style presets (Standard, Quiet, Loud, Raid focus, Explorer, Barnyard) that pick the sounds, the flash and which alarms are on; your spell list stays as it is.
 - Party Quests is on by default, and so is Sync with group: it shares your quest progress with group members who run EldoUI, as addon messages only, never in chat. It stays silent in battlegrounds and arenas, and in raids while Hide in raids is on.
