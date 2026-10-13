@@ -18,6 +18,7 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Tweaks is now part of Quality of Life: one page with Interface, Social, Quests, Travel and Sound and misc tabs. Every setting carries over; if one of the two was switched off, its features stay off. `/eui tweaks` still opens the page.
 - Visibility settings: the separate instance options are now one "In instances" choice (Same as outside, Always shown, Fade, Hide or Only there). Your earlier choice carries over.
 - Options window: the arrow keys and Enter move through the menu only after you click in it or in the search box. Otherwise they reach the game, so you can still move your character while the window is open.
+- The Legacy Planner has the same keys as the options window: Ctrl+F puts the cursor in the Challenges search, and Esc clears the search before it closes the window. The keys only work out of combat, and every other key still reaches the game.
 - XP and Reputation Bars, Raid Tools, the damage meter and the Cooldown Manager viewers now use the same Visibility settings as the rest of EldoUI (preset, Show, the extra rules behind the gear, faded opacity). Your Hide in combat, mouse-over and opacity choices carry over.
 - Importing: one Import and export page with one paste box for every string (EldoUI, EllesmereUI, ElvUI and Edit Mode). It tells which kind you pasted and shows what it imports before you click Import. The separate "Import from other UIs" page is gone; its choices are on the same page.
 
