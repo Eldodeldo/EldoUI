@@ -23,6 +23,7 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Importing: one Import and export page with one paste box for every string (EldoUI, EllesmereUI, ElvUI and Edit Mode). It tells which kind you pasted and shows what it imports before you click Import. The separate "Import from other UIs" page is gone; its choices are on the same page.
 
 ### Fixed
+- Frames faded out by their Visibility rule no longer catch clicks meant for the game world or other windows. They take the mouse again as soon as they show, and "Mouse over" frames still answer the cursor. The Info Bar's Hearthstone button follows its bar the same way.
 - Map Notes City services: mount vendors and stable masters no longer show as innkeepers.
 
 ## [0.6.5001] - 2026-10-13
