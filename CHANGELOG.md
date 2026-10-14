@@ -21,10 +21,13 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - The Legacy Planner has the same keys as the options window: Ctrl+F puts the cursor in the Challenges search, and Esc clears the search before it closes the window. The keys only work out of combat, and every other key still reaches the game.
 - XP and Reputation Bars, Raid Tools, the damage meter and the Cooldown Manager viewers now use the same Visibility settings as the rest of EldoUI (preset, Show, the extra rules behind the gear, faded opacity). Your Hide in combat, mouse-over and opacity choices carry over.
 - Importing: one Import and export page with one paste box for every string (EldoUI, EllesmereUI, ElvUI and Edit Mode). It tells which kind you pasted and shows what it imports before you click Import. The separate "Import from other UIs" page is gone; its choices are on the same page.
+- Layouts, boss fights: in every layout the boss frames, boss mod bars, Encounter Timeline and DBM info frame now form one tidy group right of the center. The timeline sits right under the boss mod bars with its big icon at the "now" end, the info frame no longer covers the special warnings, and the encounter power bar sits under the boss frames. Apply your layout again to get the new spots.
+- Layouts, action bars: Eldo-Dark's bars form one even 2x2 block, Eldo-Plates and Eldo-Joe have full-size side wings that line up with the main bars, Eldo-Zen and Eldo-Hunter use one button size per block, and Eldo-Blizz's unit frames sit right on the visible bars.
 
 ### Fixed
 - Frames faded out by their Visibility rule no longer catch clicks meant for the game world or other windows. They take the mouse again as soon as they show, and "Mouse over" frames still answer the cursor. The Info Bar's Hearthstone button follows its bar the same way.
 - Map Notes City services: mount vendors and stable masters no longer show as innkeepers.
+- Layouts: switching layouts no longer keeps the Encounter Timeline length of the layout you used before; every layout now sets its own.
 
 ## [0.6.5001] - 2026-10-13
 
