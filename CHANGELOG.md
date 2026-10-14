@@ -19,6 +19,12 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Pick the sound of the alert toasts and of the ready check and other pop-ups.
 
 ### Improved
+- The Alts window (Guild and Crafters tabs), Raid Loot, the Loot Guide pages and the Restock list now show what a button did inside their window instead of in chat.
+- Options buttons that delete or clear something now ask a clear question that says it can't be undone, and the questions for deleting a nameplate rule, a tracking bar or a Fanfare trigger no longer refer to the page behind the dialog.
+- NPC Dialog leaves R to your Reply key by default; a new "R shows only the rewards" switch under Keys turns the rewards view key on, and Shift+R or Alt+R always reach the game.
+- One Money style under Fonts and text sets how gold is written everywhere: bags, prices, trade, the Info Bar, tooltips and more. Bags, Auction House, Merchant and Trade can still keep their own choice, and letters no longer show empty silver or copper.
+- The Import preview of ElvUI and EllesmereUI strings is written in plain words: frame names as those UIs show them, and positions like "bottom of the screen, 210 left and 180 up".
+- With Large text, the Edit Mode position dialog and the EldoUI panel beside Edit Mode keep their title above the accent line.
 - Tab moves to the next field in EldoUI's forms (Shift+Tab goes back): the Macro Editor's name and text, the Import window, map notes and the auction price boxes.
 - Blizzard's Edit Mode now opens EldoUI's full move tools with it: the EldoUI move panel (search, exact X and Y, lock, attach, match size, test frames, undo) docks beside Edit Mode's window, every EldoUI frame can be dragged, and leaving Edit Mode leaves EldoUI's move mode too. When Blizzard's grid is shown, EldoUI's frames snap to it. Prefer the compact boxes? Turn off Full EldoUI move tools in the panel beside Edit Mode.
 - Accent colors read better as text: with a dark accent such as Crimson or Violet, titles, active tabs, links and highlighted words use a lighter shade of the same color, while bars, lines and swatches keep the color you picked.
@@ -108,6 +114,30 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Enemy Spotter no longer sits right against the RestedXP guide or the party frames, and Eldo-Dark's cooldown bars no longer sit right against the focus frame.
 
 ### Fixed
+- "Hide duel results" no longer causes an error on every system message. Duel and drunk messages are hidden as intended.
+- Tooltips hide the "Made by" and "Gift from" lines and the game's item level line at every item level.
+- Item scores count enchants whose stat names have accented or non-Latin letters (German, French, Spanish, Portuguese, Italian, Russian, Korean, Chinese).
+- Danger Alerts and the mailbox write counts like "1 spell" and "2 letters" instead of "spell(s)" and "letter(s)".
+- The [threatcolor] text tag colors target frames and name plates by your threat on that unit.
+- Spell Efficiency shows its tooltip lines on European English clients.
+- Error reports remove character, realm and guild names with accented or non-Latin letters, and the base name on characters with a surname.
+- With the Loot Guide off, My Adventure's commands and tour now say to turn on the Loot Guide, instead of pointing back to the My Adventure switch.
+- The journal data check now points to the public Journal data report form, with its link.
+- Pressing Escape on a question or a dropdown list now closes only that, and the options window and other EldoUI windows behind it stay open.
+- With Large text, dialog titles no longer sit on the accent line under them.
+- Short notices inside windows grow with their text, so notices of two or three lines, and Large text, stay inside their box.
+- Raid Loot and the Dungeons window stay open in combat; other EldoUI windows that hide at a pull come back on the same page when combat ends, and a window you open in combat opens as soon as it ends.
+- Snapshots keep macro names and the Cooldown Manager shows key binds for bar 1's second page even when the game's old action bar functions are turned off.
+- Escape closes the AFK screen and brings the interface back, so the game menu no longer opens hidden behind it.
+- Settings that point to another page now use the page names shown in the sidebar (Alerts and Banners, Camera Situations, Buff and Consumable Reminders).
+- Party and Raid's Health text list now offers "Health current | %", so it shows correctly after the Perl style.
+- The Cooldown Manager page now explains how to capture and import your own layout. Import waits until you have captured one, and names your class and spec.
+- Importing a large gathering share no longer freezes the game.
+- The Split Timer grows with Large text, so the time, the difference and the total never overlap.
+- In the Quickdraw editor, the entry slots start under the help text, however many lines it takes.
+- The zone name at the top of the minimap no longer runs into the clock. It fits between the corner items and ends in "..." when it is long, or moves one row down when there is no room.
+- In move mode, the panel's help line stays inside the panel and above the controls, and the panel grows with Large text.
+- The chat list windows (channel mutes, blocked phrases, alert words, guild mutes, chat colors, streamer aliases) and the Import window keep their help text above the controls with Large text, and list window titles are no longer cut.
 - Chat: words joined by an ellipsis or a missing space ("wait...no", "nice.to meet you") no longer turn into web links; real addresses still do.
 - The EldoUI panel beside Blizzard's Edit Mode keeps its text inside: long check box labels wrap and the panel grows with them, at every text size. Labels in Edit Mode's own check box columns that a larger game font pushed into the next column now fit their column while Edit Mode is open.
 - Unit Frames and Buffs and Debuffs stop their background timers when switched off, and switching any module off stops every game event it listened to.
