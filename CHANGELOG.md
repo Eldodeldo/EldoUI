@@ -140,6 +140,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ### Fixed
 - "Hide duel results" no longer causes an error on every system message. Duel and drunk messages are hidden as intended.
+- Enemy Spotter no longer errors on every update when a profile from an import or an older version lacks a size.
+- Alerts and messages no longer error when the game locks one of its own frames that EldoUI scales.
 - Tooltips hide the "Made by" and "Gift from" lines and the game's item level line at every item level.
 - Item scores count enchants whose stat names have accented or non-Latin letters (German, French, Spanish, Portuguese, Italian, Russian, Korean, Chinese).
 - Danger Alerts and the mailbox write counts like "1 spell" and "2 letters" instead of "spell(s)" and "letter(s)".
