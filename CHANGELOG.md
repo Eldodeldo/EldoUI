@@ -19,6 +19,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Pick the sound of the alert toasts and of the ready check and other pop-ups.
 
 ### Improved
+- Tab moves to the next field in EldoUI's forms (Shift+Tab goes back): the Macro Editor's name and text, the Import window, map notes and the auction price boxes.
+- Blizzard's Edit Mode now opens EldoUI's full move tools with it: the EldoUI move panel (search, exact X and Y, lock, attach, match size, test frames, undo) docks beside Edit Mode's window, every EldoUI frame can be dragged, and leaving Edit Mode leaves EldoUI's move mode too. When Blizzard's grid is shown, EldoUI's frames snap to it. Prefer the compact boxes? Turn off Full EldoUI move tools in the panel beside Edit Mode.
 - Accent colors read better as text: with a dark accent such as Crimson or Violet, titles, active tabs, links and highlighted words use a lighter shade of the same color, while bars, lines and swatches keep the color you picked.
 - Status colors are easier to tell apart with color blindness: the "good" green leans toward blue-green, and the good, warning and problem inks on parchment pages are teal, olive brown and wine.
 - One "Copy settings from" button on every page with several frames of one kind: Unit Frames, Group Frames (each section), Nameplates (each plate type), Action Bars, Combat Text areas, Info Bar panels, Aura Groups and Tracking Bars. Before anything is copied, it shows which settings will change and asks to confirm; the on/off switch and the position stay as they are.
@@ -106,6 +108,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Enemy Spotter no longer sits right against the RestedXP guide or the party frames, and Eldo-Dark's cooldown bars no longer sit right against the focus frame.
 
 ### Fixed
+- Chat: words joined by an ellipsis or a missing space ("wait...no", "nice.to meet you") no longer turn into web links; real addresses still do.
+- The EldoUI panel beside Blizzard's Edit Mode keeps its text inside: long check box labels wrap and the panel grows with them, at every text size. Labels in Edit Mode's own check box columns that a larger game font pushed into the next column now fit their column while Edit Mode is open.
 - Unit Frames and Buffs and Debuffs stop their background timers when switched off, and switching any module off stops every game event it listened to.
 - A module whose settings fail to load after a profile switch, preset or theme change no longer stops the others.
 - The Click-Cast Tips line under the click-binding window says off while another addon holds Click-Cast Tips off.
