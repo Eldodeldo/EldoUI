@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for helping the Journal keep up with WoW Forever. Its quest and dungeon suggestions come from Classic data plus what players report here.
 
-        **How to get the export block:** in game, open the Journal, go to **My adventure**, and press **Report new content**. Copy the whole `!EUJD1!` block from the box and paste it below. It holds only what the game showed you (quests, givers and where they stand, dungeons, zone levels) and never your character's name. Nothing is sent from the game.
+        **How to get the export block:** in game, open the Journal, go to **My Adventure**, and press **Report new content**. Copy the whole `!EUJD1!` block from the box and paste it below. It holds only what the game showed you (quests, givers and where they stand, dungeons, zone levels) and never your character's name. Nothing is sent from the game.
 
         **Do not copy from Wowhead** or from another addon's data. We can only use what you saw in the game yourself.
 

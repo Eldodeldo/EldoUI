@@ -1,6 +1,6 @@
 # My Adventure
 
-My Adventure is your character's journal. It is the first tab of the Journal window (the Loot Guide's window, `/lg`), called **My adventure**, and it writes itself as you play: levels, places, dungeons, quests, finds, the people you traveled with, and your own goals and notes. It tells it back as a diary, a book from level 1 to 60, keepsake cards, and tips for where to go next.
+My Adventure is your character's journal. It is the first tab of the Journal window (the Loot Guide's window, `/lg`), called **My Adventure**, and it writes itself as you play: levels, places, dungeons, quests, finds, the people you traveled with, and your own goals and notes. It tells it back as a diary, a book from level 1 to 60, keepsake cards, and tips for where to go next.
 
 - It needs the Loot Guide on. While My Adventure runs, the window's title reads "Journal" and the Loot Guide's dungeon tab reads "Dungeons".
 - Switch it with `/eui adventure on` or `off`, or on the Modules page. `/eui adventure` opens its settings.
@@ -12,10 +12,10 @@ The journal only writes down what the game shows you. It never reads the combat 
 
 | Where | What it does |
 |---|---|
-| `/eui journey` | Opens or closes My adventure. `/eui journey <section>` opens a section, `/eui journey <text>` searches the journal. |
-| `/lg` | Opens the Journal window on its start page: My adventure, unless you picked another in the Loot Guide's settings. |
-| Key bindings (Esc > Options > Keybindings > AddOns) | Open or close My adventure, write a quick journal note, show or hide the journal tracker, open Next trips. |
-| Addon compartment (the button by the minimap) | Left-click opens My adventure, right-click writes a quick note, Shift-click opens Next trips, Ctrl-click reports new content when there is some. Its tooltip sums up your day. |
+| `/eui journey` | Opens or closes My Adventure. `/eui journey <section>` opens a section, `/eui journey <text>` searches the journal. |
+| `/lg` | Opens the Journal window on its start page: My Adventure, unless you picked another in the Loot Guide's settings. |
+| Key bindings (Esc > Options > Keybindings > AddOns) | Open or close My Adventure, write a quick journal note, show or hide the journal tracker, open Next trips. |
+| Addon compartment (the button by the minimap) | Left-click opens My Adventure, right-click writes a quick note, Shift-click opens Next trips, Ctrl-click reports new content when there is some. Its tooltip sums up your day. |
 | Info Bar | The "Journal" datatext, with the same clicks. |
 | Game menu (Esc) | The Journal button under EldoUI's button ("Journal button in the game menu", on by default). |
 | Minimap | A Journal button, off by default ("Minimap button"). The Minimap module's button bin gathers it. |
@@ -103,7 +103,7 @@ An addon can't write files of its own, so the journal keeps dated backups inside
 
 | Command | What it does |
 |---|---|
-| `/eui journey` | Open or close My adventure. |
+| `/eui journey` | Open or close My Adventure. |
 | `/eui journey <section>` | Open a section: `today`, `next`, `goals`, `notes`, `journey`, `book`, `keepsakes`, `places`, `quests`, `fellowship`, `story`, `attune`. |
 | `/eui journey <text>` | Search your journal. |
 | `/eui journey data` | The journal data's versions and counts. |

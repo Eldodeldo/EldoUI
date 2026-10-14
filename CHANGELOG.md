@@ -84,6 +84,17 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Clearer option texts for Camera situations, Cooldown Manager, the shared cooldown colors, Aura Groups and the timer bars.
 - Social: "See-through window backgrounds" works whenever any window it styles is skinned.
 - Guild attunement results can be cleared while sharing is off.
+- Reminders' durability warning follows Worn gear and Low durability on the General page: yellow when your gear is worn, red when it is low. A warning level you picked in Reminders carries over.
+- The font pickers of the Encounter Timeline, Macros, Battlegrounds and Combat Text follow the theme font like every other font picker. A font you picked stays.
+- The Loot Guide's "Dungeon entrances on the world map" option says that its pins step aside where the game shows its own entrance.
+- `/eui chatdebug` says on and off in the same short line as every other switch.
+- My Adventure is spelled the same everywhere: tooltips, key bindings, commands and settings.
+- The full look cards in the setup each say what makes them different: their art style and the accent they bring. The recommended one has a "Recommended" tag.
+- The setup's sidebar shows each step's state as a mark (check, cross or dot) as well as a color, and its tooltip names the state.
+- Searching "transparent", "see-through" or "clear" now finds the opacity settings.
+- Questions that delete or reset something name the action on a red button instead of a plain "OK".
+- A module whose settings or start failed says so on its page, in the sidebar and on the Modules page, with a button to the error log.
+- Hardcore, Map Notes, Rare Scanner, Ready Check Report, Split Timer, Transport and Waypoints now open on their first real settings tab.
 
 ### Fixed
 - Unit Frames and Buffs and Debuffs stop their background timers when switched off, and switching any module off stops every game event it listened to.
@@ -119,6 +130,25 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Raid Loot: "Solid window" changes an open window at once, and /eui raidloot clear accepts only sr or tmb and says what it cleared.
 - Tooltip: Info area rows show when they differ from their default, and right-click resets them.
 - Layouts: switching layouts no longer keeps the Encounter Timeline length of the layout you used before; every layout now sets its own.
+- Command help and usage lines show every word again; choices like "lock | unlock | reset" no longer lose letters.
+- Counts read right at 1 ("1 time", "1 character", "1 item") in the error log, Alts, the ready check report, Merchant, Bags and more.
+- What's New and the update note now cover version 0.6.5001.
+- Captions in capitals show umlauts, accents and Cyrillic letters correctly in every language.
+- Skipping the Convenience step of the setup no longer turns on auto repair, junk selling or fast loot.
+- On the setup's Other addons step, the Cooldown Manager row names your class instead of an internal code, and no longer looks like a warning when there is no layout for your class.
+- Long summaries on the setup's Finish page and its list of changes wrap instead of being cut off; long module names on the Styles step wrap too.
+- Highlighted words in the setup follow the accent color when a layout preview or a full look changes it.
+- The options search finds settings by every word you type, in any order, and ignores capitals and accents in every language.
+- Searching a common word like "color" now counts matches on every page, module pages included, with a "Show all" row for long pages.
+- Hovering a cut page name in the options sidebar shows the full name, and with Large text the sidebar is wider.
+- Name Plates and Edit Mode now point to the right Blizzard UI switches.
+- Lists you shortened (Alts columns, Info Bar slots from a style preset) no longer grow back with extra or repeated entries after a login.
+- Copying or importing one module's settings while module on/off is kept per character no longer switches that module on for your other characters.
+- The map note editor asks before deleting a note, and Escape in a text box no longer closes the editor and loses what you typed.
+- Long spell names on unit frame cast bars are cut with "..." before the cast time instead of running under it and past the bar.
+- Shift-clicking an item into the Counters watch box works again, and shift-click links from EldoUI windows use the game's current chat link function.
+- Info Bar texts that open bags, the map, the character window, the calendar or social windows now work in combat; clicks the game blocks in combat now say so.
+- Party and raid frames keep their ready check, target border, raid marker and roster updates after you switch them off and on again.
 
 ## [0.6.5001] - 2026-10-13
 

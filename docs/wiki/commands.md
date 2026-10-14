@@ -62,7 +62,7 @@ Commands that belong to one module.
 | `/eui find <text>` | Bags | Search the items of all your characters |
 | `/eui bank` | Bags | Show your saved bank anywhere |
 | `/lg [text]`, `/eui guide`, `/eui lootguide` | Loot Guide | Open or close the Loot Guide |
-| `/eui journey [section\|text]` | My Adventure | Open or close My adventure, on a section or searched; also `data`, `report`, `check`, `export` and `import` ([all of them](my-adventure.md#commands)) |
+| `/eui journey [section\|text]` | My Adventure | Open or close My Adventure, on a section or searched; also `data`, `report`, `check`, `export` and `import` ([all of them](my-adventure.md#commands)) |
 | `/eui jot [text]` | My Adventure | Write a quick journal note here and now |
 | `/eui restock` | Merchant | Open the restock list |
 | `/eui sentmail` | Mail | The log of mail you sent (at a mailbox) |
