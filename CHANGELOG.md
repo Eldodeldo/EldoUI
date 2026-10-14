@@ -6,6 +6,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.6.5002] - 2026-10-14
+
 ### New
 - Express setup: one click on the first setup page applies EldoUI's recommended choices for every step, then shows what changed.
 - Full looks: the Styles step of the setup has one-click cards that set the layout, art style, accent, font and fitting styles together, each with a small preview.
@@ -503,5 +505,6 @@ The first public version of EldoUI for WoW: Forever.
 - Fixes for keybind mode, instant message themes, the installer, roll arrows, the tooltip fallback, and options that did nothing.
 - Character keys ignore the Forever surname, and the weapon enchant check uses the current item API.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.5.0...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.5002...HEAD
+[0.6.5002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.5002
 [0.5.0]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.5.0
