@@ -73,6 +73,17 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Party frames: buff and debuff positions can sit in one row under the frame, and the Perl party style uses it.
 - Farming shows items per hour, and right-clicking the bar no longer resets the session without asking.
 - Journal pace: the session pace takes over only after ten minutes with some XP gained, and milestone times show up to five levels ahead.
+- Buttons and commands that delete or reset your work now ask first: triggers, themes, groups, bars, lists, ledgers, snapshots, layouts, presets, scales, style rules, waypoints and more.
+- Settings that only work while another switch is on are grayed out with the reason, instead of looking active or vanishing.
+- Sliders where 0 means something special say it in the value box ("Off", "Auto", "Never", "Full", "Instant", "No limit" and more).
+- Mistyped words after /eui kb, layout, blizz, editmode, streamer, tracker, training, testframes, crosshair, cursor and threat get the command's help instead of doing something else; /eui scale accepts any case.
+- Modules that are off answer their commands with the same hint, naming the Modules page and /eui enable.
+- Blizzard UI switches and modules that need a reload use the settings window's reload banner.
+- Dates in history, logs, snapshots and messages use the month name and your clock format.
+- Style presets do exactly what their cards say (Quality of Life Minimal, Raid Tools, Trade, Raid Loot, Map Notes Treasure hunter).
+- Clearer option texts for Camera situations, Cooldown Manager, the shared cooldown colors, Aura Groups and the timer bars.
+- Social: "See-through window backgrounds" works whenever any window it styles is skinned.
+- Guild attunement results can be cleared while sharing is off.
 
 ### Fixed
 - Unit Frames and Buffs and Debuffs stop their background timers when switched off, and switching any module off stops every game event it listened to.
@@ -85,6 +96,28 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - "Open the simulator" is grayed when the simulator is not installed, "Repair once you can afford it" while automatic repair is off, and "Ask for a camp" when you are not in the guild or group it would ask.
 - Frames faded out by their Visibility rule no longer catch clicks meant for the game world or other windows. They take the mouse again as soon as they show, and "Mouse over" frames still answer the cursor. The Info Bar's Hearthstone button follows its bar the same way.
 - Map Notes City services: mount vendors and stable masters no longer show as innkeepers.
+- /eui modules works again, and "See what's new" on the update note opens the What's New page.
+- /eui notify test with a lane name runs that preview instead of printing the usage text.
+- Switching, copying or resetting a profile in combat, by command, the Profiles page or an import, waits until the fight ends.
+- /eui in combat with the settings window open closes it, and it no longer closes again after the fight.
+- Info Bar: a datatext picked in a slot after an empty slot now shows on the bar.
+- "Idle opacity" now changes modules that already fade while idle.
+- Undo in Recent changes no longer lists actions it can't take back, and copied settings can be undone.
+- Copy, delete and "Set every module to" lists show "Choose..." instead of "nil".
+- The Positions page lists frames that appear later, and a new anchor keeps the frame where it is.
+- "Low durability" can no longer be set above "Worn gear", and the move-mode grid box keeps the Grid size slider's limits.
+- Camera Situations: changing a setting while a situation is active no longer makes the camera forget your own distance.
+- AFK screen: turning on Fade the interface, Slow camera turn or Show your character while the screen shows applies at once.
+- /eui grouptest no longer shows test frames while Party and Raid is off, /eui alts off turns the module off, /eui fish log shows your zone's catch log, and /eui sound answers when the sound id is wrong.
+- Bags: the mode lists no longer offer a Custom choice that does nothing.
+- The panel behind the top-center widgets shows while only other UI widgets are hidden.
+- Lowering the mail, recent recipient or message history limits drops the oldest entries right away.
+- Quest text sizes below 8 points no longer make quest text unreadable.
+- Name Plates: the combat width and height read in pixels, style rule opacity reads as a percent, and "Reset this type" keeps the type's on/off switch.
+- Ping key bindings name the right settings page.
+- Quality of Life: turning off "Show the volume panel" hides it, a panel you closed stays closed, and "Decline guild invites" no longer declines invites from friends.
+- Raid Loot: "Solid window" changes an open window at once, and /eui raidloot clear accepts only sr or tmb and says what it cleared.
+- Tooltip: Info area rows show when they differ from their default, and right-click resets them.
 - Layouts: switching layouts no longer keeps the Encounter Timeline length of the layout you used before; every layout now sets its own.
 
 ## [0.6.5001] - 2026-10-13
