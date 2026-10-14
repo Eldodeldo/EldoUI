@@ -112,6 +112,31 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Pick a result in the Loot Guide's search drop-down with Up/Down (or Tab) and open it with Enter.
 - Quality of Life hidden settings: each tick now says what it does ("Set my own combat text size"), so the page and the options search no longer show the same label twice.
 - Enemy Spotter no longer sits right against the RestedXP guide or the party frames, and Eldo-Dark's cooldown bars no longer sit right against the focus frame.
+- Menus in the options window and the move panel (select boxes, font and sound pickers, Copy from, the right-click row menu, Share, Group, Attach to, Match size) now share one EldoUI look, with the theme font, Large text, submenus to the side and a scroll bar for long lists.
+- In-window notices stay while the pointer is on them or on their Undo button, and longer messages stay longer to read.
+- Chat: the grayed name icon settings now say why they are off.
+- Style presets: removed Tracking Bars "Plain", NPC Windows "Hunter" and Edit Mode "Strict", which looked the same as other presets. NPC Windows "EldoUI" now also turns instant quest text off again. Cooldown Manager "Fixed rows" now says it turns your own groups off.
+- When the game's error window is hidden and the Chat Errors button can't show, EldoUI shows one notice per session when it logs a Lua error, with a button that opens the error log.
+- Tracking Bars has a new Large text style preset.
+- Escape now leaves move mode, like Done. While the move panel sits beside Blizzard's Edit Mode, Escape closes Edit Mode as usual.
+- The Positions page now has one tab per frame group, like move mode. Frames of a module that is off stay listed, grayed out, with the reason.
+- The move panel arrows, the attunement page arrows, Quick Menus' Back button and sub-menu marks, and the quest done and locked marks now use EldoUI's own icons instead of typed letters. The quest marks are drawn in their status color.
+- Clearing the restock list, deleting a quick menu or a whole shopping list, and clearing a wishlist or the PvP planner now always ask first and show how many entries go. A hidden Shift-click is no longer needed, and the result shows in the window.
+- Quick Menus shows its notices in its window while the window is open, instead of in chat.
+- Large text now grows the labels of EldoUI's own buttons, and the buttons grow with them so no label is cut off.
+- The EldoUI look on Blizzard's right-click and dropdown menus is now its own switch under Blizzard UI. Profiles that already skin Blizzard windows keep it.
+- See-through panels and the lowest Panel opacity now stay at 80%, so gray and red text stays readable over a bright world. Text without an outline on see-through panels gets a soft shadow.
+- Red warning text is a little lighter and green success text a little brighter, so they read better.
+- The see-through switch has the same name on every settings page (See-through window, See-through windows or See-through background) and says where to set how see-through it is.
+- Raid Loot's "Solid window" is now "See-through window", like everywhere else; your saved choice carries over.
+- Spell Efficiency, the currency counts of your other characters and My Adventure's quest lines now sit in the tooltip's info area, under the divider, like every other EldoUI tooltip line. Choose when each shows on the Tooltip page.
+- Spell Efficiency's "Show the line" choice moved to the Tooltip page (Spell efficiency); your saved choice carries over. New "Mana focus" style preset.
+- The Errors entry in the options window shows how many new errors there are since you last opened the log.
+- Dates and times everywhere in EldoUI follow the 12/24-hour clock setting and use the game's own month and weekday names in your client language. Dates from this year no longer show the year.
+- Tooltip click hints read the same everywhere: one line per action ("Click: open the calendar"), in one hint color.
+- The Gold datatext tooltip now mentions Shift-click for the Alts window.
+- More tooltips name their clicks the same way ("Click: open it in the Journal"): Loot Guide rows, the Journal button, the item check line, the bank sort button, auction prices and the settings reset hint.
+- The Loot Guide translations follow the new click hints and dates in German, French, Spanish, Portuguese, Russian, Korean and Chinese.
 
 ### Fixed
 - "Hide duel results" no longer causes an error on every system message. Duel and drunk messages are hidden as intended.
@@ -236,6 +261,13 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Switching between layout presets no longer keeps settings the previous preset set, such as target plate details, bar shapes and Info Bar texts.
 - Hardcore's death log no longer covers the death recap.
 - In Eldo-Zerby the Cooldown Manager's Mobility group no longer covers the focus frame.
+- Cast bars, the crosshair range tint, Fanfare texts and many smaller places now check for hidden game values before comparing them, so they no longer error when the game restricts a value.
+- Name Plates: removed the "Raid marker" style filter condition and its "Skull: red border" example. The game never shares raid markers with addons, so they could never match. Your other rule conditions keep working.
+- With "Blizzard's own UI" or "Only EldoUI's own frames" picked in the setup, Blizzard's menus keep their own look.
+- The EldoUI datatext showed its click hints in white instead of the hint gray.
+- Hardcore window times used a fixed US 12-hour format.
+- Quick Menus deletes the menu its question named, even if you pick another menu while the question is open.
+- With Large text and the 12-hour clock, the times in the error log are no longer cut off.
 
 ## [0.6.5001] - 2026-10-13
 

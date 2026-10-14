@@ -19,7 +19,7 @@ Every module shares the same core:
 
 - **One config window** (`/eui`) with a search that finds every setting, a mark on rows you changed (right-click resets one), a Recent changes list with undo, and a What's New page.
 - **17 layout presets** built for a 1440p canvas and applied in one click. See [Layouts and presets](../wiki/layouts.md).
-- **Movers**: `/eui move` unlocks every EldoUI frame. Drag with grid snap, hold Alt to place freely, click a frame to nudge it by exact X and Y, and Shift + right-click to reset it. EldoUI's frames also appear in Blizzard's Edit Mode.
+- **Movers**: `/eui move` unlocks every EldoUI frame. Drag with grid snap, hold Alt to place freely, click a frame to nudge it by exact X and Y, and Shift-right-click to reset it. EldoUI's frames also appear in Blizzard's Edit Mode.
 - **Style presets and art styles** that change the look only, never positions.
 - **Profiles** per account or character, per talent group, and per content, and **share strings** to send a whole setup or one module to a friend.
 - **Blizzard UI switches**: one switch per part of Blizzard's UI. Off leaves Blizzard's version alone.
