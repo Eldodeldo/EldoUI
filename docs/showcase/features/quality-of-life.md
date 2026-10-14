@@ -34,7 +34,7 @@ Saves what is on every action slot, your macros and your key bindings, and puts 
 
 Makes WoW: Forever camps easy to read (`/eui camp`). Hovering a campfire shows its tier, its slots and the features you have seen around it; hovering a feature shows what its buff gives, whether you have it and for how long, and which class buff blocks it (camp buffs never stack with their class version, such as the Incense Candle and Arcane Intellect). A small camp panel (move it in move mode) lists your camp buffs with timers, the shared one-hour feature cooldown and the tent lockout, and shows only near a fire or while a camp buff is on you. A note comes before Camp Benefits ends. The panel's Announce button posts one line about the camp to /say or /party when you click it. The game has no list of a camp's objects, so the counter shows the features you have hovered.
 
-## New in Forever
+## Quest Marks
 
 Marks quests that are new in WoW: Forever. A new quest gets a small "New in Forever" tag and a tinted title in the quest window, and is tinted in the quest log and in a quest giver's list. A quest counts as new when its ID is one the original game never used (and, with the Loot Data folder loaded, when that list doesn't have it). Pick the color and tag text, or a style: Teal, Gold "New", Tag only or Subtle. `/eui newquest 12345` tells you about any quest ID.
 

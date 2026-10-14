@@ -6,6 +6,18 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### New
+- Express setup: one click on the first setup page applies EldoUI's recommended choices for every step, then shows what changed.
+- Full looks: the Styles step of the setup has one-click cards that set the layout, art style, accent, font and fitting styles together, each with a small preview.
+- The last setup page lists everything the setup changed, grouped, with "Revert this" to put any part back as it was.
+- An error log window: `/eui errors` (or Errors in the options window) lists every caught error with its count and time, shows the full text ready to copy, and can show only this session or only EldoUI. It works with the Chat module on or off.
+- Every entry in the error log has a Report button: it shows the error as a ready-to-paste bug report, without your character's name, realm, guild or chat text, plus a link to the bug form. EldoUI never sends anything by itself.
+- Map Notes remembers the rares you meet: target or point at a rare outdoors and a pin marks where you stood, with its name and when you met it. Kept for all your characters; forget one from its pin, or all of them on the Map Notes page.
+- The Mail, Merchant, Trade and Auction House windows join the Windows page: drag them, change their size with the mouse wheel and reset them like any other window. Your earlier window size is kept.
+- Farming: a session history window lists every saved session per zone with gold, item value, XP, items per hour and corpses looted, with totals. Open it from the bar's right-click menu, the Info Bar text, the options page or `/eui farm history`.
+- Alts: a Gold tab shows your gold over time, for one character or all of them added up, per day or per week.
+- Pick the sound of the alert toasts and of the ready check and other pop-ups.
+
 ### Improved
 - Accent colors read better as text: with a dark accent such as Crimson or Violet, titles, active tabs, links and highlighted words use a lighter shade of the same color, while bars, lines and swatches keep the color you picked.
 - Status colors are easier to tell apart with color blindness: the "good" green leans toward blue-green, and the good, warning and problem inks on parchment pages are teal, olive brown and wine.
@@ -13,7 +25,7 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Danger Alerts has six style presets (Standard, Quiet, Loud, Raid focus, Explorer, Barnyard) that pick the sounds, the flash and which alarms are on; your spell list stays as it is.
 - Party Quests is on by default, and so is Sync with group: it shares your quest progress with group members who run EldoUI, as addon messages only, never in chat. It stays silent in battlegrounds and arenas, and in raids while Hide in raids is on.
 - Chat guild mutes: when Decline their group invites or Decline their duels turns someone away, one chat line names who and which muted guild (both still off by default).
-- Clearer page names in the settings: Character is now Character Panel, Characters is now Alts and Alerts and Messages is now Messages. Your settings and `/eui` words stay the same, and the search still finds the old names.
+- Clearer page names in the settings: Character is now Character Panel, Characters is now Alts and Alerts and Messages is now Alerts and Banners. Your settings and `/eui` words stay the same, and the search still finds the old names.
 - Windows: one Move Blizzard windows switch with a tick for each window under it. Ticking a window is all it takes; its Blizzard UI switch follows on its own. Your current choices carry over, and the mouse, scale, placing and fading settings moved to a Behavior tab.
 - Tweaks is now part of Quality of Life: one page with Interface, Social, Quests, Travel and Sound and misc tabs. Every setting carries over; if one of the two was switched off, its features stay off. `/eui tweaks` still opens the page.
 - Visibility settings: the separate instance options are now one "In instances" choice (Same as outside, Always shown, Fade, Hide or Only there). Your earlier choice carries over.
@@ -24,7 +36,53 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Layouts, boss fights: in every layout the boss frames, boss mod bars, Encounter Timeline and DBM info frame now form one tidy group right of the center. The timeline sits right under the boss mod bars with its big icon at the "now" end, the info frame no longer covers the special warnings, and the encounter power bar sits under the boss frames. Apply your layout again to get the new spots.
 - Layouts, action bars: Eldo-Dark's bars form one even 2x2 block, Eldo-Plates and Eldo-Joe have full-size side wings that line up with the main bars, Eldo-Zen and Eldo-Hunter use one button size per block, and Eldo-Blizz's unit frames sit right on the visible bars.
 
+- On WoW: Forever, new profiles start with the WoW Forever art style and the Sand accent. Existing profiles keep their look.
+- Applying a keybind preset or importing another addon's profile now shows an alert with an Undo button.
+- Keybind mode no longer writes to chat: the key you just set shows on its banner, and saving or discarding shows one short notice. Its tooltips follow your accent and text colors.
+- Dragging a slider or picking a color on the General and Colors pages stays smooth: the UI updates once you stop.
+- The options window measures EldoUI's memory when it opens or when you point at the line, instead of every two seconds.
+- The options window builds its search in the background after it opens, so the first search no longer stalls the game.
+- Every question EldoUI asks uses its own dialog look, and Esc cancels it.
+- Tabs are flat everywhere, with an accent underline on the open tab, and hover highlights fade in and out softly (instantly with Animations off).
+- The setup's step list and title match the options window.
+- The Auction House window uses the same buttons, inputs, scroll bars, tabs and tooltips as the rest of EldoUI.
+- The bag window's toolbar icons are calm gray glyphs that light up on hover, and "All" shows clearly when it is on.
+- The Edit Mode position box, the waypoint entry, the link copy box, the message history window and the Training window use the same look as the rest of EldoUI.
+- Tabbed EldoUI windows and the Loot Guide take Ctrl+F to their search, clear a search with Esc before Esc closes them, and switch tabs with Ctrl+Tab and Ctrl+Shift+Tab.
+- Clearer module names: Alerts and Banners, Quest Marks (was New in Forever), Class Resources (was Player Power), Micro Menu and Bag Bar, and Fanfare (was Sound and Fun). The old names still find them in search and `/eui`.
+- Clearer option names, such as "Show whispers only in the messenger", "Sell gray items at vendors", "Draw above other frames" and the Chat tab "Errors and help".
+- Accent color toggles come with the style presets and sit under "More"; your own choice is kept.
+- Window size rows say "Size" in percent, and windows with a corner grip no longer show a second size slider.
+- Tabs in the Loot Guide, Legacy and Loot Simulator windows use the EldoUI tab font, and they follow Large text, as do the tooltip, quest tracker and chat bubble fonts. Buttons grow with their label, so Large text and translations never clip them.
+- Skin switches ask for a reload only when you turn them off.
+- Settings that need a Blizzard UI switch are grayed and name the switch to turn on.
+- Buttons in the options window confirm inside the window instead of in chat, and so do style presets and layouts.
+- One clock format and one pair of durability colors for all of EldoUI, on the General page. Your earlier choices carry over.
+- One whisper sound, shared by Chat and Instant Messages.
+- Every font picker shows each font in its own face and lists fonts from other addons.
+- The minimap addon menu entry starts move mode; right-click starts keybind mode.
+- `/eui help capture` lists every addon EldoUI can capture.
+- Pet Care, Buff and Consumable Reminders and the low ammo warning show their notices as alert cards instead of chat lines.
+- Loot Guide wishlist alerts can show as an alert card with a button that opens the item.
+- Settings sharing and the version check wait politely when the game limits addon messages.
+- Modules that read your bags share one read, so opening the bags or a vendor does less work.
+- Player Notes texts in menus, tooltips and `/eui note` replies are translated.
+- World bosses are labeled "World boss" on Map Notes pins and in the Loot Guide, and loot data marks every rare as rare, rare elite or world boss.
+- The Loot Guide's dungeon entrance pins step aside where the world map already shows the game's own entrance pin.
+- The "Show unexplored areas" option says plainly that an area shows once any of your characters has explored it.
+- Party frames: buff and debuff positions can sit in one row under the frame, and the Perl party style uses it.
+- Farming shows items per hour, and right-clicking the bar no longer resets the session without asking.
+- Journal pace: the session pace takes over only after ten minutes with some XP gained, and milestone times show up to five levels ahead.
+
 ### Fixed
+- Unit Frames and Buffs and Debuffs stop their background timers when switched off, and switching any module off stops every game event it listened to.
+- A module whose settings fail to load after a profile switch, preset or theme change no longer stops the others.
+- The Click-Cast Tips line under the click-binding window says off while another addon holds Click-Cast Tips off.
+- The gear and sound buttons in the options window show a stand-in icon on clients that lack the game's art.
+- Action bars read their slots through the current game API.
+- The Edit Mode conflict panel closes with Escape.
+- Tooltips no longer promise a right-click that does nothing.
+- "Open the simulator" is grayed when the simulator is not installed, "Repair once you can afford it" while automatic repair is off, and "Ask for a camp" when you are not in the guild or group it would ask.
 - Frames faded out by their Visibility rule no longer catch clicks meant for the game world or other windows. They take the mouse again as soon as they show, and "Mouse over" frames still answer the cursor. The Info Bar's Hearthstone button follows its bar the same way.
 - Map Notes City services: mount vendors and stable masters no longer show as innkeepers.
 - Layouts: switching layouts no longer keeps the Encounter Timeline length of the layout you used before; every layout now sets its own.

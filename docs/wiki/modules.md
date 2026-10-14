@@ -5,7 +5,7 @@ Everything in EldoUI is a module you can switch on and off. Each one has its own
 - `/eui modules` lists every module and whether it is on.
 - `/eui <name> on`, `off` or `toggle` switches one. The name ignores case and spaces, and a unique start is enough: `/eui na off` switches Nameplates off. `/eui <name>` alone opens its settings.
 - A module stays off while an addon that does the same job is loaded (for example Bags while Bagnon or Baganator is loaded), so two addons never draw the same thing.
-- "Default" is the state in a new EldoUI profile. AFK Screen, Bag Actions, Danger Alerts, Enemy Spotter, Fishing, NPC Dialog and Sound & Fun start off. Party Quests starts on and shares your quest progress with group members who run EldoUI, as addon messages only, never chat; never in battlegrounds or arenas, and not in raids unless you allow it.
+- "Default" is the state in a new EldoUI profile. AFK Screen, Bag Actions, Danger Alerts, Enemy Spotter, Fishing, NPC Dialog and Fanfare start off. Party Quests starts on and shares your quest progress with group members who run EldoUI, as addon messages only, never chat; never in battlegrounds or arenas, and not in raids unless you allow it.
 
 Each module name links to its section in the showcase.
 
@@ -19,8 +19,8 @@ Each module name links to its section in the showcase.
 | [Maps](../showcase/features/interface.md#maps) | World map, quest log, flight map, battlefield map and UI widgets: skin, position, scale, coordinates and fading. | `maps` | On |
 | [Quest Tracker](../showcase/features/interface.md#quest-tracker) | Blizzard's quest and objective tracker: EldoUI look, mover, height, font, fade in combat and Questie support. | `objectivetracker` | On |
 | [XP and Reputation Bars](../showcase/features/interface.md#xp-and-reputation-bars) | Experience, rested XP, reputation, honor and pet experience bars in one movable stack. | `statusbars` | On |
-| [Micro Menu and Bags](../showcase/features/interface.md#micro-menu-and-bags) | Move, resize and restyle Blizzard's micro menu and bag bar, or fold them into the Info Bar and bag window. | `micromenu` | On |
-| [Messages](../showcase/features/interface.md#messages) | Formerly Alerts and Messages. Toasts, banners, talking head, raid warnings, red error text, zone text, ready checks and cutscenes. | `notifications` | On |
+| [Micro Menu and Bag Bar](../showcase/features/interface.md#micro-menu-and-bag-bar) | Formerly Micro Menu and Bags. Move, resize and restyle Blizzard's micro menu and bag bar, or fold them into the Info Bar and bag window. | `micromenu` | On |
+| [Alerts and Banners](../showcase/features/interface.md#alerts-and-banners) | Formerly Messages. Toasts, banners, talking head, raid warnings, red error text, zone text, ready checks and cutscenes. | `notifications` | On |
 | [Loot](../showcase/features/interface.md#loot) | Loot window, group roll bars, loot history and loot toasts in the EldoUI look. | `loot` | On |
 | [Character Panel](../showcase/features/interface.md#character-panel) | Formerly Character. The character window, its slots and side panels in the EldoUI look. | `character` | On |
 | [Friends and Social](../showcase/features/interface.md#friends-and-social) | Friends, guild, calendar, group finder and PvP windows in the EldoUI look, with class colors, a friends search and movable windows. | `social` | On |
@@ -33,7 +33,7 @@ Each module name links to its section in the showcase.
 | [Counters](../showcase/features/interface.md#counters) | Watch items, currencies and gold as small movable counters, with goals and the session gain. | `counters` | On |
 | [AFK Screen](../showcase/features/interface.md#afk-screen) | A calm screen with your character, zone, away time and whispers while you are marked Away. | `afk` | Off |
 | [Macro Editor](../showcase/features/interface.md#macro-editor) | A wider macro editor with a live syntax check, a condition builder and an icon search. | `macros` | On |
-| [Sound and Fun](../showcase/features/interface.md#sound-and-fun) | Sounds, big text, screen flashes and icons for moments in the game: level up, epic loot, whispers, queue pops, boss kills and more. Fully customizable triggers. | `fanfare` | Off |
+| [Fanfare](../showcase/features/interface.md#fanfare) | Formerly Sound and Fun. Sounds, big text, screen flashes and icons for moments in the game: level up, epic loot, whispers, queue pops, boss kills and more. Fully customizable triggers. | `fanfare` | Off |
 
 ## Combat
 
@@ -43,13 +43,13 @@ Each module name links to its section in the showcase.
 | [Action Bars](../showcase/features/combat.md#action-bars) | Eight flat action bars, pet and stance bars, cooldown numbers, proc glow and fade rules. | `actionbars` | On |
 | [Nameplates](../showcase/features/combat.md#nameplates) | Slim nameplates per unit type, with cast bar, your debuffs, quest and elite icons, style filters and a target highlight. | `nameplates` | On |
 | [Buffs and Debuffs](../showcase/features/combat.md#buffs-and-debuffs) | Your buffs (right-click to cancel), debuffs, weapon enchants and boss mechanic auras, plus Blizzard's buff frames. | `auras` | On |
-| [Player Power](../showcase/features/combat.md#player-power) | Health, power, combo points, druid mana and a GCD bar under your character, plus Blizzard's class resource frames. | `classpower` | On |
+| [Class Resources](../showcase/features/combat.md#class-resources) | Formerly Player Power. Health, power, combo points, druid mana and a GCD bar under your character, plus Blizzard's class resource frames. | `classpower` | On |
 | [Aura Groups](../showcase/features/combat.md#aura-groups) | Your own rows of aura icons, each with its own mover: pick the spells, the unit and whether only yours count. The game shows each aura; EldoUI only places and dresses the icons. | `auragroups` | On |
 | [Combat HUD](../showcase/features/combat.md#combat-hud) | Skins and places Blizzard's own combat displays: damage meter, swing timer, loss of control, mirror and quest timers, death recap. Plus EldoUI's threat meter, combat timer and cursor ring. | `combathud` | On |
 | [Cooldown Manager](../showcase/features/combat.md#cooldown-manager) | Skins and places Blizzard's own Cooldown Manager (essential, utility, buff icons and buff bars). Blizzard keeps tracking every cooldown; EldoUI only changes the look and the position. Plus EldoUI's own rows (a fallback when Blizzard's has no spells, trinkets and mobility), which you can rearrange into your own groups and free icons with their own looks and labels. | `cooldownmanager` | On |
 | [Quickdraw](../showcase/features/combat.md#quickdraw) | Hold a key for a ring, fan or grid of your own spells, items, macros, mounts and markers; let go on one to use it. | `quickdraw` | On |
 | [Pet Care](../showcase/features/combat.md#pet-care) | Hunters: Feed Pet button next to the pet frame, unhappy pet and low food warnings. | `petcare` | On |
-| [Danger Alerts](../showcase/features/combat.md#danger-alerts) | GTFO-style sound alarms: standing in bad stuff (spell list), breath, fatigue, attacked while AFK. | `alerts` | Off |
+| [Danger Alerts](../showcase/features/combat.md#danger-alerts) | Sound alarms when you stand in something harmful (spell list), run out of breath or fatigue, or are attacked while AFK. | `alerts` | Off |
 | [Enemy Spotter](../showcase/features/combat.md#enemy-spotter) | A small list of hostile players seen on nameplates, with class color, level and how long ago. | `enemyspotter` | Off |
 | [Cast Tooltips and Mob Abilities](../showcase/features/combat.md#cast-tooltips-and-mob-abilities) | The spell tooltip on the target and focus cast bars, the abilities each mob cast in front of you, and reputation info on tokens. | `mobabilities` | On |
 | [Spell Efficiency](../showcase/features/combat.md#spell-efficiency) | Damage or healing per second and per mana, and the mana cost as a share of your pool, on spell tooltips. | `spellefficiency` | On |
@@ -71,7 +71,7 @@ Each module name links to its section in the showcase.
 | Module | What it does | `/eui` name | Default |
 |---|---|---|---|
 | [Chat](../showcase/features/chat-social.md#chat) | Chat on an EldoUI panel: clean tabs, clickable links, keyword alerts, saved history, search, a right panel and the error log. | `chat` | On |
-| [Instant Messages](../showcase/features/chat-social.md#instant-messages) | EIM: whispers (and, if you like, guild and group chat) in their own messenger windows, with contact info and a history browser. | `messages` | On |
+| [Instant Messages](../showcase/features/chat-social.md#instant-messages) | Whispers (and, if you like, guild and group chat) in their own messenger windows, with contact info and a history browser. | `messages` | On |
 | [Chat Bubbles](../showcase/features/chat-social.md#chat-bubbles) | Flat EldoUI speech bubbles with the EldoUI font, and control over which bubbles show, also in instances. | `chatbubbles` | On |
 
 ## Items and Economy
@@ -114,7 +114,7 @@ Each module name links to its section in the showcase.
 | [Waypoints](../showcase/features/quality-of-life.md#waypoints) | `/way` coordinates, a direction arrow with distance and arrival time, and pins on the world map and minimap. | `way` | On |
 | [Bar Snapshots](../showcase/features/quality-of-life.md#bar-snapshots) | Save and restore action bars, macros and key bindings; automatic backups and a restore offer after a reset. | `snapshot` | On |
 | [Camp Helper](../showcase/features/quality-of-life.md#camp-helper) | Campfire and feature tooltips, class-buff clashes, a camp panel with buff timers and a warning before Camp Benefits ends. | `camp` | On |
-| [New in Forever](../showcase/features/quality-of-life.md#new-in-forever) | Tags and tints quests that are new in WoW: Forever in the quest window, quest log and quest giver lists. | `newquest` | On |
+| [Quest Marks](../showcase/features/quality-of-life.md#quest-marks) | Formerly New in Forever. Tags and tints quests that are new in WoW: Forever in the quest window, quest log and quest giver lists. | `newquest` | On |
 | [Gathering](../showcase/features/quality-of-life.md#gathering) | Remembers your herb, ore and treasure finds and shows them on the world map and minimap. | `gather` | On |
 | [Map Notes](../showcase/features/quality-of-life.md#map-notes) | Rares and your own notes on the world map and minimap, and one button on the map that shows or hides every EldoUI pin (and HandyNotes). | `mapnote` | On |
 | [Rare Scanner](../showcase/features/quality-of-life.md#rare-scanner) | A click-to-target card and one sound when a rare shows up on the minimap, a nameplate, your target or in a yell; a tooltip line and a "Rares" data text. | `rares` | On |

@@ -93,7 +93,7 @@ A.Moments:Push({
 })
 ```
 
-It returns `"card"`, `"lane"`, `"notifications"`, `"waiting"`, or `"held"`, or `nil` when moments are off or the player switched that kind off. Moments wait for combat to end and are held in a dungeon until you leave, unless `now` is set. `A.Moments:Dismiss(key)` closes one. Other fields: `note`, `fanfare` (the Sound and Fun source that already reacts to the same game event, so the card stays quiet), `closable`.
+It returns `"card"`, `"lane"`, `"notifications"`, `"waiting"`, or `"held"`, or `nil` when moments are off or the player switched that kind off. Moments wait for combat to end and are held in a dungeon until you leave, unless `now` is set. `A.Moments:Dismiss(key)` closes one. Other fields: `note`, `fanfare` (the Fanfare source that already reacts to the same game event, so the card stays quiet), `closable`.
 
 ## Option rows: `A:AddOptionRows`
 

@@ -21,7 +21,7 @@ EldoUI is built with AI assistance, and it is designed and tested for WoW: Forev
 
 | Area | Modules |
 |---|---|
-| Frames | Unit Frames, Party and Raid with click casting, Player Power, Buffs and Debuffs, Aura Groups, Nameplates, Action Bars |
+| Frames | Unit Frames, Party and Raid with click casting, Class Resources, Buffs and Debuffs, Aura Groups, Nameplates, Action Bars |
 | Combat | Combat HUD, Cooldown Manager, Combat Text, Encounter Timeline, Cast Bar Effects, Tracking Bars, Cooldown Pulse, Danger Alerts |
 | Interface | Info Bar, Minimap, Maps, Quest Tracker, Tooltip, XP and Reputation Bars, Messages, Edit Mode support, skins for Blizzard's windows |
 | Chat and social | Chat with history and search, Instant Messages, Chat Bubbles, Chat Input, Player Notes, Streamer Mode |
@@ -86,8 +86,10 @@ The [command reference](docs/wiki/commands.md) lists all of them.
 ## Reporting bugs
 
 1. Type `/eui errors` to open EldoUI's error log.
-2. Select the error and use the issue button to copy it, with the version and setup details, as a GitHub issue.
-3. Open a new issue on the [issue tracker](https://github.com/Eldodeldo/EldoUI/issues) and paste it in, with a few words on what you were doing.
+2. Press Report on the error. It shows a ready-to-paste bug report with the version and setup details, and with your character's name, realm, guild and chat text left out.
+3. Open the [bug form](https://github.com/Eldodeldo/EldoUI/issues/new?template=bug_report.yml) and paste it in, with a few words on what you were doing.
+
+EldoUI never sends anything by itself: a report leaves the game only when you paste it.
 
 `/eui diag copy` gives you the version and setup details on their own. The [FAQ](docs/wiki/faq.md#how-do-i-report-a-problem) has more tips.
 

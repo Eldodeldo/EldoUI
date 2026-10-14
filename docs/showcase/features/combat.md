@@ -26,7 +26,7 @@ Slim nameplates per unit type (enemies, friends, pets and more), with a cast bar
 
 Your buffs (right-click to cancel), debuffs, weapon enchants and boss mechanic auras in EldoUI frames, plus switches for Blizzard's buff frames. Filters, "yours first", blinking when an aura runs out and time bars are options.
 
-## Player Power
+## Class Resources
 
 Health, power, combo points, druid mana and a GCD bar under your character, plus Blizzard's class resource frames. The five-second mana rule, color ranges, tick marks and extra bars are options, and totem timers have one owner here.
 
@@ -52,7 +52,7 @@ For hunters: a Feed Pet button next to the pet frame, and warnings when your pet
 
 ## Danger Alerts
 
-GTFO-style sound alarms: standing in something bad from a spell list, breath, fatigue, and being attacked while away. Off by default.
+Sound alarms when you stand in something harmful from a spell list, run low on breath, reach fatigue, or are attacked while away. Off by default.
 
 ## Enemy Spotter
 

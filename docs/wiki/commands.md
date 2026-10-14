@@ -82,8 +82,8 @@ Commands that belong to one module.
 | `/eui cursor [on\|off]`, `/eui crosshair [on\|off]` | Combat HUD | Cursor ring, crosshair |
 | `/eui cdm [settings\|import\|capture]` | Cooldown Manager | EldoUI options, Blizzard's settings, import or capture this spec's set |
 | `/eui ranks` | Action Bars | Move lower spell ranks on your bars to the highest rank you know |
-| `/eui notify test [lane\|errors\|warning\|bg\|pings]` | Alerts & Messages | Preview EldoUI's alerts and messages |
-| `/eui cutscenes forget` | Alerts & Messages | Play every cutscene again once |
+| `/eui notify test [lane\|errors\|warning\|bg\|pings]` | Alerts and Banners | Preview EldoUI's alerts and messages |
+| `/eui cutscenes forget` | Alerts and Banners | Play every cutscene again once |
 | `/eui map reset` | Maps | Put the world map, flight map and taxi window back where Blizzard places them |
 | `/eui tracker on`, `off`, `toggle` | Quality of Life | Show or hide the quest tracker |
 | `/eui volume` | Quality of Life | Show or hide the volume panel |
@@ -91,5 +91,5 @@ Commands that belong to one module.
 | `/eui gamesettings` | Quality of Life | The game settings Quality of Life can change, and whether this client has them |
 | `/eui training [weapons\|config]`, `/wt` | Training | The Training window |
 | `/eui afk test` | AFK Screen | Show the AFK screen for a moment |
-| `/eui fx test <trigger>`, `list`, `mute` | Sound & Fun | Try a trigger, list them, or mute them |
-| `/eui sound <id>`, `/eui media [type]` | Sound & Fun | Play a sound from the media library, or list the library |
+| `/eui fx test <trigger>`, `list`, `mute` | Fanfare | Try a trigger, list them, or mute them |
+| `/eui sound <id>`, `/eui media [type]` | Fanfare | Play a sound from the media library, or list the library |

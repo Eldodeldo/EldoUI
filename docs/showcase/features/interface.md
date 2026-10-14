@@ -32,11 +32,11 @@ Blizzard's quest and objective tracker in the EldoUI look, on its own mover, wit
 
 Experience with rested XP, reputation, honor and pet experience bars in one movable stack. Ticks, upright bars, hiding in combat, click panels and automatic tracking of the reputation you just gained are all options.
 
-## Micro Menu and Bags
+## Micro Menu and Bag Bar
 
 Move, resize and restyle Blizzard's micro menu and bag bar, or fold them into the Info Bar and the bag window. Gaps close on their own when buttons show or hide.
 
-## Messages
+## Alerts and Banners
 
 Toasts, banners and the talking head, raid warnings, the red error text, zone text, ready checks, queue pop-ups and cutscenes, each in the EldoUI look and placed by your layout. EldoUI's alert lane shows its own messages in one place, and pings get a short feed. `/eui notify test` previews them.
 
@@ -84,7 +84,7 @@ Watch items, currencies and gold as small movable counters, with a goal and what
 
 A calm screen with your character, zone, time away and the whispers you got while you are marked Away. Off by default; `/eui afk test` shows it for a moment.
 
-## Sound and Fun
+## Fanfare
 
 Sounds, big text, screen flashes and icons for moments in the game: level up, epic loot, whispers, queue pops, ready checks, boss kills, rares and more. Every trigger can be changed or switched off, and the media library lets you pick any sound, including SharedMedia ones. Off by default; `/eui fx test <trigger>` plays one.
 

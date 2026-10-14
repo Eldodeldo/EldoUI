@@ -42,7 +42,7 @@ A few settings only take effect after the UI reloads. Forever blocks addons from
 
 ## How do I report a problem?
 
-1. Type `/eui errors` to open EldoUI's error log (the Errors tab in chat).
+1. Type `/eui errors` to open EldoUI's error log in its own window (the Errors tab in chat shows the same log).
 2. Select the error and use the issue button: it copies the error with the version and setup details, ready for a GitHub issue.
 3. Open a new issue on the [issue tracker](https://github.com/Eldodeldo/EldoUI/issues), paste it in, and add a few words on what you were doing.
 

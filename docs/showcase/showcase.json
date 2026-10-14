@@ -64,17 +64,17 @@
     },
     {
       "module": "MicroMenu",
-      "title": "Micro Menu and Bags",
+      "title": "Micro Menu and Bag Bar",
       "text": "Move, resize and restyle Blizzard's micro menu and bag bar, or fold them into the Info Bar and bag window.",
       "wiki": "modules",
-      "page": "features/interface.md#micro-menu-and-bags"
+      "page": "features/interface.md#micro-menu-and-bag-bar"
     },
     {
       "module": "Notifications",
-      "title": "Messages",
+      "title": "Alerts and Banners",
       "text": "Toasts, banners, talking head, raid warnings, red error text, zone text, ready checks and cutscenes.",
       "wiki": "modules",
-      "page": "features/interface.md#messages"
+      "page": "features/interface.md#alerts-and-banners"
     },
     {
       "module": "Loot",
@@ -155,10 +155,10 @@
     },
     {
       "module": "Fanfare",
-      "title": "Sound and Fun",
+      "title": "Fanfare",
       "text": "Sounds, big text, screen flashes and icons for moments in the game: level up, epic loot, whispers, queue pops, boss kills and more. Fully customizable triggers.",
       "wiki": "modules",
-      "page": "features/interface.md#sound-and-fun"
+      "page": "features/interface.md#fanfare"
     },
     {
       "module": "UnitFrames",
@@ -190,10 +190,10 @@
     },
     {
       "module": "ClassPower",
-      "title": "Player Power",
+      "title": "Class Resources",
       "text": "Health, power, combo points, druid mana and a GCD bar under your character, plus Blizzard's class resource frames.",
       "wiki": "modules",
-      "page": "features/combat.md#player-power"
+      "page": "features/combat.md#class-resources"
     },
     {
       "module": "AuraGroups",
@@ -491,10 +491,10 @@
     },
     {
       "module": "QuestTint",
-      "title": "New in Forever",
+      "title": "Quest Marks",
       "text": "Quests that are new in WoW: Forever get a tag in the quest window and a tint in the quest log and quest giver lists.",
       "wiki": "modules",
-      "page": "features/quality-of-life.md#new-in-forever"
+      "page": "features/quality-of-life.md#quest-marks"
     },
     {
       "module": "Gathering",

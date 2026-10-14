@@ -156,6 +156,7 @@ All files are 32-bit uncompressed TGA with an 8-bit alpha channel and power-of-t
 | `EldoIcon.tga` | 64x64 | Troll mascot icon (see `Media/Logo/`). TOC `IconTexture`: addon list and minimap addon compartment. |
 | `EldoEye.tga`, `EldoChevron.tga`, `EldoDot.tga` | 32x32 | Small white-on-transparent glyphs (eye, chevron, dot) for the character and social skins. Tint them with `SetVertexColor`. |
 | `EldoCross.tga`, `EldoCheck.tga` | 32x32 | White-on-transparent cross and check mark. `E:SetClientAtlas` shows them when the client lacks `common-icon-delete` / `common-icon-checkmark`. Tint them with `SetVertexColor`. |
+| `EldoCopy.tga` | 32x32 | White-on-transparent copy mark (two overlapping squares), drawn for EldoUI. The `E.UIKit` "copy" glyph (copy a list or a search term). Tint it with `SetVertexColor`. |
 | `EldoPlay.tga`, `EldoPause.tga` | 32x32 | White-on-transparent play triangle and pause bars, drawn for EldoUI. `E.UIKit` glyph buttons (start and pause controls) use them instead of letters. Tint them with `SetVertexColor`. |
 
 ### Edge-file layout (`EldoShadow`, `EldoGlow`)

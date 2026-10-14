@@ -49,7 +49,7 @@ The rail on the left groups the pages under Today, Story, and Atlas. "Open on" (
 
 ## Moments and the tracker
 
-- **Moments** are short cards in the alert lane for a new chapter (level), a new place, a first dungeon, a keepsake, a goal reached, rested time, and reminders. They wait while you are in combat. In a dungeon they are held, and one summary shows when you leave (or set "Moments in dungeons" to show them as they happen). Each moment plays one sound at most, and none when Sound and Fun already plays one for the same thing. The screenshot button on a card takes a screenshot only when you click it.
+- **Moments** are short cards in the alert lane for a new chapter (level), a new place, a first dungeon, a keepsake, a goal reached, rested time, and reminders. They wait while you are in combat. In a dungeon they are held, and one summary shows when you leave (or set "Moments in dungeons" to show them as they happen). Each moment plays one sound at most, and none when Fanfare already plays one for the same thing. The screenshot button on a card takes a screenshot only when you click it.
 - **The journal tracker** lists your goals, reminders, and the next trip under your quests, in the quest tracker's column ("Keep it in the quest column"; with Questie it sits right under Questie's list). It has its own mover, "Journal Tracker", and hides when it has nothing to show.
 
 ## Styles
@@ -74,7 +74,7 @@ The module's page has seven tabs. Every option has its own description in the ga
 - **Journal**: write the journal on or off, use the Characters and Instances records, the page it opens on, how much it shows (Essentials, Story, Chronicler, or your own ticks), finds from which quality, and the Journey's grouping.
 - **Story**: the tone (Chronicle, Bard, or Ledger: the facts are the same in every tone), story length, how you are named, the Book look (Parchment, EldoUI, or Night ledger), and the reading size. Under Look, **Page look** puts the pages on the Journal window's dark panel or on paper (parchment with dark ink); the Book and the character card keep their Book look.
 - **Where next**: how Next trips weighs dungeons, leveling, and collecting, raids on or off, briefs, the level-up page, and the prep checklist.
-- **Moments and sounds**: which moments show, how long, in dungeons or after, their sounds, and Sound and Fun.
+- **Moments and sounds**: which moments show, how long, in dungeons or after, their sounds, and Fanfare.
 - **Tracker and buttons**: what the tracker lists and how tall it is, the quest column, the minimap and game menu buttons, and the key bindings.
 - **Keeping it safe**: backups, restore, export, and clearing this character's journal.
 - **Data**: what the journal reads from other modules, and new Forever content (see [Journal data reports](journal-data-reports.md)).
