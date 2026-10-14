@@ -23,7 +23,7 @@ EldoUI is built with AI assistance, and it is designed and tested for WoW: Forev
 |---|---|
 | Frames | Unit Frames, Party and Raid with click casting, Class Resources, Buffs and Debuffs, Aura Groups, Nameplates, Action Bars |
 | Combat | Combat HUD, Cooldown Manager, Combat Text, Encounter Timeline, Cast Bar Effects, Tracking Bars, Cooldown Pulse, Danger Alerts |
-| Interface | Info Bar, Minimap, Maps, Quest Tracker, Tooltip, XP and Reputation Bars, Messages, Edit Mode support, skins for Blizzard's windows |
+| Interface | Info Bar, Minimap, Maps, Quest Tracker, Tooltip, XP and Reputation Bars, Alerts and Banners, Edit Mode support, skins for Blizzard's windows |
 | Chat and social | Chat with history and search, Instant Messages, Chat Bubbles, Chat Input, Player Notes, Streamer Mode |
 | Items and economy | Bags and bank across your characters, Upgrades, Auction House, Merchant, Mail, Trade, Appearances, Profession Planner |
 | Guides | Loot Guide, My Adventure journal, Zone Quests, Training, Talent Planner, Dungeon Routes |
@@ -101,7 +101,7 @@ Plugins add their own modules to EldoUI through the global `EldoUI` and get a se
 
 EldoUI stands on the work of the WoW addon community. It embeds LibStub, CallbackHandler-1.0, and LibActionButton-1.0, ships open fonts and sounds, uses loot data from CMaNGOS classic-db, and adapts open-source code from What's Training?, Molinari, and Forever Journal. Many features were inspired by addons such as ElvUI, EllesmereUI, Plater, Details!, and Leatrix Plus. Thank you to all of their authors.
 
-The full list, with every license, is in [Credits and third-party notices](THIRD_PARTY_NOTICES.md) and the [media credits](Media/LICENSES.md).
+The full list, with every license, is in [Credits and third-party notices](THIRD_PARTY_NOTICES.md) and the [media credits](LICENSES/Media.md).
 
 ## License
 

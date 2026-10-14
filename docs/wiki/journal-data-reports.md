@@ -41,6 +41,6 @@ When a Forever patch changes quests or zones, check the data against the game. Y
 
 `/eui journey data` prints the versions and counts of the data, the overlay, and what you saw.
 
-## For maintainers
+## What happens to a report
 
-How reports are reviewed and merged is described in the [journal data review guide](../dev/JOURNAL-DATA-REVIEW.md).
+Every report is checked against the game before the data changes, and the corrected data ships with the next update.

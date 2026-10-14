@@ -4,7 +4,7 @@ How a plugin adds to [My Adventure](my-adventure.md), the journal tab of the Jou
 
 - **Show only what the game gives you.** A page, a row, or a moment says what the game reported, nothing more. Never read the combat log, never guess kills, damage, or other hidden numbers, and never store a secret value (`issecretvalue`).
 - **Navigation only.** A button may open a page, the map, or set a waypoint. It never accepts, turns in, queues, invites, buys, casts, or sends anything.
-- **Use the kits.** Pages are built from `E.AdventureKit` and `E.UIKit` (see [DESIGN.md](../../DESIGN.md)), so they follow the style presets, the paper look, and the accent. Never hard-code a color or a font.
+- **Use the kits.** Pages are built from `E.AdventureKit` and `E.UIKit` (see the [plugin guide](../PLUGINS.md)), so they follow the style presets, the paper look, and the accent. Never hard-code a color or a font.
 - **Every option row has a `desc`.**
 
 Everything below hangs off the global `EldoUI` (EldoUI's private table, called `E` here):

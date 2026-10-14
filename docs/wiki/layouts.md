@@ -44,7 +44,7 @@ Eldo-Modern and Eldo-Classic are EldoUI's own. The other fifteen are built on El
 
 - drag a frame; it snaps to the grid and to other frames (hold Alt to place it freely);
 - click a frame to nudge it by exact X and Y, or one pixel at a time;
-- right-click a frame to put it back where the layout wants it.
+- Shift + right-click a frame to put it back where the layout wants it.
 
 `/eui move` again locks them. Your positions are saved per profile, on top of the layout. `/eui resetlayout` puts every frame back. EldoUI's frames also show in Blizzard's Edit Mode.
 

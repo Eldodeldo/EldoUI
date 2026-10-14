@@ -38,7 +38,7 @@ A few settings only take effect after the UI reloads. Forever blocks addons from
 
 ## A frame is in the wrong place
 
-`/eui move`, then right-click the frame to put it back where the layout wants it. `/eui resetlayout` resets every frame.
+`/eui move`, then Shift + right-click the frame to put it back where the layout wants it. `/eui resetlayout` resets every frame.
 
 ## How do I report a problem?
 

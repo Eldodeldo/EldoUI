@@ -19,7 +19,7 @@ EldoUI is built with AI assistance, on top of a lot of generous work from the Wo
 
 - **CMaNGOS classic-db**: the loot, creature, and quest data in the separate EldoUI_LootData folder (GPL-3.0-or-later).
 - **Twemoji** and **emojibase**: the chat emoji pictures and names in EldoUI_Emoji.
-- Open fonts by the Barlow, Inter, Open Sans, Plus Jakarta Sans, Poppins, Rajdhani, Roboto, and other font projects, and CC0 and CC-BY sounds from freesound.org creators. Every file is listed in [Media/LICENSES.md](Media/LICENSES.md).
+- Open fonts by the Barlow, Inter, Open Sans, Plus Jakarta Sans, Poppins, Rajdhani, Roboto, and other font projects, and CC0 and CC-BY sounds from freesound.org creators. Every file is listed in the [media credits](LICENSES/Media.md).
 
 ### Layout presets
 
@@ -52,7 +52,7 @@ EldoUI embeds these libraries unmodified. Each keeps its own license.
 | Molinari | `Modules/BagActions/Data.lua` (lockbox Lockpicking levels and the items that can't be disenchanted, item IDs only) and the secure-overlay approach in `Modules/BagActions/BagActions.lua` (button laid over the hovered slot from its scaled rectangle, the trade-slot Pick Lock macro) | https://github.com/p3lim-wow/Molinari (branch `master`, `data/Camelot/openable.lua` and `nondisenchantable.lua`, as of 2026-10-12) | MIT, "Copyright (c) 2006-2008 Trond A Ekseth, Copyright (c) 2009-2026 Adrian L Lange"; the full license text is at the top of `Modules/BagActions/Data.lua` |
 | Forever Journal | `Modules/LootGuide/Adventure/{Kinds,Record,Chronicle,Fellowship,Goals,Notes,Backup,Import,Export}.lua`, `Modules/LootGuide/Adventure/Story/{Plan,Banks/Ledger}.lua` and `Modules/LootGuide/Adventure/UI/{Journey,Keepsakes,Places,Quests,Fellowship,History}.lua` (the journal model, event kinds, their icons and groups, the detail presets and the worth order, goal kinds, reminder triggers and the trigger suggested from a note, the backup merge, the data-only code decoder, the export document model and its formats, the level-chapter plan and the Ledger line texts; the Journey's views and chapters, the keepsake cards, the places gallery and place page, the quest page, the fellowship list and companion page, the dungeon page, and their texts), and the `paper.*` ink tokens in `Core/Media.lua` | https://www.curseforge.com/wow/addons/forever-journal (2.1.0, file 9061662, 2026-10-04) | MIT, "Copyright (c) 2026 Ugge Zen"; the full license text is at the top of each file |
 
-Fonts and textures are listed in `Media/LICENSES.md`.
+Fonts and textures are listed in the [media credits](LICENSES/Media.md).
 
 ## Layout inspiration
 

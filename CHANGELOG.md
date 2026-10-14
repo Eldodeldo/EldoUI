@@ -95,6 +95,15 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Questions that delete or reset something name the action on a red button instead of a plain "OK".
 - A module whose settings or start failed says so on its page, in the sidebar and on the Modules page, with a button to the error log.
 - Hardcore, Map Notes, Rare Scanner, Ready Check Report, Split Timer, Transport and Waypoints now open on their first real settings tab.
+- Wiki: the commands page now lists every command, including Alts, Talent Planner, Legacy Planner, Instances, Macro Editor, Waypoints (`/way`), Rare Scanner and more.
+- Warning numbers on the Info Bar (latency, durability, ammo, CPU, full quest log, full bags), the Ready Report and the character window's low durability carry a shape mark, so color is never the only sign.
+- A currency at its cap gets a mark on the Info Bar, and its tooltip says whether it is the total or the weekly cap.
+- The Talent Planner shows planned ranks as "learned>planned" and marks full talents (+) and ranks outside the plan (!), so they stay apart with any accent color.
+- In the Instance Log, raids and battlegrounds that don't count are dimmed, say "not counted", and the tooltip says why.
+- `/eui raidframes off`, `partyframes off` and `grid off` reach Party and Raid, and "Did you mean" suggestions also know module names.
+- Pick a result in the Loot Guide's search drop-down with Up/Down (or Tab) and open it with Enter.
+- Quality of Life hidden settings: each tick now says what it does ("Set my own combat text size"), so the page and the options search no longer show the same label twice.
+- Enemy Spotter no longer sits right against the RestedXP guide or the party frames, and Eldo-Dark's cooldown bars no longer sit right against the focus frame.
 
 ### Fixed
 - Unit Frames and Buffs and Debuffs stop their background timers when switched off, and switching any module off stops every game event it listened to.
@@ -149,6 +158,50 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Shift-clicking an item into the Counters watch box works again, and shift-click links from EldoUI windows use the game's current chat link function.
 - Info Bar texts that open bags, the map, the character window, the calendar or social windows now work in combat; clicks the game blocks in combat now say so.
 - Party and raid frames keep their ready check, target border, raid marker and roster updates after you switch them off and on again.
+- README: the module list now uses the in-game name Alerts and Banners.
+- Docs: the FAQ, Layouts page and feature overview now name Shift + right-click as the way to put a frame back to its layout position in move mode.
+- Docs: the plugin guide is now published, and links in the README, credits and wiki open the right pages, including on the wiki.
+- `/way 45,2 63,8` with decimal commas now sets the waypoint at 45.2, 63.8 instead of the wrong place.
+- "Remove all waypoints" in the arrow menu and "Remove all on this map" on the map pins now ask first, naming how many waypoints go.
+- Deleting a journal backup in My Adventure now asks first.
+- Clear in the chat panel's Errors tab now asks first, like the error window.
+- In the Legacy Planner, Clear draft, Copy my build and Load into draft ask before replacing a draft that has ranks, and Overwrite asks before changing a profile shared by all your characters.
+- Color-blind safe colors now also reach the Info Bar, the Instances counts, the Camp Helper and the options window's warnings.
+- German clients no longer show an error on recipe tooltips or when an auction sells, and the "Auction sold" alert plays again.
+- "Hide other players' crafting" now works on German clients.
+- The Hardcore death log on Portuguese clients names the right victim and killer.
+- Lowercase searches now find Russian and accented names in bags, the whisper history, the mail log, the death log, the reminder picker, move mode, waypoint zone names, the Legacy Planner and the Loot Guide pages.
+- Shortened names and labels (reputation on the Info Bar, journal notes, saved names, chat lines) no longer cut a letter in half in Russian, Chinese or accented text.
+- Raid Loot JSON imports keep accented and non-Latin letters instead of turning them into "?".
+- My Adventure counts kills on every client language, also at the level cap.
+- The Ready Check Report and the Macro Editor no longer show a single tab that does nothing.
+- The Ready Check Report shows its summary once, and it wraps with Large text instead of being cut.
+- My Adventure's level river shows the name of every part, including the newest one at level 60.
+- Setup cards (such as "Guild bank first" and the fresh profile) grow to show their whole description, also with Large text.
+- The ping feed's time and sender columns follow the text size, and senders show without their realm.
+- In party and raid frames, aura and defensive icons no longer cover the name and health text.
+- With Large text, option dropdowns are wide enough for their choices and long page titles fit the header.
+- The Macro Editor's empty-list hint wraps inside the list instead of being cut at both ends.
+- The error log's privacy note wraps under the detail box and reads in full at every size.
+- The Loot Guide's first-run card shows each choice's whole description.
+- "Whisper your target" whispers players with a surname correctly instead of a non-existent "Name-Surname".
+- Dungeon run stats save group members by their name, not as "Name-Surname".
+- With a surname, your own messages are no longer treated as someone else's: you no longer show as typing to yourself, get a Party Quests card for yourself or invite yourself from chat, and your own settings offers and guild attunement progress are recognized.
+- `/eui <module> off` works with the module's name as the config window shows it, for example `/eui party and raid off` or `/eui loot guide off`.
+- A module whose name is also a command switches with `/eui <name> off` (Chat, Edit Mode, Quickdraw, Raid Tools, Raid Loot and others), and the module list in the wiki names a word that reaches every module.
+- The Loot Simulator now uses an item's stats as soon as the game has them, instead of showing "no numbers yet" until a reload.
+- The Loot Simulator now uses your real weapon skill, including racial and gear bonuses. When the game doesn't show it, the result page says the simulator used the usual skill for your level.
+- The Loot Simulator now counts your talents, a talent change marks saved results as outdated, and the BiS export lists your talent points.
+- Rating a two-handed weapon no longer counts your off-hand item's stats.
+- A page's short tour no longer opens on top of the Loot Guide's welcome card; it shows on a later visit.
+- The Crafting empty text, the PvP planner line and the BiS help text now wrap instead of being cut off.
+- Tooltip "Hide in combat" now hides every tooltip for its mode: "Over UI frames" also hides spell, aura and EldoUI frame tooltips, and "Over the world" hides herbs, chests and other world objects.
+- Tooltip "Hide in combat" and "Hold to show in combat" are grayed out and name the Blizzard UI switch Tooltips: Hide they need.
+- The end of a long fight no longer stalls while the same refresh runs once for every event seen in combat.
+- Leaving the WoW Forever art style on the General page now gives back the layout's own accent instead of blue.
+- Switching between layout presets no longer keeps settings the previous preset set, such as target plate details, bar shapes and Info Bar texts.
+- Hardcore's death log no longer covers the death recap.
+- In Eldo-Zerby the Cooldown Manager's Mobility group no longer covers the focus frame.
 
 ## [0.6.5001] - 2026-10-13
 
