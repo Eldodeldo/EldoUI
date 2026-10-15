@@ -6,6 +6,11 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### Improved
+- Move mode opens in Combat mode: only the frames of your everyday fight screen light up (unit and group frames, bars, cooldowns, combat text, boss timers, alerts, minimap and chat). Pick All frames or a group in the panel to see the rest; a module's own Move button opens right on its frame. Test frames now show real spell and item icons.
+- Chat: Whispers, Loot and the other extra tabs now sit on the same line as General and Combat Log, and the chat's scroll bar and "jump to the newest line" arrow stay inside the chat panel instead of on its edge.
+- Game Menu (Esc): the EldoUI and Journal buttons now sit inside the menu, right above AddOns, in the menu's own button look, and the menu's frame runs down around them.
+
 ## [0.6.6000] - 2026-10-15
 
 ### New
