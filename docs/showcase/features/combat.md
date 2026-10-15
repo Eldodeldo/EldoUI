@@ -12,7 +12,7 @@ Player, target, focus, pet, target-of-target, boss, party pet and party target f
 
 ## Action Bars
 
-Eight flat action bars plus pet, stance, vehicle, extra ability, totem and gamepad bars, each with its own size, fade and visibility rules. Cooldown numbers, proc glow and Masque support are built in. Keybind mode (`/eui kb`) lets you hover a button and press a key, and one-click keybind presets set up every bar. `/eui ranks` moves lower spell ranks on your bars to the highest rank you know.
+Eight flat action bars plus pet, stance, vehicle, extra ability, totem and gamepad bars, each with its own size, fade and visibility rules. Cooldown numbers, proc glow and Masque support are built in. Keybind mode (`/eui kb`) lets you hover a button and press a key, and one-click keybind presets set up every bar. Buttons that still hold a lower spell rank light up while the spellbook is open; its Check ranks button (or `/eui rankcheck`) lists them, and `/eui ranks` moves them to the highest rank you know.
 
 > Screenshot coming soon: the bottom bars with cooldown numbers and a proc glow in the Eldo-Modern layout.
 

@@ -108,6 +108,7 @@ Commands that belong to one module.
 | `/eui cursor [on\|off]`, `/eui crosshair [on\|off]` | Combat HUD | Cursor ring, crosshair |
 | `/eui cdm [settings\|import\|capture]` | Cooldown Manager | EldoUI options, Blizzard's settings, import or capture this spec's set |
 | `/eui ranks` | Action Bars | Move lower spell ranks on your bars to the highest rank you know |
+| `/eui rankcheck` | Action Bars | List and light up the action buttons that hold a lower spell rank |
 | `/eui castfx [test [theme] [seconds] [fail]\|dump]` | Cast Bar Effects | Open the page, play a test cast on every enabled cast bar, or list your spellbook with spell IDs |
 | `/eui sct [test\|move]` | Combat Text | Combat Text settings, sample lines in every area, or move the scroll areas |
 | `/eui notify test [lane\|errors\|warning\|bg\|pings]` | Alerts and Banners | Preview EldoUI's alerts and messages |

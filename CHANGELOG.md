@@ -6,6 +6,11 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### New
+- Spell ranks: action buttons that still hold a lower rank of a spell you know light up, while the spellbook is open (default), always or never. Works on EldoUI's bars, Blizzard's bars, Bartender4, ElvUI and Dominos, and spots macros that show a lower rank too.
+- A Check ranks button on the spellbook page lists every lower rank in chat (where it is, its rank and your highest rank) and lights those buttons up; right-click it to move them to your highest rank. `/eui rankcheck` does the same check from anywhere.
+- A "Lower spell ranks" row on the Glows page sets the look of that highlight.
+
 ## [0.6.5002] - 2026-10-14
 
 ### New
