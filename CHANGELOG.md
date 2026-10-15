@@ -52,6 +52,7 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - The chat panel is redesigned: the tabs sit as flat boxes on the panel's edge with an accent underline on the open one, and Copy, Find and Errors move to a slim rail on the left side, so the tab row holds only tabs and tab names are no longer cut short.
 
 ### Fixed
+- Looking at a layout in the setup no longer forgets the frame positions saved for your role; Back brings them back.
 - Battleground Timers: a flag capture between two score ticks no longer makes the expected winner bar count down twice as fast until the next tick.
 - Battleground Timers: the expected winner bar stays hidden, without errors, when the game keeps the score widget's values private.
 - Spellbook: with the book art hidden, spell names, ranks and category headers are drawn in your theme's text colors instead of dark ink, so they read on the dark window.
