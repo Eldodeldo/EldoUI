@@ -7,17 +7,73 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 ## [Unreleased]
 
 ### New
+- **Talent Planner**: paste a Wowhead talent calculator link or a talent string (like 0505-3200-5) into the planner's Import box or after `/eui talents import`. You see the trees and points before it is saved as a plan, and a link EldoUI can't read says why. Nothing is learned.
+- **Talent Planner**: plan any class, not only your own. Pick the class at the top of the planner; plans for other classes are saved for your whole account, and a character of that class is offered them at login. A shared plan of another class is saved for later instead of refused.
+- **Level-up checklist**: one reminder when you level up lists your plan's talent point, new spell ranks at your trainer with their cost (ranks your plan doesn't need are marked), class quests that open and gear you can now wear. Its buttons learn that one rank or put a map pin; nothing else happens on its own.
+- Move mode: "Hide boxes" in the move panel hides every box, name, the grid and the panels so you see your real UI with its test frames; a small bar brings them back. Hold "Peek" (or Ctrl) to see the real UI only while you hold it.
+- The EldoUI button under the Game Menu (Esc) opens the EldoUI settings; a right-click starts move mode.
+- Camera: "Use the largest distance" sets the max camera distance to the furthest this game client allows, read from the game itself, and the distance shows in yards. New rows set the zoom speed and turn on ActionCam, an over-the-shoulder view whose offset eases in as you zoom out, with optional dynamic pitch. Turning a row off puts your own value back.
+- Camera Situations: two new situations, "Your group in combat" and "Travel form", and the distance sliders reach as far as the client allows. `/eui cam` also shows the max distance, the client's limit and the camera settings EldoUI holds.
+- The Info Bar can fold to a small tab or hide: use the arrow at its right end, the Bar shown setting, `/eui infobar show | tab | hide` or a key binding. Hover the tab to see the bar, click it to open. Frames placed against the bar stay where they are.
+- Addon memory sits next to latency on the Info Bar. Its tooltip lists the addons using the most memory, EldoUI's own share and, while the game's profiler runs, the addons using the most CPU; click to free unused memory. It updates only while you look at it.
+- Bags: right-click a section's title (Junk, Reagents, a bag or your own category) to hide it; a hidden section folds to its title, and one click shows it again. Saved per character. Searching still finds items in hidden sections and opens them with a note, and hidden items still count and sell.
+- Import reads bundles: paste several strings at once (EldoUI, EllesmereUI or ElvUI profiles, Edit Mode layouts and other addons' strings, one per line, each optionally under a name line such as "Details:"). The preview lists every part in plain words; tick the parts EldoUI applies. Strings for other addons get a Copy button, and anything unknown is skipped.
+- Chat can fold a burst of guild "has joined", "has left", "has come online" and "has gone offline" lines into one line per kind; point at [all] to see every name. Friends keep their own lines unless you choose otherwise. Off by default, under Chat > Alerts and filters.
 - Spell ranks: action buttons that still hold a lower rank of a spell you know light up, while the spellbook is open (default), always or never. Works on EldoUI's bars, Blizzard's bars, Bartender4, ElvUI and Dominos, and spots macros that show a lower rank too.
 - A Check ranks button on the spellbook page lists every lower rank in chat (where it is, its rank and your highest rank) and lights those buttons up; right-click it to move them to your highest rank. `/eui rankcheck` does the same check from anywhere.
 - A "Lower spell ranks" row on the Glows page sets the look of that highlight.
 
 ### Improved
+- The installer's chat step previews your tabs the way the chat panel draws them: flat boxes with the accent line under the open one.
+- Every right-click and dropdown menu in EldoUI's windows, bars and map pins (Bags, Merchant, Mail, Raid Loot, Characters, Talents, Loot Guide, Dungeon Routes, Waypoints and the rest) opens in the one EldoUI menu look: your theme font, the accent check marks, Escape to close, and dropdowns that open right under their button.
+- Click hints read the same everywhere: the window mover's drag, wheel and right-click hints, the hunter pet reminder's Revive Pet hint and older plugin datatext hints now use the white action word and gray text of every other EldoUI tooltip.
+- The Snapshots restore window, the waypoint paste window and the simulator resize from the corner grip like every other EldoUI window, and open at the size you left them.
+- Loot Guide: the corner grip now makes the window bigger or smaller and the pages follow; Ctrl+mouse wheel on the title bar zooms, like the other EldoUI windows.
+- Training: the corner grip sets the window's Width and Height, so the size stays after a reload.
+- Reset position on the Characters, Raid Loot, Hardcore, Ready Report and Instance Log windows also puts their size back.
+- Loot Guide level and drop chance sliders and the talent planner's level guide apply when you let go, so the page redraws once instead of on every step.
+- Edit Mode presets show a short line under each button saying what it does.
+- Blizzard UI overview lists every category with how many parts EldoUI replaces, skins or leaves to Blizzard, with a button to each tab.
+- Upgrade arrows and item scores stay ready while the game loads item data: only the item that arrived is worked out again, so bags, merchants and the Loot Guide no longer stutter during big item loads.
+- The Loot Guide's World page is much lighter on zones with many rares: upgrade checks run once per draw, opening a card or loading item names no longer redraws the whole page, and rares on your minimap are only read while the page is open.
+- Auction House full scans save their prices a few hundred per frame, so finishing a scan no longer freezes the game for a moment.
+- Class quests in the Attunements tab show the level they open at, a short line on where they start and what they end with, and only the chains of your faction.
+- Move mode's test frames also show sample reminders and the raid tools bar, and the reminders sample stays as long as the test frames are on.
+- In Edit Mode, the EldoUI panel sits under EldoUI's move panel instead of beside Edit Mode's window, and its list of frames EldoUI places folds away and scrolls, so it never runs past the panel.
+- A reminder's tooltip says where to turn on click-to-cast when it is off.
+- My Adventure's where-next cards include the next step of your class quest chain, with a map pin button.
+- The level-up page of My Adventure lists the Talent Planner's checklist (talent point, trainer, class quests and gear). While the planner's level-up reminder is on, only that one reminder pops up; the page stays in My Adventure.
+- The Loot Guide's World page builds its rare cards and creature lines as you scroll, so zones with many creatures open faster.
+- The flight route bar's track line and the Unit Frames preview's power bar use your theme and shared colors.
+- EldoUI's windows (the options window, Characters, Raid Loot, the error log, the command list, editors and more) resize from the grip in its bottom-right corner, which lights up in the accent color under the pointer. The content follows the new size instead of being stretched, each window remembers its size, and Reset puts it back. On tabbed windows such as Characters or Raid Loot, Ctrl+mouse wheel on the title bar still zooms the whole window.
+- Sliders apply when you let go: dragging moves only the slider and its number, so changing the text size, opacity and other heavy settings feels smooth again. A click, the mouse wheel or a typed value applies at once.
+- Windows opened from another EldoUI window (Import a string, Export, a question) open in front of it and centered on it, stay in front when you click the window behind, and Escape closes the front one first.
+- Options window: every label sits on one line beside a control of the same width, so dropdowns, sliders and text boxes line up in one column. A narrow window or Large text switches to one column instead of squeezing the labels, the page text under the title no longer runs into the tabs, and long group names in the left list wrap instead of being cut.
+- The chat panel is redesigned: the tabs sit as flat boxes on the panel's edge with an accent underline on the open one, and Copy, Find and Errors move to a slim rail on the left side, so the tab row holds only tabs and tab names are no longer cut short.
+
+### Fixed
+- Battleground Timers: a flag capture between two score ticks no longer makes the expected winner bar count down twice as fast until the next tick.
+- Battleground Timers: the expected winner bar stays hidden, without errors, when the game keeps the score widget's values private.
+- Spellbook: with the book art hidden, spell names, ranks and category headers are drawn in your theme's text colors instead of dark ink, so they read on the dark window.
+- Character window: stat section headers such as "Primary Attributes" fit their column with Large text and in long translations instead of being cut on both sides.
+- Character window: section header bars, the plain model background and the gear set warning border follow your art style and theme colors.
+- Nameplates: the name, level, debuffs and buffs each sit on their own row above the health bar, and the cast bar keeps a visible gap under it, in every nameplate style and at every UI scale.
+- Calendar grid, emoji picker, merchant rows, dungeon map grid and Loot Guide dividers use the theme's divider and track colors; the class power health bar and group frame fallbacks use your shared colors.
+- Closing the Auction House during a full scan keeps the prices read so far; the Full scan button says when the last scan was cut short.
+- Closing the Auction House no longer causes a short freeze.
+- An error when an alert card appeared while other alerts were on screen.
+- Pet Care warns again when your pet food runs low after you restocked it, instead of only the first time.
+- Camp Helper recognizes camp features and utility objects on every client language, not only English: tooltips, the features seen count and Announce use the names your game shows.
+- Quality of Life: new hidden graphics settings under Sound and misc: always sharpen, icons over things you can use, and volume fog outdoors and indoors with its quality. Each row only shows when your game has that setting, and nothing changes until you pick a value.
+- Quest Tracker: "Untrack all quests" on the General tab stops tracking every quest after a question. The quests stay in your log.
+- Alts: a Plans column (in the Leveling style) and the character tooltip show the talent plans saved for each class; right-click a character to open them in the Talent Planner.
+- A Lua error in combat ("arithmetic on a secret number value" in the game's backdrop code) from EldoUI's boxes on nameplates, aura icons and unit frames.
+- Chat bubbles with the EldoUI skin are a clean flat box around the text: no stretched pieces of the game's bubble art and no pointer floating under the box.
+- Chat messages stay inside the chat panel and no longer run up into the tab row.
 - Every built-in layout was reworked so frames no longer cover each other in move mode, at 1080p, 1440p and ultrawide: the totem bar takes the stance bar's spot instead of covering the pet bar, the item cooldown row sits above the buffs row with room for a full row, the Tracking Bars box only shows while the bars use it, and the notices above your character (ready check, reminders, countdown, Fanfare text, prompts) each have their own place.
 - The battleground map no longer reaches past the top of the screen and sits beside the RestedXP guide instead of on it.
 - The threat meter and the combat timer have their own spot in every layout, with the timer right above the meter, clear of the target frame, the right chat panel and the extra action button.
 - The death recap and the death log moved up a little, so the recap no longer covers the item cooldown row.
-
-### Fixed
 - The setup opens again on the first login of a new character, after the loading screen, and a loading screen while it is open no longer closes it.
 - Setup steps keep what you already set: your picks and applied steps stay after closing the setup or a reload, "Recommended" on the Blizzard UI step keeps the switches you set yourself, and a full look no longer moves frames of a layout you kept or applied.
 - With Large text, the setup's page titles and descriptions stay above the accent line, the Role and Blizzard UI cards grow with their text, and Large text (and the other switches on the Accessibility step) can be turned off again there, also after going back.

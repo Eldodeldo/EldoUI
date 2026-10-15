@@ -31,6 +31,7 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | `/eui blizz [element] [on\|off\|toggle]` | Which parts of Blizzard's UI EldoUI may change |
 | `/eui editmode [conflicts\|layouts\|forget]` | EldoUI and Blizzard's Edit Mode |
 | `/eui editlayout [copy]` | Copy Blizzard's active Edit Mode layout as text, or open the import window |
+| `/eui infobar [show\|tab\|hide] [2]` | Show the Info Bar, fold it to a small tab or hide it (`2`: the second bar); alone it opens the Info Bar settings |
 | `/eui kb` | Keybind mode: hover an EldoUI button and press a key |
 | `/eui kb pro`, `classic`, `restore` | One-click keybind preset for every enabled bar, or put your old keys back |
 | `/eui testframes [on\|off]` | Show every enabled unit frame with sample values |
@@ -47,7 +48,7 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | `/eui profilerules on`, `off` | Switch profiles by talent group and content |
 | `/eui export [all\|<module>]` | Export settings as a share string |
 | `/eui exportlua [all\|<module>]` | Export settings as a readable Lua table |
-| `/eui import` | Open the import window: EldoUI, EllesmereUI, ElvUI and Edit Mode strings |
+| `/eui import` | Open the import window: EldoUI, EllesmereUI, ElvUI and Edit Mode strings, or a bundle of several strings at once |
 | `/eui send <party\|raid\|guild\|player>` | Offer your settings to a group, guild or player |
 | `/eui capture <addon>` | Save another addon's setup into EldoUI (Details, CooldownManager) |
 | `/eui setup` | Set up every supported addon from EldoUI's profiles |
