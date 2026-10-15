@@ -6,6 +6,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.6.6000] - 2026-10-15
+
 ### New
 - **Talent Planner**: paste a Wowhead talent calculator link or a talent string (like 0505-3200-5) into the planner's Import box or after `/eui talents import`. You see the trees and points before it is saved as a plan, and a link EldoUI can't read says why. Nothing is learned.
 - **Talent Planner**: plan any class, not only your own. Pick the class at the top of the planner; plans for other classes are saved for your whole account, and a character of that class is offered them at login. A shared plan of another class is saved for later instead of refused.
@@ -585,6 +587,7 @@ The first public version of EldoUI for WoW: Forever.
 - Fixes for keybind mode, instant message themes, the installer, roll arrows, the tooltip fallback, and options that did nothing.
 - Character keys ignore the Forever surname, and the weapon enchant check uses the current item API.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.5002...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6000...HEAD
+[0.6.6000]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6000
 [0.6.5002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.5002
 [0.5.0]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.5.0
