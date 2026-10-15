@@ -11,6 +11,9 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Chat: Whispers, Loot and the other extra tabs now sit on the same line as General and Combat Log, and the chat's scroll bar and "jump to the newest line" arrow stay inside the chat panel instead of on its edge.
 - Game Menu (Esc): the EldoUI and Journal buttons now sit inside the menu, right above AddOns, in the menu's own button look, and the menu's frame runs down around them.
 
+### Fixed
+- Game Menu (Esc): the EldoUI and Journal buttons now use the same font as the menu's other buttons.
+
 ## [0.6.6000] - 2026-10-15
 
 ### New
