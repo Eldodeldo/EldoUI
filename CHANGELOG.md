@@ -11,6 +11,23 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - A Check ranks button on the spellbook page lists every lower rank in chat (where it is, its rank and your highest rank) and lights those buttons up; right-click it to move them to your highest rank. `/eui rankcheck` does the same check from anywhere.
 - A "Lower spell ranks" row on the Glows page sets the look of that highlight.
 
+### Improved
+- Every built-in layout was reworked so frames no longer cover each other in move mode, at 1080p, 1440p and ultrawide: the totem bar takes the stance bar's spot instead of covering the pet bar, the item cooldown row sits above the buffs row with room for a full row, the Tracking Bars box only shows while the bars use it, and the notices above your character (ready check, reminders, countdown, Fanfare text, prompts) each have their own place.
+- The battleground map no longer reaches past the top of the screen and sits beside the RestedXP guide instead of on it.
+- The threat meter and the combat timer have their own spot in every layout, with the timer right above the meter, clear of the target frame, the right chat panel and the extra action button.
+- The death recap and the death log moved up a little, so the recap no longer covers the item cooldown row.
+
+### Fixed
+- The setup opens again on the first login of a new character, after the loading screen, and a loading screen while it is open no longer closes it.
+- Setup steps keep what you already set: your picks and applied steps stay after closing the setup or a reload, "Recommended" on the Blizzard UI step keeps the switches you set yourself, and a full look no longer moves frames of a layout you kept or applied.
+- With Large text, the setup's page titles and descriptions stay above the accent line, the Role and Blizzard UI cards grow with their text, and Large text (and the other switches on the Accessibility step) can be turned off again there, also after going back.
+- In the Plates layout, the player frame's detached power bar no longer covers the cast bar.
+- Unit frames set to draw above other frames no longer cover the game menu or popups: "High" is now the top layer, and frames saved at the old "Highest" layer draw as High.
+- The setup no longer offers NPC Dialog on its Modules step, and "Turn all on" leaves it off: it stays off until you turn it on in its own options page.
+- The setup's last page names each change once ("UI scale: auto" instead of "UI scale UI scale: auto"), and the setup window keeps one size from step to step.
+- Clicking a layout in the setup during combat no longer applies it after the fight on whatever step is open by then, where Back could not undo it: the pick waits for Apply or Finish, like a layout click anywhere else.
+- The setup's Layout step shows the whole description of the picked layout (or the one under the mouse) under the cards instead of cutting it short, and the Styles and Chat steps no longer cut or overlap their texts.
+
 ## [0.6.5002] - 2026-10-14
 
 ### New
