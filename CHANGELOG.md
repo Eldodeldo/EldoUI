@@ -9,13 +9,14 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 ## [0.6.6000] - 2026-10-15
 
 ### New
-- **Talent Planner**: paste a Wowhead talent calculator link or a talent string (like 0505-3200-5) into the planner's Import box or after `/eui talents import`. You see the trees and points before it is saved as a plan, and a link EldoUI can't read says why. Nothing is learned.
+- **Talent Planner**: paste a Wowhead talent calculator link or a talent string (like 0505-3200-5) into the planner's Import box or after `/eui talents import`. You see the trees and points before it is saved as a plan, and a link EldoUI can't read says why, naming the site (Icy Veins, Mobalytics, seemeta, Guild Order and Zockify links can't be read yet). Nothing is learned.
 - **Talent Planner**: plan any class, not only your own. Pick the class at the top of the planner; plans for other classes are saved for your whole account, and a character of that class is offered them at login. A shared plan of another class is saved for later instead of refused.
-- **Level-up checklist**: one reminder when you level up lists your plan's talent point, new spell ranks at your trainer with their cost (ranks your plan doesn't need are marked), class quests that open and gear you can now wear. Its buttons learn that one rank or put a map pin; nothing else happens on its own.
+- **Level-up checklist**: one card when you level up lists your plan's talent point, new spell ranks at your trainer with their cost (ranks your plan doesn't need are marked), class quests that open, gear you can now wear and dungeons in reach. Every line is a link: a map pin to your trainer or the class quest, or the planner or the Journal. Learn learns that one rank; nothing else happens on its own. It is the only level-up card: the alert lane's level toast and the Journal's level moment stand back while it is on, and Fanfare's celebration still plays.
 - Move mode: "Hide boxes" in the move panel hides every box, name, the grid and the panels so you see your real UI with its test frames; a small bar brings them back. Hold "Peek" (or Ctrl) to see the real UI only while you hold it.
 - The EldoUI button under the Game Menu (Esc) opens the EldoUI settings; a right-click starts move mode.
 - Camera: "Use the largest distance" sets the max camera distance to the furthest this game client allows, read from the game itself, and the distance shows in yards. New rows set the zoom speed and turn on ActionCam, an over-the-shoulder view whose offset eases in as you zoom out, with optional dynamic pitch. Turning a row off puts your own value back.
 - Camera Situations: two new situations, "Your group in combat" and "Travel form", and the distance sliders reach as far as the client allows. `/eui cam` also shows the max distance, the client's limit and the camera settings EldoUI holds.
+- Camera: while another camera addon that sets the camera distance is loaded, EldoUI leaves the max distance, zoom speed and ActionCam to it and says so on those rows and in `/eui cam`; Camera Situations stays off then.
 - The Info Bar can fold to a small tab or hide: use the arrow at its right end, the Bar shown setting, `/eui infobar show | tab | hide` or a key binding. Hover the tab to see the bar, click it to open. Frames placed against the bar stay where they are.
 - Addon memory sits next to latency on the Info Bar. Its tooltip lists the addons using the most memory, EldoUI's own share and, while the game's profiler runs, the addons using the most CPU; click to free unused memory. It updates only while you look at it.
 - Bags: right-click a section's title (Junk, Reagents, a bag or your own category) to hide it; a hidden section folds to its title, and one click shows it again. Saved per character. Searching still finds items in hidden sections and opens them with a note, and hidden items still count and sell.
@@ -26,6 +27,10 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - A "Lower spell ranks" row on the Glows page sets the look of that highlight.
 
 ### Improved
+- Battleground Timers: capture bars learn how long an assault takes on this game client, from the game's own timer or from an assault seen until the base turns, and use that time from then on (Darkspear Islands gets capture bars this way). Arathi Basin and Alterac Valley start from the usual 1 and 4 minutes.
+- Battleground Timers: Alterac Valley mine owners show without any setup, and a mine changing hands no longer starts a capture bar.
+- Battleground Timers: Warsong Gulch's Flag back bar lasts 20 seconds, and the Alterac Valley reminder names the rider commanders for ram and wolf hides.
+- Move mode: "Show test frames" now fills every frame at once. Party and raid frames, main tanks and group pets show together, loot toasts join the loot rolls, and every frame with nothing to show yet (cast bars, cooldown rows, timers, alert and loot toasts, combat text, the pet and extra action bars and the rest) gets a sample in your current look until it has something real to show. Windows that only open on demand keep just their box.
 - The settings sidebar is shorter and calmer: modules sit in eleven small groups (Unit Frames, Action Bars and Cooldowns, Combat Info and more) with one row per module, and the general pages are gathered under Global settings, Layout and style, Modules, Profiles, and Lists and tags. Click a group name to fold or unfold it; the group of the page you open unfolds by itself. A page's tabs now show only at the top of the page.
 - The installer's chat step previews your tabs the way the chat panel draws them: flat boxes with the accent line under the open one.
 - Every right-click and dropdown menu in EldoUI's windows, bars and map pins (Bags, Merchant, Mail, Raid Loot, Characters, Talents, Loot Guide, Dungeon Routes, Waypoints and the rest) opens in the one EldoUI menu look: your theme font, the accent check marks, Escape to close, and dropdowns that open right under their button.
@@ -55,6 +60,7 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - The chat panel is redesigned: the tabs sit as flat boxes on the panel's edge with an accent underline on the open one, and Copy, Find and Errors move to a slim rail on the left side, so the tab row holds only tabs and tab names are no longer cut short.
 
 ### Fixed
+- On light styles the on/off switches next to each module in the options and the sidebar's dividing line are visible again.
 - Looking at a layout in the setup no longer forgets the frame positions saved for your role; Back brings them back.
 - Battleground Timers: a flag capture between two score ticks no longer makes the expected winner bar count down twice as fast until the next tick.
 - Battleground Timers: the expected winner bar stays hidden, without errors, when the game keeps the score widget's values private.
