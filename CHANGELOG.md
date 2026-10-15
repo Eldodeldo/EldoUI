@@ -24,6 +24,7 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - A "Lower spell ranks" row on the Glows page sets the look of that highlight.
 
 ### Improved
+- The settings sidebar is shorter and calmer: modules sit in eleven small groups (Unit Frames, Action Bars and Cooldowns, Combat Info and more) with one row per module, and the general pages are gathered under Global settings, Layout and style, Modules, Profiles, and Lists and tags. Click a group name to fold or unfold it; the group of the page you open unfolds by itself. A page's tabs now show only at the top of the page.
 - The installer's chat step previews your tabs the way the chat panel draws them: flat boxes with the accent line under the open one.
 - Every right-click and dropdown menu in EldoUI's windows, bars and map pins (Bags, Merchant, Mail, Raid Loot, Characters, Talents, Loot Guide, Dungeon Routes, Waypoints and the rest) opens in the one EldoUI menu look: your theme font, the accent check marks, Escape to close, and dropdowns that open right under their button.
 - Click hints read the same everywhere: the window mover's drag, wheel and right-click hints, the hunter pet reminder's Revive Pet hint and older plugin datatext hints now use the white action word and gray text of every other EldoUI tooltip.
