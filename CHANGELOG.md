@@ -49,6 +49,7 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Deadly Boss Mods: EldoUI's quiet setup now covers DBM's new trash and boss cast alerts in WoW: Forever dungeons and raids. They stay on, follow your target and skip channeled casts.
 
 ### Fixed
+- Easy self buff and the Shaman totem bar now notice a weapon imbue you just cast, such as Rockbiter Weapon on a two-hand weapon, instead of still reporting no main-hand enchant.
 - Layouts: a layout that turns an EldoUI action bar off no longer brings Blizzard's bar of the same number back.
 - Layouts: cast bars no longer overlap the pet frame, the cooldown buff bars or other frames next to them; with the player power bar detached, the player cast bar moves down under it.
 - Move mode: an action bar that is off no longer shows a column of test icons without a box around it.
