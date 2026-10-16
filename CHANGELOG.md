@@ -36,6 +36,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Action Bars: "Show mouse-over bars together" (General tab). Hovering one bar set to Mouse over shows all of them. Off by default.
 
 ### Improved
+- Setup: the Other addons step now lists Details!, RestedXP, BigWigs, Deadly Boss Mods and Questie when you have them, each with a ticked box that places its window in your layout. Untick one and EldoUI leaves that window where it is.
+- Talent Planner: paste a talent loadout string from a talent calculator site and it becomes a plan for its class, like a calculator link. For calculator sites EldoUI can't read yet, the message now suggests their talent string or talent loadout string instead.
 - Import: EllesmereUI strings now keep upright bars in their button order, carry over "show all mouse-over bars together", and turn data bars into datatext panels with their datatexts, size, place and visibility.
 - Right-click Hide now also works on the XP and Reputation Bars, the Encounter Timeline icons and the Reminders icons.
 - The boxes EldoUI keeps for Details!, RestedXP, Questie and the boss mods can be hidden from move mode and the Hidden boxes page, and the Integrations page has a switch for each. Only EldoUI's box goes; the addon's own window stays as that addon shows it.
