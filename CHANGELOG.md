@@ -6,7 +6,44 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### New
+- Minimap buttons: the game's event link button can be placed on a map corner or hidden.
+- Combat Text: Forever's new combat text choices (shields on you, your shields on targets, effects on your target, effects on other targets).
+- The level-up card shows the health, mana and stats the level gave.
+- Pet and stance bars have a Fill order option, so an upright bar fills column by column. Imported upright pet and stance bars use it.
+- The setup's Other addons step can place Guidelime's guide window at your layout's guide spot (it moves there after the next /reload).
+- The Shopping List tracker has its own visibility settings and hides in combat by default.
+
+### Improved
+- With the minimap kept and skinned, Forever's new header and tracking button art now goes flat too, and the tracking button shows a plain tracking icon.
+- Auction house: weapons and armor show their required level, like Forever's own auction house, and row tooltips show random suffix stats such as "of the Bear".
+- Ctrl-click opens the matching options on many more EldoUI frames: the waypoint arrow and coordinate box, timer bars, the fishing bar, chat list editors, the emoji button, Raid Tools, Party Quests, NPC dialog choices, tracker rows, the bag gold and currencies, and more. Item slots keep the game's own Ctrl-click.
+- Ctrl-click on an alert opens the options of the module that raised it.
+- Aura Groups remember which example filled a group, through edits and Copy look, and the example list shows each example's description.
+- "Totem buffs on you" dims a step for each shaman in your party who is out of range, and fully when all of them are.
+- The social window's ignore list gets the EldoUI skin.
+- Friend cards in the social window show class-colored names and your notes, and offline friends are dimmed.
+- On a crowded vertical Encounter Timeline, the name column shows how many names did not fit ("+N").
+- Blocked actions in the error log now show where they came from: the addon, the call chain and, when the game can't name the function, the file and line that made the call.
+- A setup you pause with a role preview showing now saves only what the preview changed. Logging out puts the preview's values back, and the role step shows your pick again next time.
+- The micro menu on its own mover has a spot in every layout, two rows beside the buffs.
+- The farming bar shares the flight bar's spot and steps aside while you are on a flight path.
+- Data panels form one column under the first, and panels attached to the chat or minimap stack instead of covering each other. Panels on the chat now sit above it.
+- Every Class Power style fits the layouts for every class, combo points included. A druid's mana runs inside the power bar by default.
+- Main tanks move beside the raid when it grows tall.
+
 ### Fixed
+- The "Instance difficulty" minimap button setting is gone, because Forever no longer shows that flag. The Mail setting now says "The new-mail icon."
+- Cooldown Manager keybind text finds the rank of a spell that is actually on your bars.
+- Combat Text: "Auras fading" is gone, because the game no longer offers it.
+- Flat frame art on Blizzard's player and target frames fits the new bars, and turning it off takes effect without a reload.
+- Ctrl-click on the weapon enchant icons opens Buffs and Debuffs > Enchants again, and the Weapon Enchants box's Options… goes straight to that setting.
+- EldoUI's move boxes no longer cover Blizzard's Edit Mode window.
+- Camp Helper shows the right tier for every Spirit object (all three banners, Spinning Wheel, Loom) and relearns objects it saved with the wrong tier.
+- Camp Helper no longer treats cooking fires in the world as camps, and recognizes your campfire by name on every game language.
+- Hiding the Quest Tracker box in move mode now hides the quest tracker and Questie's tracker, also after a reload and in combat.
+- The error log no longer shows doubled brackets after a blocked function's name.
+- The info bar style with two bars is grayed out where the layout has no room for it.
 - Spell Efficiency: a value exactly halfway between two shown numbers now always rounds up, on Windows and Mac alike.
 
 ## [0.6.6001] - 2026-10-16
