@@ -6,6 +6,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.6.6001] - 2026-10-16
+
 ### New
 - Setup: four preset packs on the Welcome page, Modern, Classic, Healer and Minimal, each a whole UI with a miniature of its layout. Apply sets up every step with the pack in one click; Customize goes through the steps with the pack filled in.
 - Share your look as a preset pack: the Share menu's "Export my look as a pack" makes a string with your layout, art style, accent and styles, and importing one puts that look on your current profile.
@@ -681,7 +683,8 @@ The first public version of EldoUI for WoW: Forever.
 - Fixes for keybind mode, instant message themes, the installer, roll arrows, the tooltip fallback, and options that did nothing.
 - Character keys ignore the Forever surname, and the weapon enchant check uses the current item API.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6000...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6001...HEAD
+[0.6.6001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6001
 [0.6.6000]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6000
 [0.6.5002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.5002
 [0.5.0]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.5.0
