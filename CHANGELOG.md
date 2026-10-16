@@ -22,14 +22,31 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Shaman Totems: up to eight totem loadouts. Right-click Drop All to switch, save, rename, delete or share one as a string; a switch during a fight waits until it ends. An optional rule switches the loadout when you enter a dungeon, raid or battleground.
 - Shaman Totems: small squares on the party frames show who your totems reach, the totem tooltips name who they miss, and a mob's tooltip names the counter totem for the fear, poison or disease you saw it cast.
 - Shaman Totems: a group plan for Mana Tide Totem and the resistance totems, sent to your group with one click, and a shaman column in the Ready Check Report with the totems and Ankhs each shaman carries.
+- Shaman Totems: the cooldown bar starts with the spells for your role (healer, melee or caster), taken from the Role page or your talents. Tick spells yourself and your picks stay.
+- Shaman Totems: a shaman group panel lists every shaman in your group with Mana Tide Totem, Reincarnation, Ankhs and their part of the plan. Other shamans' cooldowns show once they click Share mine. Open it from the options or by right-clicking Drop All.
+- Ready Check Report: the shaman columns also show each shaman's shield, weapon imbues and mana.
+- Aura Groups: the "Totem buffs on you" example dims while your party's shaman is out of range, as the game reports it.
 - Reminders: shaman weapon imbue reminders for each hand, alerts when your shield or an imbue runs out (in the combat text lane during a fight), and an optional sound when your shield drops.
 - Class setup: shamans get their totem bar, cooldown bar, reminders, a loadout for their role, key spells on empty action slots and a few macros in one step, and Revert puts it all back.
-- Nameplates: two new example rules for totems, and Aura Groups has a "Totem buffs on you" example for every class.
+- Nameplates: two new example rules for totems, and Aura Groups has a "Totem buffs on you" example for every class. The friendly totem rule's tooltip names the friendly minion setting those plates need.
 - Info Bar: your datatext panels can show as a **Dashboard**, a compact list with one row per value: an icon, the value and a thin bar for durability, bag space, tracked currencies toward their cap, the reputation you watch toward the next standing and your profession skills. Bars turn yellow, then red, before durability or bag space run out, and clicking a profession row opens that profession (not in combat). "Add a dashboard" on the Panels tab sets one up; the panel's visibility rules (in combat, in instances, on mouse over) work as for any panel, and the options show a preview with sample values.
 - Quality of Life: a **flight view** for flight paths, off by default (Travel tab). While you fly, the interface fades and one calm panel shows where you fly to, the zone below you, the time left and the route, with buttons for the map, your bags, landing early and leaving the view. Landing, combat, a ready check, a queue invite or Exit brings everything back.
 - Other addons: when EldoUI ships a newer version of an addon profile you imported, it asks once after login whether to update it; "Not now" waits for the next version. Profiles are only ever set up on your click and never in combat.
+- Action Bars: a Fill order option per bar. Columns first fills each column before the next one, like an upright bar.
+- Action Bars: "Show mouse-over bars together" (General tab). Hovering one bar set to Mouse over shows all of them. Off by default.
 
 ### Improved
+- Import: EllesmereUI strings now keep upright bars in their button order, carry over "show all mouse-over bars together", and turn data bars into datatext panels with their datatexts, size, place and visibility.
+- Right-click Hide now also works on the XP and Reputation Bars, the Encounter Timeline icons and the Reminders icons.
+- The boxes EldoUI keeps for Details!, RestedXP, Questie and the boss mods can be hidden from move mode and the Hidden boxes page, and the Integrations page has a switch for each. Only EldoUI's box goes; the addon's own window stays as that addon shows it.
+- Ctrl-click opens the matching options from more places: the XP and Reputation Bars, the Encounter Timeline icons, alert toasts and alert cards, and the windows of Alts, Training, Talents, Macros, Raid Loot, the Instance Log, Dungeon Routes, the Profession Planner, the Ready Check Report, the Death Log, Game Settings, Finder and the Legacy Planner. A window's help button or title bar names it in its tooltip.
+- Alert toasts and alert cards show a small tooltip that says what a click and a right-click do.
+- Setup: the Role step shows the role you pick on your frames at once; Back, the Welcome page or closing the window puts it back.
+- Setup: after an update that adds a setup step, EldoUI offers it once. "Show me" opens a short setup with only the new parts, and "Keep my setup" changes nothing.
+- Setup: Express setup for shamans also puts key spells on empty action slots and adds the class macros while there is room. Your own actions and macros are never replaced, and the last page lists them with Revert this.
+- Setup: the Other addons step says "Newer profile ready" when EldoUI has a newer profile than the one an addon got before.
+- Layouts: on ultrawide screens the loot feed stays left of the boss frames (Cookies, Blizz, Dark, Cozy, Plates) and Hunter's threat meter and combat timer stay beside the center, clear of bar 7.
+- Layouts: the counters, the Feed Pet button, the split timer and the possess bar have a free spot of their own in every layout. The possess bar takes the pet bar's place, the Feed Pet button sits beside the pet frame, and in most layouts the counters move to the top-left corner.
 - Setup: every step has one main button, Apply and continue, with Back beside it and Skip as a plain link. The Styles step shows each pick on your frames at once, and Back or closing the window puts it back.
 - Setup: styles too large for the picked layout are grayed out with the reason, in the setup and on each module's Styles options; with the Healer role the group frame size comes from the role and the Styles step says so.
 - Setup: the last page before Finish shows one card per step with Change and Revert, and after Finish a placement check names frames that now cover each other, with "Use the layout's spot" and "Open move mode".
@@ -47,8 +64,16 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Layouts: action bars 6 to 8, the loot feed, the zone toast and the vehicle seats have a spot of their own in every layout when you turn them on. Action bar 8 now comes as a 6 by 2 block like bars 6 and 7.
 - Layouts: the pet bar, the stance and totem bars, the extra action button, the fishing bar and the Battle.net toasts no longer touch the action bars, the chat or the unit frames.
 - Deadly Boss Mods: EldoUI's quiet setup now covers DBM's new trash and boss cast alerts in WoW: Forever dungeons and raids. They stay on, follow your target and skip channeled casts.
+- Tooltip and cooldown icons: their shadow can keep its own strength and size ("Own shadow look"), apart from the Frame shadows sliders.
+- Friends: when your friends list opens in the social window, the Ignore and Recently grouped tabs sit under that window too, and its search bar takes the EldoUI look.
+- Encounter Timeline: on an upright bar, spell names line up in one column beside the bar, level with their icons, so names never run over the other lane or each other.
 
 ### Fixed
+- Gathering: on clients in every language, herb and ore nodes now show the skill they need in their tooltip, and map pins saved under a translated name get their skill color and filter once you have hovered that kind of node.
+- Buffs and Debuffs: right-clicking a weapon enchant icon (poison, oil, stone, shaman imbue) removes it, like on Blizzard's buff frame, instead of showing a "blocked from an action" message. The enchant icons now also show the game's own tooltip, time and charges.
+- Setup: the line under each step's title no longer runs into the title.
+- Combat Text: renaming a scroll area while move mode is open now updates its box name, and the "(locked)" note no longer disappears when you change a setting.
+- Eldo-Modern: the extra action button no longer overlaps the loot toasts.
 - Easy self buff and the Shaman totem bar now notice a weapon imbue you just cast, such as Rockbiter Weapon on a two-hand weapon, instead of still reporting no main-hand enchant.
 - Layouts: a layout that turns an EldoUI action bar off no longer brings Blizzard's bar of the same number back.
 - Layouts: cast bars no longer overlap the pet frame, the cooldown buff bars or other frames next to them; with the player power bar detached, the player cast bar moves down under it.
