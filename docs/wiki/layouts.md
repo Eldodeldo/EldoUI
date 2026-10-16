@@ -67,6 +67,6 @@ The art style sets the frame look of every EldoUI panel and window:
 
 ## Sharing a setup
 
-- `/eui export` makes a share string of your whole profile (or `/eui export <module>` for one module); `/eui import` (or **Import and export > Import a string** in the options window) opens one paste box for every string: EldoUI, EllesmereUI, ElvUI and Edit Mode. It tells which kind you pasted and shows what it imports before anything changes.
+- `/eui export` makes a share string of your whole profile (or `/eui export <module>` for one module); `/eui import` (or **Import and export > Import a string** in the options window) opens one paste box for every string: EldoUI, EllesmereUI, ElvUI and Edit Mode. It tells which kind you pasted and shows what it imports before anything changes. An EllesmereUI or ElvUI profile is rebuilt as an EldoUI layout (frame spots, bar shapes, sizes and which frames show and when): **Apply as a new layout** puts it on a new profile, **Change my current layout** puts it on the one you use; both can be undone.
 - `/eui send <party|raid|guild|player>` offers your settings to others in game.
 - Profiles: `/eui profile` lists them; see [Commands](commands.md#profiles-and-sharing).

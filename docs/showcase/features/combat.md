@@ -46,6 +46,10 @@ Skins and places Blizzard's own Cooldown Manager: essential and utility cooldown
 
 Hold a key for a ring, fan or grid of your own spells, items, macros, mounts and markers; let go on one to use it. Each menu has its own key binding. `/eui quickdraw` opens the menu editor.
 
+## Shaman Totems
+
+A totem bar with one button per element, a hover picker and Drop All, plus a cooldown bar for your shield, weapon imbues and Ankh. Save totem loadouts, share them as codes, see which party members your totems reach, and send a simple group plan. Every totem is cast by your own click.
+
 ## Pet Care
 
 For hunters: a Feed Pet button next to the pet frame, and warnings when your pet is unhappy or your pet food runs low.

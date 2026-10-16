@@ -224,6 +224,13 @@
       "page": "features/combat.md#quickdraw"
     },
     {
+      "module": "ShamanTotems",
+      "title": "Shaman Totems",
+      "text": "A totem bar with an element picker, a shield and imbue cooldown bar, saved loadouts and party coverage, all cast by your own click.",
+      "wiki": "modules",
+      "page": "features/combat.md#shaman-totems"
+    },
+    {
       "module": "PetCare",
       "title": "Pet Care",
       "text": "Hunters: Feed Pet button next to the pet frame, unhappy pet and low food warnings.",
