@@ -6,6 +6,9 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### Fixed
+- Spell Efficiency: a value exactly halfway between two shown numbers now always rounds up, on Windows and Mac alike.
+
 ## [0.6.6001] - 2026-10-16
 
 ### New
