@@ -46,6 +46,7 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Layouts: every layout now has an action bar setup of its own that matches its name, from Wide's single long row to Blizz's classic stacked bars and Heritage's short bar beside the main rows. Side bars that are not full hide their empty buttons, and the experience bar is as long as the bar row it sits under.
 - Layouts: action bars 6 to 8, the loot feed, the zone toast and the vehicle seats have a spot of their own in every layout when you turn them on. Action bar 8 now comes as a 6 by 2 block like bars 6 and 7.
 - Layouts: the pet bar, the stance and totem bars, the extra action button, the fishing bar and the Battle.net toasts no longer touch the action bars, the chat or the unit frames.
+- Deadly Boss Mods: EldoUI's quiet setup now covers DBM's new trash and boss cast alerts in WoW: Forever dungeons and raids. They stay on, follow your target and skip channeled casts.
 
 ### Fixed
 - Layouts: a layout that turns an EldoUI action bar off no longer brings Blizzard's bar of the same number back.
@@ -62,6 +63,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - XP and Reputation Bars: clicking the pet experience bar now opens your pet's page in the character window; it did nothing before.
 - AI party followers in follower dungeons show their class color on unit frames, portraits, cast bars and class-colored name tags, like players.
 - When the game shows your friends list in its social window, that window now gets the friends window's look and can be moved and scaled like it.
+- Cooldown Manager: the keybind text now shows on spells with several ranks, also when the bar holds a higher rank than the one the cooldown names.
+- Training: trainer levels and costs are up to date for druids, mages, paladins and shamans, including the newest talent rank spells.
 
 ## [0.6.6000] - 2026-10-15
 
