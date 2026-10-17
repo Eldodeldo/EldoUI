@@ -6,6 +6,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.6.6003] - 2026-10-17
+
 ### New
 - Mage Travel: one button lists the teleports and portals you know with your rune counts; click a row to cast it. It has its own spot next to the Consumable Bar in every layout.
 - Blessing Plan: plan which blessing each paladin keeps up on each class, then send the plan to the group or post it in chat with one click.
@@ -795,7 +797,8 @@ The first public version of EldoUI for WoW: Forever.
 - Fixes for keybind mode, instant message themes, the installer, roll arrows, the tooltip fallback, and options that did nothing.
 - Character keys ignore the Forever surname, and the weapon enchant check uses the current item API.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6002...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6003...HEAD
+[0.6.6003]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6003
 [0.6.6002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6002
 [0.6.6001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6001
 [0.6.6000]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6000
