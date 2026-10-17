@@ -6,6 +6,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.6.6002] - 2026-10-17
+
 ### New
 - Minimap buttons: the game's event link button can be placed on a map corner or hidden.
 - Combat Text: Forever's new combat text choices (shields on you, your shields on targets, effects on your target, effects on other targets).
@@ -749,7 +751,8 @@ The first public version of EldoUI for WoW: Forever.
 - Fixes for keybind mode, instant message themes, the installer, roll arrows, the tooltip fallback, and options that did nothing.
 - Character keys ignore the Forever surname, and the weapon enchant check uses the current item API.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6001...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6002...HEAD
+[0.6.6002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6002
 [0.6.6001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6001
 [0.6.6000]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6000
 [0.6.5002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.5002
