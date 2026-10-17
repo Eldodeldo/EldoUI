@@ -54,6 +54,7 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - With Leatrix Plus, TradeSkillMaster, ElvUI or a bar addon, EldoUI steps back only for the parts both do, instead of turning a whole module off.
 
 ### Fixed
+- Dalaran Sewer Key tracking checks whether you have the key without requiring you to finish the dungeon quest first. Its description explains that one key holder can open the gate for the group.
 - Error reports now also leave out quoted text in the error message itself, such as a chat line or another player's name.
 - A full-width Info Bar now stretches to the new screen width after a resolution or UI scale change.
 - The "Instance difficulty" minimap button setting is gone, because Forever no longer shows that flag. The Mail setting now says "The new-mail icon."
