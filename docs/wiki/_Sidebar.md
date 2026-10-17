@@ -1,6 +1,7 @@
 - [Getting started](getting-started.md)
 - [Updating](updating.md)
 - [Modules](modules.md)
+  - [Using EldoUI with other addons](other-addons.md)
 - [My Adventure](my-adventure.md)
   - [My Adventure API](my-adventure-api.md)
   - [Journal data reports](journal-data-reports.md)

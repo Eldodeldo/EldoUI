@@ -46,7 +46,7 @@ Close the game, delete the old EldoUI folders, and unzip the new version. Your s
 
 ## First start
 
-The installer opens on your first login. It walks you through the UI scale, a layout, style presets, your role, the modules you want, Blizzard's own UI, chat, and other addons. Nothing changes until you click Apply or Finish, and `/eui install` runs it again at any time.
+The installer opens on your first login. It walks you through the UI scale, a layout, style presets, your role, the addons you already use, the modules you want, Blizzard's own UI, chat, and other addons. Nothing changes until you click Apply or Finish, and `/eui install` runs it again at any time.
 
 New to EldoUI? Start with [Getting started](docs/wiki/getting-started.md).
 
@@ -69,7 +69,7 @@ The [command reference](docs/wiki/commands.md) lists all of them.
 
 - **Game:** WoW: Forever (Interface 16001). EldoUI does not run on Classic Era or Retail.
 - **Languages:** English. The Loot Guide is also translated into German, French, Spanish, Brazilian Portuguese, Russian, Korean, and Chinese.
-- **Other addons:** EldoUI works next to Details!, BigWigs, Deadly Boss Mods, Questie, RestedXP, HandyNotes, and Masque. Modules such as Bags, Nameplates, and Action Bars stay off while an addon that does the same job is loaded.
+- **Other addons:** EldoUI works next to Details!, BigWigs, Deadly Boss Mods, Questie, RestedXP, HandyNotes, and Masque. It notices the addons you already use for bags, bars, frames, chat, and more, and steps back where they do the same job: a whole module (Bags while Bagnon is loaded) or only the parts both do (selling gray items with Leatrix Plus). You pick who handles each job on the Other addons page, with `/eui addons`, or in the setup. See [Using EldoUI with other addons](docs/wiki/other-addons.md).
 
 ## Documentation
 

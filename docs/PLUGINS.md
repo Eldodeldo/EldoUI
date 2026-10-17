@@ -207,6 +207,53 @@ again.
 A module can still define `function M:OnInstall()`; it runs at the installer's
 Finish on a fresh profile.
 
+## Other addons that do the same job
+
+When another addon does the same job as your module, EldoUI steps back for
+it, lists it on the Other addons page and in `/eui addons`, and lets the
+player pick who handles the job (`Core/AddonConflicts.lua` has the details).
+Declare it in one of three ways:
+
+```lua
+-- 1. The whole module stays off while one of these addons is loaded
+--    (addons that own the same frames). Folder names, as in the TOC file.
+local M = EldoUI:NewModule("MyBars", { title = "My Bars", conflicts = { "Bartender4", "Dominos" } })
+
+-- 2. Only one part stands back (scope "overlap"); the rest keeps running.
+EldoUI:RegisterCompetitor({
+	addon = "SomeBarAddon",           -- folder name
+	module = "MyBars",
+	feature = "pagearrows",           -- your own key for the part
+	scope = "overlap",
+	label = "Page arrows",            -- what overlaps, in player words (shown)
+	active = function()               -- optional: false while the other addon
+		local db = _G.SomeBarAddonDB  -- has this job switched off; read its
+		return not (db and db.arrows == false) -- saved settings, never write them
+	end,
+	exclusive = true,                 -- optional: both can't run on the same
+	                                  -- frames, so picking yours turns it off
+	note = "SomeBarAddon draws its own page arrows.", -- for maintainers, never shown
+})
+
+-- 3. No other addon does this (the absence is a decision), or your module
+--    is made to work next to other addons and never stands back.
+EldoUI:NoKnownCompetitor("MyBars", "Bars only EldoUI draws.")
+EldoUI:MarkCompanion("MyBars")
+```
+
+The older `EldoUI:RegisterFeatureConflicts(feature, { "Addon" })` keeps working
+and makes overlap entries on that feature key.
+
+In your code, gate a part with `EldoUI:StandsBack(M, "pagearrows")` (true,
+folder, title while it stands back) and refresh it in
+`function M:OnStandBack(feature, standing)`, which EldoUI calls when the player
+picks or another addon loads later. A whole module needs nothing: EldoUI does
+not enable it while it stands back. `EldoUI:GetModuleConflict(M)` returns the
+folder and the title of the addon that holds it; show the title, never the
+folder. EldoUI never turns another addon on or off by itself, and neither may
+a plugin: the player's click on the Other addons page or the setup's Finish
+does it.
+
 ## Other hooks
 
 | Need | Call | Documented in |
@@ -284,6 +331,7 @@ Plugins page shows the version seen. `E:GetNewerVersionSeen(addon)` returns it.
 - `## Dependencies: EldoUI` and a `## Version` in the .toc.
 - `plugin = "<your folder>"` in every `NewModule` call.
 - Every option has a `desc`; no option that does nothing.
+- If another addon does the same job as your module, it is declared (`conflicts` or `RegisterCompetitor`), so EldoUI steps back for it.
 - `/eui diag` shows your plugin with its version; the Plugins page switch turns
   it off and on.
 - Your setup pages change nothing until Apply.

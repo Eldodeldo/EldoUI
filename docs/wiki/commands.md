@@ -10,6 +10,7 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | `/eui search <words>` | Open the config window with every setting that matches |
 | `/eui help [command]` | The command list, or how to use one command |
 | `/eui modules` | List the modules and whether they are on |
+| `/eui addons` | Which other addons do an EldoUI job, and who handles each job. `/eui addons use <addon>` lets EldoUI do that addon's jobs, `/eui addons keep <addon>` leaves them to the addon, `/eui addons page` opens the Other addons page |
 | `/eui <module> on`, `off`, `toggle` | Switch a module; `/eui <module>` alone opens its settings. `/eui enable <module>` and `/eui disable <module>` do the same |
 | `/eui whatsnew` | What changed in this version |
 | `/eui version` | The EldoUI version |

@@ -24,7 +24,7 @@ Counts your dungeon and raid entries against the hourly instance limit (5 per ho
 
 ## Battleground Timers
 
-Timer bars for battlegrounds: queue time against the game's estimate, time to enter, battle start, base captures from the map, the expected winner and time left from the score widgets, and when a flag is back. Skins, moves or hides Blizzard's start countdown. Shift-click puts a bar's text in the chat box (it never sends on its own). Steps back for DBM-PvP and Capping. `/eui probe bg` prints the battleground's widgets and map points.
+Timer bars for battlegrounds: queue time against the game's estimate, time to enter, battle start, base captures from the map, the expected winner and time left from the score widgets, and when a flag is back. Skins, moves or hides Blizzard's start countdown. Shift-click puts a bar's text in the chat box (it never sends on its own). Steps back for DBM-PvP and Capping. `/eui probe bg` prints the battleground's widgets and map points, and keeps the last 20 of these reports in the SavedVariables file (`/eui probe bg clear` removes them).
 
 ## Dungeon Routes
 

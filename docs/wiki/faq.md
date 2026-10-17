@@ -22,7 +22,7 @@ The Loot Guide data (`EldoUI_LootData`), the gear simulator (`EldoUI_LootSim`), 
 
 ## Another addon already does this. Do they clash?
 
-A module stays off while an addon that does the same job is loaded: for example Bags while Bagnon, AdiBags or Baganator is loaded, Nameplates while Plater is loaded, or Action Bars while Bartender4 or Dominos is loaded. Turn the other addon off if you want EldoUI's version.
+No. EldoUI notices the addons you already use and steps back where they do the same job: Bags stays off while Bagnon, AdiBags or Baganator is loaded, Nameplates while Plater is loaded, and Action Bars while Bartender4 or Dominos is loaded. With addons that do many small things, such as Leatrix Plus, only the parts both do step back. You pick who handles each job on the Other addons page (`/eui addons`) or in the setup. See [Using EldoUI with other addons](other-addons.md).
 
 ## Where are my settings, and how do I start over?
 

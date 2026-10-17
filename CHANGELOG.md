@@ -13,6 +13,13 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Pet and stance bars have a Fill order option, so an upright bar fills column by column. Imported upright pet and stance bars use it.
 - The setup's Other addons step can place Guidelime's guide window at your layout's guide spot (it moves there after the next /reload).
 - The Shopping List tracker has its own visibility settings and hides in combat by default.
+- Express setup has a class setup for every class. Hunters get pet frames and Feed Pet warnings, warlocks armor, pet and Healthstone reminders with a Soul Shard counter, rogues combo points on the nameplate and a Flash Powder counter, warriors rage ticks and a Battle Shout reminder. Mages, priests, druids and paladins get buff reminders you click to cast and a self-cast macro, and mages the consumable bar with conjured food and water first. Every class gets its key spells on empty action slots for its role.
+- Warrior spells go on the bar of the stance they are used in, and rogue openers on the stealth bar.
+- Shared window parts for module windows: fold sections with a centered title, two-line list rows with class colors and small action buttons, slim icon rails, and a colored line under a window title.
+- EldoUI notices the addons you already use for bags, bars, frames, chat and more, steps back where they do the same job, and lets you pick which one handles each job on the new Other addons page or with `/eui addons`.
+- The setup has a step "Addons you already use" when EldoUI finds one: keep your addon or let EldoUI take the job. Nothing changes before Finish, and Finish names every addon it turns off.
+- Unit Frames, Party and Raid, Nameplates, Class Resources, Auras, Action Bars, Cooldown Manager, Minimap, Bags, Tooltips, Alerts and Banners and Loot now start with a live preview that redraws as you change their settings.
+- The Talent Planner shows your plan's pick order: a small number on each talent tells you which of your plan's points takes it first, also on Blizzard's talent window, and the talent's tooltip lists every point. Turn it off under Pick order numbers.
 
 ### Improved
 - With the minimap kept and skinned, Forever's new header and tracking button art now goes flat too, and the tracking button shows a plain tracking icon.
@@ -31,8 +38,22 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - Data panels form one column under the first, and panels attached to the chat or minimap stack instead of covering each other. Panels on the chat now sit above it.
 - Every Class Power style fits the layouts for every class, combo points included. A druid's mana runs inside the power bar by default.
 - Main tanks move beside the raid when it grows tall.
+- Data panels placed in the chat window or on the minimap now sit inside that frame. The chat text and the minimap icons make room, so nothing around them gets covered. The chat window holds three panels, the minimap two.
+- Importing an EllesmereUI profile puts a full-width data bar on the main Info Bar (left, center and right as in EllesmereUI) instead of a separate panel. A second one fills the second info bar, stacked right against the first when both sit on the same edge.
+- `/eui probe bg` keeps its last 20 reports in your saved settings, so one file after a few battlegrounds holds them all (`/eui probe bg clear` removes them).
+- Druid form mana stays inside the power bar with the druid class details, clear of a detached power bar.
+- EldoUI's windows draw a soft light edge in the Modern style, and their text stays crisp without an outline at every text outline setting (bars and frames keep the outline you pick).
+- The chat's side buttons (Copy, Find, Errors) use the shared icon rail every EldoUI window now has.
+- The options sidebar starts with four quick actions (Move mode, Keybind mode, Global settings and Profiles), and the Search features box is one key away with `/`. What's new and Errors moved to the foot of the sidebar, next to the version line.
+- The general settings are now five hub pages (Global settings, Layout and style, Modules, Profiles, Lists and tags): one sidebar row each, their pages as tabs at the top, and a page's own tabs as a smaller row below. Left and Right switch tabs after a click in the window.
+- The options footer is calmer: Reload UI counts the changes that wait for a reload and names them in its tooltip (the banner over the page is gone), and the Share menu sits next to the page search with a new Copy from profile for module pages.
+- The options window groups every section's settings on its own card under a small label, with taller rows and on/off switches instead of check boxes; clicking a setting's name still switches it.
+- Option tooltips open to the left when the window sits near the right edge of the screen.
+- With Leatrix Plus, TradeSkillMaster, ElvUI or a bar addon, EldoUI steps back only for the parts both do, instead of turning a whole module off.
 
 ### Fixed
+- Error reports now also leave out quoted text in the error message itself, such as a chat line or another player's name.
+- A full-width Info Bar now stretches to the new screen width after a resolution or UI scale change.
 - The "Instance difficulty" minimap button setting is gone, because Forever no longer shows that flag. The Mail setting now says "The new-mail icon."
 - Cooldown Manager keybind text finds the rank of a spell that is actually on your bars.
 - Combat Text: "Auras fading" is gone, because the game no longer offers it.
@@ -45,6 +66,11 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 - The error log no longer shows doubled brackets after a blocked function's name.
 - The info bar style with two bars is grayed out where the layout has no room for it.
 - Spell Efficiency: a value exactly halfway between two shown numbers now always rounds up, on Windows and Mac alike.
+- Cooldown Manager keybind text shows on a spell when you keep a lower rank of it on your action bars.
+- The "Second info bar" switch is grayed out in layouts with no free edge for it, like the Two bars style.
+- The class setup page no longer pushes its two options off the page; the list of what it does scrolls.
+- On the Eldo-Blizz layout the stance bar no longer covers the target's cast bar.
+- Healer role on Eldo-Wide and Eldo-Syntax: the combat text box no longer covers Battle.net friend toasts.
 
 ## [0.6.6001] - 2026-10-16
 

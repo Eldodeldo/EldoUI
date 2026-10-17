@@ -25,12 +25,13 @@ The setup wizard opens on the first login of each character. It walks through:
 4. **Styles**: style presets per module (looks only).
 5. **Accessibility** (optional): high contrast, large text and color-blind safe colors. Nothing is ticked; a switch you tick can be turned off again in `/eui` > General > Accessibility, which also has sound cues.
 6. **Role**: damage, healer or tank. Each moves a few frames to where that role wants them, on top of the layout.
-7. **Modules**: which EldoUI modules are on.
-8. **Blizzard UI**: which parts of Blizzard's UI EldoUI may change.
-9. **Chat**: keep your chat windows, add EldoUI's chat tabs, or reset the chat windows first; a font size and class-colored names.
-10. **Game settings**: a few of the game's own interface settings that fit EldoUI (locked action bars, cooldown numbers, detailed tooltips and others). Only what you tick changes, and **Blizzard default** in `/eui` puts your own values back.
-11. **Other addons**: set up supported addons (Details!, BigWigs and others) from EldoUI's profiles.
-12. **Convenience**: auto repair, selling gray items and faster auto loot, only if you leave them ticked.
+7. **Addons you already use** (only when EldoUI finds one): for each job another addon does, keep that addon or let EldoUI do it. EldoUI is marked Recommended. Nothing changes before Finish, and Finish names every addon it turns off (see [Using EldoUI with other addons](other-addons.md)).
+8. **Modules**: which EldoUI modules are on.
+9. **Blizzard UI**: which parts of Blizzard's UI EldoUI may change.
+10. **Chat**: keep your chat windows, add EldoUI's chat tabs, or reset the chat windows first; a font size and class-colored names.
+11. **Game settings**: a few of the game's own interface settings that fit EldoUI (locked action bars, cooldown numbers, detailed tooltips and others). Only what you tick changes, and **Blizzard default** in `/eui` puts your own values back.
+12. **Other addons**: set up supported addons (Details!, BigWigs and others) from EldoUI's profiles.
+13. **Convenience**: auto repair, selling gray items and faster auto loot, only if you leave them ticked.
 
 On an alt that uses a profile another character set up, the steps that change the whole profile start on "keep", so the alt can't undo your main's setup by clicking through. Skipping the setup on a fresh profile still gives it the layout's sizes.
 
