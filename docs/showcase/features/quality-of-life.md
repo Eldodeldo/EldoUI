@@ -82,6 +82,10 @@ A small leveling timer shows your time on this level and the difference to your 
 
 The world map shows flight masters, boats, zeppelins, the tram and fixed portals for your side, each kind with its own shape and color. Flight masters and their "not found yet" state come from the game; where each one flies is learned when you open its flight map, and learned flight times show in the tooltip. Right-click a stop to set a waypoint. The Routes tab lists the stops of a zone, where each goes and what arrives there. Taking a flight is always your own click at the flight master.
 
+## Mage Travel
+
+For mages, one button opens a list of the teleports and portals you know, with how many runes of each kind are in your bags. Click a row to cast that spell; the list closes after the cast if you like and hides in combat. It is off until you turn it on.
+
 ## NPC Dialog
 
 Quest and gossip NPCs talk in a large, readable view: keys 1 to 9 pick a choice, Space shows the whole text and then goes on, R shows rewards and Esc leaves. It never accepts, completes or picks anything for you; a page with several rewards waits for your pick. In combat and for special frames the game's own window is used.

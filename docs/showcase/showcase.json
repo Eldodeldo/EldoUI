@@ -651,6 +651,13 @@
       "page": "features/quality-of-life.md#transport-maps"
     },
     {
+      "module": "MageTravel",
+      "title": "Mage Travel",
+      "text": "For mages: one button that lists the teleports and portals you know with your rune counts; click a row to cast it.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#mage-travel"
+    },
+    {
       "module": "ZoneQuests",
       "title": "Zone Quests",
       "text": "Every zone's done and remaining quests with their givers, optional quest giver pins on the world map and a quest count in the zone tooltip.",
@@ -670,6 +677,13 @@
       "text": "In a group, compare your quests with your party (Shared, Only mine, Only theirs), with one-click Share and Ask and progress sync with members who run EldoUI (addon messages only, never chat).",
       "wiki": "modules",
       "page": "features/group.md#party-quests"
+    },
+    {
+      "module": "BlessingPlan",
+      "title": "Blessing Plan",
+      "text": "Plan which blessing each paladin keeps up on each class, then send the plan to the group or post it in chat with one click.",
+      "wiki": "modules",
+      "page": "features/group.md#blessing-plan"
     },
     {
       "module": "Dialogue",

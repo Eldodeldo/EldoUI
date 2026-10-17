@@ -66,6 +66,7 @@ Each module name links to its section in the showcase.
 | [Raid Loot](../showcase/features/group.md#raid-loot) | softres.it and That's My BiS imports on tooltips and loot rolls, and a GDKP ledger with sales, cuts and payouts. | `raidloot` | On |
 | [Ready Check Report](../showcase/features/group.md#ready-check-report) | On a ready check, one panel lists each member's missing buffs, flask or elixir, food and shared durability, with one-click Post to group. | `readyreport` | On |
 | [Party Quests](../showcase/features/group.md#party-quests) | In a group, compare your quests with your party (Shared, Only mine, Only theirs), with one-click Share and Ask and progress sync with members who run EldoUI (addon messages only, never chat). | `partyquests` | On |
+| [Blessing Plan](../showcase/features/group.md#blessing-plan) | Plan which blessing each paladin keeps up on each class, then send the plan to the group or post it in chat with one click. | `blessingplan` | On |
 
 ## Chat and Social
 
@@ -130,6 +131,7 @@ Each module name links to its section in the showcase.
 | [Hardcore](../showcase/features/quality-of-life.md#hardcore) | For Hardcore characters: a death log, death alerts, a Tell the guild card, PvP-flag warnings and Self-Found reminders. | `hardcore` | On |
 | [Split Timer](../showcase/features/quality-of-life.md#split-timer) | A leveling timer that races your own best, with a card at each level-up and a Splits tab in the Characters window. | `splittimer` | On |
 | [Transport Maps](../showcase/features/quality-of-life.md#transport-maps) | Flight masters, boats, zeppelins, the tram and portals on the world map, with where each one goes. | `transport` | On |
+| [Mage Travel](../showcase/features/quality-of-life.md#mage-travel) | For mages: one button that lists the teleports and portals you know with your rune counts; click a row to cast it. | `magetravel` | Off |
 | [NPC Dialog](../showcase/features/quality-of-life.md#npc-dialog) | An optional dialog view for quest and gossip NPCs with big text, numbered choices, Space to go on and Esc to leave. | `dialogue` | Off |
 
 ## Plugins

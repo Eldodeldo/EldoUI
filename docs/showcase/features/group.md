@@ -43,3 +43,7 @@ When a ready check starts, one panel shows what each member is missing: class bu
 ## Party Quests
 
 An optional panel in a group compares your quest log with your party in three cards: Shared, Only mine and Only theirs. Share uses the game's own quest share; Ask sends one whisper per click and is never answered automatically. Party Quests is on by default, and so is "Sync with group": it shares your quest progress with group members who also use EldoUI, as addon messages only, never chat, for progress popups and a summary when the group ends. It stays silent in battlegrounds and arenas, and in raids while Hide in raids is on (the default). `/eui party`.
+
+## Blessing Plan
+
+A small window with one row per paladin in your group and one square per class. Click a square to pick the blessing that paladin keeps up on that class, right-click to clear it. Send to group shares the plan with paladins who run EldoUI, who see their part in one chat line and on the blessing reminder's tooltip; Post in chat writes one line per paladin to party or raid chat. Both happen only on your click and never in combat, and nothing is cast for you.

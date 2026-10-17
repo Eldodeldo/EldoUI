@@ -6,6 +6,49 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### New
+- Mage Travel: one button lists the teleports and portals you know with your rune counts; click a row to cast it. It has its own spot next to the Consumable Bar in every layout.
+- Blessing Plan: plan which blessing each paladin keeps up on each class, then send the plan to the group or post it in chat with one click.
+- Class reminders for rogue poisons on each weapon, paladin seals and Righteous Fury, priest Divine Spirit and Shadow Protection, and druid Omen of Clarity. Warlocks can show their Soul Shard count on the mana bar.
+- Mages get a mana gem button on the Consumable Bar with the gem's count and cooldown, and it can be bound to a key.
+- The Talent Planner and Blizzard's talent window have Import build: paste a talent calculator link, a talent string, a loadout string or an EldoUI plan, see what it holds, and save it as a plan.
+- Training lists what you can learn soon, with the level you need shown in red.
+- Minimap buttons can sit on a slim rail along the left or right edge of the map, with a tooltip naming each one; the "Button rail" style sets it up in one click.
+- Shift-click the experience or reputation bar for a small details window with experience, reputation and honor in folding sections.
+- The Combat HUD page opens on an overview with one folding section per display and its current state.
+- General > Modes in one row puts Move mode and Keybind mode under one Modes button in the options window's sidebar.
+
+### Improved
+- A bar or unit frame style that would run into another frame in your layout now says so in its row ("Too large for this layout") instead of overlapping it: the Large and Compact bar styles in most layouts, and the Portrait and Healer frame styles in Modern.
+- Every layout now puts the micro menu along the bottom next to the bags, sized and arranged to fit that layout. A micro menu you moved yourself stays where you put it.
+- A new character sees EldoUI's chat and action bars from the first login, before the setup is finished. The Blizzard UI step can still bring Blizzard's back.
+- The setup's preset packs, layout pictures, chat preview and last page use the same cards as the options window and follow your art style.
+- Hovers, selections, switches and tabs in the options window and the setup change with a short, soft fade. Turn off General > Animations to have every change at once.
+- Long settings pages (Consumable Bar, Cooldown Manager) fold their sections with a click on the section line; folded sections stay folded, and a search or a settings link opens them.
+- When another addon does one of EldoUI's jobs, EldoUI tells you with an alert that has a Choose button, instead of a chat line.
+- When a command needs a module that is off, every module says it the same way, names the addon that holds it back if there is one, and offers the enable command as a click that puts it in your chat box.
+- Class setups add form bars for druids, Taunt for warrior tanks, item and pet macros, counters by level and restock items without replacing your list; Aura Groups offers ready-made examples for your class that keep up with your newest rank.
+- The Training window sits beside the spellbook as its own window. Resize it or drag it free, and it remembers its size and place.
+- My Adventure uses larger text, trip cards show their full titles, raids and dungeons show their own pictures and are listed only once, and the German and French texts were corrected.
+- Imports and copied talent paths in the Talent Planner confirm in the window, with Undo for a copied path, and talents you already learned keep their pick order number on Blizzard's talent window.
+- The character window's stat sections fold with one click and stay folded; labels and values line up at every text size.
+- The instance log, the Recently grouped list and the split timer use two-line rows and folding sections, with boxed Copy, Remove, Whisper, Invite and Add friend buttons.
+- Quest tracker section headers sit centered between two thin accent lines, with a small arrow that folds the section.
+- The bag and bank windows keep their tools (sort, bank, view, search all characters) on a slim icon rail at the side, and every section title folds with a click. Ctrl-click a rail button for the Bags options.
+- Right-clicking a Consumable Bar button opens a small picker with each item's icon, quality color and how many you carry.
+- Cooldown Manager lists a group's icons with their keys, with buttons to reorder or remove them and a side rail for a new group, move mode and keybind mode.
+- The zone name, clock and coordinates on the minimap sit on small backing plates so they stay readable on bright maps and never run into each other.
+- The import window shows the result of each click in the window itself and lists which parts of a bundle were not applied and why.
+- The macro editor's text grows with Large text.
+
+### Fixed
+- Blizzard's own nameplate no longer reappears under the EldoUI nameplate when a mob enters combat, changes phase or is set up again by the game, and your target's selection glow no longer shows through.
+- The setup now opens on a brand new character, also after the race intro cinematic, and comes back on the same step after any cinematic or movie.
+- Healer combat text no longer covers the action bars in EldoClean, EldoWide and EldoSyntax, and the ping feed steps aside for it in EldoCookies.
+- Data panels docked on a round minimap stay inside the circle and keep enough background to read over the map.
+- The font picker and the look preview in the options window grow with Large text.
+- List rows in EldoUI windows keep their height.
+
 ## [0.6.6002] - 2026-10-17
 
 ### New
