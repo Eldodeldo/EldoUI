@@ -95,6 +95,7 @@ Commands that belong to one module.
 | `/eui streamer [on\|off\|toggle]` | Streamer Mode | Show aliases in place of real names |
 | `/eui party` | Party Quests | Show or hide the Party Quests panel |
 | `/eui clickcast` | Click Casting | The click-casting bindings window |
+| `/eui blessings` | Blessing Plan | Open or close the Blessing Plan window |
 | `/eui raidtools` | Raid Tools | Show the raid tools bar for a minute |
 | `/eui pull [seconds\|cancel]` | Raid Tools | Start the group pull countdown (party, or lead or assist in a raid), or cancel it |
 | `/eui timeline [test dungeon\|raid\|pull\|stop]` | Encounter Timeline | The timeline settings, or start and stop a test fight |

@@ -6,6 +6,51 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### New
+- The keybind setup can put your known class spells on the empty buttons of their category when you apply, so every character finds them under the same keys. Buttons with your own actions keep them, nothing moves by itself later, and Take back removes the placed spells again.
+- `/eui blessings` opens or closes the Blessing Plan.
+- New profiles gather addon minimap buttons behind one button; the drawer opens toward the middle of the screen and closes with a click elsewhere or Escape. "Manage buttons" keeps any button on the map.
+- An unfinished setup now reminds you once per login: a chat line with /eui install and a small "Finish your EldoUI setup" alert with Start or Continue setup, Later and Don't remind me. A setup you close no longer opens by itself at the next login.
+- Vanilla unit-frame graphics crown the target and focus portrait of an elite with gold and a rare with silver.
+- Native skins draw a thin ring around aura icons and cooldown icons; small icons keep their clean edge.
+- Layout and style > UI amount: choose Essential, Moderate or Full. Each level only switches EldoUI's optional helpers on or off, shows what it changes before you apply it, marks the level recommended for your layout, and can be undone. Your frames, skin, key bindings and other addons stay as they are.
+- Layout and style > Overview: your whole look on one page, with three complete looks (Structured, Focus and Portrait Forge), the layout, the UI amount and Blizzard's windows, a summary of what changes and one Apply button.
+- Move mode shows your setup (EldoUI version, layout, skin, role and UI amount) at the bottom of its panel, ready for a screenshot, and "Copy setup" gives the full summary for a bug report. The Split Timer now has its box in move mode's Combat view.
+- Right-click a box in move mode to pick a Layout (Horizontal, Vertical or Grid) for the Micro Menu, the Bag Bar and the action bars; the Micro Menu can also go back to Blizzard's own placement, and Options… opens its settings.
+
+### Improved
+- The second info bar now sits in the top edge of the chat window by default, so the two-bar info bar styles work in every layout. Pick "Its own mover" to place it freely; a bar you already use keeps its spot.
+- The keybind setup now names Ghost Wolf, Aspect of the Cheetah and Resurrection for their categories.
+- My Adventure's Parchment look prints its text as clean ink, without the dark outline that made letters run together, and a light paper wash calms the parchment grain under long text.
+- On the Blizzard UI page, each Blizzard window says where its look comes from: the Blizzard windows choice, your own pick, or no EldoUI skin yet. The windows summary on the Appearance page no longer counts a window EldoUI has no skin for as skinned.
+- Closing the Auction House, a vendor or your bags does less work at once, which removes a short hitch.
+- The stopwatch is a compact timer in the EldoUI look: digits and buttons on one row, boxed start, pause and reset buttons with tooltips, and a slim title bar that fades in when you point at it.
+- The addon button bin leaves hidden buttons hidden without gaps, finds more addon buttons, and steps aside while MinimapButtonButton or HidingBar is loaded. The "Button rail" style no longer changes how addon buttons are gathered.
+- The RestedXP guide mover now covers the whole guide, including its current step card above or below it, and follows RestedXP's changes. Before your setup is done, the guide waits under the game's player frame instead of covering it. The RestedXP settings and the setup's Other addons step say which addons EldoUI places.
+- Party frames with portraits now show the unit-frame graphics' portrait ring or frame, drawn inside the portrait so dense groups keep their room.
+- Every skin now decides on its own how the bronze marks of the Loot Guide, NPC dialog and Party Quests and the selected tabs look; the warm skins show them in their own color.
+- With the minimap buttons skin on, the addon compartment's count uses the EldoUI font.
+- Section names in the options sidebar wrap to a second line with Large text instead of being cut, and a Setup reminders option on General brings the setup reminder back after "Don't remind me".
+- The Shaman Totems bar has its own place in every layout, and kept totem timers sit above it.
+- The Minimal unit-frame style now keeps a slim power bar, so your mana, rage or energy is always in view.
+
+### Fixed
+- The Shopping List no longer leaves an empty header on screen when nothing is pinned, also after placing frames. Right-clicking its header offers Hide again, like other EldoUI boxes.
+- The mailbox toolbar now has its own row under the Inbox and Send Mail tabs instead of sharing their strip. Send Mail shows only the Sent log button on the toolbar, and the extra Sent log button over the postage is gone.
+- The Talent Planner button and build bar on the game's talent window now draw above the window's own controls.
+- A wide first letter of a chapter in the Book no longer runs into the words beside it.
+- Player names written in Cyrillic, Korean or Chinese show their letters on nameplates instead of empty boxes, while Latin names keep the picked font.
+- The Bag Bar and Micro Menu boxes in move mode now match the bars you see, so dragging and snapping line up with the buttons.
+- In Blizzard's Edit Mode, the empty Bags and Micro Menu boxes no longer sit where the bars used to be while EldoUI places them; drag EldoUI's own box instead.
+- A new character's intro scene no longer pauses the EldoUI setup. The setup waits until the scene and its skip question are over, and until the Escape key is released, then opens once.
+- A name shown above a unit frame and the level text above its corner no longer sit under the graphics' border.
+- Buffs, group pets, tanks and the second resource bar move aside when a larger minimap, a wider raid or a separate resource bar would cover them, and the healer layouts give every optional frame a spot of its own.
+- Alert cards with a long text, such as "New in this version", now grow to fit their text and buttons at every text size, so they no longer run into their buttons or the card below.
+- Health bars on unit frames with the Vanilla or Portrait Bars graphics no longer turn into a dark bar under the health numbers.
+- Name plates and unit-frame cast bars no longer show errors when the game keeps a plate's look or a cast target's size hidden.
+- The addon memory tooltip on the info bar no longer leaves a mark on Blizzard's frames while it refreshes.
+- Eldo-Vanilla: the enemy spotter moves down when the group pets grid is wide, so the two never overlap.
+
 ## [0.6.6004] - 2026-10-18
 
 ### New
