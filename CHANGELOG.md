@@ -6,6 +6,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.6.6005] - 2026-10-18
+
 ### New
 - The keybind setup can put your known class spells on the empty buttons of their category when you apply, so every character finds them under the same keys. Buttons with your own actions keep them, nothing moves by itself later, and Take back removes the placed spells again.
 - `/eui blessings` opens or closes the Blessing Plan.
@@ -885,7 +887,8 @@ The first public version of EldoUI for WoW: Forever.
 - Fixes for keybind mode, instant message themes, the installer, roll arrows, the tooltip fallback, and options that did nothing.
 - Character keys ignore the Forever surname, and the weapon enchant check uses the current item API.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6004...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6005...HEAD
+[0.6.6005]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6005
 [0.6.6004]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6004
 [0.6.6003]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6003
 [0.6.6002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6002
