@@ -186,6 +186,10 @@ shadow:SetBackdropBorderColor(0, 0, 0, 0.8)
 
 `EldoSoft.tga`, `EldoMatte.tga`, `EldoSheen.tga` and `EldoCaps.tga` (256x32) are original EldoUI textures generated procedurally with Python (NumPy and Pillow), Apache 2.0 like the rest of EldoUI. Soft is a gentle rounded gradient, Matte a fine-grain matte bar with a darker lower edge, Sheen a flat bar with a diagonal highlight, and Caps a flat bar with a light top and dark bottom line. No third-party artwork was used; they are made to give looks similar to popular community bar styles without copying them.
 
+### Skin textures (`Media/Textures/Skins/`)
+
+`Media/Textures/Skins/` holds the art of the skins: one folder per look (`VANILLA`, `VANILLA_REFINED`, `PARCHMENT`, `FORGED`, `PORTRAIT_CLASSIC`, `HERITAGE_ALLIANCE`, `HERITAGE_HORDE`, `HERITAGE_NEUTRAL`, `ARCANE`, `MINIMAL`) with its `panel`, `border`, `corner`, `ring`, `portrait`, `bar`, `button` and `divider` textures (Warcraft Parchment also has a light `paper` tile), and `SHARED/` with the portrait masks (`mask-round`, `mask-roundsq`, `mask-octagon`, `mask-hex`, `mask-shield`) and the bar shared by the three Faction Heritage looks. They are original works created for EldoUI, drawn from math (shapes and seeded noise) by `tools/gen_skin_art.py`, and use no third-party artwork. They are licensed under Apache 2.0 like the rest of EldoUI. All files are 32-bit uncompressed TGA with an 8-bit alpha channel and power-of-two sizes, drawn at two texels per UI pixel; the colors, slice margins and sizes of every file are in `Data/SkinData.lua`, which the same script writes.
+
 ## Cast bar particles (`Media/CastFX/`)
 
 `EldoCastFXEmber`, `Flake`, `Leaf`, `Mote`, `Chip`, `Puff`, `Drop`, `Streak` and `Rune` (`.tga`) are original works created for EldoUI. They are drawn from math by `tools/gen_castfx_particles.py` and use no third-party artwork. They are licensed under Apache 2.0 like the rest of EldoUI.

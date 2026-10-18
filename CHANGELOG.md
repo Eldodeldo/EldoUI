@@ -6,6 +6,47 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### New
+- Eight new skins for the whole UI: Minimal Modern, Vanilla Original, Vanilla Refined, Warcraft Parchment, Forged Metal, Portrait Classic, Faction Heritage and Arcane. Each brings its own frames, buttons, bar texture, title font and accent color, and Faction Heritage follows your character's faction or the one you pick.
+- The Appearance page under Layout and style: pick a skin for the whole UI or let each layout bring its own, a faction look, a skin per part, and the look of Blizzard's own windows. Art style is now called Skin.
+- Blizzard's own windows (character, bags, spellbook, menus and more) can keep Blizzard's original look, match your skin, or follow what your layout was made for. Windows you set by hand keep your choice.
+- Unit-frame graphics: give your unit frames Vanilla rings or Portrait Bars frames in your skin's materials, or keep the flat look. Party and raid frames take your skin's material and a fine edge without taking more room.
+- Keybind setup shows a preview before any key changes: a keyboard with your movement keys, the three main bars with what each key is for and your class's spell for it, and short How to play notes.
+- Three Eldo-Vanilla layouts in the original game's arrangement: portraits in the top left corner, a round minimap top right, the action bars along the bottom with the chat beside them. Compact fits 1080p screens, and Focus brings your frames closer to the center.
+- Each layout brings the skin it was made for. A skin you pick yourself stays when you switch layouts.
+- The Vanilla preset pack. Shared packs now carry the skin, faction look, unit-frame graphics and Blizzard windows.
+
+### Improved
+- Action buttons, bar backgrounds, the minimap frame, chat tabs and window headers take on your skin's frames, ring and colors. The five classic skins look as before.
+- The bar texture can follow your skin, and window titles can use your skin's font.
+- Keybind presets now bind only the main bars 1 to 3 (plain keys, Shift and Ctrl) and come in three choices: Classic movement (recommended), A/D strafe and Number row. Bar 4 and your other bars keep their keys, Character moves to the comma key when a preset uses C, and each preset can be undone in turn.
+- The Large and Compact action bar styles now fit every layout: frames around the bars step aside while a bigger style is on.
+- Larger micro menu and bag bar styles move into the bottom right corner instead of running into the bars.
+- The healer role places its combat text and extra aura spots clear of the optional parts (data panels, extra bars, loot feed, toasts and more) in nearly every layout.
+- Move mode sits next to Reload UI at the bottom of the options window, so the Modes in one row setting is no longer needed.
+- The setup's Role step keeps your class line short (the full list is in its tooltip), and every setup page fits with Large text.
+- The auction house's bottom tabs share one boxed look on a solid dark rail, with the open tab clearly marked.
+- The Characters window lists your characters as two-line rows with class icon, level, zone and last login, and the open one highlighted.
+- Switches, fold headers, side-rail buttons and selected list rows ease into their hover and selection colors (instant with Animations off).
+- Bags: a search that finds nothing says "No matches" in the search box, while your items stay in place, dimmed. Clearing the search brings everything back to full brightness.
+- With the minimap buttons skin, the calendar and the addon compartment sit on the same flat boxes as the tracking button.
+- Objective counts in the quest tracker sit at the right end of their line in the accent color (Look > Counts on the right).
+- An Info Bar panel docked on the minimap with its background off keeps outlined text so it stays readable, and the switch says so.
+- The Ready Check Report closes when a pull countdown starts, so it no longer covers the countdown.
+- Camp Helper panel rows and tooltip lines can be translated and follow the theme's text colors and sizes.
+
+### Fixed
+- One hit now shows one number over your target: while hit numbers on enemy plates are on, Blizzard's damage numbers over enemies step back unless you set them to Show.
+- Blizzard's own nameplate pieces stay hidden under EldoUI plates, and a reused plate no longer keeps aura rows from its last unit. The Nameplates page says which plates show now.
+- Shaman totem timers no longer end up in the chat window; they sit above the totem bar you see or on their own mover.
+- Blizzard's own auction screens, title and Create Auction button no longer show through EldoUI's Shopping, Selling and Canceling pages, and come back as they were when you return to Buy, Sell or Auctions.
+- Clearing the item on the auction house's Selling page clears its price, total, deposit and listing line, and a late price answer for an earlier item no longer fills them in; Rename and the other list buttons are no longer cut short.
+- The Split Timer's texts are clear again: its panel no longer covers them, they update at once when you change the look, and with the panel off they keep an outline over the world.
+- Two-line lists grow with Large text so their second line is never cut off.
+- Tooltips keep their item quality color on the new skins.
+- The setup comes back after a cinematic even when the game doesn't say it ended.
+- Using the Talent Planner, sending a dungeon route or writing a quick note while that feature is off now says how to turn it on.
+
 ## [0.6.6003] - 2026-10-17
 
 ### New

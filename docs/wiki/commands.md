@@ -34,7 +34,7 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | `/eui editlayout [copy]` | Copy Blizzard's active Edit Mode layout as text, or open the import window |
 | `/eui infobar [show\|tab\|hide] [2]` | Show the Info Bar, fold it to a small tab or hide it (`2`: the second bar); alone it opens the Info Bar settings |
 | `/eui kb` | Keybind mode: hover an EldoUI button and press a key |
-| `/eui kb pro`, `classic`, `restore` | One-click keybind preset for every enabled bar, or put your old keys back |
+| `/eui kb movement`, `strafe`, `numbers`, `restore` | Open the keybind preset preview for bars 1-3 (Classic movement, A/D strafe or Number row) and apply it from there, or put your previous keys back |
 | `/eui testframes [on\|off]` | Show every enabled unit frame with sample values |
 | `/eui grouptest [party\|raid10\|raid20\|raid25\|raid40]` | Show or hide test party and raid frames |
 
