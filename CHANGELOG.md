@@ -6,6 +6,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.6.6004] - 2026-10-18
+
 ### New
 - Eight new skins for the whole UI: Minimal Modern, Vanilla Original, Vanilla Refined, Warcraft Parchment, Forged Metal, Portrait Classic, Faction Heritage and Arcane. Each brings its own frames, buttons, bar texture, title font and accent color, and Faction Heritage follows your character's faction or the one you pick.
 - The Appearance page under Layout and style: pick a skin for the whole UI or let each layout bring its own, a faction look, a skin per part, and the look of Blizzard's own windows. Art style is now called Skin.
@@ -838,7 +840,8 @@ The first public version of EldoUI for WoW: Forever.
 - Fixes for keybind mode, instant message themes, the installer, roll arrows, the tooltip fallback, and options that did nothing.
 - Character keys ignore the Forever surname, and the weapon enchant check uses the current item API.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6003...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.6.6004...HEAD
+[0.6.6004]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6004
 [0.6.6003]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6003
 [0.6.6002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6002
 [0.6.6001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6001
