@@ -56,7 +56,7 @@ Fonts and textures are listed in the [media credits](LICENSES/Media.md).
 
 ## Layout inspiration
 
-The 15 generated layout presets in `Data/Layouts.lua` (from `tools/presets.json`) are built on EldoUI's own placement grid (`tools/data/grid.json`): EldoUI's zones, spacing rules, unit frame tracks and column rows on the 1440-unit canvas, and EldoUI's own named accent colors. Each one takes only its general idea from a public community preset made for EllesmereUI, credited below and in the layout's description ("Inspired by ..."). It is inspiration only: no code, positions, colors, text or media from those presets, EllesmereUI or ElvUI are included. Eldo-Modern and Eldo-Classic (`Core/Layout.lua`) are EldoUI's own.
+Fifteen of the 18 generated layout presets in `Data/Layouts.lua` (from `tools/presets.json`) take their general idea from a community preset; the three Eldo-Vanilla presets are EldoUI's own. The generated presets are built on EldoUI's own placement grid (`tools/data/grid.json`): EldoUI's zones, spacing rules, unit frame tracks and column rows on the 1440-unit canvas, and EldoUI's own named accent colors. Each one takes only its general idea from a public community preset made for EllesmereUI, credited below and in the layout's description ("Inspired by ..."). It is inspiration only: no code, positions, colors, text or media from those presets, EllesmereUI or ElvUI are included. Eldo-Modern and Eldo-Classic (`Core/Layout.lua`) are EldoUI's own.
 
 | Layout | Inspired by |
 |---|---|
@@ -75,6 +75,19 @@ The 15 generated layout presets in `Data/Layouts.lua` (from `tools/presets.json`
 | Eldo-Violet | Midnight Lily by Lily TEAM |
 | Eldo-Plates | OnlyPlates by Trenchy TEAM |
 | Eldo-Zerby | ZerbyUI by Zerby |
+
+## Original game textures
+
+EldoUI may draw textures the game itself ships, by their path or file ID, and the Vanilla Original skin is planned to do so for the original interface art. Where WoW: Forever no longer ships an original texture, the plan is to carry a copy of that texture inside the addon. The game's artwork belongs to Blizzard Entertainment and is used under the addon rules of the game; none of it is covered by EldoUI's own license. The table below lists every such file the addon ships, with the public mirror and revision it was taken from, so a reader can check the source. As of this release no original texture is shipped: every Vanilla Original surface still draws game-resident files by path.
+
+| Reference | Revision | What it is used for |
+|---|---|---|
+| https://github.com/Gethe/wow-ui-textures (branch `classic`) | `312a6e61bab69370c65ccc0a08f1075d62196294` | mirror of the client's texture files, for the pieces Forever no longer ships |
+| https://github.com/Ketho/wow-ui-source-vanilla (branch `classic_era`) | `33e177d9bf38d76d5c6c6e05d5da78db1899659a` | frame anatomy reference only (sizes, anchors, texture coordinates); no code is copied |
+
+| Shipped file | Original path | Source and revision |
+|---|---|---|
+| none shipped yet | | |
 
 ## Style inspiration
 

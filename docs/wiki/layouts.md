@@ -8,7 +8,7 @@ EldoUI separates **where** things sit from **how** they look:
 
 ## Layout presets
 
-Seventeen layouts, all built on a 1440-unit-tall canvas (1440p). Pick one in the installer, on the Layouts page of `/eui`, or with `/eui layout <name>` (for example `/eui layout EldoClean`; `/eui layout` alone lists them). Eldo-Modern is the default.
+Twenty layouts, all built on a 1440-unit-tall canvas (1440p). Pick one in the installer, on the Layouts page of `/eui`, or with `/eui layout <name>` (for example `/eui layout EldoClean`; `/eui layout` alone lists them). Eldo-Modern is the default.
 
 | Layout | Idea |
 |---|---|
@@ -28,9 +28,12 @@ Seventeen layouts, all built on a 1440-unit-tall canvas (1440p). Pick one in the
 | Eldo-Cozy | Cozy and close: the resource bar on top, unit frames right beside the character, bars in a small pyramid. Inspired by HedgeForever by mrhedge. |
 | Eldo-Violet | Dark and minimal: all cooldowns in the center, wide-set unit frames at swing timer height, bars in one row along the bottom. Inspired by Midnight Lily by Lily TEAM. |
 | Eldo-Plates | Tank and DPS: your target's details on its nameplate, the player frame inside the center column. Inspired by OnlyPlates by Trenchy TEAM. |
+| Eldo-Vanilla | The familiar original layout: portraits in the top left corner, a round minimap top right, the action bars along the bottom. |
+| Eldo-Vanilla Compact | The original corners in less space: a smaller minimap and chat, smaller bar buttons and no side bars. |
+| Eldo-Vanilla Focus | A modern take on the original look: your frame and your target's sit low beside the center for short eye travel. |
 | Eldo-Zerby | Compact center: player and target close beside the resource bar, four slim bar rows under the character, party left of center. Inspired by ZerbyUI by Zerby. |
 
-Eldo-Modern and Eldo-Classic are EldoUI's own. The other fifteen are built on EldoUI's own placement grid (zones, spacing and frame tracks on the 1440 canvas) with EldoUI's own accent colors; each takes only its general idea from a public community preset, credited above. No code, positions, colors or text are copied.
+Eldo-Modern, Eldo-Classic and the three Eldo-Vanilla layouts are EldoUI's own. The other fifteen are built on EldoUI's own placement grid (zones, spacing and frame tracks on the 1440 canvas) with EldoUI's own accent colors; each takes only its general idea from a public community preset, credited above. No code, positions, colors or text are copied.
 
 ### Other screen sizes
 

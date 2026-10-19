@@ -9,7 +9,7 @@ EldoUI is built with AI assistance, and it is designed and tested for WoW: Forev
 ## Highlights
 
 - **More than 90 modules.** Turn every module on or off with one click or one command. Anything you switch off leaves Blizzard's own version in place.
-- **17 layout presets.** Each one places every frame on a 1440p canvas, in one click. The layouts look the same on 1080p, 1440p, and 4K, and an ultrawide safe area keeps the UI centered.
+- **20 layout presets.** Each one places every frame on a 1440p canvas, in one click. The layouts look the same on 1080p, 1440p, and 4K, and an ultrawide safe area keeps the UI centered.
 - **Move and style everything.** `/eui move` unlocks every frame with grid snap and pixel nudging. Style presets and art styles change the look, never the position.
 - **One config window.** Search finds any setting by name, description, or choice. Changed rows are marked, and a Recent changes list lets you undo.
 - **Guided setup.** A step-by-step installer picks your scale, layout, role, modules, and chat setup on the first login.
