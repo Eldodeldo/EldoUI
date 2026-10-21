@@ -6,6 +6,9 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### Fixed
+- **General:** Every EldoUI version can be downloaded as a zip from its release page.
+
 ## [0.7.0000] - 2026-10-21
 
 ### Highlights
