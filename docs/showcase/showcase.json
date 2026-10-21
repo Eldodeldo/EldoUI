@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "EldoUI",
-  "summary": "An AI-made, deeply modular UI for WoW: Forever. Turn every module on or off, pick one of 17 layout presets, and move and style everything yourself.",
+  "summary": "An AI-made, deeply modular UI for WoW: Forever. Turn every module on or off, pick one of ten layouts and your role, and move and style everything yourself.",
   "license": "Apache-2.0",
   "licenseNotes": "The EldoUI_LootData folder is GPL-3.0-or-later (generated from CMaNGOS classic-db); EldoUI_Emoji graphics are CC-BY 4.0 (Twemoji). See THIRD_PARTY_NOTICES.md.",
   "categories": [
@@ -338,7 +338,7 @@
     {
       "module": "Upgrades",
       "title": "Upgrades",
-      "text": "Pawn-style upgrade arrows from a stat-weight scale: tooltips, bags, merchants, loot rolls and quest rewards.",
+      "text": "Upgrade arrows from a stat-weight scale: tooltips, bags, merchants, loot rolls and quest rewards. Pawn scale strings can be imported and exported.",
       "wiki": "modules",
       "page": "features/items-economy.md#upgrades"
     },

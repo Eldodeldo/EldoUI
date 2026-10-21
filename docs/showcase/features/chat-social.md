@@ -8,8 +8,6 @@ Chat that keeps up with you, and whispers in their own windows.
 
 Chat on an EldoUI panel with clean tabs at the bottom, clickable links with tooltips and icons, and a right panel. It keeps your history between sessions (it asks before deleting it), searches the selected window (`/eui chatsearch <text>`), and alerts you on keywords with a sound per keyword. A spam filter, content filters with blocked phrases, per-channel mutes and colors, emoji with a picker and shortcodes, and the EldoUI error log (`/eui errors`) are built in.
 
-> Screenshot coming soon: the chat panel with tabs, a keyword alert and item links.
-
 ## Instant Messages
 
 EIM: whispers (and, if you like, guild and group chat) in their own messenger windows, with contact info and a history browser. `/eui eim` opens the history; `/eui eim <name>` opens a conversation.

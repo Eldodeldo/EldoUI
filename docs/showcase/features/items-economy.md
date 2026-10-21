@@ -8,8 +8,6 @@ Your bags, your gold and the items you are after.
 
 All bags and the bank in EldoUI windows with categories and a bag bar, item counts across your characters in the tooltip, search with filters, offline viewing and a Blizzard skin mode. Items you already know are tinted, and sorting happens only when you click. `/eui find <text>` searches the items of all your characters; `/eui bank` shows your saved bank anywhere.
 
-> Screenshot coming soon: the bag window with categories and a search in the Eldo-Modern layout.
-
 ## Bag Actions
 
 Alt-click an item in your bags to disenchant it, or Alt-click a lockbox to pick its lock, when you know the profession. You choose the modifier, keep items safe with an exclude list, and set the highest quality it will disenchant. Rows for professions Forever doesn't have stay hidden. The module is off until you turn it on, and nothing happens without your click.
@@ -18,21 +16,17 @@ Alt-click an item in your bags to disenchant it, or Alt-click a lockbox to pick 
 
 A loot journal for dungeons and raids, best-in-slot sets, a wishlist, search and item pages, and loot lines in item tooltips. The data (drops, chances, creatures and quests) comes from the separate EldoUI_LootData folder, which is generated from CMaNGOS classic-db: Classic values, so WoW: Forever may differ. Open it with `/lg`.
 
-> Screenshot coming soon: the Loot Guide journal on a dungeon boss with its loot list.
-
 ## My Adventure
 
-Your character's journal, as the first tab of the Journal window (`/eui journey`). It writes itself as you play: levels, places, dungeons and bosses, quests with who gave them, finds, the people you traveled with, and your own goals and notes with reminders. It tells it back as a Journey by level, day, or zone, as a Book from level 1 to 60 in the tone you pick, as keepsake cards, and as a character card for your screenshot. Next trips suggests dungeons, quests, and attunement steps that fit your level. Moments show in the alert lane and a small tracker sits under your quests. It writes down only what the game shows you and never acts for you. Moving from Forever Journal keeps your history. More on [its wiki page](../../wiki/my-adventure.md).
+Your character's journal, as the first tab of the Journal window (`/eui journey`). It writes itself as you play: levels, places, dungeons and bosses, quests with who gave them, finds, the people you traveled with, and your own goals and notes with reminders. It tells it back as a Journey by level, day, or zone, as a Book from level 1 to 60 in the tone you pick, as keepsake cards, and as a character card for your screenshot. Every dungeon and raid run is kept with who was in it and its loot rolls: who won which item and everyone's roll. Next trips suggests dungeons, quests, and attunement steps that fit your level. Moments show in the alert lane and a small tracker sits under your quests. It writes down only what the game shows you and never acts for you. Moving from Forever Journal keeps your history. More on [its wiki page](../../wiki/my-adventure.md).
 
 ## Upgrades
 
-Pawn-style upgrade arrows from a stat-weight scale in tooltips, bags, merchants, loot rolls and quest rewards. Gems and enchants count, and Pawn scales can be imported and exported.
+Upgrade arrows from a stat-weight scale in tooltips, bags, merchants, loot rolls and quest rewards. Gems and enchants count, and Pawn scales can be imported and exported.
 
 ## Auction House
 
 Shopping lists, quick selling with price checks, canceling, full scans, crafting costs, disenchant values and a price database for the auction house.
-
-> Screenshot coming soon: the auction house with a shopping list and price checks.
 
 ## Merchant
 

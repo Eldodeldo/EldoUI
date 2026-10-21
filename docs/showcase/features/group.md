@@ -6,9 +6,7 @@ Frames and tools for playing with others.
 
 ## Party and Raid
 
-Party, raid, main tank and pet frames with role, leader, status, aggro, buff, debuff, defensive and boss-mechanic indicators. Each section (party, raid sizes, main tanks, pets) has its own layout, text tags, fades, aura filters, glows and heal prediction. `/eui grouptest party` (or `raid10`, `raid20`, `raid25`, `raid40`) shows test frames so you can place and style them.
-
-> Screenshot coming soon: a 5-player party and a 20-player raid with test frames in the Eldo-Modern layout.
+Party, raid, main tank and pet frames with role, leader, status, aggro, buff, debuff, defensive and boss-mechanic indicators. Each section (party, raid sizes, main tanks, pets) has its own layout, text tags, fades, aura filters, glows and heal prediction. The empty part of the health bar stays dark and clearly apart from the frame art in every skin, and the Healer role moves the frames next to the center and makes them larger. `/eui grouptest party` (or `raid10`, `raid20`, `raid25`, `raid40`) shows test frames so you can place and style them.
 
 ## Click Casting
 

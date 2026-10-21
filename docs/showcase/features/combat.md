@@ -6,21 +6,15 @@ Your own frames, your bars and everything the game shows you in a fight. EldoUI 
 
 ## Unit Frames
 
-Player, target, focus, pet, target-of-target, boss, party pet and party target frames, plus switches for Blizzard's own unit frames and cast bar. Each frame has tabs for its bars, text tags, buffs and debuffs, cast bar and icons. Cast bars can hold a finished cast for a moment, flash, hide casts you cannot interrupt and mark important spells. Heal prediction and a fader are built in. `/eui testframes` shows every frame with sample values so you can place and style them.
-
-> Screenshot coming soon: player, target and target-of-target frames with cast bars in the Eldo-Modern layout.
+Player, target, focus, pet, target-of-target, boss, party pet and party target frames, plus switches for Blizzard's own unit frames and cast bar. Each frame has tabs for its bars, text tags, buffs and debuffs, cast bar and icons. Cast bars can hold a finished cast for a moment, flash, hide casts you cannot interrupt and mark important spells. Heal prediction and a fader are built in. Seven style presets include Classic frames, the shape of the original frames with a round portrait, and with the Vanilla Original skin, frames sized like the originals wear the game's own classic frame art, with the elite and rare dragons on the target. `/eui testframes` shows every frame with sample values so you can place and style them.
 
 ## Action Bars
 
-Eight flat action bars plus pet, stance, vehicle, extra ability, totem and gamepad bars, each with its own size, fade and visibility rules. Cooldown numbers, proc glow and Masque support are built in. Keybind mode (`/eui kb`) lets you hover a button and press a key, and one-click keybind presets set up every bar. Buttons that still hold a lower spell rank light up while the spellbook is open; its Check ranks button (or `/eui rankcheck`) lists them, and `/eui ranks` moves them to the highest rank you know.
-
-> Screenshot coming soon: the bottom bars with cooldown numbers and a proc glow in the Eldo-Modern layout.
+Eight flat action bars plus pet, stance, vehicle, zone ability, totem and gamepad bars, each with its own size, fade and visibility rules. Cooldown numbers, proc glow and Masque support are built in. Keybind mode (`/eui kb`) lets you hover a button and press a key, and one-click keybind presets set up every bar. Buttons that still hold a lower spell rank light up while the spellbook is open; its Check ranks button (or `/eui rankcheck`) lists them, and `/eui ranks` moves them to the highest rank you know. With the Vanilla Original skin, a one-row bar 1 sits on the classic stone tray with a gryphon at each end.
 
 ## Nameplates
 
-Slim nameplates per unit type (enemies, friends, pets and more), with a cast bar, your debuffs, quest and elite icons, quest objective progress next to the quest icon, style filters and a target highlight. Switches for Blizzard's nameplate parts and its nameplate settings come back as they were when you turn the module off.
-
-> Screenshot coming soon: enemy nameplates with a cast bar and debuffs in a pull.
+Slim nameplates per unit type (enemies, friends, pets and more), with a cast bar, your debuffs, quest and elite icons, quest objective progress next to the quest icon, style filters and a target highlight. They wear your skin's frame edge and follow your unit frame graphics choice, and in big groups and cities each plate listens only to its own unit, so they stay light. Switches for Blizzard's nameplate parts and its nameplate settings come back as they were when you turn the module off.
 
 ## Buffs and Debuffs
 
@@ -48,7 +42,7 @@ Hold a key for a ring, fan or grid of your own spells, items, macros, mounts and
 
 ## Shaman Totems
 
-A totem bar with one button per element, a hover picker and Drop All, plus a cooldown bar for your shield, weapon imbues and Ankh. Save totem loadouts, share them as codes, see which party members your totems reach, and send a simple group plan. Every totem is cast by your own click.
+A totem bar with one button per element, a hover picker and Drop All, plus a cooldown bar for your shield, weapon imbues and Ankh. Save totem loadouts, share them as codes, see which party members your totems reach, and send a simple group plan. Totem timers kept with the totem bar move under or beside it when the cooldown rows fill the space above it. Every totem is cast by your own click.
 
 ## Pet Care
 

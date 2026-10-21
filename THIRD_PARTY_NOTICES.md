@@ -18,12 +18,12 @@ EldoUI is built with AI assistance, on top of a lot of generous work from the Wo
 ### Data, art, fonts, and sounds
 
 - **CMaNGOS classic-db**: the loot, creature, and quest data in the separate EldoUI_LootData folder (GPL-3.0-or-later).
-- **Twemoji** and **emojibase**: the chat emoji pictures and names in EldoUI_Emoji.
+- **Twemoji** and **emojibase**: the chat emoji pictures and names in EldoUI_Emoji, and the flags in EldoUI's language list.
 - Open fonts by the Barlow, Inter, Open Sans, Plus Jakarta Sans, Poppins, Rajdhani, Roboto, and other font projects, and CC0 and CC-BY sounds from freesound.org creators. Every file is listed in the [media credits](LICENSES/Media.md).
 
 ### Layout presets
 
-Fifteen of EldoUI's layouts take their general idea from public community presets. Thank you to Angelicus07, .kreky, Zentyy, bigbluey, figmentalnewton, syntaxerror., dogobert, joe_gaming1231, 1fach, l3nzu, .rzk., mrhedge, Lily TEAM, Trenchy TEAM, and Zerby. Each layout is listed with its source under [Layout inspiration](#layout-inspiration).
+Fifteen of EldoUI's layouts (seven of the ten built-in layouts and eight legacy layouts) take their general idea from public community presets. Thank you to Angelicus07, .kreky, Zentyy, bigbluey, figmentalnewton, syntaxerror., dogobert, joe_gaming1231, 1fach, l3nzu, .rzk., mrhedge, Lily TEAM, Trenchy TEAM, and Zerby. Each layout is listed with its source under [Layout inspiration](#layout-inspiration).
 
 ### Projects that inspired features
 
@@ -56,38 +56,50 @@ Fonts and textures are listed in the [media credits](LICENSES/Media.md).
 
 ## Layout inspiration
 
-Fifteen of the 18 generated layout presets in `Data/Layouts.lua` (from `tools/presets.json`) take their general idea from a community preset; the three Eldo-Vanilla presets are EldoUI's own. The generated presets are built on EldoUI's own placement grid (`tools/data/grid.json`): EldoUI's zones, spacing rules, unit frame tracks and column rows on the 1440-unit canvas, and EldoUI's own named accent colors. Each one takes only its general idea from a public community preset made for EllesmereUI, credited below and in the layout's description ("Inspired by ..."). It is inspiration only: no code, positions, colors, text or media from those presets, EllesmereUI or ElvUI are included. Eldo-Modern and Eldo-Classic (`Core/Layout.lua`) are EldoUI's own.
+Fifteen of the 19 generated layout presets in `Data/Layouts.lua` (from `tools/presets.json`) take their general idea from a community preset; EldoUI Center (the default) and the three Vanilla presets (Vanilla Original and the legacy Eldo-Vanilla Compact and Eldo-Vanilla Focus) are EldoUI's own. The generated presets are built on EldoUI's own placement grid (`tools/data/grid.json`): EldoUI's zones, spacing rules, unit frame tracks and column rows on the 1440-unit canvas, and EldoUI's own named accent colors. Each one takes only its general idea from a public community preset made for EllesmereUI, credited below; the credit lives here, not in the layout descriptions shown in the game. It is inspiration only: no code, positions, colors, text or media from those presets, EllesmereUI or ElvUI are included. Modern Center and the legacy Eldo-Classic (`Core/Layout.lua`) are EldoUI's own.
+
+Since 0.7.0000 the layout list holds ten built-in layouts. The layouts that left it stay in EldoUI as legacy layouts, unchanged, so a profile that uses one keeps its screen. The table names each layout as it is shown today.
 
 | Layout | Inspired by |
 |---|---|
-| Eldo-Clean | MathaiusUI by Angelicus07 |
-| Eldo-Cookies | Cookies & Cream by .kreky |
-| Eldo-Zen | Zentyy Shaman Cleanest UI by Zentyy |
-| Eldo-Wide | Wow Forever Preset by bigbluey |
-| Eldo-Blizz | Blizz-like Forever UI by figmentalnewton |
-| Eldo-Syntax | SyntaxError UI by syntaxerror. |
-| Eldo-Compact | MattUI by dogobert |
-| Eldo-Joe | JoeGaming v1.2 by joe_gaming1231 |
-| Eldo-Heritage | ratsiggy UI by 1fach |
-| Eldo-Hunter | Hunter 1440p by l3nzu |
-| Eldo-Dark | Rizka Forever Woyer by .rzk. |
-| Eldo-Cozy | HedgeForever by mrhedge |
-| Eldo-Violet | Midnight Lily by Lily TEAM |
-| Eldo-Plates | OnlyPlates by Trenchy TEAM |
-| Eldo-Zerby | ZerbyUI by Zerby |
+| Eldo-Clean (legacy) | MathaiusUI by Angelicus07 |
+| Eldo-Cookies (legacy) | Cookies & Cream by .kreky |
+| Compact HUD (formerly Eldo-Zen) | Zentyy Shaman Cleanest UI by Zentyy |
+| Widescreen Edges (formerly Eldo-Wide) | Wow Forever Preset by bigbluey |
+| Blizzard Bottom Block (formerly Eldo-Blizz) | Blizz-like Forever UI by figmentalnewton |
+| Eldo-Syntax (legacy) | SyntaxError UI by syntaxerror. |
+| Eldo-Compact (legacy) | MattUI by dogobert |
+| Eldo-Joe (legacy) | JoeGaming v1.2 by joe_gaming1231 |
+| Portrait Staggered (formerly Eldo-Heritage) | ratsiggy UI by 1fach |
+| Open Center (formerly Eldo-Hunter) | Hunter 1440p by l3nzu |
+| Eldo-Dark (legacy) | Rizka Forever Woyer by .rzk. |
+| Close Combat (formerly Eldo-Cozy) | HedgeForever by mrhedge |
+| Eldo-Violet (legacy) | Midnight Lily by Lily TEAM |
+| Nameplate Focus (formerly Eldo-Plates) | OnlyPlates by Trenchy TEAM |
+| Eldo-Zerby (legacy) | ZerbyUI by Zerby |
 
 ## Original game textures
 
-EldoUI may draw textures the game itself ships, by their path or file ID, and the Vanilla Original skin is planned to do so for the original interface art. Where WoW: Forever no longer ships an original texture, the plan is to carry a copy of that texture inside the addon. The game's artwork belongs to Blizzard Entertainment and is used under the addon rules of the game; none of it is covered by EldoUI's own license. The table below lists every such file the addon ships, with the public mirror and revision it was taken from, so a reader can check the source. As of this release no original texture is shipped: every Vanilla Original surface still draws game-resident files by path.
+EldoUI draws textures the game itself ships, by their path or file ID, and the Vanilla Original skin does so for the original interface art. Where WoW: Forever does not ship an original texture, EldoUI carries an unmodified copy of it in `Media/Textures/Skins/VANILLA/original/` (converted to TGA pixel for pixel, never redrawn or recolored). The game's artwork belongs to Blizzard Entertainment and is used under the addon rules of the game; none of it is covered by EldoUI's own license. The table below lists every such file the addon ships, with the public mirror, revision and path it was taken from, so a reader can check the source.
+
+No original texture is shipped in this release. The WoW: Forever 1.60.1 client (build 70450) ships every original texture the Vanilla Original skin draws, so each surface draws the game's own file by its path. The few texture names the client lacks are not original pieces, as the second table shows.
 
 | Reference | Revision | What it is used for |
 |---|---|---|
-| https://github.com/Gethe/wow-ui-textures (branch `classic`) | `312a6e61bab69370c65ccc0a08f1075d62196294` | mirror of the client's texture files, for the pieces Forever no longer ships |
-| https://github.com/Ketho/wow-ui-source-vanilla (branch `classic_era`) | `33e177d9bf38d76d5c6c6e05d5da78db1899659a` | frame anatomy reference only (sizes, anchors, texture coordinates); no code is copied |
+| https://github.com/Gethe/wow-ui-textures (branch `classic`) | `312a6e61bab69370c65ccc0a08f1075d62196294` | mirror of the client's texture files: the reference pictures of the original interface art, and the source of any copy for a piece Forever does not ship |
+| https://github.com/Ketho/wow-ui-source-vanilla (branch `classic_era`) | `33e177d9bf38d76d5c6c6e05d5da78db1899659a` | frame anatomy reference only (sizes, anchors, texture coordinates, which file each frame piece names); no code is copied |
+| https://github.com/TheOrcDev/warcraftcn-ui | `67dfa8e30442ae042b3d63030c17cb00590542ff` | reference for control states of EldoUI's own windows (MIT License); no code, styles or pictures are copied |
 
 | Shipped file | Original path | Source and revision |
 |---|---|---|
-| none shipped yet | | |
+| none | | |
+
+| Name the client lacks | Why no copy is shipped |
+|---|---|
+| `Interface\Buttons\UI-MicroButton-Character-Up`, `-Down`, `-Disabled` | A later spelling. The original Character button is `UI-MicroButtonCharacter-Up` and `-Down`, and the client ships both. The original button never had a disabled picture, so the skin shows the normal one in gray. |
+| `Interface\Buttons\UI-MicroButton-Options-Up`, `-Down`, `-Disabled` | The original bar had no Options button (its Main Menu button opened the game menu), so there is no original picture; the skin shows the Main Menu button art. |
+| `Interface\ContainerFrame\UI-Backpack-Background`, `Interface\ContainerFrame\UI-Bag-Border` | Not original names. The original backpack picture is `UI-BackpackBackground`, which belongs to the game's own bag window and not to the bag bar, and the original bag bar had no border: each bag slot sits in the action button ring, which the client ships. |
+| `Interface\CharacterFrame\UI-Player-AttackStatus` | The original file lives in `Interface\TargetingFrame\`, and the client ships it there. |
 
 ## Style inspiration
 

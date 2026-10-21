@@ -1,6 +1,6 @@
 # EldoUI
 
-**An AI-made, deeply modular UI for WoW: Forever.** More than 90 modules you turn on and off one by one, 17 layout presets that place every frame for you, and one consistent look across all of it. Move anything with `/eui move`, change the look with style presets, and share your setup as a string.
+**An AI-made, deeply modular UI for WoW: Forever.** More than 90 modules you turn on and off one by one, ten layouts that place every frame for you, four roles on top of every layout, and one consistent look across all of it. Move anything with `/eui move`, change the look with skins and style presets, and share your setup as a string.
 
 EldoUI stays within Blizzard's addon rules. It changes how the interface looks and where things sit, and shows only what the game gives addons. It never plays for you, and nothing acts without your click unless you turn it on.
 
@@ -17,18 +17,18 @@ EldoUI stays within Blizzard's addon rules. It changes how the interface looks a
 
 Every module shares the same core:
 
+- **A guided setup** that sets up the whole UI from a preset pack in one click, or step by step: scale, layout, look, role, modules, chat, and your keys and spells. Nothing changes until you apply it, and every change can be reverted. See [Getting started](../wiki/getting-started.md).
+- **Ten layouts** built for a 1440p canvas and applied in one click, from Vanilla Original to EldoUI Center, the default. Every layout or pack change can be undone. See [Layouts and presets](../wiki/layouts.md).
+- **Four roles**: Melee, Ranged, Healer and Tank, a small layer over any layout. Healer brings the group frames to the center, Tank adds threat colors.
+- **Movers**: `/eui move` unlocks every EldoUI frame. Drag with grid snap, hold Alt to place freely, click a frame to nudge it by exact X and Y, and Shift-right-click to reset it. Frames you dragged stay where you put them when you change layouts. EldoUI's frames also appear in Blizzard's Edit Mode.
+- **Skins and style presets** that change the look only, never positions: thirteen skins from Minimal Modern to Vanilla Original, which dresses the frames, bars and minimap in the game's own classic art.
 - **One config window** (`/eui`) with a search that finds every setting, a mark on rows you changed (right-click resets one), a Recent changes list with undo, and a What's New page.
-- **17 layout presets** built for a 1440p canvas and applied in one click. See [Layouts and presets](../wiki/layouts.md).
-- **Movers**: `/eui move` unlocks every EldoUI frame. Drag with grid snap, hold Alt to place freely, click a frame to nudge it by exact X and Y, and Shift-right-click to reset it. EldoUI's frames also appear in Blizzard's Edit Mode.
-- **Style presets and art styles** that change the look only, never positions.
 - **Profiles** per account or character, per talent group, and per content, and **share strings** to send a whole setup or one module to a friend.
+- **Safe saved data**: a copy of your settings and journal before every update, and a Saved data page that puts any of it back.
 - **Blizzard UI switches**: one switch per part of Blizzard's UI. Off leaves Blizzard's version alone.
+- **Two languages**: EldoUI's own texts in English (US) or Danish.
 - **A plugin API**, so other addons add their own modules with the same look. See [Plugins](../wiki/plugins.md).
-
-> Screenshot coming soon: the EldoUI config window with the sidebar and a module page open.
-
-> Screenshot coming soon: `/eui move` with the grid and the movers shown in the Eldo-Modern layout.
 
 ## Built with AI assistance
 
-EldoUI is designed and written with AI assistance and tested for WoW: Forever. Many features were inspired by well-loved addons from the WoW community, and the open-source projects EldoUI builds on are credited in [Credits and third-party notices](../../THIRD_PARTY_NOTICES.md).
+EldoUI is designed and written from scratch with AI assistance, and tested for WoW: Forever. The open-source work it builds on and the work that inspired it are credited in [Credits and third-party notices](../../THIRD_PARTY_NOTICES.md).

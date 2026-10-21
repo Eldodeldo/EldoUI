@@ -36,9 +36,9 @@ The rail on the left groups the pages under Today, Story, and Atlas. "Open on" (
 | Story | Journey | Your story as it happened: chapters by level, day, or zone, with keepsakes, finds, and pinned notes. |
 | Story | Book | Your story from level 1 to 60 as a book in chapters, in the tone you choose, with a cover for every part. |
 | Story | Keepsakes | Your big moments as cards: first kills, epic finds, standings, mounts, and the moments you kept, with your firsts. |
-| Story | Places | Every zone you visited with its corners, time, kills, and quests, and every dungeon with its runs. |
+| Story | Places | Every zone you visited with its corners, time, kills, and quests, and every dungeon and raid with its runs: who was in each run (name, class, level, and role) and its loot rolls, who won which item and everyone's roll. Long lists open one page of 100 runs at a time. Battlegrounds and arenas record nothing. |
 | Story | Quests | Every quest you handed in, with where, when, who gave it, and who came along; your quest log; the quests that left your log without a hand-in: abandoned, failed, or removed by the game (with where and when you took each one); and the quests the game remembers from before. |
-| Story | Fellowship | The people you traveled with: time together and how it was spent, dungeons and quests together, and your notes on them. |
+| Story | Fellowship | The people you traveled with: time together and how it was spent, dungeons and quests together, what each one won while grouped with you, and your notes on them. |
 | Story | Story so far | Your character's story in a few lines, with the level river, your numbers, the eras, and ways to share it. |
 | Atlas | Attunements | Attunements, keys, and dungeon quest chains, step by step, for each of your characters. |
 | Atlas | Dungeons, Open World, Reputation | Open those tabs of the Journal window. |
@@ -76,18 +76,17 @@ The module's page has seven tabs. Every option has its own description in the ga
 - **Where next**: how Next trips weighs dungeons, leveling, and collecting, raids on or off, briefs, the level-up page, and the prep checklist.
 - **Moments and sounds**: which moments show, how long, in dungeons or after, their sounds, and Fanfare.
 - **Tracker and buttons**: what the tracker lists and how tall it is, the quest column, the minimap and game menu buttons, and the key bindings.
-- **Keeping it safe**: backups, restore, export, and clearing this character's journal.
+- **Keeping it safe**: backups, restore and export.
 - **Data**: what the journal reads from other modules, and new Forever content (see [Journal data reports](journal-data-reports.md)).
 
 ## Keeping it safe
 
 An addon can't write files of its own, so the journal keeps dated backups inside its saved data.
 
-- **Backups** are taken by themselves after you log in (every login, once a day, once a week, or only by hand) and before a restore, an import, or a clear. "Backups to keep" sets how many (1 to 10).
+- **Backups** are taken by themselves after you log in (every login, once a day, once a week, or only by hand) and before a restore or an import. "Backups to keep" sets how many (1 to 10).
 - **Restore** a backup with Merge (keeps everything since) or Replace (exactly as it was). Your journal is backed up first either way.
 - **Backup code**: the whole journal as one `!EUJ1!` code in a copy box, to paste back on this PC or another (`/eui journey import code`, which also takes a Forever Journal `FJ1:` code). A pasted code is read as plain data only.
 - **Export**: `/eui journey export markdown`, `html` (a printable page; print it to PDF in a browser), `text`, or `code`. Everything goes to a copy box. Nothing is ever sent from the game.
-- **Clear this character's journal** takes a backup first.
 
 ## Moving from Forever Journal
 
@@ -120,4 +119,4 @@ Plugins can add pages, search results, moments, option rows, row kinds, and data
 
 ## Credits
 
-Parts of the journal model, its event kinds, the goal and reminder rules, the backup merge, the pages' layouts and texts, and the parchment inks are adapted from [Forever Journal](https://www.curseforge.com/wow/addons/forever-journal) by Ugge Zen (MIT License). The list of files is in [THIRD_PARTY_NOTICES.md](../../THIRD_PARTY_NOTICES.md).
+The open-source work My Adventure builds on is credited, with its license and the list of files, in [Credits and third-party notices](../../THIRD_PARTY_NOTICES.md).

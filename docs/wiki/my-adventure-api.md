@@ -52,7 +52,7 @@ A:RegisterSection("myfishing", {
 - **Open it**: `A:OpenSection(key[, arg])`, or `LG:Open("adventure", key)`, `LG:Open("adventure", { section = key, arg = x })`, an address (below), or any other text, which searches the Journey.
 - Another module's own hub uses the same registry: `LG:RegisterHubSection(hub, key, def)`, `LG:UnregisterHubSection(hub, key)`, `LG:OpenHubSection(hub, key, arg)`, `LG:HubContent(hub)`. `A:RegisterSection(key, def)` is `LG:RegisterHubSection("adventure", key, def)`.
 
-EldoUI's own sections are checked under all six style presets and the 20 layouts. Test a section of your own the same way: no Lua error, and nothing drawn outside the window.
+EldoUI's own sections are checked under all six style presets and the ten built-in layouts. Test a section of your own the same way: no Lua error, and nothing drawn outside the window.
 
 ## Search: `LG:RegisterSearchProvider`
 

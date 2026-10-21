@@ -14,18 +14,20 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | `/eui <module> on`, `off`, `toggle` | Switch a module; `/eui <module>` alone opens its settings. `/eui enable <module>` and `/eui disable <module>` do the same |
 | `/eui whatsnew` | What changed in this version |
 | `/eui version` | The EldoUI version |
-| `/eui install` | Run the setup wizard again |
+| `/eui install [step\|undo]` | Run the setup again, open one step (for example `layout`, `role` or `modules`), or undo the last setup |
 | `/eui errors [clear]` | Show EldoUI's error log, or empty it |
 | `/eui diag [copy]` | Version, modules, restrictions and secret values; `copy` gives text for a bug report |
 | `/eui debug on`, `off` | Debug messages in chat |
-| `/eui locale` | Language info |
+| `/eui locale` | Language info. Pick EldoUI's language under General > EldoUI language |
+| `/eui probe textures` | List which original interface textures your game client ships, in a copy box for a bug report |
 
 ## Layout and frames
 
 | Command | What it does |
 |---|---|
 | `/eui move [on\|off]` | Unlock frames to drag them; again to lock |
-| `/eui layout [name]` | Apply a layout preset; no name lists them |
+| `/eui layout [name]` | Apply a layout; no name lists them. A legacy layout's old name works too |
+| `/eui layout undo` | Put back the last layout, pack or setup change |
 | `/eui resetlayout` | Put every frame back to its layout position |
 | `/eui scale auto` or `/eui scale <number>` | Automatic or your own UI scale |
 | `/eui windows [lock\|unlock\|reset\|list]` | Move and scale Blizzard windows |
@@ -47,6 +49,7 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | `/eui copyparts <profile>` | Copy chosen modules from another profile |
 | `/eui classprofile [<profile>\|none]` | The profile new characters of your class start with |
 | `/eui profilerules on`, `off` | Switch profiles by talent group and content |
+| `/eui data` | The Saved data page: the copies kept before each update and the values set aside instead of deleted; also `list`, `restore <part> [<name>]`, `follow <part> [<name>]` |
 | `/eui export [all\|<module>]` | Export settings as a share string |
 | `/eui exportlua [all\|<module>]` | Export settings as a readable Lua table |
 | `/eui import` | Open the import window: EldoUI, EllesmereUI, ElvUI and Edit Mode strings, or a bundle of several strings at once |

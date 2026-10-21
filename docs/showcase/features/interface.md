@@ -8,17 +8,13 @@ The frames around the edges of your screen, Blizzard's windows in the EldoUI loo
 
 Full-width bars at the top or bottom of the screen and your own datatext panels anywhere you like. Datatexts show the clock, gold, durability, latency and FPS, your stats, currencies, your hearthstone and more; addons that publish LibDataBroker feeds show up as datatexts too. A second bar and free panels let you split them up, and a battleground swap shows battleground info while you are in one.
 
-> Screenshot coming soon: the minimap with the info bar along the top in the Eldo-Modern layout.
-
 ## Minimap
 
-A square or round minimap with zone text, coordinates and a clock, rebuilt behind Blizzard's minimap. You decide where the minimap buttons sit, and an addon button bin gathers other addons' buttons in one place. The minimap buttons and the queue button have their own Blizzard switches.
+A square or round minimap with zone text, coordinates and a clock, rebuilt behind Blizzard's minimap. You decide where the minimap buttons sit, and an addon button bin gathers other addons' buttons in one place. The minimap buttons and the queue button have their own Blizzard switches. With the Vanilla Original skin, a round minimap wears the game's own classic border, scaled with the map.
 
 ## Tooltip
 
 Clean tooltips in the game's own style with quality and class-colored borders, a tidy info area and a movable anchor (or a Smart position that keeps out of your way). Extra lines show what the game gives addons: gathering skill, mount source and who is targeting a unit. Other modules add their own sections, such as the Loot Guide's drop lines.
-
-> Screenshot coming soon: an item tooltip and a player tooltip side by side.
 
 ## Maps
 

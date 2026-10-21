@@ -10,9 +10,7 @@ One page with five tabs. **Interface**: Wowhead links for what the tooltip shows
 
 ## Training
 
-What your class trainer can teach you now and later, with costs, totals, an ignore list, weapon skills and pet training. It has its own window (`/eui training` or `/wt`), a spellbook tab and an info bar block. Data adapted from What's Training?.
-
-> Screenshot coming soon: the Training window with spells available now and later.
+What your class trainer can teach you now and later, with costs, totals, an ignore list, weapon skills and pet training. It has its own window (`/eui training` or `/wt`), a spellbook tab and an info bar block.
 
 ## Talent Planner
 
@@ -84,7 +82,7 @@ The world map shows flight masters, boats, zeppelins, the tram and fixed portals
 
 ## Mage Travel
 
-For mages, one button opens a list of the teleports and portals you know, with how many runes of each kind are in your bags. Click a row to cast that spell; the list closes after the cast if you like and hides in combat. It is off until you turn it on.
+For mages, one button opens a list of the teleports and portals you know, with how many runes of each kind are in your bags. Click a row to cast that spell; the list closes after the cast if you like and hides in combat. Five style presets (Standard, Small, Large, Quiet and Out of combat) set its look, and it can show only in combat, out of combat, on mouse over or in a group. It is off until you turn it on.
 
 ## NPC Dialog
 

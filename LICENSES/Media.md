@@ -1,6 +1,6 @@
 # EldoUI media licenses
 
-Every file in `Media/` is listed here with its source and license. Nothing in this folder comes from Blizzard, ElvUI, EllesmereUI, Details!, Plater or any other addon's own work. The only exception is the `Media/Sounds/Pack/` files: they are third-party CC0, CC-BY or public-domain recordings whose files were taken from the WeakAuras SharedMedia distribution, and each row below credits the original author and source, not the addon.
+Every file in `Media/` is listed here with its source and license. Nothing in this folder comes from Blizzard, ElvUI, EllesmereUI, Details!, Plater or any other addon's own work. The one place an original game texture may appear is `Textures/Skins/VANILLA/original/` (see "Original game textures" below); it holds no file in this release. The only other exception is the `Media/Sounds/Pack/` files: they are third-party CC0, CC-BY or public-domain recordings whose files were taken from the WeakAuras SharedMedia distribution, and each row below credits the original author and source, not the addon.
 
 ## Fonts (`Media/Fonts/`)
 
@@ -189,6 +189,18 @@ shadow:SetBackdropBorderColor(0, 0, 0, 0.8)
 ### Skin textures (`Media/Textures/Skins/`)
 
 `Media/Textures/Skins/` holds the art of the skins: one folder per look (`VANILLA`, `VANILLA_REFINED`, `PARCHMENT`, `FORGED`, `PORTRAIT_CLASSIC`, `HERITAGE_ALLIANCE`, `HERITAGE_HORDE`, `HERITAGE_NEUTRAL`, `ARCANE`, `MINIMAL`) with its `panel`, `border`, `corner`, `ring`, `portrait`, `bar`, `button` and `divider` textures (Warcraft Parchment also has a light `paper` tile), and `SHARED/` with the portrait masks (`mask-round`, `mask-roundsq`, `mask-octagon`, `mask-hex`, `mask-shield`) and the bar shared by the three Faction Heritage looks. They are original works created for EldoUI, drawn from math (shapes and seeded noise) by `tools/gen_skin_art.py`, and use no third-party artwork. They are licensed under Apache 2.0 like the rest of EldoUI. All files are 32-bit uncompressed TGA with an 8-bit alpha channel and power-of-two sizes, drawn at two texels per UI pixel; the colors, slice margins and sizes of every file are in `Data/SkinData.lua`, which the same script writes.
+
+### Original game textures (`Media/Textures/Skins/VANILLA/original/`)
+
+The Vanilla Original skin draws the game's own interface art by its path in the client; that art is not part of EldoUI. Where WoW: Forever does not ship an original texture, an unmodified copy of it goes in this folder: the picture from the pinned mirror, converted to TGA pixel for pixel, never redrawn or recolored. The artwork belongs to Blizzard Entertainment and is not covered by EldoUI's license. Each copy is listed below with the mirror, revision and path it was taken from.
+
+**No file is shipped in this release.** The WoW: Forever 1.60.1 client (build 70450) ships every original texture the skin draws; the texture names it lacks are not original pieces (a later spelling of the Character micro button, an Options micro button the original bar never had, and two bag names the original game never used). The list of those names is in `THIRD_PARTY_NOTICES.md` under "Original game textures".
+
+| File | Original path | Source (mirror, revision, path) |
+|---|---|---|
+| none | | |
+
+Mirror: https://github.com/Gethe/wow-ui-textures, branch `classic`, revision `312a6e61bab69370c65ccc0a08f1075d62196294`. Frame sizes and texture coordinates come from https://github.com/Ketho/wow-ui-source-vanilla, branch `classic_era`, revision `33e177d9bf38d76d5c6c6e05d5da78db1899659a` (read for numbers only; no code is copied).
 
 ## Cast bar particles (`Media/CastFX/`)
 
