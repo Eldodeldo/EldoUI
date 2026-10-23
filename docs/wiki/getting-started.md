@@ -1,12 +1,12 @@
 # Getting started
 
-EldoUI is an AI-made, deeply modular UI for **WoW: Forever** (the game folder `_classic_beta_`). It does not run on Classic Era or Retail.
+EldoUI is an AI-made, deeply modular UI for **WoW: Forever** (the game folder `_forever_`). It does not run on Classic Era or Retail.
 
 ## Install from a release zip
 
 1. Download `EldoUI-<version>.zip` from the [GitHub releases](https://github.com/Eldodeldo/EldoUI/releases).
 2. Close the game.
-3. Unzip it into `World of Warcraft\_classic_beta_\Interface\AddOns`. You get five folders, and all five must sit directly in `AddOns`:
+3. Unzip it into `World of Warcraft\_forever_\Interface\AddOns`. You get five folders, and all five must sit directly in `AddOns`:
    - `EldoUI`, the addon itself;
    - `EldoUI_LootData`, the data for the Loot Guide (loaded only when the Loot Guide needs it);
    - `EldoUI_LootSim`, the Loot Guide's gear simulator (loaded only when you press a sim button);

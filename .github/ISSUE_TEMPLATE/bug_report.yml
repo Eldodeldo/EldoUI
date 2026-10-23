@@ -5,12 +5,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping make EldoUI better. Type `/eui errors` in game, select the error and click **As issue**, then press Ctrl+C and paste it below. That text already holds the EldoUI version, the game build and the modules you use.
+        Thanks for helping make EldoUI better. Type `/eui errors` in game, press **Report** on the error, then press Ctrl+C and paste it below. That text already holds the EldoUI version, the game build and the modules you use.
   - type: textarea
     id: report
     attributes:
       label: Error report
-      description: Paste the text from "As issue", or describe what you saw.
+      description: Paste the text from "Report", or describe what you saw.
       render: markdown
     validations:
       required: true
@@ -34,3 +34,8 @@ body:
     attributes:
       label: Other addons
       description: Optional. Other addons you had on when it happened.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional. Drag up to four PNG, JPEG or WebP screenshots here.

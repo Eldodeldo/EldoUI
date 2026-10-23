@@ -159,6 +159,7 @@ All files are 32-bit uncompressed TGA with an 8-bit alpha channel and power-of-t
 | `EldoCopy.tga` | 32x32 | White-on-transparent copy mark (two overlapping squares), drawn for EldoUI. The `E.UIKit` "copy" glyph (copy a list or a search term). Tint it with `SetVertexColor`. |
 | `EldoMove.tga`, `EldoKey.tga`, `EldoGear.tga`, `EldoProfile.tga` | 32x32 | White-on-transparent four-way arrow, key cap, gear and person marks, drawn for EldoUI. The `E.UIKit` "move", "keybind", "gear" and "profile" glyphs (the quick actions at the top of the options sidebar). Tint them with `SetVertexColor`. |
 | `EldoPlay.tga`, `EldoPause.tga` | 32x32 | White-on-transparent play triangle and pause bars, drawn for EldoUI. `E.UIKit` glyph buttons (start and pause controls) use them instead of letters. Tint them with `SetVertexColor`. |
+| `EldoBoat.tga`, `EldoZeppelin.tga`, `EldoTram.tga`, `EldoPortal.tga` | 64x64 | White-on-transparent sailing ship, airship, tram car and swirl, drawn for EldoUI by `tools/gen_map_symbols.py`. The Transport Maps pins of the Icons look show them in the color of each kind (boat, zeppelin, tram, portal). |
 
 ### Edge-file layout (`EldoShadow`, `EldoGlow`)
 

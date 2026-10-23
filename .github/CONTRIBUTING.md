@@ -4,7 +4,7 @@ Thanks for wanting to help. EldoUI is developed in a separate workspace, and thi
 
 ## Report a bug
 
-Open a **Bug report**. In the game, type `/eui errors`, select the error, click **As issue**, and paste the text into the form. It already contains your EldoUI version, the game build and the modules you use. Steps to make it happen help a lot.
+Open a **Bug report**. In the game, type `/eui errors`, press **Report** on the error, press Ctrl+C, and paste the text into the form. It already contains your EldoUI version, the game build and the modules you use. Steps to make it happen help a lot.
 
 ## Suggest an idea
 

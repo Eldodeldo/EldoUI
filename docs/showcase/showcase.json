@@ -25,21 +25,99 @@
       "title": "Info Bar",
       "text": "Full-width bars and your own datatext panels with clock, gold, durability, stats and more.",
       "wiki": "modules",
-      "page": "features/interface.md#info-bar"
+      "page": "features/interface.md#info-bar",
+      "settings": [
+        {
+          "name": "Second info bar",
+          "text": "Adds a second bar with its own datatexts, in the top edge of the chat window or on its own."
+        },
+        {
+          "name": "Fold button",
+          "text": "Adds a small arrow that folds the bar to a tab or hides it."
+        },
+        {
+          "name": "Battleground score in battlegrounds",
+          "text": "Shows your battleground score and the fight time in the middle of the main bar."
+        },
+        {
+          "name": "Clock shows",
+          "text": "Picks whether the clock shows your computer's time or the realm's."
+        },
+        {
+          "name": "Characters in the gold tooltip",
+          "text": "Picks which of your characters the gold tooltip lists."
+        },
+        {
+          "name": "Shift+drag to move",
+          "text": "Moves a bar or panel when you hold Shift and drag it."
+        }
+      ]
     },
     {
       "module": "Minimap",
       "title": "Minimap",
       "text": "Square or round minimap with zone, coordinates, clock, button placement and an addon button bin.",
       "wiki": "modules",
-      "page": "features/interface.md#minimap"
+      "page": "features/interface.md#minimap",
+      "settings": [
+        {
+          "name": "Shape",
+          "text": "Makes the map square or round."
+        },
+        {
+          "name": "Mouse-wheel zoom",
+          "text": "Zooms the map with the mouse wheel."
+        },
+        {
+          "name": "Show zone name",
+          "text": "Shows the zone name on top of the map, colored by its PvP status."
+        },
+        {
+          "name": "Coordinate precision",
+          "text": "Shows your coordinates as whole numbers or with one or two decimals."
+        },
+        {
+          "name": "Realm time",
+          "text": "Shows the realm's time instead of your computer's."
+        },
+        {
+          "name": "Addon buttons",
+          "text": "Gathers addon minimap buttons in a strip, on the side rail or in a drawer."
+        }
+      ]
     },
     {
       "module": "Tooltip",
       "title": "Tooltip",
       "text": "Clean tooltips in the game's own style with quality and class borders, a tidy info area and a movable anchor.",
       "wiki": "modules",
-      "page": "features/interface.md#tooltip"
+      "page": "features/interface.md#tooltip",
+      "settings": [
+        {
+          "name": "Skin tooltips",
+          "text": "Draws tooltips as a panel in the EldoUI art style."
+        },
+        {
+          "name": "Colored border",
+          "text": "Colors the border by item quality, class or reaction."
+        },
+        {
+          "name": "Attach to",
+          "text": "Shows tooltips at their own spot, at the cursor, above open bags or where the game puts them."
+        },
+        {
+          "name": "Hide in combat",
+          "text": "Picks which tooltips stay hidden while you are in combat."
+        },
+        {
+          "name": "Health bar",
+          "text": "Adds a thin health bar under unit tooltips."
+        },
+        {
+          "name": "Item level",
+          "text": "Shows the item level of gear."
+        }
+      ]
     },
     {
       "module": "Maps",
@@ -165,21 +243,99 @@
       "title": "Unit Frames",
       "text": "Player, target, focus, pet, target-of-target, boss, party pet and party target frames, plus Blizzard's own unit frames and cast bar.",
       "wiki": "modules",
-      "page": "features/combat.md#unit-frames"
+      "page": "features/combat.md#unit-frames",
+      "settings": [
+        {
+          "name": "Portrait style, all frames",
+          "text": "Picks one portrait style for every unit frame and the party frames at once."
+        },
+        {
+          "name": "Smooth bars",
+          "text": "Lets health and power bars glide to new values instead of jumping."
+        },
+        {
+          "name": "Color mode",
+          "text": "Colors the health bar by reaction, by health or in one color of your own."
+        },
+        {
+          "name": "Absorb shields",
+          "text": "Shows damage absorb shields on the health bar."
+        },
+        {
+          "name": "Spell cost",
+          "text": "Marks the part of your power a spell will cost while you cast it."
+        },
+        {
+          "name": "Channel ticks",
+          "text": "Marks where your channeled spells tick on the cast bar."
+        }
+      ]
     },
     {
       "module": "ActionBars",
       "title": "Action Bars",
       "text": "Eight flat action bars, pet and stance bars, cooldown numbers, proc glow and fade rules.",
       "wiki": "modules",
-      "page": "features/combat.md#action-bars"
+      "page": "features/combat.md#action-bars",
+      "settings": [
+        {
+          "name": "Button shape",
+          "text": "Sets the width to height of a bar's buttons, cropping the icon instead of stretching it."
+        },
+        {
+          "name": "Fill order",
+          "text": "Fills each row or each column first, so a bar can grow upright."
+        },
+        {
+          "name": "Show keybind",
+          "text": "Shows the key bound to each button."
+        },
+        {
+          "name": "Out of range",
+          "text": "Picks how a button shows that your target is out of range."
+        },
+        {
+          "name": "Highlight lower ranks",
+          "text": "Lights up the buttons that still hold a lower rank of a spell you know."
+        },
+        {
+          "name": "Equipped item border",
+          "text": "Puts a colored border on buttons that hold an item you are wearing."
+        }
+      ]
     },
     {
       "module": "Nameplates",
       "title": "Nameplates",
       "text": "Slim nameplates per unit type, with cast bar, your debuffs, quest and elite icons, style filters and a target highlight.",
       "wiki": "modules",
-      "page": "features/combat.md#nameplates"
+      "page": "features/combat.md#nameplates",
+      "settings": [
+        {
+          "name": "Target highlight",
+          "text": "Picks how your target's plate is marked."
+        },
+        {
+          "name": "Color by threat",
+          "text": "Colors enemy plates by your threat on them."
+        },
+        {
+          "name": "Power bar",
+          "text": "Adds a thin mana, rage or energy bar under the health bar."
+        },
+        {
+          "name": "Crowd control icon",
+          "text": "Shows the unit's stun, fear or other crowd control effect next to the plate."
+        },
+        {
+          "name": "Enemy plates only in combat",
+          "text": "Hides enemy plates out of combat and shows them when a fight starts."
+        },
+        {
+          "name": "Friendly plates click-through",
+          "text": "Lets clicks pass through friendly plates to the world behind them."
+        }
+      ]
     },
     {
       "module": "Auras",
@@ -284,7 +440,33 @@
       "title": "Chat",
       "text": "Chat on an EldoUI panel: clean tabs, clickable links, keyword alerts, saved history, search, a right panel and the error log.",
       "wiki": "modules",
-      "page": "features/chat-social.md#chat"
+      "page": "features/chat-social.md#chat",
+      "settings": [
+        {
+          "name": "Keep chat between sessions",
+          "text": "Brings back the last lines of every chat tab after a reload or the next login."
+        },
+        {
+          "name": "EldoUI timestamps",
+          "text": "Puts a gray time in front of every line; click it to copy the line."
+        },
+        {
+          "name": "Icons on item and spell links",
+          "text": "Shows the icon of each item and spell link in front of its name."
+        },
+        {
+          "name": "Jump to newest button",
+          "text": "Shows a small arrow that takes a scrolled-up chat back to the newest line."
+        },
+        {
+          "name": "Copy matches to an Alerts tab",
+          "text": "Copies every line with one of your keywords into an Alerts tab."
+        },
+        {
+          "name": "Show emoji",
+          "text": "Shows emoji and shortcodes in chat as pictures, with a picker by the edit box."
+        }
+      ]
     },
     {
       "module": "Messages",
@@ -305,7 +487,33 @@
       "title": "Bags",
       "text": "All bags and the bank in EldoUI windows with categories and a bag bar, item counts across your characters, search with filters, offline viewing and a Blizzard skin mode.",
       "wiki": "modules",
-      "page": "features/items-economy.md#bags"
+      "page": "features/items-economy.md#bags",
+      "settings": [
+        {
+          "name": "Bag view",
+          "text": "Shows every slot in one grid, in sections by item type or in one section per bag."
+        },
+        {
+          "name": "Fill from the bottom",
+          "text": "Starts the grid at the bottom right instead of the top left."
+        },
+        {
+          "name": "Quality borders",
+          "text": "Colors each slot's border by the item's quality."
+        },
+        {
+          "name": "Glow on new items",
+          "text": "Makes items you just got glow until you close your bags."
+        },
+        {
+          "name": "Other characters",
+          "text": "Lets the bag windows, search and tooltips include your other characters."
+        },
+        {
+          "name": "Warn when ammo runs low",
+          "text": "Gives hunters one message and sound when their ammo runs low."
+        }
+      ]
     },
     {
       "module": "BagActions",

@@ -49,7 +49,7 @@ The [module list](docs/wiki/modules.md) describes every module and shows which o
 ## Install
 
 1. Download `EldoUI-<version>.zip` from the [releases page](https://github.com/Eldodeldo/EldoUI/releases).
-2. Close the game and unzip the file into `World of Warcraft\_classic_beta_\Interface\AddOns`.
+2. Close the game and unzip the file into `World of Warcraft\_forever_\Interface\AddOns`. The WoW: Forever beta used the folder `_classic_beta_`; if you played the beta, install EldoUI again into `_forever_`.
 3. Check that these folders sit directly in `AddOns`: `EldoUI`, `EldoUI_LootData`, `EldoUI_LootSim`, `EldoUI_Emoji`, and `EldoUI_Locale_daDK`.
 4. Start the game, make sure **EldoUI** is ticked in the AddOns list, and log in.
 
@@ -87,6 +87,13 @@ The [command reference](docs/wiki/commands.md) lists all of them.
 - **Game:** WoW: Forever (Interface 16001). EldoUI does not run on Classic Era or Retail.
 - **Languages:** EldoUI's own texts are in English (US) and Danish: pick Dansk under General > EldoUI language and reload. The Loot Guide is also translated into German, French, Spanish, Brazilian Portuguese, Russian, Korean, and Chinese.
 - **Other addons:** EldoUI works next to Details!, BigWigs, Deadly Boss Mods, Questie, RestedXP, Guidelime, HandyNotes, and Masque. It notices the addons you already use for bags, bars, frames, chat, and more, and steps back where they do the same job: a whole module (Bags while Bagnon is loaded) or only the parts both do (selling gray items with Leatrix Plus). You pick who handles each job on the Other addons page, with `/eui addons`, or in the setup. See [Using EldoUI with other addons](docs/wiki/other-addons.md).
+
+## Privacy and safety
+
+EldoUI never connects to the internet and sends nothing to its author or to any website. It changes how the game looks and shows what the game already tells you; it never plays for you, and every chat line, invite, roll or purchase comes from your own click or key press. Two features talk to other players who run EldoUI, as hidden addon messages, never in chat:
+
+- **Version check** (on by default) tells guild and group members which EldoUI version you have, so you get one chat line when someone has a newer one. Never sent in combat, boss fights or PvP matches. Turn it off under Plugins > Notices.
+- **Party Quests sync** (on by default) shares your quest progress with your group and shows theirs. Not in battlegrounds or arenas. Turn it off under Party Quests > Sync with group.
 
 ## Documentation
 
