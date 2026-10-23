@@ -6,6 +6,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.7.0002] - 2026-10-23
+
 ### Improved
 - **General:** The install guide and the release notes name the WoW: Forever game folder, _forever_; the guide tells beta players to install EldoUI there again.
 - **Journal:** The printable journal page uses the book fonts on your computer and no longer asks a web font site for its fonts when you open it.
@@ -178,7 +180,8 @@ The versions from 0.5.0 to 0.6.6005 in short: what they brought that is still in
 - **Paladin:** The Blessing Plan (/eui blessings) plans which blessing each paladin keeps up on each class.
 - **Shaman:** Shaman Totems: a totem bar, a cooldown bar with your shield, weapon imbues, Reincarnation and Ankhs, up to eight totem loadouts, and a group plan for Mana Tide Totem and the resistance totems.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.0001...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.0002...HEAD
+[0.7.0002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.0002
 [0.7.0001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.0001
 [0.7.0000]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.0000
 [0.6.6005]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.6.6005
