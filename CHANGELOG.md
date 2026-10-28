@@ -6,6 +6,8 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.7.0003] - 2026-10-28
+
 ### Highlights
 - Your key set now belongs to your profile and knows US, UK, Nordic, German and French keyboards, and new spells land on their own key on bars 1 to 3.
 - Tour helps explain new parts of EldoUI the first time you meet them, and a new character on an account you already set up gets one short page instead of the whole setup.
@@ -267,7 +269,8 @@ The versions from 0.5.0 to 0.6.6005 in short: what they brought that is still in
 - **Paladin:** The Blessing Plan (/eui blessings) plans which blessing each paladin keeps up on each class.
 - **Shaman:** Shaman Totems: a totem bar, a cooldown bar with your shield, weapon imbues, Reincarnation and Ankhs, up to eight totem loadouts, and a group plan for Mana Tide Totem and the resistance totems.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.0002...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.0003...HEAD
+[0.7.0003]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.0003
 [0.7.0002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.0002
 [0.7.0001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.0001
 [0.7.0000]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.0000

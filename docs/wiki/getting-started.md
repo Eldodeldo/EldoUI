@@ -1,6 +1,6 @@
 # Getting started
 
-> Documentation for EldoUI **0.7.0002**. See [Current release](current-release.md) for this version's changes.
+> Documentation for EldoUI **0.7.0003**. See [Current release](current-release.md) for this version's changes.
 
 EldoUI is an AI-made, deeply modular UI for **WoW: Forever** (the game folder `_forever_`). It does not run on Classic Era or Retail.
 
