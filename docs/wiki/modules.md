@@ -40,7 +40,7 @@ Each module name links to its section in the showcase.
 | Module | What it does | `/eui` name | Default |
 |---|---|---|---|
 | [Unit Frames](../showcase/features/combat.md#unit-frames) | Player, target, focus, pet, target-of-target, boss, party pet and party target frames, plus Blizzard's own unit frames and cast bar. | `unitframes` | On |
-| [Action Bars](../showcase/features/combat.md#action-bars) | Eight flat action bars, pet and stance bars, cooldown numbers, proc glow and fade rules. | `actionbars` | On |
+| [Action Bars](../showcase/features/combat.md#action-bars) | Eight flat action bars, pet and stance bars, cooldown numbers, proc glow and fade rules, plus key sets and spells on their keys (see [Action bars and keys](layouts.md#action-bars-and-keys)). | `actionbars` | On |
 | [Nameplates](../showcase/features/combat.md#nameplates) | Slim nameplates per unit type, with cast bar, your debuffs, quest and elite icons, style filters and a target highlight. | `nameplates` | On |
 | [Buffs and Debuffs](../showcase/features/combat.md#buffs-and-debuffs) | Your buffs (right-click to cancel), debuffs, weapon enchants and boss mechanic auras, plus Blizzard's buff frames. | `auras` | On |
 | [Class Resources](../showcase/features/combat.md#class-resources) | Health, power, combo points, druid mana and a GCD bar under your character, plus Blizzard's class resource frames. | `classpower` | On |
@@ -110,7 +110,7 @@ Each module name links to its section in the showcase.
 | [Battleground Timers](../showcase/features/group.md#battleground-timers) | Queue, start, capture, winner and flag timers for battlegrounds. | `battlegrounds` | On |
 | [Cooldown Pulse](../showcase/features/combat.md#cooldown-pulse) | A center pulse when your own spell or item is ready again. | `cdpulse` | Off |
 | [Tracking Bars](../showcase/features/combat.md#tracking-bars) | One bar per spell for aura time, stacks, cooldown or charges, under the cooldown rows. | `trackingbars` | Off |
-| [Consumable Bar](../showcase/features/combat.md#consumable-bar) | Your best food, drink, potions, bandage and healthstone on one small bar; one click uses one. | `consumablebar` | Off |
+| [Consumable Bar](../showcase/features/combat.md#consumable-bar) | Your best food, drink, potions, bandage and healthstone on one small bar; one click uses one. With a key set, bar 3's keys 10 to 12 use it. | `consumablebar` | Off |
 | [Encounter Timeline](../showcase/features/combat.md#encounter-timeline) | A small timeline that shows the timers your boss mod publishes as icons sliding towards now, with a big icon for the next one. | `encountertimeline` | On |
 | [Alts](../showcase/features/items-economy.md#alts) | An Alts window with overview, search, professions, mail, quests, grids, level log and agenda for all your characters. | `alts` | Off |
 | [Deadly Boss Mods](../showcase/features/interface.md#deadly-boss-mods) | Deadly Boss Mods with EldoUI's look, layout placement and quiet chat. | `dbm` | On |

@@ -54,6 +54,45 @@ A role is not a layout. It is a small layer over any of the ten layouts for the 
 
 Every layout works with every role, without any setup of your own. The setup suggests Melee for Warriors and Rogues and Ranged for Hunters, Mages and Warlocks, and **Class details** adds a few settings for your class on top.
 
+## Action bars and keys
+
+Bars 1 and 2 always show. A layout may hide bar 3 and the bars after it, and their keys keep working.
+
+- **Bar 3** shows nine buttons, in a shorter row or a 3x3 block, and holds what you use between pulls, such as buffs, resurrection and travel spells. Its buttons 10 to 12 keep their actions and your own keys. Widescreen Edges and Open Center keep all twelve, so bars 2 and 3 stay an even pair beside bar 1.
+- **Hidden bars.** A bar the layout hides, or a bar from 3 up whose **Show on screen** switch you turn off on the Action Bars page, keeps every action and every key. It hides in combat and shows when you point at it out of combat: bar 3 as a small box next to your bags, bars 4 to 8 at the right edge of the screen. Turn off **Show on mouse over** to keep it out of sight altogether. The same rule, **Mouse over, out of combat**, can be picked for any bar.
+- `/eui keys hidden` shows how buttons out of sight are kept; their keys work either way.
+
+### Key sets
+
+A key set puts keys on bars 1 to 3 in one go. Pick one in the setup's **Keys and spells** step, on the **Keybinds** page in `/eui`, or with `/eui kb <set>`. Each opens a preview of every key first, nothing changes until you press **Apply**, and **Undo** (or `/eui kb restore`) puts your old keys back.
+
+| Key set | Command | Keys |
+|---|---|---|
+| Classic movement (recommended) | `/eui kb movement` | W and S move, A and D turn, Q and E strafe. Bar 1 on 1-5 R F T G Z X C, bar 2 with Shift, bar 3 with Ctrl. |
+| A/D strafe | `/eui kb strafe` | W and S move, A and D strafe, and you turn with the mouse. Bar 1 on 1-5 R F E Q Z X C, bar 2 with Shift, bar 3 with Ctrl. |
+| Number row | `/eui kb numbers` | Bar 1 on 1 to =, bar 2 with Shift, bar 3 with Ctrl. Movement keys stay as they are. |
+| Side-button mouse | `/eui kb mouse` | For a mouse with 12 side buttons that send 1 to =: bar 1 on the side buttons, bar 2 on Shift and the side buttons, bar 3 around your hand. |
+| Shifted hand | `/eui kb esdf` | Your hand rests one key to the right: E and D move, S and F strafe, with more keys around them. Bar 2 with Shift, bar 3 with Ctrl. |
+
+- **Your key set belongs to your profile,** so it stays the same on every layout, pack and style preset. Your other characters on the profile get one offer to use the same keys, or get them on their own when you pick **Automatic**. A key you set yourself is never written over, and bars 4 to 8 keep the keys you give them.
+- **Every keyboard.** The sets know US, UK, Nordic, German and French keyboards and use the keys in the same places on each. **Check my keyboard** (`/eui keys keyboard`) finds yours from three key presses.
+- **Game shortcuts.** A shortcut a set takes gets the same new key in every set, such as Alt-R for reply. `/eui keys` lists where bags, map and the rest are.
+- **Bar 3's keys 10 to 12** use your health potion, your healthstone, and your mana potion (a bandage for Warriors and Rogues) through the [Consumable Bar](../showcase/features/combat.md#consumable-bar). Until that module is on, these keys stay free; the preview turns it on with one click.
+- When a bar pages on Shift or Ctrl, or your text style hides the keys on bars 1 to 3, EldoUI tells you after you apply a key set and fixes it in one click.
+- **I manage my own keys** in the setup or on the Keybinds page leaves every key as it is. `/eui kb` alone is keybind mode: hover a button and press a key.
+
+### Spells on their keys
+
+Every spell of every class and role has one fixed button: the spells you press in a fight sit on the easy keys of bars 1 and 2, and bar 3 holds what you use between pulls. Nothing is ever cast for you, your own buttons and macros stay yours, and every change below happens out of combat and comes with an Undo.
+
+- **New spells.** A spell you learn has its own button on bars 1 to 3, the same on every character of your class. EldoUI asks to put it there (**Ask me**), does it for you (**Automatic**), or leaves it (**Off**). `/eui spells` opens the keys and spells preview, and `/eui spells undo` takes the last new spells off again.
+- **Spell ranks.** After you learn a rank, EldoUI offers to move your buttons to it, and nothing changes until you apply. **Upgrade spell ranks automatically**, an option you turn on yourself, moves bars 1 to 3 and the gamepad bars for you instead. Macros, spells on your keep list and buttons kept at a low rank never change. `/eui ranks` and `/eui rankcheck` list the lower ranks, and a macro that names a lower rank is marked in the macro editor with a one-click update.
+- **Fill bars 4 and 5**, an option you turn on yourself, puts your out-of-combat class spells, such as teleports, tracking, poisons and pet care, on the empty buttons of bars 4 and 5. `/eui fillbars undo` takes the last fill off.
+- **A new role.** After a role change, EldoUI offers to put the class spells of the new role on your bars: on empty buttons and on buttons where it placed a spell of your old role.
+- **Hidden keys in the Cooldown Manager.** Its **Key text** shows the key of a spell on a button you can't see, such as on a hidden or shortened bar. It can also show the key on every icon, or on none.
+
+These options are on the Action Bars page and in the setup's **Keys and spells** and **Convenience** steps.
+
 ## Moving frames
 
 `/eui move` unlocks every EldoUI frame:
