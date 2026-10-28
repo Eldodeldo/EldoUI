@@ -1,6 +1,6 @@
 # Modules
 
-Everything in EldoUI is a module you can switch on and off: 96 modules in all, listed below by area. Each one has its own page in the config window (`/eui`, then its name in the sidebar).
+Everything in EldoUI is a module you can switch on and off: 97 modules in all, listed below by area. Each one has its own page in the config window (`/eui`, then its name in the sidebar).
 
 - `/eui modules` lists every module and whether it is on.
 - `/eui <name> on`, `off` or `toggle` switches one. The name is the word in the table below, the module's name as the config window shows it (`/eui party and raid off`) or a unique start of it (`/eui na off` switches Nameplates off), ignoring case and spaces. `/eui <name>` alone opens its settings.
@@ -115,6 +115,7 @@ Each module name links to its section in the showcase.
 | [Alts](../showcase/features/items-economy.md#alts) | An Alts window with overview, search, professions, mail, quests, grids, level log and agenda for all your characters. | `alts` | Off |
 | [Deadly Boss Mods](../showcase/features/interface.md#deadly-boss-mods) | Deadly Boss Mods with EldoUI's look, layout placement and quiet chat. | `dbm` | On |
 | [Waypoints](../showcase/features/quality-of-life.md#waypoints) | `/way` coordinates, a direction arrow with distance and arrival time, and pins on the world map and minimap. | `waypoints` | On |
+| [Eldostar](../showcase/features/quality-of-life.md#eldostar) | EldoUI's own leveling guide: over 200 community guides for WoW: Forever, step by step in a window on your layout's guide spot, with goals that tick from the game and a waypoint to the next one. | `eldostar` | On |
 | [Bar Snapshots](../showcase/features/quality-of-life.md#bar-snapshots) | Save and restore action bars, macros and key bindings; automatic backups and a restore offer after a reset. | `snapshots` | On |
 | [Camp Helper](../showcase/features/quality-of-life.md#camp-helper) | Campfire and feature tooltips, class-buff clashes, a camp panel with buff timers and a warning before Camp Benefits ends. | `camp` | On |
 | [Quest Marks](../showcase/features/quality-of-life.md#quest-marks) | Tags and tints quests that are new in WoW: Forever in the quest window, quest log and quest giver lists. | `questmarks` | On |

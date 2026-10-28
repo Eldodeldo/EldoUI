@@ -50,10 +50,10 @@ The [module list](docs/wiki/modules.md) describes every module and shows which o
 
 1. Download `EldoUI-<version>.zip` from the [releases page](https://github.com/Eldodeldo/EldoUI/releases).
 2. Close the game and unzip the file into `World of Warcraft\_forever_\Interface\AddOns`. The WoW: Forever beta used the folder `_classic_beta_`; if you played the beta, install EldoUI again into `_forever_`.
-3. Check that these folders sit directly in `AddOns`: `EldoUI`, `EldoUI_LootData`, `EldoUI_LootSim`, `EldoUI_Emoji`, and `EldoUI_Locale_daDK`.
+3. Check that these folders sit directly in `AddOns`: `EldoUI`, `EldoUI_LootData`, `EldoUI_GuideData`, `EldoUI_LootSim`, `EldoUI_Emoji`, and `EldoUI_Locale_daDK`.
 4. Start the game, make sure **EldoUI** is ticked in the AddOns list, and log in.
 
-The four companion folders load only when you need them: the Loot Guide data, the gear simulator, the chat emoji, and the Danish texts.
+The five companion folders load only when you need them: the Loot Guide data, the guides, the gear simulator, the chat emoji, and the Danish texts.
 
 ### Updating
 
@@ -126,7 +126,7 @@ Plugins add their own modules to EldoUI through the global `EldoUI` and get a se
 
 EldoUI is written from scratch for WoW: Forever, and it builds on the work of the WoW addon community:
 
-- **Builds on** the embedded libraries LibStub, CallbackHandler-1.0, and LibActionButton-1.0; open-source code from What's Training?, Molinari, and Forever Journal; loot data from CMaNGOS classic-db; and open fonts, sounds and emoji.
+- **Builds on** the embedded libraries LibStub, CallbackHandler-1.0, and LibActionButton-1.0; open-source code from What's Training?, Molinari, and Forever Journal; loot data from CMaNGOS classic-db; guides from the Polestar community guide project; and open fonts, sounds and emoji.
 - **Inspired by** addons players already love, such as ElvUI, EllesmereUI, Plater, Details!, and Leatrix Plus, and by public community layout presets: seven of the ten built-in layouts take their general idea from one.
 
 Thank you to all of their authors. The full list, with every license, is in [Credits and third-party notices](THIRD_PARTY_NOTICES.md) and the [media credits](LICENSES/Media.md).
@@ -135,4 +135,4 @@ Thank you to all of their authors. The full list, with every license, is in [Cre
 
 Copyright 2026 Eldodeldo. EldoUI is licensed under the [Apache License, Version 2.0](LICENSE) (see also [NOTICE](NOTICE)).
 
-Bundled libraries, adapted code, data, fonts, and sounds keep their own licenses. The `EldoUI_LootData` folder is licensed under GPL-3.0-or-later because its data comes from CMaNGOS classic-db.
+Bundled libraries, adapted code, data, fonts, and sounds keep their own licenses. The `EldoUI_LootData` folder is licensed under GPL-3.0-or-later because its data comes from CMaNGOS classic-db, and the `EldoUI_GuideData` folder under GPL-3.0 because its guides come from Polestar.

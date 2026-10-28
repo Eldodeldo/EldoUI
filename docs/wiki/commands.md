@@ -14,7 +14,9 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | `/eui <module> on`, `off`, `toggle` | Switch a module; `/eui <module>` alone opens its settings. `/eui enable <module>` and `/eui disable <module>` do the same |
 | `/eui whatsnew` | What changed in this version |
 | `/eui version` | The EldoUI version |
+| `/eui tour [name\|reset]` | List the tour helps, show one again by its name, or show them all again |
 | `/eui install [step\|undo]` | Run the setup again, open one step (for example `layout`, `role` or `modules`), or undo the last setup |
+| `/eui attach [profile]` | Put this character on a profile you already set up, as it is, with its own chat tabs, game settings and class spells; the page shows a preview first and Undo puts everything back |
 | `/eui errors [clear]` | Show EldoUI's error log, or empty it |
 | `/eui diag [copy]` | Version, modules, restrictions and secret values; `copy` gives text for a bug report |
 | `/eui debug on`, `off` | Debug messages in chat |
@@ -36,7 +38,8 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | `/eui editlayout [copy]` | Copy Blizzard's active Edit Mode layout as text, or open the import window |
 | `/eui infobar [show\|tab\|hide] [2]` | Show the Info Bar, fold it to a small tab or hide it (`2`: the second bar); alone it opens the Info Bar settings |
 | `/eui kb` | Keybind mode: hover an EldoUI button and press a key |
-| `/eui kb movement`, `strafe`, `numbers`, `restore` | Open the keybind preset preview for bars 1-3 (Classic movement, A/D strafe or Number row) and apply it from there, or put your previous keys back |
+| `/eui kb movement`, `strafe`, `numbers`, `mouse`, `esdf`, `restore` | Open the key set preview for bars 1-3 (Classic movement, A/D strafe, Number row, Side-button mouse or Shifted hand) and apply it from there, or put your previous keys back |
+| `/eui keys [check\|keyboard\|hidden]` | List where bags, map and the other game shortcuts are; `check` compares your keys with your key set, `keyboard` opens Check my keyboard; `hidden` shows how buttons out of sight are kept, and `hidden invisible` or `hidden hide` switches it (their keys work either way) |
 | `/eui testframes [on\|off]` | Show every enabled unit frame with sample values |
 | `/eui grouptest [party\|raid10\|raid20\|raid25\|raid40]` | Show or hide test party and raid frames |
 
@@ -113,7 +116,9 @@ Commands that belong to one module.
 | `/eui meter [toggle\|reset]` | Combat HUD | Show or hide Blizzard's damage meter, or clear its fights |
 | `/eui cursor [on\|off]`, `/eui crosshair [on\|off]` | Combat HUD | Cursor ring, crosshair |
 | `/eui cdm [settings\|import\|capture]` | Cooldown Manager | EldoUI options, Blizzard's settings, import or capture this spec's set |
-| `/eui ranks` | Action Bars | Move lower spell ranks on your bars to the highest rank you know |
+| `/eui ranks [undo]` | Action Bars | Show the lower spell ranks on your bars and move them to the highest rank you know with Apply; `undo` puts back the last automatic upgrade |
+| `/eui spells [undo]` | Action Bars | Open the keys and spells preview; `undo` takes the new spells EldoUI last put on your bars off again |
+| `/eui fillbars [undo]` | Action Bars | Fill the empty buttons of bars 4 and 5 with your out-of-combat class spells now; `undo` takes the last fill off again |
 | `/eui rankcheck` | Action Bars | List and light up the action buttons that hold a lower spell rank |
 | `/eui castfx [test [theme] [seconds] [fail]\|dump]` | Cast Bar Effects | Open the page, play a test cast on every enabled cast bar, or list your spellbook with spell IDs |
 | `/eui sct [test\|move]` | Combat Text | Combat Text settings, sample lines in every area, or move the scroll areas |
@@ -121,6 +126,7 @@ Commands that belong to one module.
 | `/eui cutscenes forget` | Alerts and Banners | Play every cutscene again once |
 | `/eui map reset` | Maps | Put the world map, flight map and taxi window back where Blizzard places them |
 | `/eui way [zone] x y [title]`, `/way` | Waypoints | Set a waypoint and follow the arrow; also `list`, `closest` and `reset [zone\|all]` |
+| `/eui eldostar [show\|hide\|guides]` | Eldostar | Show or hide the guide window, or open the guide list in the Journal |
 | `/eui mapnote [on\|off\|add x y title\|hidden\|undo]` | Map Notes | Show or hide every EldoUI map pin, or add a map note |
 | `/eui rares [test]` | Rare Scanner | Rare Scanner settings, or show a test card |
 | `/eui camp [status\|panel\|announce\|ask\|share\|finds]` | Camp Helper | Campfire buffs, the camp panel, a one-line camp announcement and the camp finder |

@@ -3,7 +3,7 @@
   "name": "EldoUI",
   "summary": "An AI-made, deeply modular UI for WoW: Forever. Turn every module on or off, pick one of ten layouts and your role, and move and style everything yourself.",
   "license": "Apache-2.0",
-  "licenseNotes": "The EldoUI_LootData folder is GPL-3.0-or-later (generated from CMaNGOS classic-db); EldoUI_Emoji graphics are CC-BY 4.0 (Twemoji). See THIRD_PARTY_NOTICES.md.",
+  "licenseNotes": "The EldoUI_LootData folder is GPL-3.0-or-later (generated from CMaNGOS classic-db); the EldoUI_GuideData folder is GPL-3.0 (guides from Polestar); EldoUI_Emoji graphics are CC-BY 4.0 (Twemoji). See THIRD_PARTY_NOTICES.md.",
   "categories": [
     "User Interface"
   ],
@@ -689,6 +689,13 @@
       "text": "/way coordinates, an arrow with distance and arrival time, and waypoint pins on the world map and minimap.",
       "wiki": "modules",
       "page": "features/quality-of-life.md#waypoints"
+    },
+    {
+      "module": "Eldostar",
+      "title": "Eldostar",
+      "text": "EldoUI's own leveling guide: over 200 community guides for WoW: Forever, step by step in a window on your layout's guide spot, with goals that tick from the game and a waypoint to the next one.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#eldostar"
     },
     {
       "module": "Snapshots",

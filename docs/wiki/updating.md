@@ -7,7 +7,7 @@ Coming from 0.6? [Updating from 0.6](updating-from-0-6.md) shows what carries ov
 ## From a release zip
 
 1. Close the game.
-2. Delete the old `EldoUI`, `EldoUI_LootData`, `EldoUI_LootSim`, `EldoUI_Emoji`, and `EldoUI_Locale_daDK` folders in `Interface\AddOns`. (Unzipping over them works too, but deleting first makes sure no removed file stays behind.)
+2. Delete the old `EldoUI`, `EldoUI_LootData`, `EldoUI_GuideData`, `EldoUI_LootSim`, `EldoUI_Emoji`, and `EldoUI_Locale_daDK` folders in `Interface\AddOns`. (Unzipping over them works too, but deleting first makes sure no removed file stays behind.)
 3. Unzip the new `EldoUI-<version>.zip` into `Interface\AddOns`.
 4. Start the game. `/eui whatsnew` shows what changed.
 

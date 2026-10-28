@@ -18,7 +18,7 @@ Tick **Load out of date AddOns** on the AddOns list of the character screen. Thi
 
 ## The Loot Guide says its data is not installed, or chat emoji do not show
 
-The Loot Guide data (`EldoUI_LootData`), the gear simulator (`EldoUI_LootSim`), the emoji pictures (`EldoUI_Emoji`), and the Danish texts (`EldoUI_Locale_daDK`) are separate addon folders. They must sit directly in `Interface\AddOns`, next to `EldoUI`, not inside it. A release zip already has them in the right place.
+The Loot Guide data (`EldoUI_LootData`), the guides (`EldoUI_GuideData`), the gear simulator (`EldoUI_LootSim`), the emoji pictures (`EldoUI_Emoji`), and the Danish texts (`EldoUI_Locale_daDK`) are separate addon folders. They must sit directly in `Interface\AddOns`, next to `EldoUI`, not inside it. A release zip already has them in the right place.
 
 ## Another addon already does this. Do they clash?
 

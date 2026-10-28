@@ -24,6 +24,10 @@ Plan your Legacy points without touching them (`/eui legacy`). Copy your current
 
 Type `/way 45 63 Goldshire` or `/way Elwynn Forest 41 65`, or Ctrl+right-click on the world map, to set a waypoint. An arrow in EldoUI's look points the way and shows the distance and arrival time, and pins show on the world map and minimap. Waypoints are kept per character, and the game's own map pin follows the arrow. In dungeons, where the game hides your position, the arrow says so. After you release your spirit, the arrow points to your corpse. `/way paste` takes many /way lines at once, for example from a guide.
 
+## Eldostar
+
+EldoUI's own leveling guide, with over 200 community guides for WoW: Forever: leveling routes for every race and faction, class quests, professions, reputation, exploration and collectibles. The guide window sits on your layout's guide spot and shows the step, its tip and its goals. Goals tick by themselves from your quest log, bags, level, reputation and professions; what the game cannot tell you tick with a click. Next, Skip and Undo move through the guide, goals for the way show under each stop, and one waypoint points to the next goal. The Journal's My Adventure has a Guides page to find and start a guide for your character; at the level cap, Eldostar shows nothing until you start one. Pick the guide on the guide spot in the setup or on Eldostar's page: Automatic uses RestedXP when it is installed and on, else Eldostar. EldoUI never turns the other guide addon off, and Eldostar never accepts, turns in or buys anything for you. `/eui eldostar`.
+
 ## Bar Snapshots
 
 Saves what is on every action slot, your macros and your key bindings, and puts them back with one click (`/eui snapshot`). Snapshots are taken at login and logout when something changed. If the game comes up with empty bars, EldoUI offers to restore them. Snapshots can be exported as a string for another character.

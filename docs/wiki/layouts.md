@@ -49,7 +49,7 @@ A role is not a layout. It is a small layer over any of the ten layouts for the 
 |---|---|
 | **Melee** | Frames stay where the layout puts them; party frames are a little more compact. |
 | **Ranged** | Frames stay where the layout puts them; party frames are a little more compact, and the mana bar shows the five-second rule. |
-| **Healer** | Party and raid frames move next to the center and grow, with dispel and boss debuff highlights, heal prediction and HoT squares. The spot is set for each layout, and frames in the way step aside: aura groups, the ping feed, combat text and the optional bars and panels. Raids that use the Mid or Large raid settings keep the larger healer frames too. Click-casting is offered as a choice. |
+| **Healer** | Party and raid frames move next to the center and grow, with dispel and boss debuff highlights, heal prediction and HoT squares. The spot is set for each layout, and frames in the way step aside: aura groups, the ping feed, combat text and the optional bars and panels. Raids that use the Mid or Large raid settings keep the larger healer frames too. **Healer group frames** on the Role page can put them at the bottom center instead, above your bars: the party as one row and a raid of up to ten as two rows, while a larger raid moves beside the center. Click-casting is offered as a choice. |
 | **Tank** | Threat colors on nameplates and EldoUI's threat meter at its placed spot. Main tank frames show in raids. Nothing else moves. |
 
 Every layout works with every role, without any setup of your own. The setup suggests Melee for Warriors and Rogues and Ranged for Hunters, Mages and Warlocks, and **Class details** adds a few settings for your class on top.
@@ -72,7 +72,9 @@ Blizzard windows (bags, character, mail and more) have their own mover: `/eui wi
 
 - **Below 1440p**, EldoUI keeps the same 1440 canvas by default, so a layout looks the same on a 1080p screen, only smaller.
 - **Ultrawide**: the Screen area page in `/eui` keeps EldoUI inside a centered area (16:9, 21:9 or your own width) while the game world fills the whole screen, so nothing ends up in the far corners.
-- `/eui scale auto` goes back to the automatic scale; `/eui scale 0.64` sets your own.
+- `/eui scale auto` goes back to the automatic scale; `/eui scale 0.50` sets your own.
+- **Which scale to pick:** Auto is the recommended scale, the one every layout is made for. A smaller scale is supported on a 1440p or larger screen: the layouts keep their room and the text gets smaller. A larger scale gives the layouts less room than they were made for, so frames can overlap. For bigger text, keep Auto and turn on **Large text** on the Accessibility page. The UI scale choice in the options and in the setup marks every value this way.
+- **Other screen shapes:** The layouts are made for 16:9. A 16:10 screen is a little narrower at the same height, so every layout gives the boss frames, and in some layouts a few more frames, a spot of their own there: the bars, unit frames, boss frames and damage meter keep clear of each other. A few frames that show only now and then (timers, toasts, the durability figure) and boss mod windows can still overlap a neighbor there. An ultrawide screen (21:9) uses the 16:9 spots with more room at the sides.
 
 ## Skins
 

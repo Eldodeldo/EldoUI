@@ -212,7 +212,7 @@ Finish on a fresh profile.
 When another addon does the same job as your module, EldoUI steps back for
 it, lists it on the Other addons page and in `/eui addons`, and lets the
 player pick who handles the job (`Core/AddonConflicts.lua` has the details).
-Declare it in one of three ways:
+Declare it in one of four ways:
 
 ```lua
 -- 1. The whole module stays off while one of these addons is loaded
@@ -235,11 +235,30 @@ EldoUI:RegisterCompetitor({
 	note = "SomeBarAddon draws its own page arrows.", -- for maintainers, never shown
 })
 
--- 3. No other addon does this (the absence is a decision), or your module
+-- 3. The other addon does the same job on frames of its own, so both run
+--    (scope "alongside"): nothing stands back, and the Other addons page
+--    lists it under "Also done by EldoUI".
+EldoUI:RegisterCompetitor({
+	addon = "SomeCooldownAddon",
+	module = "MyBars",
+	scope = "alongside",
+	covers = "part",                  -- "full": your module does the addon's
+	                                  -- whole job, so the page offers to turn
+	                                  -- it off; "part": some of it
+	note = "Shows cooldowns on its own icons.",
+})
+
+-- 4. No other addon does this (the absence is a decision), or your module
 --    is made to work next to other addons and never stands back.
 EldoUI:NoKnownCompetitor("MyBars", "Bars only EldoUI draws.")
 EldoUI:MarkCompanion("MyBars")
 ```
+
+Every entry also says how much of the other addon's job your module does:
+`covers = "full"` or `"part"`. Without it, a whole-module entry counts as
+`"full"` and any other entry as `"part"`. Standing back and how much EldoUI
+covers are separate facts: an addon can make your module stand back while
+your module does only part of its job.
 
 The older `EldoUI:RegisterFeatureConflicts(feature, { "Addon" })` keeps working
 and makes overlap entries on that feature key.

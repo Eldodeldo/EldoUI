@@ -1,4 +1,5 @@
 - [Getting started](getting-started.md)
+- [Current release](current-release.md)
 - [Updating](updating.md)
   - [Updating from 0.6](updating-from-0-6.md)
 - [Saved data](saved-data.md)
