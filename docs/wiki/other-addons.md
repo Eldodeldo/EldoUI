@@ -1,6 +1,6 @@
 # Using EldoUI with other addons
 
-EldoUI notices the addons you already use and never draws the same thing twice. When another addon does the same job as part of EldoUI, EldoUI steps back and leaves that job to it, until you pick otherwise.
+EldoUI recognizes supported addons and offers a choice for the jobs they share with EldoUI. It can step back for a whole module or for a supported individual feature. This is not a guarantee for every addon or combination; check who handles each job on the Other addons page.
 
 ## What steps back
 
@@ -12,7 +12,7 @@ An addon that loads later (load on demand) is noticed when it loads. Out of comb
 
 ## Picking who handles each job
 
-Open **Settings > Modules > Other addons**, or type `/eui addons`. Every addon EldoUI found is listed with each job it shares and who handles it now.
+Type `/eui addons page` to open **Other addons** in the config window. Every addon EldoUI found is listed with each job it shares and who handles it now.
 
 - **Use EldoUI's** gives the job to EldoUI. For a whole module, the other addon is turned off for this character after a reload. For a part both can run, EldoUI's part turns on right away and the other addon stays on.
 - **Keep** *(addon name)* leaves the job to the other addon and EldoUI steps back again. If you turned that addon off with Use EldoUI's and haven't reloaded yet, Keep turns it back on.

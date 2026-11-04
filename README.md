@@ -2,34 +2,29 @@
 
 **An AI-made, deeply modular UI for WoW: Forever.**
 
-EldoUI replaces and restyles the whole interface in one addon: unit frames, action bars, nameplates, bags, chat, maps, tooltips, and much more. Every part is a module you can turn on or off on its own. Pick one of ten layouts and the role you play, move anything you like, and keep one consistent look across every window.
+EldoUI replaces and restyles the whole interface in one addon: unit frames, action bars, nameplates, bags, chat, maps, tooltips, and much more. Every part is a module you can turn on or off on its own. Pick one of eleven layouts and the role you play, move anything you like, and keep one consistent look across every window.
 
 EldoUI is built with AI assistance, and it is designed and tested for WoW: Forever.
 
-## New in 0.7.0000
+## EldoUI 0.7.1000
 
-- **Ten built-in layouts** with clear names, and **EldoUI Center** as the new default for new profiles.
-- **Four roles** in the setup and on the Role page: Melee, Ranged, Healer and Tank, on every layout.
-- **A Keys and spells step** shows your keys, class spells and macros first and changes nothing on your bars until you press Apply.
-- **The Vanilla Original skin** dresses the unit frames, the action bar tray, the minimap border and the micro menu in the game's own classic art.
-- **Undo for every layout or pack change**, from the alert after the change or with `/eui layout undo`.
-- **Your setup carries over.** Settings, layout, dragged frames and journal come along, and a copy is kept first that the new Saved data page can put back.
-- **Danish.** EldoUI's own texts can be shown in Danish, under General > EldoUI language.
-- **Lighter in play.** Nameplates, bags, cooldown displays and many other parts do much less work, and background work pauses in combat.
+This README and the [player guide](docs/wiki/getting-started.md) describe the 0.7.1000 setup. Get published downloads from the [releases page](https://github.com/Eldodeldo/EldoUI/releases). [Current release](docs/wiki/current-release.md) provides the release-note reference.
 
-Coming from 0.6? [Updating from 0.6](docs/wiki/updating-from-0-6.md) shows what stays, what moved, and where to find it. Every change is in the [changelog](CHANGELOG.md).
-
-## Highlights
-
-- **More than 90 modules.** Turn every module on or off with one click or one command. Anything you switch off leaves Blizzard's own version in place.
-- **Ten layouts, four roles.** Each layout places every frame on a 1440p canvas in one click and looks the same on 1080p, 1440p, and 4K. An ultrawide safe area keeps the UI centered. The role adds a small layer on top: Healer brings the group frames to the center, Tank adds threat colors.
-- **Move and style everything.** `/eui move` unlocks every frame with grid snap and pixel nudging. Skins, style presets and preset packs change the look, never the position.
-- **One config window.** Search finds any setting by name, description, or choice. Changed rows are marked, and a Recent changes list lets you undo.
-- **Guided setup.** A step-by-step setup picks your scale, layout, look, role, modules, chat and keys on the first login, or sets up everything at once from a preset pack.
+- **97 modules.** Choose the parts you want in the config window or with a command. Supported replacements restore Blizzard's interface when turned off; optional helpers simply stop.
+- **Eleven current layouts, four roles.** Start with EldoUI Center or choose another layout, with automatic scaling from a 1440-unit reference canvas and screen-area controls for ultrawide displays. Melee, Ranged, Healer and Tank add role settings; Healer offers group-frame positions and Tank adds threat colors. Check the layout and style previews for your screen and settings.
+- **Guided setup.** A step-by-step setup picks your scale, layout, look, role, modules, chat and keys on the first login, or sets up everything at once from a preset pack. Short tour helps explain new parts the first time you meet them.
+- **Your keys, your way.** A key set that belongs to your profile and knows US, UK, Nordic, German and French keyboards. The Keys and spells step shows your keys, class spells and macros first and changes nothing on your bars until you press Apply.
+- **Your layout and look.** `/eui move` opens the available movers, with grid snap and pixel nudging. Fourteen skins set the art, module styles set details such as size and text, and preset packs combine a layout, look and settings. Your dragged positions stay unless you choose to reset them.
+- **Undo when you change your mind.** Every layout or pack change can be undone from the alert after the change or with `/eui layout undo`, and a Recent changes list in the config window undoes single settings.
+- **One config window.** Search finds any setting by name, description, or choice, and changed rows are marked.
+- **[Eldostar](docs/wiki/eldostar.md) and [My Adventure](docs/wiki/my-adventure.md).** EldoUI's own guide window follows community guides, with step controls and a waypoint to the next goal. The Journal brings together your character's story, dungeon runs, quests, keepsakes and notes.
 - **Profiles and sharing.** Account and character profiles, profiles per talent group, and share strings for a whole setup or a single module. Imports EllesmereUI, ElvUI, and Edit Mode strings.
-- **Safe updates.** A copy of your settings and journal before every update, and nothing deleted without asking (`/eui data`).
-- **Plays well with others.** One-click setups for Details!, BigWigs, Deadly Boss Mods, and the Cooldown Manager. A module steps aside when another addon already does the same job.
+- **Saved data and backups.** Settings and journals live separately from the addon files. `/eui data` lists copies kept before saved-data updates and lets you restore them; the journal also has backup and export controls.
+- **English and Danish.** EldoUI's own texts can be shown in Danish, under General > EldoUI language.
+- **Other addon choices.** Setup offers profiles for supported addons such as Details! and BigWigs. The Other addons page lets you choose who handles recognized overlapping jobs.
 - **Fair play.** EldoUI only changes how the interface looks and where things sit, and shows only what the game gives addons. It never plays for you, and nothing acts without your click unless you turn it on.
+
+What changed in each release is in the [changelog](CHANGELOG.md). Version 0.7.1000 starts with a fresh EldoUI profile and eleven built-in presets. Profile and preset updates are supported from this version onward.
 
 ## What is inside
 
@@ -40,9 +35,9 @@ Coming from 0.6? [Updating from 0.6](docs/wiki/updating-from-0-6.md) shows what 
 | Interface | Info Bar, Minimap, Maps, Quest Tracker, Tooltip, XP and Reputation Bars, Micro Menu and Bag Bar, Alerts and Banners, Edit Mode, skins for Blizzard's windows |
 | Chat and social | Chat with history and search, Instant Messages, Chat Bubbles, Chat Input, Player Notes, Streamer Mode |
 | Items and economy | Bags and bank across your characters, Upgrades, Auction House, Merchant, Mail, Trade, Appearances, Profession Planner, Alts |
-| Guides | Loot Guide with Attunements, the My Adventure journal, Zone Quests, Training, Talent Planner, Legacy Planner, Dungeon Routes |
+| Guides | Eldostar, Loot Guide with Attunements, the My Adventure journal, Zone Quests, Training, Talent Planner, Legacy Planner, Dungeon Routes |
 | Group | Raid Tools, Ready Check Report, Party Quests, Raid Loot, Blessing Plan, Battleground Timers, Instances |
-| Quality of life | Waypoints, Map Notes, Rare Scanner, Gathering, Fishing, Farming, Finder, Macro Editor, Camp Helper, Mage Travel, Shaman Totems, and more |
+| Quality of life | Waypoints, Map Notes, Rare Alerts, Gathering, Fishing, Farming, Finder, Macro Editor, Camp Helper, Mage Travel, Shaman Totems, and more |
 
 The [module list](docs/wiki/modules.md) describes every module and shows which ones start on, and the [feature showcase](docs/showcase/overview.md) goes into detail.
 
@@ -57,7 +52,7 @@ The five companion folders load only when you need them: the Loot Guide data, th
 
 ### Updating
 
-Close the game, delete the old EldoUI folders, and unzip the new version. Your settings live in the game's `WTF` folder, so an update never loses them. See [Updating](docs/wiki/updating.md), and [Updating from 0.6](docs/wiki/updating-from-0-6.md) for this version.
+Close the game, delete the old EldoUI folders, and unzip the new version. Your settings live separately in the game's `WTF` folder. Keep a backup of that folder before updating. See [Updating](docs/wiki/updating.md) and [Starting with 0.7.1000](docs/wiki/updating-from-0-6.md).
 
 ## First start
 
@@ -86,11 +81,11 @@ The [command reference](docs/wiki/commands.md) lists all of them.
 
 - **Game:** WoW: Forever (Interface 16001). EldoUI does not run on Classic Era or Retail.
 - **Languages:** EldoUI's own texts are in English (US) and Danish: pick Dansk under General > EldoUI language and reload. The Loot Guide is also translated into German, French, Spanish, Brazilian Portuguese, Russian, Korean, and Chinese.
-- **Other addons:** EldoUI works next to Details!, BigWigs, Deadly Boss Mods, Questie, RestedXP, Guidelime, HandyNotes, and Masque. It notices the addons you already use for bags, bars, frames, chat, and more, and steps back where they do the same job: a whole module (Bags while Bagnon is loaded) or only the parts both do (selling gray items with Leatrix Plus). You pick who handles each job on the Other addons page, with `/eui addons`, or in the setup. See [Using EldoUI with other addons](docs/wiki/other-addons.md).
+- **Other addons:** EldoUI works next to Details!, BigWigs, Deadly Boss Mods, Questie, RestedXP, Guidelime, HandyNotes, and Masque. For recognized addons, it offers ownership choices for supported jobs such as bags, bars, frames and chat: a whole module (Bags while Bagnon is loaded) or only the parts both do (selling gray items with Leatrix Plus). You pick who handles each job on the Other addons page, with `/eui addons`, or in the setup. See [Using EldoUI with other addons](docs/wiki/other-addons.md).
 
 ## Privacy and safety
 
-EldoUI never connects to the internet and sends nothing to its author or to any website. It changes how the game looks and shows what the game already tells you; it never plays for you, and every chat line, invite, roll or purchase comes from your own click or key press. Two features talk to other players who run EldoUI, as hidden addon messages, never in chat:
+EldoUI never connects to the internet and sends nothing to its author or to any website. It changes how the game looks and shows what the game already tells you; it never plays for you, and every chat line, invite, roll or purchase comes from your own click or key press. Some features exchange information with other players through addon messages. Examples include:
 
 - **Version check** (on by default) tells guild and group members which EldoUI version you have, so you get one chat line when someone has a newer one. Never sent in combat, boss fights or PvP matches. Turn it off under Plugins > Notices.
 - **Party Quests sync** (on by default) shares your quest progress with your group and shows theirs. Not in battlegrounds or arenas. Turn it off under Party Quests > Sync with group.
@@ -98,10 +93,11 @@ EldoUI never connects to the internet and sends nothing to its author or to any 
 ## Documentation
 
 - [Getting started](docs/wiki/getting-started.md)
-- [Updating](docs/wiki/updating.md) and [Updating from 0.6](docs/wiki/updating-from-0-6.md)
+- [Updating](docs/wiki/updating.md) and [Starting with 0.7.1000](docs/wiki/updating-from-0-6.md)
 - [Saved data](docs/wiki/saved-data.md)
 - [Modules](docs/wiki/modules.md)
 - [Layouts and presets](docs/wiki/layouts.md)
+- [Eldostar](docs/wiki/eldostar.md)
 - [My Adventure](docs/wiki/my-adventure.md)
 - [Commands](docs/wiki/commands.md)
 - [FAQ](docs/wiki/faq.md)
@@ -127,7 +123,7 @@ Plugins add their own modules to EldoUI through the global `EldoUI` and get a se
 EldoUI is written from scratch for WoW: Forever, and it builds on the work of the WoW addon community:
 
 - **Builds on** the embedded libraries LibStub, CallbackHandler-1.0, and LibActionButton-1.0; open-source code from What's Training?, Molinari, and Forever Journal; loot data from CMaNGOS classic-db; guides from the Polestar community guide project; and open fonts, sounds and emoji.
-- **Inspired by** addons players already love, such as ElvUI, EllesmereUI, Plater, Details!, and Leatrix Plus, and by public community layout presets: seven of the ten built-in layouts take their general idea from one.
+- **Inspired by** addons players already love, such as ElvUI, EllesmereUI, Plater, Details!, and Leatrix Plus, and by public community layout presets: seven of the eleven built-in layouts take their general idea from one.
 
 Thank you to all of their authors. The full list, with every license, is in [Credits and third-party notices](THIRD_PARTY_NOTICES.md) and the [media credits](LICENSES/Media.md).
 

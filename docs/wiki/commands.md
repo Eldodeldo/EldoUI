@@ -13,6 +13,7 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | `/eui addons` | Which other addons do an EldoUI job, and who handles each job. `/eui addons use <addon>` lets EldoUI do that addon's jobs, `/eui addons keep <addon>` leaves them to the addon, `/eui addons page` opens the Other addons page |
 | `/eui <module> on`, `off`, `toggle` | Switch a module; `/eui <module>` alone opens its settings. `/eui enable <module>` and `/eui disable <module>` do the same |
 | `/eui whatsnew` | What changed in this version |
+| `/eui thanks` | The Thanks page: the people who helped build EldoUI and the people who stand behind it |
 | `/eui version` | The EldoUI version |
 | `/eui tour [name\|reset]` | List the tour helps, show one again by its name, or show them all again |
 | `/eui install [step\|undo]` | Run the setup again, open one step (for example `layout`, `role` or `modules`), or undo the last setup |
@@ -28,7 +29,7 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | Command | What it does |
 |---|---|
 | `/eui move [on\|off]` | Unlock frames to drag them; again to lock |
-| `/eui layout [name]` | Apply a layout; no name lists them. A legacy layout's old name works too |
+| `/eui layout [name]` | Apply a layout; no name lists the available choices |
 | `/eui layout undo` | Put back the last layout, pack or setup change |
 | `/eui resetlayout` | Put every frame back to its layout position |
 | `/eui scale auto` or `/eui scale <number>` | Automatic or your own UI scale |
@@ -125,10 +126,10 @@ Commands that belong to one module.
 | `/eui notify test [lane\|errors\|warning\|bg\|pings]` | Alerts and Banners | Preview EldoUI's alerts and messages |
 | `/eui cutscenes forget` | Alerts and Banners | Play every cutscene again once |
 | `/eui map reset` | Maps | Put the world map, flight map and taxi window back where Blizzard places them |
-| `/eui way [zone] x y [title]`, `/way` | Waypoints | Set a waypoint and follow the arrow; also `list`, `closest` and `reset [zone\|all]` |
+| `/eui way [zone] x y [title]`, `/way` | Waypoints | Set a waypoint and follow the arrow; also `list` (the Waypoints window), `print` (the list in chat), `closest` and `reset [zone\|all]` |
 | `/eui eldostar [show\|hide\|guides]` | Eldostar | Show or hide the guide window, or open the guide list in the Journal |
 | `/eui mapnote [on\|off\|add x y title\|hidden\|undo]` | Map Notes | Show or hide every EldoUI map pin, or add a map note |
-| `/eui rares [test]` | Rare Scanner | Rare Scanner settings, or show a test card |
+| `/eui rares [test]` | Rare Alerts | Rare Alerts settings, or show a test card |
 | `/eui camp [status\|panel\|announce\|ask\|share\|finds]` | Camp Helper | Campfire buffs, the camp panel, a one-line camp announcement and the camp finder |
 | `/eui tracker on`, `off`, `toggle` | Quality of Life | Show or hide the quest tracker |
 | `/eui volume` | Quality of Life | Show or hide the volume panel |

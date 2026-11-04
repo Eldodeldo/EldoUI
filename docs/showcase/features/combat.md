@@ -26,7 +26,7 @@ Health, power, combo points, druid mana and a GCD bar under your character, plus
 
 ## Aura Groups
 
-Your own rows of aura icons, each with its own mover: pick the spells, the unit and whether only yours count. The game shows each aura; EldoUI only places and dresses the icons.
+Your own rows of aura icons, each with its own mover: pick the spells, the unit and whether only yours count. The game shows each aura; EldoUI only places and dresses the icons. Each group has its own visibility rules (in combat, in a group, in instances, per talent group) and can show only in one of your stances or forms. A group can also play a sound when one of its auras starts or ends.
 
 ## Combat HUD
 

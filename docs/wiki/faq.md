@@ -2,7 +2,7 @@
 
 ## Is EldoUI really made with AI?
 
-Yes. EldoUI is designed and written with AI assistance, and every module is tested for WoW: Forever before it ships. It follows the same rules as any other addon: it only changes the interface and never plays for you.
+Yes. EldoUI is designed and written with AI assistance for WoW: Forever. It follows the same rules as any other addon: it only changes the interface and never plays for you.
 
 ## Does EldoUI work on Classic Era or Retail?
 
@@ -22,7 +22,7 @@ The Loot Guide data (`EldoUI_LootData`), the guides (`EldoUI_GuideData`), the ge
 
 ## Another addon already does this. Do they clash?
 
-No. EldoUI notices the addons you already use and steps back where they do the same job: Bags stays off while Bagnon, AdiBags or Baganator is loaded, Nameplates while Plater is loaded, and Action Bars while Bartender4 or Dominos is loaded. With addons that do many small things, such as Leatrix Plus, only the parts both do step back. You pick who handles each job on the Other addons page (`/eui addons`) or in the setup. See [Using EldoUI with other addons](other-addons.md).
+For recognized addons, EldoUI offers choices for supported overlapping jobs: Bags stays off while Bagnon, AdiBags or Baganator is loaded, Nameplates while Plater is loaded, and Action Bars while Bartender4 or Dominos is loaded. With addons that do many small things, such as Leatrix Plus, only the parts both do step back. You pick who handles each job on the Other addons page (`/eui addons`) or in the setup. See [Using EldoUI with other addons](other-addons.md).
 
 ## Where are my settings, and how do I start over?
 
@@ -54,9 +54,9 @@ For a problem without an error, `/eui diag copy` gives you the version and setup
 
 EldoUI is its own addon, written from scratch for WoW: Forever with AI assistance. The open-source code, data, fonts and sounds it builds on, and the work that inspired it, are credited in [Credits and third-party notices](../../THIRD_PARTY_NOTICES.md).
 
-## I updated from 0.6 and my layout has a new name
+## Which layouts can I choose?
 
-Nine of the ten layouts got clearer names, and the ones that left the list stay as legacy layouts, so your screen does not change. [Updating from 0.6](updating-from-0-6.md) lists every old and new name.
+EldoUI offers eleven built-in presets, listed in [Layouts and presets](layouts.md). Version 0.7.1000 begins with a fresh EldoUI profile; profile and preset updates are supported from that version onward.
 
 ## Can I play EldoUI in Danish?
 

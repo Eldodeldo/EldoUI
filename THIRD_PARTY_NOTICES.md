@@ -14,23 +14,26 @@ EldoUI is built with AI assistance, on top of a lot of generous work from the Wo
 - **What's Training?** by fusionpit: the trainer data and grouping logic behind the Training window.
 - **Molinari** by p3lim: the lockbox and disenchant data and the secure button approach behind Bag Actions.
 - **Forever Journal** by Ugge Zen: the journal model and page designs behind My Adventure.
+- **Frog Lord's Diablo Orbs** by Frog Lord King of the Pond, with the techniques it credits to Erik "zork" Raetz and Lars "Goldpaw" Norberg: how the liquid orbs fill and move.
 
 ### Data, art, fonts, and sounds
 
 - **CMaNGOS classic-db**: the loot, creature, and quest data in the separate EldoUI_LootData folder (GPL-3.0-or-later).
 - **Polestar** by the Polestar authors (Fitz and the project's contributors): the WoW: Forever guides in the separate EldoUI_GuideData folder, a free and open-source community guide project (GPL-3.0).
+- **Daemon statue with rig+animations** by umask007, after **Demon statue** by yd (made from a public domain model by Joseph): the kneeling demon on the Infernal Stone statue beside the unit-frame orbs, rendered and recolored for EldoUI, CC0 1.0, https://opengameart.org/content/daemon-statue-with-riganimations and https://opengameart.org/content/demon-statue.
+- **Health Orb** by itsmars: the liquid of the unit-frame orbs (the gray sphere and the cloud wisps, converted to EldoUI textures), CC0 1.0, https://opengameart.org/content/health-orb-11.
 - **Twemoji** and **emojibase**: the chat emoji pictures and names in EldoUI_Emoji, and the flags in EldoUI's language list.
 - Open fonts by the Barlow, Inter, Open Sans, Plus Jakarta Sans, Poppins, Rajdhani, Roboto, and other font projects, and CC0 and CC-BY sounds from freesound.org creators. Every file is listed in the [media credits](LICENSES/Media.md).
 
 ### Layout presets
 
-Fifteen of EldoUI's layouts (seven of the ten built-in layouts and eight legacy layouts) take their general idea from public community presets. Thank you to Angelicus07, .kreky, Zentyy, bigbluey, figmentalnewton, syntaxerror., dogobert, joe_gaming1231, 1fach, l3nzu, .rzk., mrhedge, Lily TEAM, Trenchy TEAM, and Zerby. Each layout is listed with its source under [Layout inspiration](#layout-inspiration).
+Twenty of EldoUI's layout versions (seven of the eleven built-in layouts and thirteen legacy layouts) take their general idea from public community presets. Thank you to Angelicus07, .kreky, Zentyy, bigbluey, figmentalnewton, syntaxerror., dogobert, joe_gaming1231, 1fach, l3nzu, .rzk., mrhedge, Lily TEAM, Trenchy TEAM, and Zerby. Each layout is listed with its source under [Layout inspiration](#layout-inspiration).
 
 ### Projects that inspired features
 
 Many EldoUI features were inspired by addons that players already love. EldoUI's versions are written for EldoUI, and none of the code below is included unless it is listed under [Adapted code and data](#adapted-code-and-data). Thank you to the authors of:
 
-AdiBags, Altoholic, ArcUI, AtlasLoot, Attune, Auctionator, Baganator, Bagnon, Better Forever Chat, Better Timeline, BigWigs, BlizzMove, BugGrabber and BugSack, Campfire Assistant, Capping, Click Casting Tooltip, Darkfoxx Enemy Spotter, Deadly Boss Mods, Details!, ElvUI, EllesmereUI, ForeverPlus, GTFO, HandyNotes: WoW Forever, Leatrix Plus, Mik's Scrolling Battle Text, MobInfo2, MoveAny, Nova Instance Tracker, Opulent Casting Bars, Pawn, Plater, Postal, Prat, SilverDragon, Talents Forever, TomTom, WIM, X-Perl and Z-Perl, and XLoot.
+AdiBags, Altoholic, ArcUI, AtlasLoot, Attune, Auctionator, Baganator, Bagnon, Better Forever Chat, Better Timeline, BigWigs, BlizzMove, BugGrabber and BugSack, Campfire Assistant, Capping, Click Casting Tooltip, Darkfoxx Enemy Spotter, Deadly Boss Mods, Details!, DiabolicUI, ElvUI, EllesmereUI, ForeverPlus, GTFO, HandyNotes: WoW Forever, Leatrix Plus, Mik's Scrolling Battle Text, MobInfo2, MoveAny, Nova Instance Tracker, Opulent Casting Bars, Pawn, Plater, Postal, Prat, SilverDragon, Talents Forever, TomTom, WIM, X-Perl and Z-Perl, and XLoot.
 
 ## Embedded libraries
 
@@ -53,14 +56,41 @@ EldoUI embeds these libraries unmodified. Each keeps its own license.
 | What's Training? | `Data/Training/*.lua` (trainer spell, quest spell, weapon master, pet and reputation data) and the grouping, rank and discount logic in `Modules/Training.lua` | https://github.com/fusionpit/WhatsTraining (branch `forever`; data from commit 716de2c, Paladin and Shaman data from commit 6e9bb2f, logic from commit b5a5a74) | MIT, "Copyright (c) 2019"; the full license text is at the top of `Data/Training/Shared.lua` |
 | Molinari | `Modules/BagActions/Data.lua` (lockbox Lockpicking levels and the items that can't be disenchanted, item IDs only) and the secure-overlay approach in `Modules/BagActions/BagActions.lua` (button laid over the hovered slot from its scaled rectangle, the trade-slot Pick Lock macro) | https://github.com/p3lim-wow/Molinari (branch `master`, `data/Camelot/openable.lua` and `nondisenchantable.lua`, as of 2026-10-12) | MIT, "Copyright (c) 2006-2008 Trond A Ekseth, Copyright (c) 2009-2026 Adrian L Lange"; the full license text is at the top of `Modules/BagActions/Data.lua` |
 | Forever Journal | `Modules/LootGuide/Adventure/{Kinds,Record,Chronicle,Fellowship,Goals,Notes,Backup,Import,Export}.lua`, `Modules/LootGuide/Adventure/Story/{Plan,Banks/Ledger}.lua` and `Modules/LootGuide/Adventure/UI/{Journey,Keepsakes,Places,Quests,Fellowship,History}.lua` (the journal model, event kinds, their icons and groups, the detail presets and the worth order, goal kinds, reminder triggers and the trigger suggested from a note, the backup merge, the data-only code decoder, the export document model and its formats, the level-chapter plan and the Ledger line texts; the Journey's views and chapters, the keepsake cards, the places gallery and place page, the quest page, the fellowship list and companion page, the dungeon page, and their texts), and the `paper.*` ink tokens in `Core/Media.lua` | https://www.curseforge.com/wow/addons/forever-journal (2.1.0, file 9061662, 2026-10-04) | MIT, "Copyright (c) 2026 Ugge Zen"; the full license text is at the top of each file |
+| Frog Lord's Diablo Orbs, rModelOrbTemplate and LibOrb-1.0 | The orb technique in `Core/Orb.lua`, written for EldoUI: a vertical status bar sets the level, a frame that clips its children hangs from the bar's bottom to the top of its fill texture so the game crops the liquid, and two counter-rotating liquid layers breathe out of phase on animation groups. No code, art or data of these projects is included; the orb textures are made by `tools/gen_skin_art.py`, the liquid from the CC0 Health Orb art credited above | https://www.curseforge.com/wow/addons/frog-lords-mods (Frog Lord's Diablo Orbs 0.9.40-beta), https://github.com/zorker/rModelOrbTemplate, https://github.com/GoldpawsStuff/DiabolicUI (LibOrb-1.0, code only) | MIT, "Copyright (c) 2026 Frog Lord King of the Pond", "Copyright (c) 2026 Erik Raetz" and "Copyright (c) 2022 Lars Norberg"; the full text is under [Orb technique license](#orb-technique-license) |
 
 Fonts and textures are listed in the [media credits](LICENSES/Media.md).
 
+## Orb technique license
+
+The three projects behind the orb technique share this license text, each with its own copyright line: Copyright (c) 2026 Frog Lord King of the Pond; Copyright (c) 2026 Erik Raetz; Copyright (c) 2022 Lars Norberg.
+
+```
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
 ## Layout inspiration
 
-Fifteen of the 19 generated layout presets take their general idea from a community preset; EldoUI Center (the default) and the three Vanilla presets (Vanilla Original and the legacy Eldo-Vanilla Compact and Eldo-Vanilla Focus) are EldoUI's own. The generated presets are built on EldoUI's own placement grid: EldoUI's zones, spacing rules, unit frame tracks and column rows on the 1440-unit canvas, and EldoUI's own named accent colors. Each one takes only its general idea from a public community preset made for EllesmereUI, credited below; the credit lives here, not in the layout descriptions shown in the game. It is inspiration only: no code, positions, colors, text or media from those presets, EllesmereUI or ElvUI are included. Modern Center and the legacy Eldo-Classic are EldoUI's own as well.
+Twenty of the 28 generated layout presets take their general idea from a community preset; EldoUI Center (the default), Twin Orbs and the three Vanilla presets (Vanilla Original and the legacy Eldo-Vanilla Compact and Eldo-Vanilla Focus) are EldoUI's own. The generated presets are built on EldoUI's own placement grid: EldoUI's zones, spacing rules, unit frame tracks and column rows on the 1440-unit canvas, and EldoUI's own named accent colors. Each one takes only its general idea from a public community preset made for EllesmereUI, credited below; the credit lives here, not in the layout descriptions shown in the game. It is inspiration only: no code, positions, colors, text or media from those presets, EllesmereUI or ElvUI are included. Modern Center and the legacy Eldo-Classic are EldoUI's own as well.
 
-Since 0.7.0000 the layout list holds ten built-in layouts. The layouts that left it stay in EldoUI as legacy layouts, unchanged, so a profile that uses one keeps its screen. The table names each layout as it is shown today.
+The layout list holds eleven built-in layouts. The layouts that left it stay in EldoUI as legacy layouts, unchanged, so a profile that uses one keeps its screen. The table names each layout as it is shown today.
 
 | Layout | Inspired by |
 |---|---|

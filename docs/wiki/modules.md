@@ -4,8 +4,8 @@ Everything in EldoUI is a module you can switch on and off: 97 modules in all, l
 
 - `/eui modules` lists every module and whether it is on.
 - `/eui <name> on`, `off` or `toggle` switches one. The name is the word in the table below, the module's name as the config window shows it (`/eui party and raid off`) or a unique start of it (`/eui na off` switches Nameplates off), ignoring case and spaces. `/eui <name>` alone opens its settings.
-- A module stays off while an addon that does the same job is loaded (for example Bags while Bagnon or Baganator is loaded), so two addons never draw the same thing.
-- "Default" is the state in a new EldoUI profile; a module marked Off waits until you turn it on. The setup's Modules step, a preset pack or the UI amount can change it, and anything you switch off leaves Blizzard's own version in place. Party Quests starts on and shares your quest progress with group members who run EldoUI, as addon messages only, never chat; never in battlegrounds or arenas, and not in raids unless you allow it.
+- Recognized addons have ownership choices for supported overlapping jobs; for example, Bags steps back for Bagnon or Baganator unless you choose EldoUI. See [Using EldoUI with other addons](other-addons.md).
+- "Default" is the state in a new EldoUI profile; a module marked Off waits until you turn it on. The setup's Modules step, a preset pack or the UI amount can change it, and supported replacements restore Blizzard's interface when switched off. Optional helpers stop without adding a replacement. Party Quests starts on and shares your quest progress with group members who run EldoUI, as addon messages only, never chat; never in battlegrounds or arenas, and not in raids unless you allow it.
 
 Each module name links to its section in the showcase.
 
@@ -115,13 +115,13 @@ Each module name links to its section in the showcase.
 | [Alts](../showcase/features/items-economy.md#alts) | An Alts window with overview, search, professions, mail, quests, grids, level log and agenda for all your characters. | `alts` | Off |
 | [Deadly Boss Mods](../showcase/features/interface.md#deadly-boss-mods) | Deadly Boss Mods with EldoUI's look, layout placement and quiet chat. | `dbm` | On |
 | [Waypoints](../showcase/features/quality-of-life.md#waypoints) | `/way` coordinates, a direction arrow with distance and arrival time, and pins on the world map and minimap. | `waypoints` | On |
-| [Eldostar](../showcase/features/quality-of-life.md#eldostar) | EldoUI's own leveling guide: over 200 community guides for WoW: Forever, step by step in a window on your layout's guide spot, with goals that tick from the game and a waypoint to the next one. | `eldostar` | On |
+| [Eldostar](../showcase/features/quality-of-life.md#eldostar) | EldoUI's own leveling guide: over 200 community guides for WoW: Forever, step by step in a window on your layout's guide spot, with goals that tick from the game and a waypoint to the next one. [Guide and controls](eldostar.md). | `eldostar` | On |
 | [Bar Snapshots](../showcase/features/quality-of-life.md#bar-snapshots) | Save and restore action bars, macros and key bindings; automatic backups and a restore offer after a reset. | `snapshots` | On |
 | [Camp Helper](../showcase/features/quality-of-life.md#camp-helper) | Campfire and feature tooltips, class-buff clashes, a camp panel with buff timers and a warning before Camp Benefits ends. | `camp` | On |
 | [Quest Marks](../showcase/features/quality-of-life.md#quest-marks) | Tags and tints quests that are new in WoW: Forever in the quest window, quest log and quest giver lists. | `questmarks` | On |
 | [Gathering](../showcase/features/quality-of-life.md#gathering) | Remembers your herb, ore and treasure finds and shows them on the world map and minimap. | `gathering` | On |
 | [Map Notes](../showcase/features/quality-of-life.md#map-notes) | Rares and your own notes on the world map and minimap, and one button on the map that shows or hides every EldoUI pin (and HandyNotes). | `mapnotes` | On |
-| [Rare Scanner](../showcase/features/quality-of-life.md#rare-scanner) | A click-to-target card and one sound when a rare shows up on the minimap, a nameplate, your target or in a yell; a tooltip line and a "Rares" data text. | `rarescanner` | On |
+| [Rare Alerts](../showcase/features/quality-of-life.md#rare-alerts) | A card and one sound when a rare, a treasure or an event shows up on the minimap, a nameplate, your target or in a yell; quiet zones, an optional Rare History window, a tooltip line and a "Rares" data text. | `rarescanner` | On |
 | [Zone Info](../showcase/features/quality-of-life.md#zone-info) | World map zone tooltip with level and gathering ranges, dungeons and territory, and an optional zone toast. | `zoneinfo` | On |
 | [Farming](../showcase/features/quality-of-life.md#farming) | A farming session bar: time, looted gold, item value and XP per hour, sessions saved per zone. | `farming` | On |
 | [Camera Situations](../showcase/features/quality-of-life.md#camera-situations) | The camera zooms to your distance at NPCs, in combat, mounted, indoors and in cities, and back afterwards. | `camera` | Off |

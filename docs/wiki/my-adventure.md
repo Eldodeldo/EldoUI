@@ -1,5 +1,7 @@
 # My Adventure
 
+This page describes My Adventure in **0.7.1000**. For step-by-step leveling routes, see [Eldostar](eldostar.md).
+
 My Adventure is your character's journal. It is the first tab of the Journal window (the Loot Guide's window, `/lg`), called **My Adventure**, and it writes itself as you play: levels, places, dungeons, quests, finds, the people you traveled with, and your own goals and notes. It tells it back as a diary, a book from level 1 to 60, keepsake cards, and tips for where to go next.
 
 - It needs the Loot Guide on. While My Adventure runs, the window's title reads "Journal" and the Loot Guide's dungeon tab reads "Dungeons".
@@ -91,6 +93,8 @@ An addon can't write files of its own, so the journal keeps dated backups inside
 ## Moving from Forever Journal
 
 `/eui journey import` reads Forever Journal's saved data while that addon is still enabled: every character's journal tagged with its owner, its backups, and optionally its settings. It never writes to Forever Journal's data, it backs up first, it can be undone, and running it twice adds nothing twice. Journals from before Forever Journal 1.3 carry no owner tag and are skipped, so a namesake's journal never lands on you. Then turn Forever Journal off in the AddOns list and `/reload`: EldoUI never turns another addon off.
+
+Companions keep hyphenated last names. Older spellings of the same name are combined with the current spelling, including their time together, dungeon history and quest partners.
 
 ## Where the data lives
 

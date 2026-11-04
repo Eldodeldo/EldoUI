@@ -2,27 +2,31 @@
 
 EldoUI separates **where** things sit from **how** they look:
 
-- a **layout** places every frame;
+- a **layout** provides frame positions and module sizing;
 - a **role** moves a few frames on top of it for the job you do in groups;
-- **skins**, **style presets** and **preset packs** change the look and never move anything;
-- **movers** (`/eui move`) let you place any frame yourself on top of all of it.
+- a **skin** sets the art; **style presets** set a module's presentation, including sizes and visibility;
+- **preset packs** combine a layout, skin, styles and other settings;
+- **movers** (`/eui move`) let you place the available frames yourself on top of all of it.
+
+The table below lists the eleven built-in presets in **0.7.1000**.
 
 ## Layout presets
 
-All ten are built on EldoUI's own placement grid (zones, spacing and frame tracks on a canvas 1440 units tall). Pick one in the setup, on the Layouts page of `/eui`, on the Overview, or with `/eui layout <name>` (for example `/eui layout EldoZen`; `/eui layout` alone lists them). EldoUI Center is the default for new profiles.
+All eleven are built on EldoUI's own placement grid (zones, spacing and frame tracks on a canvas 1440 units tall). Pick one in the setup, on the Layouts page of `/eui`, on the Overview, or with `/eui layout <name>` (for example `/eui layout EldoZen1000`; `/eui layout` alone lists them). EldoUI Center is the default for new profiles.
 
 | Layout | Key | Skin it brings | Idea |
 |---|---|---|---|
-| Vanilla Original | `EldoVanilla` | Vanilla Original | The familiar original layout: portraits in the top left corner, a round minimap top right, the action bars along the bottom with the chat beside them, and the world kept clear. |
-| EldoUI Center | `EldoCenter` | WoW Forever | EldoUI's own default: one calm center. Player and target sit level with the cooldown row, the resource and cast bars stay in the column between them, and the action bars form one block at the bottom with a narrow wing on each side. |
+| Vanilla Original | `EldoVanilla1000` | Vanilla Original | The familiar original layout: portraits in the top left corner, a round minimap top right, the action bars along the bottom with the chat beside them, and the world kept clear. |
+| EldoUI Center | `EldoCenter1000` | WoW Forever | EldoUI's own default: one calm center. Player and target sit level with the cooldown row, the resource and cast bars stay in the column between them, and the action bars form one block at the bottom with a narrow wing on each side. |
 | Modern Center | `EldoModern` | WoW Forever | Info bar on top, compact center, meters bottom right. |
-| Blizzard Bottom Block | `EldoBlizz` | Blizzard | Blizzard-style bottom block: unit frames sit right on the bar stack, pet and target of target above them. |
+| Blizzard Bottom Block | `EldoBlizz1000` | Blizzard | Blizzard-style bottom block: unit frames sit right on the bar stack, pet and target of target above them. |
 | Portrait Staggered | `EldoHeritage` | Faction Heritage | Classic staggered unit frames with the target one row higher, party low on the left, three bar rows along the bottom with a short bar beside them. |
-| Compact HUD | `EldoZen` | Minimal Modern | A quiet center: unit frames high, level with the resource bar, three stacked bar rows. |
-| Widescreen Edges | `EldoWide` | WoW Forever | Made for wide screens: one long bar row along the bottom, unit frames well apart at cast bar height, pet beside the player, panels at the screen edges. |
-| Close Combat | `EldoCozy` | Warcraft Parchment | Cozy and close: the resource bar on top, unit frames right beside the character, bars in a small pyramid. |
-| Open Center | `EldoHunter` | Forged Metal | An open center for every class: three bar blocks in a row, unit frames low and far apart. |
+| Compact HUD | `EldoZen1000` | Minimal Modern | A quiet center: unit frames high, level with the resource bar, three stacked bar rows. |
+| Widescreen Edges | `EldoWide1000` | WoW Forever | Made for wide screens: one long bar row along the bottom, unit frames well apart at cast bar height, pet beside the player, panels at the screen edges. |
+| Close Combat | `EldoCozy1000` | Warcraft Parchment | Cozy and close: the resource bar on top, unit frames right beside the character, bars in a small pyramid. |
+| Open Center | `EldoHunter1000` | Forged Metal | An open center for every class: three bar blocks in a row, unit frames low and far apart. |
 | Nameplate Focus | `EldoPlates` | Forged Metal | Tank and DPS: your target's details on its nameplate, the player frame inside the center column. |
+| Twin Orbs | `EldoSanctum1000` | Infernal Stone | Your health and power as two liquid orbs at the ends of the action bars, with your target centered above the bars. |
 
 Each layout also suggests a style for each part of the UI and its own accent color. Picking a layout gives the same result wherever you pick it (the Layouts page, `/eui layout`, the Overview, a pack or the setup): the layout's skin, Blizzard windows and suggested styles, nameplates included.
 
@@ -35,15 +39,13 @@ Each layout also suggests a style for each part of the UI and its own accent col
 
 ### One picker
 
-The Layouts page, the Overview and the move panel share one layout picker: the ten layouts first, then the legacy layouts one of your profiles still uses (**Legacy in use**), then **My layouts** (imported layouts and the copies EldoUI kept of your dragged frames). The Overview and move mode show your layout, role, skin and Blizzard windows at a glance.
+The Layouts page, the Overview and the move panel share the same eleven built-in choices. **My layouts** contains your imported layouts and saved copies of your own placements. The Overview and move mode show your layout, role, skin and Blizzard windows at a glance.
 
-### Legacy layouts
-
-Layouts that left the list in 0.7.0000 stay in EldoUI as legacy layouts, unchanged: a profile that uses one keeps its screen until you pick another layout. A legacy layout shows in the picker only while one of your profiles uses it, together with the layout it is closest to, for example "Legacy: Eldo-Cookies (nearest: Portrait Staggered)". `/eui layout <name>` still applies one by its old name. [Updating from 0.6](updating-from-0-6.md#legacy-layouts) lists every legacy layout and its nearest layout.
+Version 0.7.1000 starts with a fresh EldoUI profile. Profiles and presets from earlier patches are not supported. Later updates keep your supported profile settings and dragged positions. Choosing a built-in preset applies its current placement; `/eui layout undo` restores the previous setup.
 
 ## Roles
 
-A role is not a layout. It is a small layer over any of the ten layouts for the job you do in groups, picked in the setup or on the Role page in `/eui`. Boss frames, boss mod bars and your cast bar never move by role.
+A role is not a layout. It is a small layer over any of the eleven layouts for the job you do in groups, picked in the setup or on the Role page in `/eui`. Boss frames, boss mod bars and your cast bar never move by role.
 
 | Role | What it changes |
 |---|---|
@@ -52,7 +54,7 @@ A role is not a layout. It is a small layer over any of the ten layouts for the 
 | **Healer** | Party and raid frames move next to the center and grow, with dispel and boss debuff highlights, heal prediction and HoT squares. The spot is set for each layout, and frames in the way step aside: aura groups, the ping feed, combat text and the optional bars and panels. Raids that use the Mid or Large raid settings keep the larger healer frames too. **Healer group frames** on the Role page can put them at the bottom center instead, above your bars: the party as one row and a raid of up to ten as two rows, while a larger raid moves beside the center. Click-casting is offered as a choice. |
 | **Tank** | Threat colors on nameplates and EldoUI's threat meter at its placed spot. Main tank frames show in raids. Nothing else moves. |
 
-Every layout works with every role, without any setup of your own. The setup suggests Melee for Warriors and Rogues and Ranged for Hunters, Mages and Warlocks, and **Class details** adds a few settings for your class on top.
+Each layout has role settings; available group-frame positions and styles depend on the layout. Check the choices on the Role page. The setup suggests Melee for Warriors and Rogues and Ranged for Hunters, Mages and Warlocks, and **Class details** adds a few settings for your class on top.
 
 ## Action bars and keys
 
@@ -95,11 +97,11 @@ These options are on the Action Bars page and in the setup's **Keys and spells**
 
 ## Moving frames
 
-`/eui move` unlocks every EldoUI frame:
+`/eui move` opens EldoUI's available movers:
 
 - drag a frame; it snaps to the grid and to other frames (hold Alt to place it freely);
 - click a frame to nudge it by exact X and Y, or one pixel at a time;
-- right-click a frame for its menu: hide or lock the box, reset its position, or open its options. On the action bars, the pet and stance bars, the micro menu and the bag bar the menu also has **Size** and **Spacing**, and the pet and stance bars can be laid out **Horizontal**, **Vertical** or as a **Grid**;
+- right-click a frame for its menu: reset its position, open its options, or hide or lock it where that frame allows it. On the action bars, the pet and stance bars, the micro menu and the bag bar the menu also has **Size** and **Spacing**, and the pet and stance bars can be laid out **Horizontal**, **Vertical** or as a **Grid**;
 - Shift-right-click a frame to put it back where the layout wants it;
 - **Find a frame** in the frames menu shows, selects and flashes any frame's box, and brings a frame that ended up off the screen back to the nearest edge.
 
@@ -113,11 +115,11 @@ Blizzard windows (bags, character, mail and more) have their own mover: `/eui wi
 - **Ultrawide**: the Screen area page in `/eui` keeps EldoUI inside a centered area (16:9, 21:9 or your own width) while the game world fills the whole screen, so nothing ends up in the far corners.
 - `/eui scale auto` goes back to the automatic scale; `/eui scale 0.50` sets your own.
 - **Which scale to pick:** Auto is the recommended scale, the one every layout is made for. A smaller scale is supported on a 1440p or larger screen: the layouts keep their room and the text gets smaller. A larger scale gives the layouts less room than they were made for, so frames can overlap. For bigger text, keep Auto and turn on **Large text** on the Accessibility page. The UI scale choice in the options and in the setup marks every value this way.
-- **Other screen shapes:** The layouts are made for 16:9. A 16:10 screen is a little narrower at the same height, so every layout gives the boss frames, and in some layouts a few more frames, a spot of their own there: the bars, unit frames, boss frames and damage meter keep clear of each other. A few frames that show only now and then (timers, toasts, the durability figure) and boss mod windows can still overlap a neighbor there. An ultrawide screen (21:9) uses the 16:9 spots with more room at the sides.
+- **Other screen shapes:** Layouts start from a 16:9 reference and include narrower-screen adjustments. Available styles depend on the layout; a disabled choice explains its restriction. Custom sizes, large text, additional windows and other addons can still need manual positioning. Check the preview and use the movers to adjust your setup. Screen area controls keep an ultrawide setup within a centered region.
 
 ## Skins
 
-The skin frames every EldoUI panel and window, and Blizzard's windows when EldoUI may skin them. Pick one on the Appearance page, in the setup's Styles step, or let the layout bring its own.
+The fourteen skins frame EldoUI panels and windows, and Blizzard's windows when EldoUI may skin them. Pick one on the Appearance page, in the setup's Styles step, or let the layout bring its own.
 
 | Skin | Look |
 |---|---|
@@ -133,15 +135,16 @@ The skin frames every EldoUI panel and window, and Blizzard's windows when EldoU
 | Portrait Classic | Polished slate with layered silver lips. |
 | Faction Heritage | Your faction's materials in one shared frame, in Alliance, Horde or Neutral. |
 | Arcane | Obsidian glass with faceted silver edges. |
+| Infernal Stone | Charred basalt with rusted iron and blood-red gems; its clawed ring holds the liquid orbs of the Orbs unit frames. |
 | High contrast | Black panels with bright 2-pixel borders and no transparency, for low vision (also on the Accessibility page). |
 
 Switching skins, profiles or themes shows the new look right away, without a reload.
 
 ## Style presets
 
-Most modules have style presets: one click sets the look of that module (sizes, fonts, textures, colors), never its position. For example:
+Most modules have style presets: one click sets a module's presentation, including sizes, fonts, textures, colors and sometimes visibility. Layout-managed neighbors can adjust to a changed size; your dragged positions remain yours. For example:
 
-- **Unit Frames**: Clean bars, Portraits, Minimal, Healer wide, Blizzard-like, Classic frames and Boxed. Classic frames gives the player, target, target of target and pet frames the shape of the original frames, with a round portrait.
+- **Unit Frames**: Clean bars, Portraits, Minimal, Healer wide, Blizzard-like, Classic frames, Boxed and Orbs. Classic frames gives the player, target, target of target and pet frames the shape of the original frames, with a round portrait.
 - **Party and Raid**: Vertical list, Healer grid, Wide bars, Blizzard-like, Minimal, Boxed and Raid leader.
 - **Action Bars**: Standard, Clean, Macro names, Compact and Large.
 - **Nameplates**: EldoUI, Twilight slim, Whisper, Beacon, Old road, Bastion and Headline.
@@ -171,3 +174,10 @@ Structured, Focus and Portrait Forge are complete looks: one layout, one skin an
 - `/eui export` makes a share string of your whole profile (or `/eui export <module>` for one module); `/eui import` (or **Import and export > Import a string** in the options window) opens one paste box for every string: EldoUI, EllesmereUI, ElvUI and Edit Mode. It tells which kind you pasted and shows what it imports before anything changes. An EllesmereUI or ElvUI profile is rebuilt as an EldoUI layout (frame spots, bar shapes, sizes and which frames show and when): **Apply as a new layout** puts it on a new profile, **Change my current layout** puts it on the one you use; both can be undone.
 - `/eui send <party|raid|guild|player>` offers your settings to others in game.
 - Profiles: `/eui profile` lists them; see [Commands](commands.md#profiles-and-sharing).
+
+Version 4 profiles can keep supported links between frame corners as links
+between EldoUI's own frames. The frames use native edges and sizing; decorative
+insets from the original UI are not copied. An unknown, unavailable or circular
+link blocks the import before it changes a profile. Frames and settings that the
+string does not replace keep the native layout's skin, roles and screen-size
+adjustments. Version 3 profiles and their existing side links still work.

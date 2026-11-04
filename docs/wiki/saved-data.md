@@ -83,7 +83,7 @@ Saved tables from older versions that nothing in EldoUI reads any more are liste
 
 ## Privacy
 
-- Your saved data stays on your PC. EldoUI has no server, and nothing on this page sends anything.
+- Your saved data stays on your computer. EldoUI has no server, and nothing on this page sends anything.
 - A few group and guild features share small details with players in your group or guild when you turn them on, for example attunement progress or the recipes you know. Your journal, your backups and this page's copies are never part of that.
 - Copies of your settings and journal live in the same saved file as the data itself. If you share that file, the copies go with it.
 
@@ -100,10 +100,12 @@ Saved tables from older versions that nothing in EldoUI reads any more are liste
 ## FAQ
 
 **Will an update wipe my settings or my journal?**
-No. Before an update changes anything it keeps a copy, values it can't read are set aside instead of deleted, and nothing is reset.
+The first upgrade to version 0.7.1000 or later creates a fresh EldoUI profile once. Your Journal, account progress and other addons' data are kept. Profiles from earlier versions cannot be restored into this new profile system.
+
+Later updates preserve supported profiles and keep a copy before changing their saved data. Values they cannot read are set aside instead of deleted.
 
 **I updated and my setup looks wrong. How do I go back?**
-Type `/eui data`, find the profile under **Copies from before an update**, click **Restore**, then `/reload`. The profile stays as you put it back until you choose **Let go**.
+For a profile created in version 0.7.1000 or later, type `/eui data`, find the profile under **Copies from before an update**, click **Restore**, then `/reload`. The profile stays as you put it back until you choose **Let go**. Profiles from before 0.7.1000 cannot be restored; choose a layout in setup to start your new profile.
 
 **I restored the wrong copy. Can I undo it?**
 Yes. What the part held just before is under **Copies from before a restore**. Click **Restore** there, then `/reload`.

@@ -1,6 +1,8 @@
 # Getting started
 
-> Documentation for EldoUI **0.7.0003**. See [Current release](current-release.md) for this version's changes.
+> Release notes for EldoUI **0.7.1000**. See [Current release](current-release.md) for this version's changes.
+
+This guide covers the **0.7.1000** setup and features. Get published downloads from the [releases page](https://github.com/Eldodeldo/EldoUI/releases); [Current release](current-release.md) provides the release-note reference.
 
 EldoUI is an AI-made, deeply modular UI for **WoW: Forever** (the game folder `_forever_`). It does not run on Classic Era or Retail.
 
@@ -19,7 +21,7 @@ EldoUI is an AI-made, deeply modular UI for **WoW: Forever** (the game folder `_
 
 If you unzip into a folder of its own by mistake (`AddOns\EldoUI-<version>\EldoUI\...`), the game does not see EldoUI. Move the six folders up into `AddOns`.
 
-Updating from 0.6? Read [Updating from 0.6](updating-from-0-6.md) first: your setup carries over, and that page shows where things moved.
+Version 0.7.1000 begins with a fresh EldoUI profile. Choose one of the eleven built-in presets in the setup below. Profile and preset updates are supported from this version onward.
 
 ## The setup
 
@@ -36,13 +38,13 @@ Then go two ways:
 
 | Step | What you pick |
 |---|---|
-| **UI scale** | How big the whole UI is. EldoUI is made for 1440p, and Auto (recommended) keeps that size on every screen. Every other value is marked as supported or not recommended. |
-| **Layout** | One of the ten layouts (see [Layouts and presets](layouts.md)). Click one to preview it. |
+| **UI scale** | How big the whole UI is. EldoUI is made for 1440p, and Auto (recommended) scales from that reference. Every other value is marked as supported or not recommended. |
+| **Layout** | One of the eleven layouts (see [Layouts and presets](layouts.md)). Click one to preview it. |
 | **Styles** | The skin for every window and panel, and one look per part of the UI. Choices depend on the layout and available space; check the preview before applying. |
 | **Accessibility** | High contrast, large text and color-blind safe colors. Nothing is ticked unless you tick it, and General > Accessibility in `/eui` turns it off again and adds sound cues. |
 | **Role** | Melee, Ranged, Healer or Tank: a small layer over your layout for the job you do in groups (see [Roles](layouts.md#roles)). Healers can also tick click-casting suggestions; nothing is bound unless you tick it. |
 | **Addons you already use** | Shown only when EldoUI finds an addon that does the same job as part of EldoUI: keep that addon or let EldoUI do it (see [Using EldoUI with other addons](other-addons.md)). |
-| **Modules** | Which EldoUI modules are on. A module that is off does nothing, and Blizzard's version stays. |
+| **Modules** | Which EldoUI modules are on. Optional helpers stop when switched off; supported replacements restore Blizzard's interface. |
 | **Blizzard UI** | Which of Blizzard's own frames and windows EldoUI may change. Anything EldoUI may not change stays as Blizzard made it. |
 | **Chat** | Keep your chat windows, add EldoUI's chat tabs (whispers, loot, channels), or reset the chat windows first; a font size and class-colored names. |
 | **Game settings** | A few of the game's own interface settings that fit EldoUI, such as locked action bars, cooldown numbers and detailed tooltips. Only what you tick changes, and **Blizzard default** in `/eui` puts your own values back. |
@@ -73,7 +75,8 @@ The setup waits while the game asks whether to skip the intro cinematic, and whi
 - `/eui move` unlocks the frames so you can drag them. `/eui move` again locks them.
 - `/eui layout undo` puts back the last layout, pack or setup change.
 - `/eui help` lists every command. See [Commands](commands.md).
-- `/eui whatsnew` shows what changed in this version.
+- `/eui whatsnew` shows what changed in the installed version.
+- [Eldostar](eldostar.md) follows community guides; `/eui eldostar guides` opens the guide list in the Journal. [My Adventure](my-adventure.md) explains the journal, its pages and backups.
 - Tour helps explain something new once, the first time you meet it. General > **Tour helps** turns them all off, **Show tour helps again** brings them back, and `/eui tour` lists them and shows one again.
 
 ## Language

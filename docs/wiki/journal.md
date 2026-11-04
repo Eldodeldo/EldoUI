@@ -51,12 +51,9 @@ Pick a backup with **Restore a backup** (or **Restore your runs**), then:
 
 Your journal as it is now is backed up first either way.
 
-## Updating from EldoUI 0.6
+## Journal updates
 
-- Your journal already has the shape this version saves, so the update leaves it as it is, and its scheduled backups carry on.
-- The first time your runs are read, the runs the instance log still has are copied into your journal with who was in them. From then on every run you finish is added as it closes.
-- Instance log runs keep every raid member.
-- If a future update changes the journal, a backup is taken first and listed on the [Saved data](saved-data.md) page.
+From 0.7.1000 onward, a supported journal update keeps a backup before changing its saved format. These copies appear on the [Saved data](saved-data.md) page. Completed runs are added to the journal with the recorded group members.
 
 ## Repair, never reset
 
@@ -121,7 +118,7 @@ Yes. Its journal was backed up first. Open the Saved data page (`/eui data`) and
 A journal keeps 8,000 moments. Past that, small moments from older chapters fold into one summary per chapter so the journal stays light. Levels, deaths, places, dungeons, goals, notes and keepsakes never fold.
 
 **Does the journal slow the game down?**
-It is built not to. Long run lists open one page of 100 runs at a time, a journal with years of runs opens as fast as a new one, and its backups are written a little at a time.
+It is built not to. Long run lists open one page of 100 runs at a time, and backups are written a little at a time. Large histories and your settings can still affect performance.
 
 **Does anyone else see my journal?**
 No. Nothing in it leaves your PC unless you copy a code or an export yourself.

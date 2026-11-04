@@ -279,7 +279,7 @@ does it.
 |---|---|---|
 | Style presets (one-click looks on your page) | `E:RegisterStyles("MyBars", { { key, title, desc, settings = { ... } } })` | `Core/Styles.lua` |
 | A datatext for the info bars | `E:RegisterDataText(name, { title, events, text = fn, tooltip = fn, onClick = fn })` | `Modules/InfoBar.lua` |
-| A block on tooltips | `E:RegisterTooltipSection(key, { order, title, desc, default = "always", item = function(tooltip, link, itemID, add) end, unit = function(tooltip, unit, add) end })` | `Modules/Tooltip.lua` |
+| A block on tooltips | `E:RegisterTooltipSection(key, { order, title, desc, default = "always", item = function(tooltip, link, itemID, add) end, unit = function(tooltip, unit, add, data) end })`, `E:UnregisterTooltipSection(key)` | `Modules/Tooltip.lua` |
 | A text tag (`[mytag]`) | `E:RegisterTag(name, function(unit, arg) end, "UNIT_HEALTH ...", { desc, category })` | `Core/Tags.lua` |
 | A slash command (`/eui mybars ...`) | `E:AddCommand(name, usage, function(arg) end, group)` | `Core/Commands.lua` |
 | A movable frame | `E:CreateMover(frame, "EldoUI_MyBars", "My Bars", { "CENTER", "UIParent", "CENTER", 0, 0 })` | `Core/Movers.lua` |

@@ -1,8 +1,10 @@
 # Updating
 
-Your settings are saved in the game's `WTF` folder (`WTF\Account\<account>\SavedVariables\EldoUI.lua`), not in the addon folders, so updating never loses them.
+For the **0.7.1000** interface and setup, start with [Getting started](getting-started.md). Check the [releases page](https://github.com/Eldodeldo/EldoUI/releases) for published downloads and [Current release](current-release.md) for the release-note reference.
 
-Coming from 0.6? [Updating from 0.6](updating-from-0-6.md) shows what carries over, which layouts were renamed or became legacy layouts, and where things moved.
+Your settings are saved in the game's `WTF` folder (`WTF\Account\<account>\SavedVariables\EldoUI.lua`), not in the addon folders. Keep a copy of that folder before updating.
+
+Version 0.7.1000 starts a fresh EldoUI profile. Earlier EldoUI profiles and presets are not supported. Updates from 0.7.1000 onward preserve supported settings; choose among the eleven presets on the [Layouts page](layouts.md).
 
 ## From a release zip
 

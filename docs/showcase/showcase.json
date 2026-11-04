@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "name": "EldoUI",
-  "summary": "An AI-made, deeply modular UI for WoW: Forever. Turn every module on or off, pick one of ten layouts and your role, and move and style everything yourself.",
+  "summary": "An AI-made, deeply modular UI for WoW: Forever. Turn every module on or off, pick one of eleven layouts and your role, and move and style everything yourself.",
   "license": "Apache-2.0",
   "licenseNotes": "The EldoUI_LootData folder is GPL-3.0-or-later (generated from CMaNGOS classic-db); the EldoUI_GuideData folder is GPL-3.0 (guides from Polestar); EldoUI_Emoji graphics are CC-BY 4.0 (Twemoji). See THIRD_PARTY_NOTICES.md.",
   "categories": [
@@ -734,10 +734,10 @@
     },
     {
       "module": "RareScanner",
-      "title": "Rare Scanner",
-      "text": "A click-to-target card and one sound when a rare shows up on the minimap, a nameplate, your target or a yell; a tooltip line and an Info Bar overview of this session.",
+      "title": "Rare Alerts",
+      "text": "A card and one sound when a rare, a treasure or an event shows up on the minimap, a nameplate, your target or a yell; quiet zones, an optional Rare History window, a tooltip line and an Info Bar overview of this session.",
       "wiki": "modules",
-      "page": "features/quality-of-life.md#rare-scanner"
+      "page": "features/quality-of-life.md#rare-alerts"
     },
     {
       "module": "ZoneInfo",

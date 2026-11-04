@@ -1,96 +1,228 @@
 # Current release
 
-<!-- eldoui:release-docs 0.7.0003 -->
+<!-- eldoui:release-docs 0.7.1000 -->
 
-EldoUI **0.7.0003**, 2026-10-28.
+EldoUI **0.7.1000**, 2026-11-04.
 
-[Download this version](https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.0003) · [All changes](https://github.com/Eldodeldo/EldoUI/blob/v0.7.0003/CHANGELOG.md) · [Updating](updating.md)
+[Download this version](https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.1000) · [All changes](https://github.com/Eldodeldo/EldoUI/blob/v0.7.1000/CHANGELOG.md) · [Updating](updating.md)
 
 These notes describe this version. Migration guides keep the version numbers of the updates they explain.
 
 ### Highlights
-- Your key set now belongs to your profile and knows US, UK, Nordic, German and French keyboards, and new spells land on their own key on bars 1 to 3.
-- Tour helps explain new parts of EldoUI the first time you meet them, and a new character on an account you already set up gets one short page instead of the whole setup.
-- Eldostar, EldoUI's own leveling guide, brings over 200 community guides for WoW: Forever in a window on your layout, with a waypoint to the next goal.
-- My Adventure has a Guides page where you start, follow and search the leveling guides.
-- The Journal can group a boss's loot by kind and shows a branching dungeon quest chain as a flowchart.
-- On a 16:10 screen the layouts give the boss frames, the boss mod windows, the party pets and many more frames a spot of their own.
-- The UI scale choice shows which scales the layouts are made for, with Auto recommended.
-- Switching style presets keeps your layout tidy, and a damaged saved settings file no longer stops EldoUI from loading.
+- Twin Orbs adds an eleventh layout, with health and power orbs, a shared action-bar tray and the Infernal Stone skin.
+- Gamepad Mode UI offers a controller layout, with your usual frame positions kept for switching back to mouse and keyboard.
+- Undo for layout, pack and setup changes keeps the last three changes of each profile across reloads.
+- Supported addons can follow your layout's reserved spots, with per-addon opt-outs and Undo.
+- Loot rolls show group choices and results, and loot toasts can wait until combat ends.
+- Rare Alerts adds a session history, sharing and quiet-zone controls for rare, treasure and event cards.
+- The Info Bar adds session gold and XP rates, a group roll tracker and mail information across your characters.
+- Encounter Timeline keeps the next-event icon with its bar and separates nearby timer icons.
 
 ### New
-- **Setup and layouts:** A new character on an account you already set up gets one short page instead of the whole setup: it uses one of your profiles as it is, with its own chat tabs, game settings, click-casting and class spells.
-- **Setup and layouts:** The alt page lists your class's profile first, can copy a profile set up for another role, and Undo puts everything back. Open it any time with /eui attach or from the Profiles page.
-- **Action bars:** New spells land on their key: a spell you learn has its own button on bars 1 to 3, the same on every character of your class. EldoUI offers to put it there, or does it for you when you pick Automatically, on empty buttons only and with an Undo.
-- **Action bars:** Upgrade spell ranks automatically, an option you turn on yourself: new ranks move onto bars 1 to 3 and the gamepad bars out of combat, with a chat line and an Undo. Macros, spells on your keep list and buttons kept at a low rank never change.
-- **Action bars:** Fill bars 4 and 5, an option you turn on yourself: out-of-combat spells such as teleports, tracking, poisons and pet care go on the empty buttons of bars 4 and 5. Your own buttons stay, a spell you learn later joins them, and Undo takes them off.
-- **Talents and spells:** A macro that names a lower spell rank, such as Frostbolt(Rank 3) after you learn Rank 4, is marked in the macro editor and the rank check. One click on Update to Rank 4 changes only the rank number, out of combat, and Undo puts it back.
-- **General:** Eldostar is EldoUI's own leveling guide: over 200 community guides for WoW: Forever, step by step in a window on your layout's guide spot. Goals tick from your quest log, bags, level, reputation and professions, and a waypoint points to the next goal.
-- **Journal:** My Adventure has a Guides page where you start a leveling guide for your character, see the one you are on and the one up next, and search every guide. At the level cap, Eldostar shows nothing until you start a guide there.
-- **Setup and layouts:** The setup's Other addons step and Eldostar's options let you pick the one leveling guide that takes the guide spot: Automatic, Eldostar, RestedXP or Off. EldoUI never turns the other guide addon off.
-- **Journal:** A boss's loot can be grouped by kind: quest items, weapons, armor, accessories and everything else, each with the most likely drop first. The Journal remembers whether you sort by chance or by kind.
-- **Journal:** A dungeon quest chain that splits into several paths shows as a flowchart in the quest details: every quest is a box with your progress, joined by lines to the quests that follow it. Switch to the step list at any time, and the Journal keeps your choice.
-- **Options:** The Other addons page has a new list, Also done by EldoUI: addons that run fine next to EldoUI but do a job EldoUI already does, in full or in part. For an addon whose whole job EldoUI does, one click turns it off for this character.
-- **Group frames:** With the Healer role, the Role page can put your group frames at the bottom center, above your bars: the party as one row and a raid of up to ten as two rows. A larger raid moves beside the center on its own.
-- **General:** Tour helps explain something new the first time you meet it: move mode, the Layouts and Blizzard UI pages, your keys after you apply a key set and the chat tabs the setup made. Each one shows once, and the Tour helps switch on the General options page turns them all off.
-- **General:** More parts explain themselves once with a tour help: the bag window, the vendor list, Open all in the mailbox, the auction house tabs, healer click-casting, fishing mode, the minimap button rail, styles, keybind mode, profile rules, the guide window and Edit Mode.
-- **Setup and layouts:** When a layout keeps an action bar out of sight, a tour help draws the bar where it sits and tells you its keys still work, naming the long cooldowns on it. Keep it hidden keeps it out of sight on mouse-over too.
-- **Setup and layouts:** A layout whose bars show on mouse-over says so once, with a button to show them all the time, and after the setup a short help shows where to change your UI later.
-- **Setup and layouts:** The setup's Convenience step lists every helper that acts for you, from repairs to the quest helpers, and "Recommended for me" ticks the ones that suit your class and level. The same list is the new Conveniences page under Modules.
-- **Action bars:** Two new key sets: Side-button mouse puts bar 1 on a mouse with 12 side buttons, and Shifted hand rests your hand one key to the right for more keys around it.
-- **Action bars:** The key sets know US, UK, Nordic, German and French keyboards and use the keys in the same places on each. Check my keyboard finds yours from three key presses.
-- **Action bars:** A game shortcut a key set takes gets the same new key in every set, such as Alt-R for reply, and the game keys list (`/eui keys`) shows where bags, map and the rest are. Bar 3's last three keys use the Consumable Bar: potion, healthstone, and mana potion or bandage.
-- **Action bars:** A new visibility rule, "Mouse over, out of combat", hides a bar in combat and shows it when you point at it outside a fight. Each bar from 3 up has a Show on screen switch that hides it this way, keys still working; turn off Show on mouse over to keep it out of sight altogether.
-- **Action bars:** Your key set belongs to your profile now, so it stays the same on every layout, pack and style preset. Your other characters on the profile get one offer to use the same keys, or get them by themselves when you choose Automatic, and keys you set yourself are never written over.
-- **Setup and layouts:** The Keys and spells step asks how you play: a key set or "I manage my own keys", what happens with spells you learn later and on your other characters, and whether bars 1 to 3 show their keys. Each pack fills in its answers, and nothing changes until you press Apply.
-- **Action bars:** After a role change, EldoUI offers to put the class spells of your new role on your bars, only on empty buttons and on buttons where it placed a spell of your old role, with Undo.
+- **Setup and layouts:** Version 0.7.1000 starts with a fresh EldoUI profile while keeping your Journal and account progress.
+- **Setup and layouts:** A new layout, Twin Orbs: your health and power as two liquid orbs at the ends of the action bars, with your target centered above them and both action bar rows in one stone tray. It comes with the Infernal Stone skin and the Garnet accent.
+- **Unit frames:** The player frame can be two orbs: your health and power as liquid orbs held in your skin's ring, with the values in the middle and liquid that swirls slowly (or stands still if you like). The new Orbs style sets it up with a long target bar to match.
+- **Unit frames:** With the Infernal Stone skin, a winged demon statue kneels on a carved column beside each orb. You can turn the statues off in the Orbs options.
+- **Action bars:** A new option puts one panel of your skin behind bars 1 and 2, so both rows sit in a single tray.
+- **Windows and skins:** A new skin, Infernal Stone: charred basalt, rusted iron bands, pointed iron corner brackets and blood-red gems, with window titles in a gothic letter. It brings the new Garnet accent, which you can also pick on its own.
+- **Notifications:** Rare Alerts can give your gamepad a short pulse for each alert, and a longer one for a rare with a mount, pet or toy you don't own yet. It is off by default and never pulses for a quiet sighting.
+- **Notifications:** Shift-click on a Rare Alerts card opens the chat box on your group's channel (or the one you pick) with the name, the place and a map pin link. You press Enter to send it.
+- **Notifications:** A Rare Alerts card says Already done when the game tells that your character already killed or looted that rare or treasure, and Keep rares you already did quiet leaves such cards out.
+- **Notifications:** A new Rare History window lists this session's rares, treasures and events beside the rare cards: click a line for a waypoint, Shift-click to share it, right-click to remove it. It is off by default and hides in combat.
+- **Notifications:** Rare Alerts can stay quiet in zones you pick and for whole kinds (rares, rare elites, world bosses, treasures, events): a quiet sighting shows its card without sound, or nothing at all. A name you watch for is never quiet because of its kind. Pick zones on the Quiet tab.
+- **Notifications:** Rare Alerts also tells you when the game marks a treasure, a chest or an event on the minimap: a card in its own look with its own sound, and a click on it sets a waypoint. Treasures and events each have their own switch.
+- **General:** Each aura group has its own visibility rules, such as only in combat, only in a group or only in one talent group, and can show only in one of your stances or forms. Every group still shows as before until you change it, and move mode always shows them.
+- **General:** Each aura group can play a sound when one of its auras starts and another when it ends, also in combat. The game plays the sounds itself; both are off until you pick one.
+- **Map and minimap:** /way list opens a new Waypoints window with every waypoint by zone, nearest first: click one to point the arrow there, right-click to remove it, or export them all as /way lines to paste later. /way print still lists them in chat.
+- **Action bars:** After a talent reset, a talent spell you had on a button of your own choosing goes back to that button when you learn it again. It follows your choice for new spells, on empty buttons only and with an Undo.
+- **Setup and layouts:** Your layout gives the frames of other addons a spot of their own at a size that fits it, and moves them along when you pick another layout, out of combat. Each addon can stay where its own settings put it, from the Other addons page or with /eui addons fit.
+- **Bags and loot:** With a supported loot addon, its roll bars and loot feed sit on the layout's loot spots, and its loot window too while it does not follow the cursor. Save the spot writes them into the addon's own settings, with an Undo.
+- **Notifications:** With a supported rare addon, its rare popups or its rare button sit on the layout's rare card at a size that fits it. Save the spot keeps them there without EldoUI too, with an Undo.
+- **Bags and loot:** With a supported bag addon, the bag and bank windows open in the layout's bag and bank corners at a size that fits them. Where the addon keeps its own spot, Save the spot keeps them there without EldoUI too, with an Undo.
+- **Map and minimap:** With a supported minimap button addon, its button sits in the corner of the minimap where EldoUI's own button bin would be.
+- **General:** With a supported aura icon addon, its first six icon groups sit on the layout's aura icon spots that EldoUI's own aura groups leave empty, and follow a layout pick. Save the spot keeps a group there without EldoUI too, with an Undo.
+- **Map and minimap:** With a supported waypoint addon, its arrow sits on the layout's arrow spot at a size that fits it. Save the spot keeps it there without EldoUI too, with an Undo.
+- **General:** With a supported data bar addon, its bottom bar takes the layout's data bar edge. When its bar sits on the top edge, Save the spot moves it to the bottom, with an Undo.
+- **Group frames:** With a supported group frame addon, its group frame sits on the layout's party spot and moves to the raid spot when your group becomes a raid. Save the spot keeps it there without EldoUI too, with an Undo.
+- **General:** With a supported swing timer addon, its swing bars sit on the layout's swing timer spots, and EldoUI's own swing timer steps aside while it is on. Where the addon keeps its own spot, Save the spot keeps the bars there without EldoUI too, with an Undo.
+- **Hunter:** The Journal's Database marks the beasts you can tame with a paw and their pet family, and its Mobs table can show only tameable beasts, or one family, together with the level and place filters.
+- **Localization:** With EldoUI in Danish, item tooltips can show a small box with the Danish word for what the item is, such as Le on a scythe, while the English name stays as it is. It is off until you tick Danish word help on the Tooltip page.
+- **General:** Three new Info Bar blocks, Gold per hour, XP per hour and Time to level, share one session that goes on over a reload. Their tooltips show what you earned and spent, your best hour and your rested XP, and a right-click starts a new session.
+- **General:** A new Rolls block on the Info Bar keeps track of /roll in your group: its window lists each roll highest first and marks the winner, a tie, a second roll and a roll outside the usual range, with buttons to roll, to pass and, for the leader, to announce the winner.
+- **Setup and layouts:** Gamepad Mode UI: when you start playing with a controller, EldoUI asks once whether to place its frames for controller play. Nothing changes until you choose, Not now asks again next session, and Don't ask again stops the question on that character.
+- **Setup and layouts:** With Gamepad Mode UI on, your player and target frames, cast bar, resource bar and cooldowns sit in one column above the game's gamepad bar, clear of its radial menu, with the swing timers above. Your layout and dragged frames come back when you turn the gamepad interface off.
+- **Setup and layouts:** When you turn the game's gamepad interface off, Gamepad Mode UI offers Restore now to put Edit Mode back on the layout you used before, instead of the game's Modern layout. Nothing switches until you choose, and in combat it waits for the fight to end.
+- **Action bars:** The Key sets window has a Controller view: your class spells go on the game's controller bars in the same order as your keys, with Apply and Take back spells. Stance and form spells go on the game's stance bar of the stance or form you are in.
+- **Setup and layouts:** Gamepad Mode UI has its own section on the Layouts page (turn it on or off, the question, the game's Controller settings, Restore now and the controller spells), and the setup gets a Controller step when you have a controller.
+- **General:** A Thanks page names the people who helped build EldoUI with code, research and testing, and the people who stand behind it. Open it from the Thanks link at the foot of the options sidebar or with /eui thanks.
+- **Bags and loot:** EldoUI's roll bars show how many in your group picked Need, Transmog, Greed or Pass so far; point at the counts for the names and who has not chosen yet.
+- **Bags and loot:** Loot toasts show four cards at once by default (Toasts at once), and more loot waits its turn instead of piling up. A card stays while the mouse is over it, an optional sound plays once per burst (with its own pick for legendary items), and legendary items read "Legendary!".
+- **Bags and loot:** Loot toast cards for what you loot in a fight wait and show, in order, when the fight ends, so they stay off your combat screen. The loot feed still lists loot as it drops.
+- **Bags and loot:** The loot feed and toasts can show what group members loot (with its own lowest quality and time on screen), experience added up in one row, and honor, each with its own switch.
+- **Bags and loot:** Loot feed rows mark a currency at its cap and can show the item's total in your bags; items you make have their own switch, and a right-click closes a row.
+- **Bags and loot:** EldoUI's roll bars stay after you roll: the bar shows your choice, then who won with their roll, or Everyone passed. Each bar also shows the item level, a green border for an upgrade and a red timer when time runs short.
+- **Bags and loot:** EldoUI's loot window has a Link button: one click posts the items' links to your group, raid or instance chat (or Say), highest quality first, from the quality you pick. Long loot lists stay within the chat's line length.
+- **Bags and loot:** EldoUI's loot window can mark each item: BoP, BoE or BoU on the icon, the upgrade arrow, New look for an appearance you have not collected and Starts a quest, plus a slot and type line and the stack's vendor price if you want them. Each mark has its own switch.
+- **Map and minimap:** The addon button bin can sit on its own mover anywhere on the screen, fill in any of eight directions, gather an addon button you add by its name, and keep the click drawer open across a reload when you pick Remember the drawer.
+- **Map and minimap:** EldoUI has its own minimap button. It leads the addon button bin, or sits on the map's edge where you drag it while the bin is off; a click opens Move frames and a right-click keybind mode.
+- **Bags and loot:** Make your own bag categories, each with a name, color, search and priority, and order every section of the Categories view. Drop an item on a section title to file it there, or share your categories with a string. Old category searches carry over.
+- **Bags and loot:** Group stacks, on the Categories tab, shows the stacks of one item as one slot with the total count in the Categories view, and every stack apart again while a vendor, the mailbox, the bank or a trade is open.
+- **Bags and loot:** A Searches button on the bag and bank windows keeps your favorite searches for one-click use, and its Search help lists every search word with an example you can click to try.
+- **Bags and loot:** New slot marks: a red icon on items your character can't use yet, a mark on equipment set items, a fade on what an open vendor, mailbox, auction house or socket window can't take, and Alt-click on an item flashes every slot that holds it.
+- **Bags and loot:** At the bank, the bank window sells the next bank tab from a plus on its bag bar, with the game's own confirm and the cost in the tooltip. A Deposit button puts everything that fits into the bank, and right-clicking a bank tab renames it or picks the items it takes.
+- **Bags and loot:** The guild bank can open in EldoUI's own window (Bags page, Guild bank: EldoUI window), with tabs, search, the item and gold logs, tab info and the game's own gold and tab dialogs. Every click works as in the game's window.
 
 ### Improved
-- **Action bars:** Bar 3 now shows nine buttons, in a shorter row or a 3x3 block, and keeps the actions and your own keys on its last three. Widescreen Edges and Open Center keep all twelve, so bars 2 and 3 stay an even pair beside bar 1.
-- **Setup and layouts:** The Vanilla Original layout now offers the Large action bar style too; your bags open on top of the bars.
-- **Setup and layouts:** Switching between style presets keeps your layout tidy: going back to a style puts every frame back exactly as that style placed it, and a style no longer keeps settings left over from the one picked before it.
-- **Setup and layouts:** The Blizzard-like group frames can now be picked in the Portrait Staggered and Nameplate Focus layouts, and the Healer group frames in Nameplate Focus.
-- **Setup and layouts:** On a 16:10 screen the boss frames, boss mod windows, party pets and targets, vehicle seat, pet and bag bars, Battle.net toasts, red error text and combat text get spots of their own, clear of the chat, the bars and the damage meter.
-- **Setup and layouts:** Style presets and the setup now say what a style does to your layout: a style that makes a frame bigger moves its neighbors to make room, and one that doesn't fit is grayed out.
-- **Map and minimap:** The minimap styles say when they can't show yet: while the game's own minimap is in use, Style presets and the setup tell you how to turn on EldoUI's minimap.
-- **Map and minimap:** With a larger minimap style, the buff and debuff rows move out with the map and keep their distance to it, and on a round map the Split Timer and the quest list keep clear of the map's ring.
-- **Setup and layouts:** In the EldoUI Center and Nameplate Focus layouts the experience bar is now as long as action bar 1, so it no longer reaches past the side bars when they are empty or hidden. A bar length you picked yourself stays as it is.
-- **General:** The UI scale choice in the options and in the setup shows which scales the layouts are made for: Auto is recommended, and every other value is marked as supported or not recommended, with a short reason.
-- **General:** EldoUI recognizes many more addons that do one of its jobs. Nameplate, buff, loot window, tooltip, chat, waypoint and world map addons now make EldoUI's own version stand back, so the two never draw the same thing twice, and you pick who handles each job on the Other addons page.
-- **General:** In move mode with test frames, an empty action bar, buff or debuff row, quest tracker, cooldown row or swing timer shows a sample in your own sizes, colors and text, starting on the side it grows from, so you see the frame the way it will look.
-- **Journal:** The Journal's tours follow the Tour helps switch, and Show tour helps again on the General options page brings them back too.
-- **Action bars:** The offer to move your buttons to a new spell rank is now on for everyone and also checks once at login. It only asks, and nothing changes until you apply. It steps aside while another addon moves your spell ranks.
-- **Action bars:** The spell rank check also covers the gamepad bars and finds a lower rank even where the game does not mark it, and it never suggests a rank you have not learned.
-- **Action bars:** The Cooldown Manager's Key text shows the key on every icon, only for spells on buttons you can't see, or not at all. The default is only hidden buttons: a bar you turned off or shortened, or one shown only on mouse over or out of combat.
-- **Action bars:** Every spell of every class and role now has one fixed button in the key layout. The spells you press in a fight are on the easy keys of your first two bars, and bar 3 holds what you use between pulls, such as buffs, resurrection and travel spells.
-- **Action bars:** When a bar pages on Shift or Ctrl, or your text style hides the keys on bars 1 to 3, EldoUI tells you after you apply a key set and fixes it in one click.
-- **Setup and layouts:** The Classic and Vanilla packs start the Keys and spells step on the Number row keys, the way the game sets bar 1.
+- **Performance:** Action bars use less temporary memory when their layout refreshes.
+- **Action bars:** Central proc alerts and action-button glows have separate choices when another addon provides them.
+- **Options:** On a module's Presets tab and on the Style presets page, the style you applied last is marked, so you can see which one is in use.
+- **Windows and skins:** Buttons and check boxes have a clear edge in every art style. EldoUI's windows (options, setup, Journal) are always solid, so a window opened over another no longer shows it through. Panel opacity now sets the panels on the screen, such as chat and meters.
+- **Action bars:** When you import another UI's profile, the spot of its extra action button goes to the Zone Ability box, and the import preview says so in plain words.
+- **General:** Info Bar blocks no longer run into each other on a narrow bar: the blocks nearest the middle step aside behind a » button, whose tooltip shows them and whose menu still opens them, and they come back once there is room.
+- **General:** The Info Bar's Mail block now covers all your characters: its tooltip lists each one with mail waiting and the time until its first letter runs out, the block turns yellow, then red, before a letter runs out, and a chat line at log-in says which characters to visit.
+- **General:** The Encounter Timeline is one frame: the big icon of the next event sits at the bar's now end, both move together as one box in move mode, and an event in the big icon leaves the bar so it shows only once.
+- **General:** If you moved the Encounter Timeline's big icon on its own before, it now sits with the bar again and its old place is let go. A bar you moved stays where you put it.
+- **General:** Encounter Timeline icons never cover each other, even in a busy fight: close timers share two separate lanes, a timer with no room moves on a little and shows its seconds, waiting events each get their own spot, and the tick numbers sit under the bar instead of between the icons.
+- **Windows and skins:** With the game's gamepad interface on, EldoUI's buttons in the mail, merchant, auction house and character windows step aside, so the controller cursor moves only over the game's own buttons. They come back when you switch to mouse and keyboard.
+- **Action bars:** When you change a key binding, EldoUI's bars take the new key a moment later and set only the keys that changed.
+- **Setup and layouts:** In move mode and Edit Mode, windows that open on one spot share one box with all their names; right-click picks the one to drag. A name too long for its box sits on a tab outside it, and Edit Mode's own windows stay above EldoUI's boxes.
+- **Localization:** The spell switches on the Buff and Consumable Reminders and Shaman Totems pages show each spell's name the way your game client writes it, in every game language.
+- **Map and minimap:** The addon button drawer is now the minimap's own default in every layout, so Reset to defaults on the Minimap page gathers the addon buttons too. A profile that keeps them on the map keeps them there.
+- **Notifications:** The Rare Scanner is now called Rare Alerts. Your settings, ignored rares and quiet zones stay as they are.
 
 ### Fixed
-- **Setup and layouts:** In the setup's UI scale step, a scale card with a long description no longer runs into the screen line above it or the custom scale below it, also with large text.
-- **Setup and layouts:** In Edit Mode, the EldoUI side panel stays on screen when the list of what EldoUI places is open and long; the list scrolls instead.
-- **Group frames:** In the Close Combat layout with the Healer role, the party frames no longer touch the top of your player frame.
-- **Setup and layouts:** An interrupted first setup resumes unfinished changes, and a setup waiting for combat to end uses your latest layout choice.
-- **Setup and layouts:** Finishing or skipping the first setup during combat now gives you your layout as soon as combat ends.
-- **Setup and layouts:** EllesmereUI imports keep your chosen EldoUI layout's settings and responsive placement for frames the imported layout does not move.
-- **Options:** Every line of a wrapped dialog checkbox label can be clicked without covering the buttons below it.
-- **Notifications:** On a Hardcore character with the card title color set to Plain, as in the Quiet style, death and PvP cards show their title in plain white instead of the accent color.
-- **Options:** Long page names in the options list and long page descriptions wrap onto a second line instead of being cut off, and a few choices with long names have shorter ones, in English and Danish.
-- **General:** The update note's title, buttons and checkbox follow your selected language when you open it again.
-- **General:** EldoUI keeps recognizing WoW: Forever if the game renames its client type at launch, so your characters' saved data and your look stay as they are.
-- **Chat:** While you type in the main chat window with the input box over the tabs, a chat window you dragged out of the dock keeps its tab name, whisper icon and flash.
-- **Unit frames:** 3D portraits stay inside the round portrait of the original frames and the portrait rings, with the face framed a little wider, and no dark square or box shows around the portrait or beside the target any more.
-- **Unit frames:** The original frame art keeps its true shape on the Classic frames style, so its portrait ring sits exactly on the portrait, also on the target of target and the pet.
-- **Unit frames:** Names stay inside their name bar or health bar in every unit frame style, and Classic frames show the level by the portrait instead of above the frame, where it could cover the target of target. A level badge on your own frame always shows your level.
-- **Unit frames:** With the original frame art, the small circle under the player and target portraits shows the level, as on the classic frames: the rest icon while you rest, the attack icon in combat, and on the target a skull for a corpse or a level too high to tell.
-- **Group frames:** The group pets and the main tanks no longer sit on top of each other next to a tall raid: the one you have turned on keeps the spot and the other goes beside it.
-- **Saved settings:** EldoUI loads even when part of its saved settings file is damaged: a broken profile list or profile starts over as a new profile, and the damaged part is kept aside instead of being deleted.
-- **Saved settings:** Import refuses a string that unpacks to more than the import size limit or carries damaged frame positions, with a clear message, before it changes any setting.
-- **General:** /eui commands still work when you type a period, comma or other punctuation right after them, such as /eui errors.
-- **Setup and layouts:** The durability figure moves aside with your buffs and debuffs when the minimap is larger or round, and on 16:10 screens, instead of sitting on top of them.
-- **Paladin:** Training lists Righteous Fury at level 10 and Retribution Aura at its current trainer cost.
-- **Shaman:** Training shows the current trainer costs and the level 50 rank for talented shamans, so the rank after it can show as well.
-- **Performance:** The rare scanner reads the rare markers once for each burst of map updates instead of on every single update.
-- **Action bars:** The keys of a bar that a layout hides keep working, also past a shortened bar's end. The hidden bar shows when you point at it out of combat, in a small box next to your bags (bars 4 to 8 at the right edge); a bar a layout switched off before comes back this way.
-- **Setup and layouts:** A new character that starts on its class's profile keeps that profile when you run the full setup, instead of being moved to the shared EldoUI profile.
-- **Journal:** Opening an attunement or a class quest from a link, a waypoint or a slash command scrolls the Attunements list to it, so its row is always in view.
+- **Unit frames:** Turning the module off keeps unit frames hidden after combat.
+- **Group frames:** Turning the module off keeps group frames hidden after combat, even when the group changes size or you switch profiles first.
+- **Action bars:** Turning off the action bars keeps them hidden when combat ends or you switch between mouse and controller.
+- **Journal:** A damaged backup no longer clears your choice to keep a restored journal unchanged.
+- **Map and minimap:** Waypoint titles follow the next guide goal at the same place, and renamed destinations update the arrow and stay renamed after a reload.
+- **Map and minimap:** Battlefield maps and widgets return to their original size when you turn off their placement.
+- **Notifications:** Zone notices leave room for compact ready checks and queue popups while keeping your saved positions.
+- **Notifications:** Ready-check button labels return to their original positions when you switch profiles or turn notifications off.
+- **Notifications:** Ready-check countdowns stop when you close the dialog or turn notifications off.
+- **Setup and layouts:** Choosing the layout already in use during setup keeps your customized frame sizes and styles.
+
+
+- **Bags and loot:** Help waits for the current opening, so closing and reopening the window does not show it early.
+- **Notifications:** Zone toasts keep their text spacing when Large text is enabled.
+- **Setup and layouts:** Typing a layout's name after /eui layout now applies the same version of that layout as the layout picker.
+- **Chat:** The errors tab shows the indented lines of an error's details as plain spaces.
+- **General:** Command help and text tag descriptions show choice separators as readable text.
+- **Windows and skins:** The Legacy planner places its pages before drawing their rows.
+
+- **Setup and layouts:** Your latest setup changes stay available to undo after a reload or a new login.
+- **Setup and layouts:** The import preview follows profile changes while its window is open.
+
+- **Setup and layouts:** Accessibility choices that wait for combat to end stay with the profile where you picked them.
+- **Setup and layouts:** Paused setup choices now stay intact when saved progress cannot be resumed safely.
+- **Setup and layouts:** Profile backups preserve your previous setup when a backup cannot finish.
+- **Setup and layouts:** Undoing setup restores the active profile correctly and preserves later profile choices.
+- **Setup and layouts:** Shared profiles and preset packs keep imported layouts and their inherited settings together.
+- **Setup and layouts:** Imported layouts now apply to the selected profile, with Undo restoring the previous layout.
+
+- **Windows and skins:** Unavailable window artwork falls back to the game's standard look.
+- **Options:** The move-frame menu shows the correct Options label.
+- **Setup and layouts:** Cooldown placement updates with the consumable bar and returns to normal when the consumable bar is turned off.
+- **Action bars:** Resource-bar changes update attached cooldown and consumable rows without repeatedly moving them.
+- **Bags and loot:** The merchant grid keeps item names, complete prices and stock counts in separate space when text grows.
+- **Bags and loot:** Item comparison details stay below their action buttons when text size or the window changes.
+- **Bags and loot:** Confirming a merchant purchase safely stops if the item's details disappear before you accept.
+- **Bags and loot:** A short bag section keeps the lines on both sides of its name clear of the fold arrow.
+- **Bags and loot:** The bag and bank window titles sit on the same line as the character button and the close button.
+- **Chat:** In the chat list editors, the feedback line ends before the buttons at the bottom of the window.
+- **Setup and layouts:** The controller layout description is shorter, with a separate explanation for your controller addon.
+- **General:** Eldostar restarts a guide's search loop correctly when you switch guides or reset its progress.
+- **Windows and skins:** Saved death recap positions and sizes work together correctly without overwriting later changes from other window controls.
+- **Setup and layouts:** Imported layouts keep the positions they use on narrower screens and with larger frames.
+- **Setup and layouts:** Revised layouts use new versions, so existing profiles keep their selected layout and dragged frames.
+- **Setup and layouts:** Layout updates safely handle unavailable private-aura settings and frame anchors.
+- **Action bars:** Turning off proc-alert placement restores its previous position and appearance while preserving later manual changes to the alerts and their settings.
+- **Unit frames:** Choosing another addon's player frame also releases EldoUI's detached cast and power bars, while keeping your target, focus, group frames and saved positions.
+- **Action bars:** Choosing another addon's action-button proc glows removes EldoUI's duplicate glow while preserving your central alerts and other bar settings.
+- **Setup and layouts:** Choosing another resource display hides only the matching mana, rage or energy bars. Other resources remain available, and a druid's mana strip keeps a place when its main bar steps aside.
+- **Setup and layouts:** Choosing another combo-point display hides only EldoUI's combo rows and nameplate points, leaving your other resources and saved positions in place.
+- **Setup and layouts:** Choosing another five-second timer hides only EldoUI's spark, leaving your power bar, other resources and saved settings in place.
+- **Setup and layouts:** Choosing another addon for the threat meter hides only EldoUI's threat display and keeps it hidden through pending updates, leaving your other combat displays and saved settings in place.
+- **Bags and loot:** Long loot-roll lists scroll within the screen, keeping every item and manual choice reachable without changing your saved position.
+- **Setup and layouts:** The Other addons page recognizes more minimap, window skin, chat and healing-frame addons, while manual profile importers can run alongside your saved setups.
+- **Group frames:** Party and raid frames keep their rows and columns aligned when you change styles in a group.
+- **General:** Resource-bar mover previews update correctly when a bar returns to the main stack.
+- **Setup and layouts:** On 16:10 screens, wider party-frame styles stay clear of incoming combat text.
+- **Group frames:** Saving or undoing a supported group-frame addon's position refreshes its first panel correctly.
+- **Group frames:** A saved bottom-center healer preference keeps the normal side-grid size on layouts that only support the side position.
+- **General:** Turning your own swing bars off and back on no longer leaves an expired swing frozen on screen.
+- **General:** Eldostar keeps accented letters and symbols intact when shortening guide text.
+- **Talents and spells:** The talent planner refreshes changed talent trees without requiring a talent-group switch.
+- **Setup and layouts:** Fanfare's glow stays within its frame, with a lower spot on narrow Portrait Staggered layouts.
+- **Journal:** Twin Orbs now applies its matching Book look when the journal follows the layout.
+- **General:** Cooldown Pulse combines repeated spell updates and cancels pending refreshes when they are no longer needed.
+- **Bags and loot:** Turning off appearance markers now frees their cached item data.
+- **Setup and layouts:** Imported layouts can preserve supported frame-to-frame corner links while keeping the rest of your native setup.
+- **Bags and loot:** Supported bag windows keep their layout spot when bank contents finish loading, without changing saved positions.
+- **Journal:** Imported companions keep hyphenated last names, and older spellings merge their history without losing time or quest partners.
+- **Setup and layouts:** Only your selected leveling guide uses the layout's guide spot; switching guides preserves manual positions and explains when a reload is needed.
+- **Bags and loot:** The shared bank and its pages are named Account bank throughout the bag and bank windows.
+- **Journal:** Dungeon route sharing clearly says when the game is holding addon messages back.
+- **Bags and loot:** A temporarily missing vendor item no longer interrupts restocking or a purchase question.
+- **Notifications:** The help-tip setting stays hidden on clients that do not support it.
+- **Journal:** Chapter statistics in the Book keep their full text on narrow pages and flow onto more pages when needed.
+- **Shaman:** The Tremor Totem hint safely stays off when loss-of-control information is unreadable.
+- **Options:** Long sound choices use the available space, settings buttons grow with their labels, and cooldown rows use clear position names.
+- **Notifications:** Ping feed rows keep their spacing with Large text, and narrow layouts leave room for conversations and group tools.
+- **Group frames:** Long Ready Report summaries scroll inside the window and refresh without cutting off the last lines.
+- **Group frames:** Ready Report stays closed during a pull countdown when a new ready check starts; opening it manually remains available.
+- **Unit frames:** Cast bars keep the full spell-name space when the game reports no spell target.
+- **Setup and layouts:** Optional aura columns have separate positions from nearby panels in narrow-screen layouts.
+- **Action bars:** Taking controller spells back leaves anything on your cursor untouched and asks you to put it down first. Apply and Take back confirm inside the Key sets window.
+- **Setup and layouts:** Reset position and Reset dragged frames in Gamepad Mode UI return inherited frame positions to the layout while keeping your mouse-and-keyboard positions for when you switch back.
+- **Journal:** The Loot Guide's dungeon list is complete the first time you open it in a session, also when the loot data loads as the window opens.
+- **Setup and layouts:** With "Positions per Edit Mode layout" on, EldoUI's frame positions for the Modern, Classic and Gamepad layouts stay with their layout when you change the game's language, and the positions you saved before carry over.
+- **Setup and layouts:** Every layout now has room for the whole bag bar with all its slots: the micro menu, the extra action button or a side bar next to it moved a little where they touched it, and the Large micro menu style is grayed out in the layouts where it doesn't fit.
+- **General:** When you show EldoUI's battleground bars next to your boss mod's own battleground timers, they move to the boss frames' spot, so they no longer sit under the boss mod's timer bars, in every layout.
+- **Setup and layouts:** In move mode the shopping list no longer covers the boss mod info box or the target frame. In Modern Center the two boxes still share a spot, since the shopping list shows at a vendor and the boss info box in a boss fight.
+- **Setup and layouts:** In Compact HUD the focus frame no longer touches a wide group pets grid.
+- **Setup and layouts:** On a 16:10 screen the waypoint arrow and its coordinates sit below the talking head, and in Portrait Staggered the Battle.net toasts and the ready check get spots clear of the bars and the combat text.
+- **Setup and layouts:** A second damage meter window now lines up with the right edge of the first one, so a wider second window stays on screen.
+- **Setup and layouts:** With a larger minimap or larger action bars, the durability figure, the waypoint arrow and the Battle.net toasts move aside instead of sitting under them, and the Large action bars style is grayed out where it doesn't fit.
+- **Setup and layouts:** In Widescreen Edges the loot toasts sit beside the loot feed instead of over its newest lines.
+- **Setup and layouts:** The death recap sits a little to the left, clear of the boss info box and the incoming combat text, and in Modern Center the boss warnings and the red error text no longer touch.
+- **Setup and layouts:** In Blizzard Bottom Block a shaman's totem bar sits a little higher, so a taller target frame style no longer pushes the target of target onto it.
+- **Setup and layouts:** The second info bar on its own mover takes the free stretch of the top edge instead of the whole width, clear of the minimap, the buffs, the farming bar and the mirror timers, and in Modern Center it sits under the first bar. A width you set yourself stays.
+- **General:** After the Combat only style of the combat HUD, picking another combat HUD style shows the damage meter out of combat again.
+- **Windows and skins:** In the drawn skins, such as Vanilla Original, a frame's border no longer stretches into a striped strip past its edge after the frame changes size, as it could behind the side bars until a reload.
+- **General:** Names and messages in Cyrillic, Korean and Chinese keep their letters on unit frames, group frames, the threat list and the other name texts, and in the chat, the message windows and chat bubbles, as they already did on nameplates.
+- **Setup and layouts:** Nameplate Focus puts its timer-bar debuffs beside your buffs, so they no longer cover the boss frames, the quest tracker or the camp panel. In Blizzard Bottom Block the totem bar clears target of target.
+- **Unit frames:** In the Classic frames style, the target of target and pet frames show the name a size smaller, so a name fits under their short bars instead of ending in "...". Every frame also has its own Name size on its Text tab.
+- **Chat:** A group, guild or message window post made while the game doesn't allow chat messages now says so, is no longer marked as posted, and can be sent again; a refused typed line stays in its box.
+- **General:** The Info Bar's coordinates and item level blocks show their full names in the options and in the » tooltip, in Danish too.
+- **Journal:** In the Database tables the name column takes the room the other columns leave, so most names show in full, and the last columns and their titles no longer run past the table's edge into the detail pane.
+- **Performance:** Trying layouts and style presets one after another no longer makes EldoUI's memory grow until you reload: the buff, debuff and weapon enchant rows reuse their frames.
+- **Performance:** Selling, buying or stacking items with the bag window open redraws only the bag that changed, so selling junk at a vendor no longer stutters.
+- **Performance:** With the Loot Guide's Best in Slot page open, putting on a new item only scores the items again instead of going through the whole item list, so changing gear no longer causes a lag spike.
+- **Performance:** Closing the auction house late in a full scan no longer freezes the game for a moment, and the prices read so far are still saved.
+- **Journal:** The Loot Guide's PvP rewards list always shows its rewards, or a line that says why, instead of an empty column, and it builds only the rewards you scroll to, so typing in its search box stays smooth.
+- **Performance:** The Loot Guide's gear simulator keeps to the time per frame you pick for it, Turbo included, instead of running a little past it.
+- **Localization:** On a game client in another language, the Loot Guide's item lists follow the game's newest item name even after a long browse, without a reload.
+- **Windows and skins:** In move mode's Combat view, an open mail, trade, auction house or merchant window no longer shows a box that then disappears when you hide and show the boxes. Its box shows in All frames, like every other window, and a window you don't let EldoUI move has no box in any view.
+- **Notifications:** Alert toasts show their title, main text and small bottom line on three separate lines again, instead of drawing the title and the bottom line over the main text.
+- **Bags and loot:** The loot roll bar shows the item name above the "binds when picked up" line, and the Loot Guide box beside a roll shows its two lines one above the other.
+- **Journal:** The guide list, the page header line, the "Kept since" line, the character panel on For you and the welcome card's intro sit at the top of their place instead of drifting to the middle.
+- **General:** The chat color preview shows each sample line on its own row again, and the move mode sample titles, the trainer's "to learn now" line, the soft-reserve line on loot rolls and the boss mod status text stay at their edge.
+- **General:** Eldostar shows a long guide title in full in its header: the title gets a slightly smaller font before it would be cut short.
+- **Chat:** The errors tab in the chat window opens again when the error log holds an older entry without a type, and lists that entry as an error.
+- **Setup and layouts:** Undo for layout, pack and setup changes works after a reload or a new login: EldoUI keeps the last three changes of each profile, and each one holds only what it changed, so memory and the saved file stay small.
+- **Action bars:** A spell you keep on the controller bars is now also placed on its keyboard button when you apply a key set with class spells.
+- **Action bars:** With the game's gamepad interface on, the Cooldown Manager's icons no longer show keyboard keys.
+- **Windows and skins:** EldoUI's questions grow to fit their buttons, so a long button label no longer runs past the window's edge with large text or in Danish.
+- **Localization:** With EldoUI in Danish, the Combat Text setting that counts joined lines shows its "×3" example correctly instead of a broken letter.
+- **Localization:** With EldoUI in Danish, the Appearance line on item tooltips says in Danish whether you have collected the look, instead of in English.
+- **Bags and loot:** On EldoUI's roll bars, the Binds when picked up line no longer covers the item's name.
+- **Bags and loot:** Master looting works with EldoUI's loot window: clicking an item opens a give menu with everyone who can take it, by class in a raid, your Banker and Disenchanter first, soft reserves after the names, and Request roll. Epic items ask before they are given.
+- **Bags and loot:** In the bag window's Categories view, an item you sold or moved no longer leaves its picture behind on the window.
+- **Saved settings:** After going back to an older EldoUI, the settings a newer version saved are written back exactly as they were when you log out, so the newer version finds them unchanged.
+- **Setup and layouts:** Loot toast cards stack in one shared column at the right of the screen in every layout, with room for four cards at once.
+- **Setup and layouts:** A wide micro menu style (one strip, mouse-over, minimal or large) now goes to the right edge just above the damage meter instead of over it. With large action bars, Eldo-Dark puts its bag bar there too.
+- **Setup and layouts:** In Vanilla Original the two-row micro menu style is marked as too large, as it would cover the damage meter.
+- **Setup and layouts:** With the large minimap style the quest timer moves down together with the quest list, so the list no longer covers it.
+- **Setup and layouts:** In Nameplate Focus the swing timers sit a little lower, so the player cast bar of the Blizzard-like unit frames no longer touches them.
+- **Windows and skins:** Rows, notes and labels in EldoUI's windows keep their own line: the Loot Guide, the installer, the options, dungeon routes, the trainer and the trade window no longer squeeze a line to nothing, draw it in the middle of a taller box or stretch a button across the window.

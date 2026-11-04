@@ -6,7 +6,7 @@ The frames around the edges of your screen, Blizzard's windows in the EldoUI loo
 
 ## Info Bar
 
-Full-width bars at the top or bottom of the screen and your own datatext panels anywhere you like. Datatexts show the clock, gold, durability, latency and FPS, your stats, currencies, your hearthstone and more; addons that publish LibDataBroker feeds show up as datatexts too. A second bar and free panels let you split them up, and a battleground swap shows battleground info while you are in one.
+Full-width bars at the top or bottom of the screen and your own datatext panels anywhere you like. Datatexts show the clock, gold, durability, latency and FPS, your stats, currencies, your hearthstone and more; addons that publish LibDataBroker feeds show up as datatexts too. A second bar and free panels let you split them up, and a battleground swap shows battleground info while you are in one. Session blocks show your gold per hour, XP per hour and the time to your next level, over a reload too, and the Mail block warns before a letter on any of your characters runs out. A Rolls block keeps track of /roll in your group and marks the winner.
 
 ## Minimap
 
