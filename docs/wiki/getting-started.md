@@ -1,6 +1,6 @@
 # Getting started
 
-> Release notes for EldoUI **0.7.1000**. See [Current release](current-release.md) for this version's changes.
+> Release notes for EldoUI **0.7.1001**. See [Current release](current-release.md) for this version's changes.
 
 This guide covers the **0.7.1000** setup and features. Get published downloads from the [releases page](https://github.com/Eldodeldo/EldoUI/releases); [Current release](current-release.md) provides the release-note reference.
 
