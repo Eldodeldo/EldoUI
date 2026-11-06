@@ -70,7 +70,7 @@ A key set puts keys on bars 1 to 3 in one go. Pick one in the setup's **Keys and
 
 | Key set | Command | Keys |
 |---|---|---|
-| Classic movement (recommended) | `/eui kb movement` | W and S move, A and D turn, Q and E strafe. Bar 1 on 1-5 R F T G Z X C, bar 2 with Shift, bar 3 with Ctrl. |
+| Classic movement (recommended) | `/eui kb movement` | W and S move, A and D turn, Q and E strafe. Bar 1 on 1-5 R F G V X Z C, bar 2 with Shift, bar 3 with Ctrl. |
 | A/D strafe | `/eui kb strafe` | W and S move, A and D strafe, and you turn with the mouse. Bar 1 on 1-5 R F E Q Z X C, bar 2 with Shift, bar 3 with Ctrl. |
 | Number row | `/eui kb numbers` | Bar 1 on 1 to =, bar 2 with Shift, bar 3 with Ctrl. Movement keys stay as they are. |
 | Side-button mouse | `/eui kb mouse` | For a mouse with 12 side buttons that send 1 to =: bar 1 on the side buttons, bar 2 on Shift and the side buttons, bar 3 around your hand. |
