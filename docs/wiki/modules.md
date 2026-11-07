@@ -13,8 +13,8 @@ Each module name links to its section in the showcase.
 
 | Module | What it does | `/eui` name | Default |
 |---|---|---|---|
-| [Info Bar](../showcase/features/interface.md#info-bar) | Full-width bars and your own datatext panels with clock, gold, durability, stats and more. | `infobar` | On |
-| [Minimap](../showcase/features/interface.md#minimap) | Square or round minimap with zone, coordinates, clock, button placement and an addon button bin. | `minimap` | On |
+| [Info Bar](../showcase/features/interface.md#info-bar) | Full-width bars and your own datatext panels with clock, gold, durability, stats and more, plus gold and XP per hour, a group roll tracker and mail on all your characters. | `infobar` | On |
+| [Minimap](../showcase/features/interface.md#minimap) | Square or round minimap with zone, coordinates, clock, button placement, EldoUI's own minimap button and an addon button bin. | `minimap` | On |
 | [Tooltip](../showcase/features/interface.md#tooltip) | Clean tooltips in the game's own style with quality and class borders, a tidy info area and a movable anchor. | `tooltip` | On |
 | [Maps](../showcase/features/interface.md#maps) | World map, quest log, flight map, battlefield map and UI widgets: skin, position, scale, coordinates and fading. | `maps` | On |
 | [Quest Tracker](../showcase/features/interface.md#quest-tracker) | Blizzard's quest and objective tracker: EldoUI look, mover, height, font, fade in combat and Questie support. | `objectivetracker` | On |
@@ -44,7 +44,7 @@ Each module name links to its section in the showcase.
 | [Nameplates](../showcase/features/combat.md#nameplates) | Slim nameplates per unit type, with cast bar, your debuffs, quest and elite icons, style filters and a target highlight. | `nameplates` | On |
 | [Buffs and Debuffs](../showcase/features/combat.md#buffs-and-debuffs) | Your buffs (right-click to cancel), debuffs, weapon enchants and boss mechanic auras, plus Blizzard's buff frames. | `auras` | On |
 | [Class Resources](../showcase/features/combat.md#class-resources) | Health, power, combo points, druid mana and a GCD bar under your character, plus Blizzard's class resource frames. | `classpower` | On |
-| [Aura Groups](../showcase/features/combat.md#aura-groups) | Your own rows of aura icons, each with its own mover: pick the spells, the unit and whether only yours count. The game shows each aura; EldoUI only places and dresses the icons. | `auragroups` | On |
+| [Aura Groups](../showcase/features/combat.md#aura-groups) | Your own rows of aura icons, each with its own mover: pick the spells, the unit and whether only yours count, when the group shows and an optional sound. The game shows each aura; EldoUI only places and dresses the icons. | `auragroups` | On |
 | [Combat HUD](../showcase/features/combat.md#combat-hud) | Skins and places Blizzard's own combat displays: damage meter, swing timer, loss of control, mirror and quest timers, death recap. Plus EldoUI's threat meter, combat timer and cursor ring. | `combathud` | On |
 | [Cooldown Manager](../showcase/features/combat.md#cooldown-manager) | Skins and places Blizzard's own Cooldown Manager (essential, utility, buff icons and buff bars). Blizzard keeps tracking every cooldown; EldoUI only changes the look and the position. Plus EldoUI's own rows (a fallback when Blizzard's has no spells, trinkets and mobility), which you can rearrange into your own groups and free icons with their own looks and labels. | `cooldownmanager` | On |
 | [Quickdraw](../showcase/features/combat.md#quickdraw) | Hold a key for a ring, fan or grid of your own spells, items, macros, mounts and markers; let go on one to use it. | `quickdraw` | On |
@@ -80,7 +80,7 @@ Each module name links to its section in the showcase.
 
 | Module | What it does | `/eui` name | Default |
 |---|---|---|---|
-| [Bags](../showcase/features/items-economy.md#bags) | All bags and the bank in EldoUI windows with categories and a bag bar, item counts across your characters, search with filters, offline viewing and a Blizzard skin mode. | `bags` | On |
+| [Bags](../showcase/features/items-economy.md#bags) | All bags, the bank and the guild bank in EldoUI windows with your own categories and a bag bar, item counts across your characters, search with filters and saved searches, offline viewing and a Blizzard skin mode. | `bags` | On |
 | [Bag Actions](../showcase/features/items-economy.md#bag-actions) | Alt-click an item in your bags to disenchant it or pick its lock, with an exclude list and a quality cap. | `bagactions` | Off |
 | [Loot Guide](../showcase/features/items-economy.md#loot-guide) | Loot journal, best-in-slot sets, wishlist and loot lines in item tooltips. | `lootguide` | On |
 | [Attunements](../showcase/features/items-economy.md#loot-guide) | Attunements, keys and dungeon quest chains as a tab in the Loot Guide: a flowchart or step list per chain, progress for each of your characters, an optional guild view you ask for with a click, and step toasts. | `attunements` | On |
@@ -114,7 +114,7 @@ Each module name links to its section in the showcase.
 | [Encounter Timeline](../showcase/features/combat.md#encounter-timeline) | A small timeline that shows the timers your boss mod publishes as icons sliding towards now, with a big icon for the next one. | `encountertimeline` | On |
 | [Alts](../showcase/features/items-economy.md#alts) | An Alts window with overview, search, professions, mail, quests, grids, level log and agenda for all your characters. | `alts` | Off |
 | [Deadly Boss Mods](../showcase/features/interface.md#deadly-boss-mods) | Deadly Boss Mods with EldoUI's look, layout placement and quiet chat. | `dbm` | On |
-| [Waypoints](../showcase/features/quality-of-life.md#waypoints) | `/way` coordinates, a direction arrow with distance and arrival time, and pins on the world map and minimap. | `waypoints` | On |
+| [Waypoints](../showcase/features/quality-of-life.md#waypoints) | `/way` coordinates, a direction arrow with distance and arrival time, pins on the world map and minimap, and a Waypoints window with export. | `waypoints` | On |
 | [Eldostar](../showcase/features/quality-of-life.md#eldostar) | EldoUI's own leveling guide: over 200 community guides for WoW: Forever, step by step in a window on your layout's guide spot, with goals that tick from the game and a waypoint to the next one. [Guide and controls](eldostar.md). | `eldostar` | On |
 | [Bar Snapshots](../showcase/features/quality-of-life.md#bar-snapshots) | Save and restore action bars, macros and key bindings; automatic backups and a restore offer after a reset. | `snapshots` | On |
 | [Camp Helper](../showcase/features/quality-of-life.md#camp-helper) | Campfire and feature tooltips, class-buff clashes, a camp panel with buff timers and a warning before Camp Benefits ends. | `camp` | On |
@@ -138,7 +138,7 @@ Each module name links to its section in the showcase.
 
 ## Earlier names
 
-Some modules had another name in earlier versions. The old name still works in the config window's search and in `/eui`: Player Power (Class Resources), Micro Menu and Bags (Micro Menu and Bag Bar), Messages and Alerts and Messages (Alerts and Banners), Character (Character Panel), Sound and Fun (Fanfare), Characters (Alts), New in Forever (Quest Marks), and Tweaks, which is now part of Quality of Life.
+Some modules had another name in earlier versions. The old name still works in the config window's search and in `/eui`: Player Power (Class Resources), Micro Menu and Bags (Micro Menu and Bag Bar), Rare Scanner (Rare Alerts), Messages and Alerts and Messages (Alerts and Banners), Character (Character Panel), Sound and Fun (Fanfare), Characters (Alts), New in Forever (Quest Marks), and Tweaks, which is now part of Quality of Life.
 
 ## Plugins
 

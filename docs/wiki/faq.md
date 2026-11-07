@@ -52,7 +52,7 @@ For a problem without an error, `/eui diag copy` gives you the version and setup
 
 ## Who made EldoUI?
 
-EldoUI is its own addon, written from scratch for WoW: Forever with AI assistance. The open-source code, data, fonts and sounds it builds on, and the work that inspired it, are credited in [Credits and third-party notices](../../THIRD_PARTY_NOTICES.md).
+EldoUI is its own addon, written from scratch for WoW: Forever with AI assistance. The open-source code, data, fonts and sounds it builds on, and the work that inspired it, are credited in [Credits and third-party notices](../../THIRD_PARTY_NOTICES.md). In game, the Thanks page (`/eui thanks`, or the Thanks link at the foot of the options sidebar) names the people who helped build it.
 
 ## Which layouts can I choose?
 

@@ -33,7 +33,7 @@ Each layout also suggests a style for each part of the UI and its own accent col
 - **Your own look stays yours.** If you picked a skin yourself, choosing a layout asks once whether to use the layout's look; **Keep my look** is the default.
 - **Frames you dragged stay** where you put them when you change layouts, unless you tick **Put frames I dragged back in the layout's spots**.
 - **Nothing happens twice.** Applying the layout and look you already use changes nothing.
-- **Undo.** Every layout or pack change can be undone: press **Undo** on the alert after the change, or type `/eui layout undo`. Settings you changed yourself since then stay as you set them.
+- **Undo.** Every layout or pack change can be undone: press **Undo** on the alert after the change, or type `/eui layout undo`. EldoUI keeps the last three layout, pack and setup changes of each profile, also after a reload or a new login. Settings you changed yourself since then stay as you set them.
 
 **Vanilla Original** with its own skin wears the game's own classic art: frames sized like the originals get the classic frame art, with the elite and rare dragons on the target; a one-row bar 1 sits on the classic stone tray with a gryphon at each end; the stance bar gets its classic stone; the micro menu and bag slots wear their classic buttons; and the round minimap gets the classic border, scaled with the map. The layout shows them as soon as you pick it.
 
@@ -63,6 +63,7 @@ Bars 1 and 2 always show. A layout may hide bar 3 and the bars after it, and the
 - **Bar 3** shows nine buttons, in a shorter row or a 3x3 block, and holds what you use between pulls, such as buffs, resurrection and travel spells. Its buttons 10 to 12 keep their actions and your own keys. Widescreen Edges and Open Center keep all twelve, so bars 2 and 3 stay an even pair beside bar 1.
 - **Hidden bars.** A bar the layout hides, or a bar from 3 up whose **Show on screen** switch you turn off on the Action Bars page, keeps every action and every key. It hides in combat and shows when you point at it out of combat: bar 3 as a small box next to your bags, bars 4 to 8 at the right edge of the screen. Turn off **Show on mouse over** to keep it out of sight altogether. The same rule, **Mouse over, out of combat**, can be picked for any bar.
 - `/eui keys hidden` shows how buttons out of sight are kept; their keys work either way.
+- **Tray behind bars 1 and 2**, on the Action Bars page, puts one panel of your skin behind both rows so they sit in a single tray. Twin Orbs turns it on.
 
 ### Key sets
 
@@ -90,6 +91,7 @@ Every spell of every class and role has one fixed button: the spells you press i
 - **New spells.** A spell you learn has its own button on bars 1 to 3, the same on every character of your class. EldoUI asks to put it there (**Ask me**), does it for you (**Automatic**), or leaves it (**Off**). `/eui spells` opens the keys and spells preview, and `/eui spells undo` takes the last new spells off again.
 - **Spell ranks.** After you learn a rank, EldoUI offers to move your buttons to it, and nothing changes until you apply. **Upgrade spell ranks automatically**, an option you turn on yourself, moves bars 1 to 3 and the gamepad bars for you instead. Macros, spells on your keep list and buttons kept at a low rank never change. `/eui ranks` and `/eui rankcheck` list the lower ranks, and a macro that names a lower rank is marked in the macro editor with a one-click update.
 - **Fill bars 4 and 5**, an option you turn on yourself, puts your out-of-combat class spells, such as teleports, tracking, poisons and pet care, on the empty buttons of bars 4 and 5. `/eui fillbars undo` takes the last fill off.
+- **Talent spells.** After a talent reset, a talent spell you learn again goes back to the button you had it on, following your choice for new spells, on empty buttons only and with an Undo.
 - **A new role.** After a role change, EldoUI offers to put the class spells of the new role on your bars: on empty buttons and on buttons where it placed a spell of your old role.
 - **Hidden keys in the Cooldown Manager.** Its **Key text** shows the key of a spell on a button you can't see, such as on a hidden or shortened bar. It can also show the key on every icon, or on none.
 
@@ -108,6 +110,15 @@ These options are on the Action Bars page and in the setup's **Keys and spells**
 `/eui move` again locks them. Your positions are saved per profile, on top of the layout. `/eui resetlayout` puts every frame back. EldoUI's frames also show in Blizzard's Edit Mode.
 
 Blizzard windows (bags, character, mail and more) have their own mover: `/eui windows unlock`, then drag them; `/eui windows reset` puts them back.
+
+### Gamepad Mode UI
+
+When you play with a controller, the **Gamepad Mode UI** section on the Layouts page in `/eui` can place EldoUI's frames for controller play while the game's gamepad interface is on: your player and target frames, cast bar, resource bar and cooldowns sit in one column above the game's gamepad bar, clear of its radial menu, with the swing timers above. Your layout and dragged frames come back when you turn the gamepad interface off.
+
+- EldoUI asks once when you start using a controller, and nothing changes until you choose. **Ask when I start using a controller** turns the question off, and the setup has a **Controller** step when you have one.
+- EldoUI never turns the game's gamepad interface on or off: **Open controller settings** opens the game's Controller settings, where that switch is.
+- After you turn the gamepad interface off, **Restore now** puts Edit Mode back on the layout you used before the game switched it to Modern, out of combat.
+- **Controller spells** opens the Key sets window on its Controller view: your class spells go on the game's controller bars in the same order as your keys, with **Apply** and **Take back spells**.
 
 ### Other screen sizes
 

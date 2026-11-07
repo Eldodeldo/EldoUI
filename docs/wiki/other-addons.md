@@ -28,6 +28,15 @@ The first time EldoUI finds an addon it leaves a job to, it says so with one cha
 
 When EldoUI finds an addon on your first login, the setup has a step **Addons you already use**. Each job has two cards: **EldoUI** (marked Recommended) and **Keep** *(addon name)*. Nothing changes before Finish, and Finish names every addon it turns off. Express setup takes the recommended pick. On the last page, **Revert this** turns those addons back on.
 
+## Addons in your layout
+
+Your layout also has spots for the frames of supported addons you keep. Out of combat, EldoUI places and sizes their frames on the layout's spot for that job and moves them along when you pick another layout. EldoUI's own frame for the same job steps aside while the other addon has the spot.
+
+- Supported: XLoot (loot window, roll bars and loot feed), SilverDragon and RareScanner (on the rare card), Bagnon, BetterBags and Baganator (bag and bank corners), MinimapButtonButton (the minimap's button bin corner), TellMeWhen (the first six icon groups on the aura icon spots), TomTom (the waypoint arrow spot), Titan Panel (the data bar edge), HealBot Continued (the party spot, and the raid spot in a raid), and WeaponSwingTimer and 4everSwingTimer (the swing timer spots).
+- **Layout spots for other addons** on the Other addons page lists each one with its state. Turn off **Place other addons in the layout** to leave all of them where their own settings put them, or **Place** *(addon name)* to do that for one.
+- Where an addon keeps a spot of its own, **Save the spot in** *(addon name)* writes the layout's spot into that addon's own settings, so it stays there without EldoUI too. You see every value first, and **Undo** puts them back.
+- In chat: `/eui addons fit` lists them, and `/eui addons fit on` or `off`, with or without an addon name, switches the spots.
+
 ## Addons that work alongside EldoUI
 
 Some addons are made to work with EldoUI and never make it step back: EldoUI places Details!, BigWigs, Deadly Boss Mods and others in your layout and sets them up from the setup's Other addons step (`/eui install addons`).
