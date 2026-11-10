@@ -8,7 +8,7 @@ EldoUI separates **where** things sit from **how** they look:
 - **preset packs** combine a layout, skin, styles and other settings;
 - **movers** (`/eui move`) let you place the available frames yourself on top of all of it.
 
-The table below lists the eleven built-in presets in **0.7.1000**.
+The table below lists the eleven built-in presets in **0.7.2000**.
 
 ## Layout presets
 
@@ -18,15 +18,15 @@ All eleven are built on EldoUI's own placement grid (zones, spacing and frame tr
 |---|---|---|---|
 | Vanilla Original | `EldoVanilla1000` | Vanilla Original | The familiar original layout: portraits in the top left corner, a round minimap top right, the action bars along the bottom with the chat beside them, and the world kept clear. |
 | EldoUI Center | `EldoCenter1000` | WoW Forever | EldoUI's own default: one calm center. Player and target sit level with the cooldown row, the resource and cast bars stay in the column between them, and the action bars form one block at the bottom with a narrow wing on each side. |
-| Modern Center | `EldoModern` | WoW Forever | Info bar on top, compact center, meters bottom right. |
+| Modern Center | `EldoModern2000` | WoW Forever | Info bar on top, compact center, meters bottom right. |
 | Blizzard Bottom Block | `EldoBlizz1000` | Blizzard | Blizzard-style bottom block: unit frames sit right on the bar stack, pet and target of target above them. |
-| Portrait Staggered | `EldoHeritage` | Faction Heritage | Classic staggered unit frames with the target one row higher, party low on the left, three bar rows along the bottom with a short bar beside them. |
+| Portrait Staggered | `EldoHeritage2000` | Faction Heritage | Classic staggered unit frames with the target one row higher, party low on the left, three bar rows along the bottom with a short bar beside them. |
 | Compact HUD | `EldoZen1000` | Minimal Modern | A quiet center: unit frames high, level with the resource bar, three stacked bar rows. |
 | Widescreen Edges | `EldoWide1000` | WoW Forever | Made for wide screens: one long bar row along the bottom, unit frames well apart at cast bar height, pet beside the player, panels at the screen edges. |
 | Close Combat | `EldoCozy1000` | Warcraft Parchment | Cozy and close: the resource bar on top, unit frames right beside the character, bars in a small pyramid. |
 | Open Center | `EldoHunter1000` | Forged Metal | An open center for every class: three bar blocks in a row, unit frames low and far apart. |
-| Nameplate Focus | `EldoPlates` | Forged Metal | Tank and DPS: your target's details on its nameplate, the player frame inside the center column. |
-| Twin Orbs | `EldoSanctum1000` | Infernal Stone | Your health and power as two liquid orbs at the ends of the action bars, with your target centered above the bars. |
+| Nameplate Focus | `EldoPlates2000` | Forged Metal | Tank and DPS: your target's details on its nameplate, the player frame inside the center column. |
+| Twin Orbs | `EldoSanctum2000` | Infernal Stone | Your health and power as two liquid orbs at the ends of the action bars, with your target centered above the bars. |
 
 Each layout also suggests a style for each part of the UI and its own accent color. Picking a layout gives the same result wherever you pick it (the Layouts page, `/eui layout`, the Overview, a pack or the setup): the layout's skin, Blizzard windows and suggested styles, nameplates included.
 

@@ -10,7 +10,7 @@ Full-width bars at the top or bottom of the screen and your own datatext panels 
 
 ## Minimap
 
-A square or round minimap with zone text, coordinates and a clock, rebuilt behind Blizzard's minimap. You decide where the minimap buttons sit, and an addon button bin gathers other addons' buttons in one place. The minimap buttons and the queue button have their own Blizzard switches. With the Vanilla Original skin, a round minimap wears the game's own classic border, scaled with the map.
+A square or round minimap with zone text, coordinates and a clock, rebuilt behind Blizzard's minimap. You decide where the minimap buttons sit, and an addon button bin gathers other addons' buttons in one place. The minimap buttons and the queue button have their own Blizzard switches. With the Vanilla Original skin, a round minimap wears the game's own classic border, scaled with the map. A layer chip on the minimap shows which layer you are on; a click hops you to another layer through players who offer help, and every invite, accept and leave is your own click.
 
 ## Tooltip
 
@@ -18,7 +18,7 @@ Clean tooltips in the game's own style with quality and class-colored borders, a
 
 ## Maps
 
-The world map, quest log, flight map, battlefield map and UI widgets with an EldoUI skin, your own position and scale, coordinates and fading while you move. The world map can show the level range of the zone under the cursor. `/eui map reset` puts them back where Blizzard places them.
+The world map, quest log, flight map, battlefield map and UI widgets with an EldoUI skin, your own position and scale, coordinates and fading while you move. The world map can show the level range of the zone under the cursor. Inside a dungeon, Live puts the game's own minimap on the dungeon map, large, with your arrow, your group and the rooms; WoW: Forever's own dungeons open in Live with their boss list, checked off as you kill them. `/eui map reset` puts them back where Blizzard places them.
 
 ## Quest Tracker
 
@@ -34,7 +34,7 @@ Move, resize and restyle Blizzard's micro menu and bag bar, or fold them into th
 
 ## Alerts and Banners
 
-Toasts, banners and the talking head, raid warnings, the red error text, zone text, ready checks, queue pop-ups and cutscenes, each in the EldoUI look and placed by your layout. EldoUI's alert lane shows its own messages in one place, and pings get a short feed. `/eui notify test` previews them.
+Toasts, banners and the talking head, raid warnings, the red error text, zone text, ready checks, queue pop-ups and cutscenes, each in the EldoUI look and placed by your layout. EldoUI's alert lane shows its own messages in one place, and pings get a short feed. Its level-up toast lists the spells and new ranks your class trainer has for you at the new level; a click opens them in the Training window. `/eui notify test` previews them.
 
 ## Loot
 

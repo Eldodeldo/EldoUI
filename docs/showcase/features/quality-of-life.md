@@ -12,6 +12,8 @@ One page with five tabs. **Interface**: Wowhead links for what the tooltip shows
 
 What your class trainer can teach you now and later, with costs, totals, an ignore list, weapon skills and pet training. It has its own window (`/eui training` or `/wt`), a spellbook tab and an info bar block.
 
+Hunters also get a Pet abilities tab beside it: every pet ability rank with its pet level and training points, what the pet you have out can learn right now, and where to learn the rest, from the pet trainer or by taming a beast that knows it (with the beasts' levels and zones, and a map pin on the nearest one).
+
 ## Talent Planner
 
 Plan your own class's talents in a window with three tabs: the trees, a level-by-level guide and your saved plans (one per talent group). Your plan shows on Blizzard's talent page. When you have a free point, a reminder offers "Learn next", and EldoUI learns only when you click. Plans share as `!EUT1!` strings or chat links. `/eui talents` or a key binding opens the planner.

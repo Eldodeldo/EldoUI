@@ -15,7 +15,7 @@ The guide title in the window opens the list again. At the level cap, Eldostar w
 ## Follow the steps
 
 - The window shows the step, its tip and its goals. Goals update from the information the game makes available, such as your quest log, bags, level, reputation and professions. Click to tick a goal the game cannot check.
-- **Next** advances to the next step. **Skip** marks this step skipped. **Undo** takes back the last move, skip or tick.
+- **Next** advances to the next step. **Skip** marks this step skipped. **Undo** takes back the last move, skip or check-off.
 - **Move on by itself** in the Guide tab advances a step when its goals are complete; turn it off to advance with Next.
 - **Waypoint to the goal** uses the Waypoints module. A guide's coordinates take priority, with quest locations from the Loot Guide where available. A missing location cannot supply an arrow.
 

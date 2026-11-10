@@ -1,6 +1,6 @@
 # Modules
 
-Everything in EldoUI is a module you can switch on and off: 97 modules in all, listed below by area. Each one has its own page in the config window (`/eui`, then its name in the sidebar).
+Everything in EldoUI is a module you can switch on and off: 98 modules in all, listed below by area. Each one has its own page in the config window (`/eui`, then its name in the sidebar).
 
 - `/eui modules` lists every module and whether it is on.
 - `/eui <name> on`, `off` or `toggle` switches one. The name is the word in the table below, the module's name as the config window shows it (`/eui party and raid off`) or a unique start of it (`/eui na off` switches Nameplates off), ignoring case and spaces. `/eui <name>` alone opens its settings.
@@ -14,9 +14,9 @@ Each module name links to its section in the showcase.
 | Module | What it does | `/eui` name | Default |
 |---|---|---|---|
 | [Info Bar](../showcase/features/interface.md#info-bar) | Full-width bars and your own datatext panels with clock, gold, durability, stats and more, plus gold and XP per hour, a group roll tracker and mail on all your characters. | `infobar` | On |
-| [Minimap](../showcase/features/interface.md#minimap) | Square or round minimap with zone, coordinates, clock, button placement, EldoUI's own minimap button and an addon button bin. | `minimap` | On |
+| [Minimap](../showcase/features/interface.md#minimap) | Square or round minimap with zone, coordinates, clock, button placement, EldoUI's own minimap button, an addon button bin and a layer chip. | `minimap` | On |
 | [Tooltip](../showcase/features/interface.md#tooltip) | Clean tooltips in the game's own style with quality and class borders, a tidy info area and a movable anchor. | `tooltip` | On |
-| [Maps](../showcase/features/interface.md#maps) | World map, quest log, flight map, battlefield map and UI widgets: skin, position, scale, coordinates and fading. | `maps` | On |
+| [Maps](../showcase/features/interface.md#maps) | World map, quest log, flight map, battlefield map and UI widgets: skin, position, scale, coordinates and fading, and a dungeon map with Live. | `maps` | On |
 | [Quest Tracker](../showcase/features/interface.md#quest-tracker) | Blizzard's quest and objective tracker: EldoUI look, mover, height, font, fade in combat and Questie support. | `objectivetracker` | On |
 | [XP and Reputation Bars](../showcase/features/interface.md#xp-and-reputation-bars) | Experience, rested XP, reputation, honor and pet experience bars in one movable stack. | `statusbars` | On |
 | [Micro Menu and Bag Bar](../showcase/features/interface.md#micro-menu-and-bag-bar) | Move, resize and restyle Blizzard's micro menu and bag bar, or fold them into the Info Bar and bag window. | `micromenu` | On |
@@ -40,7 +40,7 @@ Each module name links to its section in the showcase.
 | Module | What it does | `/eui` name | Default |
 |---|---|---|---|
 | [Unit Frames](../showcase/features/combat.md#unit-frames) | Player, target, focus, pet, target-of-target, boss, party pet and party target frames, plus Blizzard's own unit frames and cast bar. | `unitframes` | On |
-| [Action Bars](../showcase/features/combat.md#action-bars) | Eight flat action bars, pet and stance bars, cooldown numbers, proc glow and fade rules, plus key sets and spells on their keys (see [Action bars and keys](layouts.md#action-bars-and-keys)). | `actionbars` | On |
+| [Action Bars](../showcase/features/combat.md#action-bars) | Eight flat action bars, pet and stance bars, cooldown numbers, proc glow, spell cues and fade rules, plus key sets and spells on their keys (see [Action bars and keys](layouts.md#action-bars-and-keys)). | `actionbars` | On |
 | [Nameplates](../showcase/features/combat.md#nameplates) | Slim nameplates per unit type, with cast bar, your debuffs, quest and elite icons, style filters and a target highlight. | `nameplates` | On |
 | [Buffs and Debuffs](../showcase/features/combat.md#buffs-and-debuffs) | Your buffs (right-click to cancel), debuffs, weapon enchants and boss mechanic auras, plus Blizzard's buff frames. | `auras` | On |
 | [Class Resources](../showcase/features/combat.md#class-resources) | Health, power, combo points, druid mana and a GCD bar under your character, plus Blizzard's class resource frames. | `classpower` | On |
@@ -49,6 +49,7 @@ Each module name links to its section in the showcase.
 | [Cooldown Manager](../showcase/features/combat.md#cooldown-manager) | Skins and places Blizzard's own Cooldown Manager (essential, utility, buff icons and buff bars). Blizzard keeps tracking every cooldown; EldoUI only changes the look and the position. Plus EldoUI's own rows (a fallback when Blizzard's has no spells, trinkets and mobility), which you can rearrange into your own groups and free icons with their own looks and labels. | `cooldownmanager` | On |
 | [Quickdraw](../showcase/features/combat.md#quickdraw) | Hold a key for a ring, fan or grid of your own spells, items, macros, mounts and markers; let go on one to use it. | `quickdraw` | On |
 | [Shaman Totems](../showcase/features/combat.md#shaman-totems) | Shamans: a totem bar with an element picker and Drop All, a shield and imbue cooldown bar, saved loadouts and party coverage. | `shamantotems` | Off |
+| [Class Bar](../showcase/features/combat.md#class-bar) | Every class but the shaman: the buffs you keep up, your key cooldowns and the reagents or ammo you carry, in one bar. Click casts; right-click picks the spell and rank. | `classbar` | Off |
 | [Pet Care](../showcase/features/combat.md#pet-care) | Hunters: Feed Pet button next to the pet frame, unhappy pet and low food warnings. | `petcare` | On |
 | [Danger Alerts](../showcase/features/combat.md#danger-alerts) | Sound alarms when you stand in something harmful (spell list), run out of breath or fatigue, or are attacked while AFK. | `alerts` | Off |
 | [Enemy Spotter](../showcase/features/combat.md#enemy-spotter) | A small list of hostile players seen on nameplates, with class color, level and how long ago. | `enemyspotter` | Off |

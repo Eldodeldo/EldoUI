@@ -10,7 +10,7 @@ EldoUI is built with AI assistance, and it is designed and tested for WoW: Forev
 
 This README and the [player guide](docs/wiki/getting-started.md) describe the 0.7.1000 setup. Get published downloads from the [releases page](https://github.com/Eldodeldo/EldoUI/releases). [Current release](docs/wiki/current-release.md) provides the release-note reference.
 
-- **97 modules.** Choose the parts you want in the config window or with a command. Supported replacements restore Blizzard's interface when turned off; optional helpers simply stop.
+- **98 modules.** Choose the parts you want in the config window or with a command. Supported replacements restore Blizzard's interface when turned off; optional helpers simply stop.
 - **Eleven current layouts, four roles.** Start with EldoUI Center or choose another layout, with automatic scaling from a 1440-unit reference canvas and screen-area controls for ultrawide displays. Melee, Ranged, Healer and Tank add role settings; Healer offers group-frame positions and Tank adds threat colors. Check the layout and style previews for your screen and settings.
 - **Guided setup.** A step-by-step setup picks your scale, layout, look, role, modules, chat and keys on the first login, or sets up everything at once from a preset pack. Short tour helps explain new parts the first time you meet them.
 - **Your keys, your way.** A key set that belongs to your profile and knows US, UK, Nordic, German and French keyboards. The Keys and spells step shows your keys, class spells and macros first and changes nothing on your bars until you press Apply.

@@ -10,7 +10,7 @@ Player, target, focus, pet, target-of-target, boss, party pet and party target f
 
 ## Action Bars
 
-Eight flat action bars plus pet, stance, vehicle, zone ability, totem and gamepad bars, each with its own size, fade and visibility rules. Cooldown numbers, proc glow and Masque support are built in. Keybind mode (`/eui kb`) lets you hover a button and press a key, and five key sets put keys on bars 1 to 3 in one go, on US, UK, Nordic, German and French keyboards. Your key set belongs to your profile, keys you set yourself are never written over, and a bar a layout hides keeps its keys and shows when you point at it out of combat. New spells land on their own button on bars 1 to 3, the same on every character of your class. Buttons that still hold a lower spell rank light up while the spellbook is open; its Check ranks button (or `/eui rankcheck`) lists them, and `/eui ranks` moves them to the highest rank you know. After you learn a rank EldoUI offers the change, or, when you turn on Upgrade spell ranks automatically, moves bars 1 to 3 and the gamepad bars for you out of combat, with an Undo. Fill bars 4 and 5, when you turn it on, puts your out-of-combat class spells such as teleports, tracking and pet care on the empty buttons of bars 4 and 5. With the Vanilla Original skin, a one-row bar 1 sits on the classic stone tray with a gryphon at each end.
+Eight flat action bars plus pet, stance, vehicle, zone ability, totem and gamepad bars, each with its own size, fade and visibility rules. Cooldown numbers, proc glow and Masque support are built in. Keybind mode (`/eui kb`) lets you hover a button and press a key, and five key sets put keys on bars 1 to 3 in one go, on US, UK, Nordic, German and French keyboards. Your key set belongs to your profile, keys you set yourself are never written over, and a bar a layout hides keeps its keys and shows when you point at it out of combat. New spells land on their own button on bars 1 to 3, the same on every character of your class. Buttons that still hold a lower spell rank light up while the spellbook is open; its Check ranks button (or `/eui rankcheck`) lists them, and `/eui ranks` moves them to the highest rank you know. After you learn a rank EldoUI offers the change, or, when you turn on Upgrade spell ranks automatically, moves bars 1 to 3 and the gamepad bars for you out of combat, with an Undo. Fill bars 4 and 5, when you turn it on, puts your out-of-combat class spells such as teleports, tracking and pet care on the empty buttons of bars 4 and 5. With the Vanilla Original skin, a one-row bar 1 sits on the classic stone tray with a gryphon at each end. Spell cues, off until you turn them on, flash a spell's buttons once when the game lights it up, with an optional sound, and your buffs glow on the spells they change.
 
 ## Nameplates
 
@@ -43,6 +43,10 @@ Hold a key for a ring, fan or grid of your own spells, items, macros, mounts and
 ## Shaman Totems
 
 A totem bar with one button per element, a hover picker and Drop All, plus a cooldown bar for your shield, weapon imbues and Ankh. Save totem loadouts, share them as codes, see which party members your totems reach, and send a simple group plan. Totem timers kept with the totem bar move under or beside it when the cooldown rows fill the space above it. Every totem is cast by your own click.
+
+## Class Bar
+
+For every class but the shaman: one small bar with the buffs, auras, armors and aspects you keep up (live, faded while missing), your key cooldowns once you know them, and the reagents or ammo you spend with the count you carry. Rogues get one icon per weapon for the poison picked for that hand. Click an icon to cast it; right-click picks the spell and rank, shared with the reminders. Every icon can be switched off.
 
 ## Pet Care
 

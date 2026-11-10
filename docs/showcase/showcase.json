@@ -56,7 +56,7 @@
     {
       "module": "Minimap",
       "title": "Minimap",
-      "text": "Square or round minimap with zone, coordinates, clock, button placement and an addon button bin.",
+      "text": "Square or round minimap with zone, coordinates, clock, button placement, an addon button bin and a layer chip that hops you to another layer with a click.",
       "wiki": "modules",
       "page": "features/interface.md#minimap",
       "settings": [
@@ -122,7 +122,7 @@
     {
       "module": "Maps",
       "title": "Maps",
-      "text": "World map, quest log, flight map, battlefield map and UI widgets: skin, position, scale, coordinates and fading.",
+      "text": "World map, quest log, flight map, battlefield map and UI widgets: skin, position, scale, coordinates and fading, and a dungeon map with the game's minimap large in Live.",
       "wiki": "modules",
       "page": "features/interface.md#maps"
     },
@@ -274,7 +274,7 @@
     {
       "module": "ActionBars",
       "title": "Action Bars",
-      "text": "Eight flat action bars, pet and stance bars, cooldown numbers, proc glow and fade rules.",
+      "text": "Eight flat action bars, pet and stance bars, cooldown numbers, proc glow, spell cues and fade rules.",
       "wiki": "modules",
       "page": "features/combat.md#action-bars",
       "settings": [
@@ -385,6 +385,13 @@
       "text": "A totem bar with an element picker, a shield and imbue cooldown bar, saved loadouts and party coverage, all cast by your own click.",
       "wiki": "modules",
       "page": "features/combat.md#shaman-totems"
+    },
+    {
+      "module": "ClassBar",
+      "title": "Class Bar",
+      "text": "Every class but the shaman: one bar with the buffs you keep up, your key cooldowns and the reagents or ammo you carry. Click casts; right-click picks the spell and rank.",
+      "wiki": "modules",
+      "page": "features/combat.md#class-bar"
     },
     {
       "module": "PetCare",
@@ -525,7 +532,7 @@
     {
       "module": "LootGuide",
       "title": "Loot Guide",
-      "text": "Loot journal, best-in-slot sets, wishlist and loot lines in item tooltips.",
+      "text": "Loot journal with all nine WoW: Forever dungeons, best-in-slot sets, wishlist and loot lines in item tooltips.",
       "wiki": "modules",
       "page": "features/items-economy.md#loot-guide"
     },
