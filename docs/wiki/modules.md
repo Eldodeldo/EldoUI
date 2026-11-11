@@ -1,6 +1,6 @@
 # Modules
 
-Everything in EldoUI is a module you can switch on and off: 98 modules in all, listed below by area. Each one has its own page in the config window (`/eui`, then its name in the sidebar).
+Everything in EldoUI is a module you can switch on and off: 99 modules in all, listed below by area. Each one has its own page in the config window (`/eui`, then its name in the sidebar).
 
 - `/eui modules` lists every module and whether it is on.
 - `/eui <name> on`, `off` or `toggle` switches one. The name is the word in the table below, the module's name as the config window shows it (`/eui party and raid off`) or a unique start of it (`/eui na off` switches Nameplates off), ignoring case and spaces. `/eui <name>` alone opens its settings.
@@ -133,6 +133,7 @@ Each module name links to its section in the showcase.
 | [Fishing](../showcase/features/quality-of-life.md#fishing) | Fishing mode: one key casts, then loots the bobber; a bar with Cast, Lure and Swap, and a catch log per spot. | `fishing` | Off |
 | [Hardcore](../showcase/features/quality-of-life.md#hardcore) | For Hardcore characters: a death log, death alerts, a Tell the guild card, PvP-flag warnings and Self-Found reminders. | `hardcore` | On |
 | [Split Timer](../showcase/features/quality-of-life.md#split-timer) | A leveling timer that races your own best, with a card at each level-up and a Splits tab in the Characters window. | `splittimer` | On |
+| [Flight Games](../showcase/features/quality-of-life.md#flight-games) | 47 games for the time on a flight path: a small Games box shows while you fly, and a click opens arcade games, puzzles, cards, dice and board games against the Horde, and word and WoW quizzes. A game you leave waits for the next flight. | `flightgames` | Off |
 | [Transport Maps](../showcase/features/quality-of-life.md#transport-maps) | Flight masters, boats, zeppelins, the tram and portals on the world map, with where each one goes. | `transport` | On |
 | [Mage Travel](../showcase/features/quality-of-life.md#mage-travel) | For mages: one button that lists the teleports and portals you know with your rune counts; click a row to cast it. | `magetravel` | Off |
 | [NPC Dialog](../showcase/features/quality-of-life.md#npc-dialog) | An optional dialog view for quest and gossip NPCs with big text, numbered choices, Space to go on and Esc to leave. | `dialogue` | Off |

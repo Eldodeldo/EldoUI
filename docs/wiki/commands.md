@@ -111,6 +111,7 @@ Commands that belong to one module.
 | `/eui routes [dungeon\|import]` | Dungeon Routes | The dungeon map with packs and routes; a name opens that dungeon |
 | `/eui instances [log\|add\|count\|stats\|pvp\|options]` | Instances | The run log and how many instances you entered this hour |
 | `/eui deaths` | Hardcore | Open the Hardcore death log |
+| `/eui games` | Flight Games | Open or close the game window, on a flight path or not |
 | `/eui quickdraw` | Quickdraw | The Quickdraw menu editor |
 | `/eui hud` | Combat HUD | Combat HUD settings |
 | `/eui threat [on\|off\|focus\|target]` | Combat HUD | EldoUI threat meter |

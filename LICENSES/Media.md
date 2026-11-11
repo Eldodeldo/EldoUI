@@ -160,6 +160,9 @@ All files are 32-bit uncompressed TGA with an 8-bit alpha channel and power-of-t
 | `EldoMove.tga`, `EldoKey.tga`, `EldoGear.tga`, `EldoProfile.tga` | 32x32 | White-on-transparent four-way arrow, key cap, gear and person marks, drawn for EldoUI. The `E.UIKit` "move", "keybind", "gear" and "profile" glyphs (the quick actions at the top of the options sidebar). Tint them with `SetVertexColor`. |
 | `EldoPlay.tga`, `EldoPause.tga` | 32x32 | White-on-transparent play triangle and pause bars, drawn for EldoUI. `E.UIKit` glyph buttons (start and pause controls) use them instead of letters. Tint them with `SetVertexColor`. |
 | `EldoBoat.tga`, `EldoZeppelin.tga`, `EldoTram.tga`, `EldoPortal.tga` | 64x64 | White-on-transparent sailing ship, airship, tram car and swirl, drawn for EldoUI by `tools/gen_map_symbols.py`. The Transport Maps pins of the Icons look show them in the color of each kind (boat, zeppelin, tram, portal). |
+| `Games/Tile.tga`, `Games/Card.tga`, `Games/Ring.tga` | 64x64 | White rounded tile with a soft bevel, a rounded playing card with a thin edge, and a tile outline, drawn for EldoUI by `tools/gen_game_art.py`. Flight Games tint them for board cells, number tiles, answer boxes, cards, dice and the cursor. |
+| `Games/Heart.tga`, `Games/Spade.tga`, `Games/Diamond.tga`, `Games/Club.tga` | 64x64 | White-on-transparent card suits, drawn for EldoUI by `tools/gen_game_art.py`. Flight Games tint them in the suit colors. |
+| `Games/Chess*.tga` (king, queen, rook, bishop, knight and pawn) and their `Edge` twins | 64x64 | White-on-transparent chess pieces and slightly wider outlines of the same shapes, drawn for EldoUI by `tools/gen_game_art.py`. The chess board draws the outline in one side's color under the piece in the other's. |
 
 ### Edge-file layout (`EldoShadow`, `EldoGlow`)
 

@@ -866,6 +866,13 @@
       "page": "features/quality-of-life.md#split-timer"
     },
     {
+      "module": "FlightGames",
+      "title": "Flight Games",
+      "text": "47 games for the time on a flight path: a small Games box shows while you fly, and a click opens arcade games, puzzles, cards, dice and board games against the Horde, and word and WoW quizzes. A game you leave waits for the next flight.",
+      "wiki": "modules",
+      "page": "features/quality-of-life.md#flight-games"
+    },
+    {
       "module": "Transport",
       "title": "Transport Maps",
       "text": "Flight masters, boats, zeppelins, the tram and portals on the world map, with where each one goes.",
