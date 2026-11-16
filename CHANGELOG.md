@@ -6,6 +6,35 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.7.3002] - 2026-11-16
+
+### Nameplates
+
+#### Fixed
+
+- Changing your target with an ability or key no longer shows an error from the target's nameplate.
+
+### Map and minimap
+
+#### New
+
+- Layer hop has two new options, Leave the group by itself and Invite without a card, both off until you turn them on.
+
+#### Improved
+
+- Layer hop asks the players in your zone directly and also works with players who use the most common layer addon, so many more players can invite you to another layer.
+- The layer chip reads your layer the way the live realms keep it, so it shows the same layer as other players near you.
+
+#### Fixed
+
+- The minimap starts without an error again after you log in. Minimap ping names are not available on the current game client, so their setting is hidden.
+
+### General
+
+#### Fixed
+
+- In Gnome Dash, the gnome and the dwarf face the way they run instead of running backwards.
+
 ## [0.7.3001] - 2026-11-16
 
 ### Bags and loot
@@ -2295,7 +2324,8 @@ The versions from 0.5.0 to 0.6.6005 in short: what they brought that is still in
 - **Paladin:** The Blessing Plan (/eui blessings) plans which blessing each paladin keeps up on each class.
 - **Shaman:** Shaman Totems: a totem bar, a cooldown bar with your shield, weapon imbues, Reincarnation and Ankhs, up to eight totem loadouts, and a group plan for Mana Tide Totem and the resistance totems.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.3001...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.3002...HEAD
+[0.7.3002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3002
 [0.7.3001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3001
 [0.7.3000]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3000
 [0.7.2001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.2001
