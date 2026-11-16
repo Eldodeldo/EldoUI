@@ -16,9 +16,11 @@ A square or round minimap with zone text, coordinates and a clock, rebuilt behin
 
 Clean tooltips in the game's own style with quality and class-colored borders, a tidy info area and a movable anchor (or a Smart position that keeps out of your way). Extra lines show what the game gives addons: gathering skill, mount source and who is targeting a unit. Other modules add their own sections, such as the Loot Guide's drop lines.
 
+Use the tracking menu or a key binding to show a large, see-through minimap in the center. Its usual pins follow it. Click the world through it and use the mouse wheel to zoom. Choose its size, opacity and optional compass or range circle on the Minimap page.
+
 ## Maps
 
-The world map, quest log, flight map, battlefield map and UI widgets with an EldoUI skin, your own position and scale, coordinates and fading while you move. The world map can show the level range of the zone under the cursor. Inside a dungeon, Live puts the game's own minimap on the dungeon map, large, with your arrow, your group and the rooms; WoW: Forever's own dungeons open in Live with their boss list, checked off as you kill them. `/eui map reset` puts them back where Blizzard places them.
+The world map, quest log, flight map, battlefield map and UI widgets with an EldoUI skin, your own position and scale, coordinates and fading while you move. The world map can show the level range of the zone under the cursor. Show unexplored areas dims undiscovered parts on both the world map and the battlefield map when EldoUI is allowed to improve the world map and change the battlefield map. Inside a dungeon, Live puts the game's own minimap on the dungeon map, large, with your arrow, your group and the rooms; WoW: Forever's own dungeons open in Live with their boss list, checked off as you kill them. `/eui map reset` puts them back where Blizzard places them.
 
 ## Quest Tracker
 
@@ -54,7 +56,7 @@ Quest, gossip and other NPC dialogs, the pet stable and the barber shop in the E
 
 ## Window Skins
 
-The spellbook, talents, professions, trainer, collections, socketing, dressing room and inspect windows in the EldoUI look, plus the option windows of other addons built with Ace3.
+The spellbook, talents, professions, trainer, collections, socketing, dressing room and inspect windows in the EldoUI look, plus the option windows of other addons built with Ace3. With Professions Improve on, the selected recipe shows estimated skill-up steps, crafting costs, sale values, and how many crafts your materials allow. Its shopping list has its own craft quantity. A crowded recipe can open the same summary in a resizable window.
 
 ## System Windows
 

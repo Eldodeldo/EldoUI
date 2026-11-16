@@ -2,18 +2,16 @@
 
 **An AI-made, deeply modular UI for WoW: Forever.**
 
-EldoUI replaces and restyles the whole interface in one addon: unit frames, action bars, nameplates, bags, chat, maps, tooltips, and much more. Every part is a module you can turn on or off on its own. Pick one of eleven layouts and the role you play, move anything you like, and keep one consistent look across every window.
+EldoUI replaces and restyles the whole interface in one addon: unit frames, action bars, nameplates, bags, chat, maps, tooltips and the rest of the interface. Every part is a module you can turn on or off on its own. Pick one of eleven layouts and the role you play, move anything you like, and keep one consistent look across every window.
 
 EldoUI is built with AI assistance, and it is designed and tested for WoW: Forever.
 
-## EldoUI 0.7.1000
+This README and the [player guide](docs/wiki/getting-started.md) describe EldoUI's setup. Get published downloads from the [releases page](https://github.com/Eldodeldo/EldoUI/releases). [Current release](docs/wiki/current-release.md) provides the release-note reference.
 
-This README and the [player guide](docs/wiki/getting-started.md) describe the 0.7.1000 setup. Get published downloads from the [releases page](https://github.com/Eldodeldo/EldoUI/releases). [Current release](docs/wiki/current-release.md) provides the release-note reference.
-
-- **99 modules.** Choose the parts you want in the config window or with a command. Supported replacements restore Blizzard's interface when turned off; optional helpers simply stop.
+- **100 modules.** Choose the parts you want in the config window or with a command. Supported replacements restore Blizzard's interface when turned off; optional helpers simply stop.
 - **Eleven current layouts, four roles.** Start with EldoUI Center or choose another layout, with automatic scaling from a 1440-unit reference canvas and screen-area controls for ultrawide displays. Melee, Ranged, Healer and Tank add role settings; Healer offers group-frame positions and Tank adds threat colors. Check the layout and style previews for your screen and settings.
-- **Guided setup.** A step-by-step setup picks your scale, layout, look, role, modules, chat and keys on the first login, or sets up everything at once from a preset pack. Short tour helps explain new parts the first time you meet them.
-- **Your keys, your way.** A key set that belongs to your profile and knows US, UK, Nordic, German and French keyboards. The Keys and spells step shows your keys, class spells and macros first and changes nothing on your bars until you press Apply.
+- **Guided setup.** A step-by-step setup picks your scale, layout, look, role, modules, chat and keys on the first login, or sets up everything at once from a preset pack. A short tour explains new parts the first time you meet them.
+- **Key sets.** A key set that belongs to your profile and knows US, UK, Nordic, German and French keyboards. The Keys and spells step shows your keys, class spells and macros first and changes nothing on your bars until you press Apply.
 - **Your layout and look.** `/eui move` opens the available movers, with grid snap and pixel nudging. Fourteen skins set the art, module styles set details such as size and text, and preset packs combine a layout, look and settings. Your dragged positions stay unless you choose to reset them.
 - **Undo when you change your mind.** Every layout or pack change can be undone from the alert after the change or with `/eui layout undo`, and a Recent changes list in the config window undoes single settings.
 - **One config window.** Search finds any setting by name, description, or choice, and changed rows are marked.
@@ -74,6 +72,7 @@ New to EldoUI? Start with [Getting started](docs/wiki/getting-started.md).
 | `/eui export` and `/eui import` | Share your setup as a string |
 | `/eui data` | The Saved data page: copies from before each update, ready to put back |
 | `/eui errors` | Show EldoUI's error log |
+| `/eui fg` or `/eui games` | Open or close Flight Games |
 
 The [command reference](docs/wiki/commands.md) lists all of them.
 
@@ -89,6 +88,7 @@ EldoUI never connects to the internet and sends nothing to its author or to any 
 
 - **Version check** (on by default) tells guild and group members which EldoUI version you have, so you get one chat line when someone has a newer one. Never sent in combat, boss fights or PvP matches. Turn it off under Plugins > Notices.
 - **Party Quests sync** (on by default) shares your quest progress with your group and shows theirs. Not in battlegrounds or arenas. Turn it off under Party Quests > Sync with group.
+- **Layer hop** (off by default) asks your guild, and the hidden layer channel if you join it, for a player who can invite you to another layer. Every invite, accept and leave is your own click. Turn it on or off under Minimap > Layer hop.
 
 ## Documentation
 

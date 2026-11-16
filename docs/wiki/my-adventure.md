@@ -87,7 +87,7 @@ An addon can't write files of its own, so the journal keeps dated backups inside
 
 - **Backups** are taken by themselves after you log in (every login, once a day, once a week, or only by hand) and before a restore or an import. "Backups to keep" sets how many (1 to 10).
 - **Restore** a backup with Merge (keeps everything since) or Replace (exactly as it was). Your journal is backed up first either way.
-- **Backup code**: the whole journal as one `!EUJ1!` code in a copy box, to paste back on this PC or another (`/eui journey import code`, which also takes a Forever Journal `FJ1:` code). A pasted code is read as plain data only.
+- **Backup code**: the whole journal as one `!EUJ1!` code, to paste back on this PC or another with `/eui journey import code`. The same command reads Forever Journal `FJ2:` and `FJ1:` codes. A code with only recent changes is merged into your journal. All pasted codes are read as plain data.
 - **Export**: `/eui journey export markdown`, `html` (a printable page; print it to PDF in a browser), `text`, or `code`. Everything goes to a copy box. Nothing is ever sent from the game.
 
 ## Moving from Forever Journal

@@ -1,6 +1,6 @@
 # Eldostar
 
-Eldostar is EldoUI's own guide window in **0.7.1000**. It follows community leveling, class quest, profession, reputation and collection guides. The guide texts are in English; the window and settings follow EldoUI's language choice.
+Eldostar is EldoUI's own guide window. It follows community leveling, class quest, profession, reputation and collection guides. The guide texts are in English; the window and settings follow EldoUI's language choice.
 
 ## Start a guide
 
@@ -21,6 +21,12 @@ The guide title in the window opens the list again. At the level cap, Eldostar w
 
 Eldostar never accepts or turns in a quest, buys an item or moves your character. You perform the actions in the guide.
 
+## Route choices
+
+For guides with group-quest choices, the **Group quests** setting can ask for each quest, include group quests, or skip them. Answers belong to your character. **Saved group quests** lets you revisit an answer while its choice is still ahead on the route. **Dungeons in leveling guides** selects which dungeon routes you want to include.
+
+**Use deathskips** is off by default and unavailable in Hardcore. When enabled for another character, a guide can offer a route through a graveyard. You perform every action yourself. Reaching the named graveyard alive completes that goal.
+
 ## Pick who uses the guide spot
 
 On Eldostar's settings page, **Guide > Guide on the guide spot** offers Automatic, Eldostar, RestedXP, Guidelime and Off. Automatic selects RestedXP when installed and enabled, otherwise Eldostar. Guidelime is an explicit choice. A selected external guide still needs its own addon and guides installed.
@@ -32,5 +38,7 @@ Only the chosen provider is placed in the layout's guide spot. This choice does 
 The **Window** tab offers Standard or Compact view, text size, tips, goals along the way, transparency, a window lock and visibility rules. Standard has a resize grip unless locked; **Reset the size** restores its size. `/eui eldostar show` reopens a closed window and `/eui eldostar hide` closes it.
 
 Progress is saved per character and guide. **Stop the guide** keeps your place. Starting that guide again continues it; **Start the guide over** asks before clearing its progress. The Journal's guide list also offers Start over when you right-click a guide with progress.
+
+Money and arrival goals stay complete after you spend the money or leave the place. Undo can restore their earlier progress.
 
 Eldostar's route progress is separate from [My Adventure](my-adventure.md), which records your character's story, runs, quests and notes. See [Saved data](saved-data.md) before moving or replacing saved files.

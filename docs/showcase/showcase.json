@@ -234,7 +234,7 @@
     {
       "module": "Fanfare",
       "title": "Fanfare",
-      "text": "Sounds, big text, screen flashes and icons for moments in the game: level up, epic loot, whispers, queue pops, boss kills and more. Fully customizable triggers.",
+      "text": "Sounds, big text, screen flashes and icons for moments in the game: level up, epic loot, whispers, queue pops, boss kills and more. You choose which moments play which effects.",
       "wiki": "modules",
       "page": "features/interface.md#fanfare"
     },
@@ -406,6 +406,13 @@
       "text": "GTFO-style sound alarms: standing in bad stuff (spell list), breath, fatigue, attacked while AFK.",
       "wiki": "modules",
       "page": "features/combat.md#danger-alerts"
+    },
+    {
+      "module": "Nemesis",
+      "title": "Nemesis",
+      "text": "A character's history of opposing players and confirmed kills in both directions, with a personal priority list and optional outdoor alerts.",
+      "wiki": "modules",
+      "page": "features/combat.md#nemesis"
     },
     {
       "module": "EnemySpotter",
@@ -868,7 +875,7 @@
     {
       "module": "FlightGames",
       "title": "Flight Games",
-      "text": "47 games for the time on a flight path: a small Games box shows while you fly, and a click opens arcade games, puzzles, cards, dice and board games against the Horde, and word and WoW quizzes. A game you leave waits for the next flight.",
+      "text": "47 games for the time on a flight path: a small Games box shows while you fly, and a click opens arcade games, puzzles, cards, dice and board games against the other faction, and word and WoW quizzes. A game you leave waits for the next flight.",
       "wiki": "modules",
       "page": "features/quality-of-life.md#flight-games"
     },

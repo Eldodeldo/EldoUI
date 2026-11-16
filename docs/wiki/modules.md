@@ -1,6 +1,6 @@
 # Modules
 
-Everything in EldoUI is a module you can switch on and off: 99 modules in all, listed below by area. Each one has its own page in the config window (`/eui`, then its name in the sidebar).
+Everything in EldoUI is a module you can switch on and off: 100 modules in all, listed below by area. Each one has its own page in the config window (`/eui`, then its name in the sidebar).
 
 - `/eui modules` lists every module and whether it is on.
 - `/eui <name> on`, `off` or `toggle` switches one. The name is the word in the table below, the module's name as the config window shows it (`/eui party and raid off`) or a unique start of it (`/eui na off` switches Nameplates off), ignoring case and spaces. `/eui <name>` alone opens its settings.
@@ -33,7 +33,7 @@ Each module name links to its section in the showcase.
 | [Counters](../showcase/features/interface.md#counters) | Watch items, currencies and gold as small movable counters, with goals and the session gain. | `counters` | On |
 | [AFK Screen](../showcase/features/interface.md#afk-screen) | A calm screen with your character, zone, away time and whispers while you are marked Away. | `afk` | Off |
 | [Macro Editor](../showcase/features/interface.md#macro-editor) | A wider macro editor with a live syntax check, a condition builder and an icon search. | `macros` | On |
-| [Fanfare](../showcase/features/interface.md#fanfare) | Sounds, big text, screen flashes and icons for moments in the game: level up, epic loot, whispers, queue pops, boss kills and more. Fully customizable triggers. | `fanfare` | Off |
+| [Fanfare](../showcase/features/interface.md#fanfare) | Sounds, big text, screen flashes and icons for moments in the game: level up, epic loot, whispers, queue pops, boss kills and more. You choose which moments play which effects. | `fanfare` | Off |
 
 ## Combat
 
@@ -52,6 +52,7 @@ Each module name links to its section in the showcase.
 | [Class Bar](../showcase/features/combat.md#class-bar) | Every class but the shaman: the buffs you keep up, your key cooldowns and the reagents or ammo you carry, in one bar. Click casts; right-click picks the spell and rank. | `classbar` | Off |
 | [Pet Care](../showcase/features/combat.md#pet-care) | Hunters: Feed Pet button next to the pet frame, unhappy pet and low food warnings. | `petcare` | On |
 | [Danger Alerts](../showcase/features/combat.md#danger-alerts) | Sound alarms when you stand in something harmful (spell list), run out of breath or fatigue, or are attacked while AFK. | `alerts` | Off |
+| [Nemesis](../showcase/features/combat.md#nemesis) | Your history of opposing players, confirmed kills and deaths, a personal priority list, and optional nearby outdoor alerts. | `nemesis` | On |
 | [Enemy Spotter](../showcase/features/combat.md#enemy-spotter) | A small list of hostile players seen on nameplates, with class color, level and how long ago. | `enemyspotter` | Off |
 | [Cast Tooltips and Mob Abilities](../showcase/features/combat.md#cast-tooltips-and-mob-abilities) | The spell tooltip on the target and focus cast bars, the abilities each mob cast in front of you, and reputation info on tokens. | `mobabilities` | On |
 | [Spell Efficiency](../showcase/features/combat.md#spell-efficiency) | Damage or healing per second and per mana, and the mana cost as a share of your pool, on spell tooltips. | `spellefficiency` | On |
@@ -133,7 +134,7 @@ Each module name links to its section in the showcase.
 | [Fishing](../showcase/features/quality-of-life.md#fishing) | Fishing mode: one key casts, then loots the bobber; a bar with Cast, Lure and Swap, and a catch log per spot. | `fishing` | Off |
 | [Hardcore](../showcase/features/quality-of-life.md#hardcore) | For Hardcore characters: a death log, death alerts, a Tell the guild card, PvP-flag warnings and Self-Found reminders. | `hardcore` | On |
 | [Split Timer](../showcase/features/quality-of-life.md#split-timer) | A leveling timer that races your own best, with a card at each level-up and a Splits tab in the Characters window. | `splittimer` | On |
-| [Flight Games](../showcase/features/quality-of-life.md#flight-games) | 47 games for the time on a flight path: a small Games box shows while you fly, and a click opens arcade games, puzzles, cards, dice and board games against the Horde, and word and WoW quizzes. A game you leave waits for the next flight. | `flightgames` | Off |
+| [Flight Games](../showcase/features/quality-of-life.md#flight-games) | 48 games for the time on a flight path: a small Games box shows while you fly, and a click opens arcade games, puzzles, cards, dice and board games against the other faction, and word and WoW quizzes. A game you leave waits for the next flight. | `flightgames` | On |
 | [Transport Maps](../showcase/features/quality-of-life.md#transport-maps) | Flight masters, boats, zeppelins, the tram and portals on the world map, with where each one goes. | `transport` | On |
 | [Mage Travel](../showcase/features/quality-of-life.md#mage-travel) | For mages: one button that lists the teleports and portals you know with your rune counts; click a row to cast it. | `magetravel` | Off |
 | [NPC Dialog](../showcase/features/quality-of-life.md#npc-dialog) | An optional dialog view for quest and gossip NPCs with big text, numbered choices, Space to go on and Esc to leave. | `dialogue` | Off |

@@ -16,7 +16,7 @@ Hunters also get a Pet abilities tab beside it: every pet ability rank with its 
 
 ## Talent Planner
 
-Plan your own class's talents in a window with three tabs: the trees, a level-by-level guide and your saved plans (one per talent group). Your plan shows on Blizzard's talent page. When you have a free point, a reminder offers "Learn next", and EldoUI learns only when you click. Plans share as `!EUT1!` strings or chat links. `/eui talents` or a key binding opens the planner.
+Plan your own class's talents in a window with three tabs: the trees, a level-by-level guide and your saved plans (one per talent group). Your plan shows on Blizzard's talent page. When you have a free point, a reminder offers "Learn next", and EldoUI learns only when you click. Plans share as `!EUT1!` strings or chat links. `/eui talents` or a key binding opens the planner. Copy my talents gives you the game’s loadout string for the talent group shown in the planner.
 
 ## Legacy Planner
 
@@ -80,20 +80,22 @@ Turn on fishing mode and the key you choose casts Fishing, then loots the bobber
 
 On Hardcore characters only: a log of the deaths the game announces, death alert cards, and after your own death a card with a one-click "Tell the guild". It warns before you attack or help a PvP-flagged target and when you get flagged, and Self-Found characters get reminders at the mailbox, auction house and trade window. `/eui deaths`.
 
+The Death Log also summarizes zones, ten-level bands and causes with the same filters as the list. Near my level keeps deaths within three levels of your character. An optional zone notice summarizes matching deaths already in your log.
+
 ## Split Timer
 
 A small leveling timer shows your time on this level and the difference to your best: your best per level, your personal best or a character you pick. Each level-up shows that level's time against the best, and the Characters window gets a Splits tab to compare characters. It uses only your level log and /played.
 
 ## Flight Games
 
-While you fly a flight path, a small Games box shows how long the flight has left and your last six games; a click opens 47 games in four groups, played with the keys or the mouse. "Don't show on flights" on the box turns it off.
+While you fly a flight path, a small Games box shows how long the flight has left and your last six games; a click opens 48 games in four groups, played with the keys or the mouse. "Don't show on flights" on the box turns it off.
 
-- **Arcade:** Snake, Murloc Crossing (hop a murloc over the road and the river), Candle Mine (pick up candles while bats hunt you), Air Hockey, Rune Stack (falling shapes that fill rows), Gryphon Raid, Whack-a-Gnoll, Fishing Reflex, Don't Stand in the Fire, Defend the Flight Master (build archers, bombardiers and frost casters beside the road and hold out for fifteen waves), Gryphon Glide, Kodo Run (jump and duck across the Barrens), Elemental Storm (break drifting elementals with your ship), Loot Catch (catch the loot by quality, let the bombs fall), Mana Bubbles (shoot and pop bubbles of one color) and Brick Breaker.
+- **Arcade:** Gnome Dash (ten scrolling courses, with a gnome who grows into a dwarf after a mushroom), Snake, Murloc Crossing (hop a murloc over the road and the river), Candle Mine (pick up candles while bats hunt you), Air Hockey, Rune Stack (falling shapes that fill rows), Gryphon Raid, Whack-a-Gnoll, Fishing Reflex, Don't Stand in the Fire, Defend the Flight Master (build archers, bombardiers and frost casters beside the road and hold out for fifteen waves), Gryphon Glide, Kodo Run (jump and duck across the Barrens), Elemental Storm (break drifting elementals with your ship), Loot Catch (catch the loot by quality, let the bombs fall), Mana Bubbles (shoot and pop bubbles of one color) and Brick Breaker.
 - **Puzzles:** Crest Match (swap class crests into lines of three), Coin Merge, Mines, Rune Memory, Light the Braziers, Sliding Map (the pieces of a zone map), Rune Sudoku, Picture Logic, Pairs, Icon Mahjong, Dwarven Crates, Ley Lines (join each pair of runes and fill every cell), Caravan Jam (slide the carts until the kodo cart can leave, with the fewest moves shown), Peg Runes (the cross and the triangle) and Word Hunt (words of the game's world in English or Danish). Every board has an answer.
-- **Cards, dice and board:** Solitaire, Dice Duel, Five Dice (the Scandinavian score card), and Chess, Four in a Row, Reversi, Checkers, Sea Battle, Five Stones, Stone Pits, Mill and Fence the Pens against the Horde on several levels.
+- **Cards, dice and board:** Solitaire, Dice Duel, Five Dice (the Scandinavian score card), and Chess, Four in a Row, Reversi, Checkers, Sea Battle, Five Stones, Stone Pits, Mill and Fence the Pens against the other faction on several levels. Your pieces and banners use your faction's colors.
 - **Words and quiz:** WoW Trivia asks from more than 1,300 questions about the world of the original game, in rounds of 10 or 25, as sudden death or as a daily round that is the same for everyone on a date. Daily Word hides a five-letter word in English or Danish. Which Spell? shows a class spell's icon, and Where Is It? asks you to find a zone or a city on the continent map.
 
-Each game lies on its own table (green felt for cards and board games, wood for quizzes, stone for puzzles, a night sky for arcade games). Over the board you see the round's time and your games, wins and best streak in that game; Solitaire, Chess, Dwarven Crates, Caravan Jam, Peg Runes and Icon Mahjong have footer buttons for undo, hints and starting over. A game you leave waits for your next flight and comes back paused. The window lets every key it does not use go on to the game. Each game and level keeps your best score for the whole account. Combat pauses and closes the games, and landing closes them unless you turn that off. The art is the game's own icons, maps and creature models with bursts and sparks, and your character dances at a new best. It is off until you turn it on, and /eui games opens it any time.
+Each game lies on its own table (green felt for cards and board games, wood for quizzes, stone for puzzles, a night sky for arcade games). Over the board you see the round's time and your games, wins and best streak in that game; Solitaire, Chess, Dwarven Crates, Caravan Jam, Peg Runes and Icon Mahjong have footer buttons for undo, hints and starting over. A game you leave waits for your next flight and comes back paused. The window lets every key it does not use go on to the game. Each game and level keeps your best score for the whole account. Combat pauses and closes the games, and landing closes them unless you turn that off. The art is the game's own icons, maps and creature models with bursts and sparks, and your character dances at a new best. The Games box appears on flights by default. A saved choice to turn it off stays off. /eui games or /eui fg opens the games any time.
 
 ## Transport Maps
 

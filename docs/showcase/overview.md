@@ -2,7 +2,7 @@
 
 This showcase describes the 0.7.1000 interface. Get published downloads from the [releases page](https://github.com/Eldodeldo/EldoUI/releases); see [Current release](../wiki/current-release.md) for the release-note reference.
 
-**An AI-made, deeply modular UI for WoW: Forever.** 99 modules you turn on and off one by one, eleven layouts that place every frame for you, four roles on top of every layout, and one consistent look across all of it. Move anything with `/eui move`, change the look with skins and style presets, and share your setup as a string.
+**An AI-made, deeply modular UI for WoW: Forever.** 100 modules you turn on and off one by one, eleven layouts that place every frame for you, four roles on top of every layout, and one consistent look across all of it. Move anything with `/eui move`, change the look with skins and style presets, and share your setup as a string.
 
 EldoUI stays within Blizzard's addon rules. It changes how the interface looks and where things sit, and shows only what the game gives addons. It never plays for you, and nothing acts without your click unless you turn it on.
 
@@ -13,7 +13,7 @@ EldoUI stays within Blizzard's addon rules. It changes how the interface looks a
 - **[Group](features/group.md)**: party and raid frames, click casting, raid tools, dungeon routes, raid loot lists, and ready check reports.
 - **[Chat & Social](features/chat-social.md)**: chat with saved history and search, an instant messenger for whispers, player notes, and streamer mode.
 - **[Items & Economy](features/items-economy.md)**: bags and bank across your characters, the Loot Guide, the My Adventure journal, upgrade arrows, auction house, merchant, mail, and trade.
-- **[Quality of Life](features/quality-of-life.md)**: tweaks, waypoints, map notes, rare alerts, gathering and fishing helpers, the Training window, and much more.
+- **[Quality of Life](features/quality-of-life.md)**: tweaks, waypoints, map notes, rare alerts, gathering and fishing helpers, the Training window and other everyday helpers.
 
 ## The core
 

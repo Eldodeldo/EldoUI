@@ -109,13 +109,13 @@ These options are on the Action Bars page and in the setup's **Keys and spells**
 
 `/eui move` again locks them. Your positions are saved per profile, on top of the layout. `/eui resetlayout` puts every frame back. EldoUI's frames also show in Blizzard's Edit Mode.
 
-Blizzard windows (bags, character, mail and more) have their own mover: `/eui windows unlock`, then drag them; `/eui windows reset` puts them back.
+Blizzard windows (bags, character, mail and more) have their own mover, set up on the Move windows page: drag a window by its title bar, with a key held if you set one under Key to drag (Ctrl, Shift, Alt or two of them), and turn the mouse wheel over the title bar to scale it. Lock windows stops dragging and scaling until you unlock them; `/eui windows lock` and `/eui windows unlock` switch it from chat, and `/eui windows reset` puts every window back.
 
 ### Gamepad Mode UI
 
 When you play with a controller, the **Gamepad Mode UI** section on the Layouts page in `/eui` can place EldoUI's frames for controller play while the game's gamepad interface is on: your player and target frames, cast bar, resource bar and cooldowns sit in one column above the game's gamepad bar, clear of its radial menu, with the swing timers above. Your layout and dragged frames come back when you turn the gamepad interface off.
 
-- EldoUI asks once when you start using a controller, and nothing changes until you choose. **Ask when I start using a controller** turns the question off, and the setup has a **Controller** step when you have one.
+- EldoUI asks once when you start using a controller, and nothing changes until you choose. **Ask when you start using a controller** turns the question off, and the setup has a **Controller** step when you have one.
 - EldoUI never turns the game's gamepad interface on or off: **Open controller settings** opens the game's Controller settings, where that switch is.
 - After you turn the gamepad interface off, **Restore now** puts Edit Mode back on the layout you used before the game switched it to Modern, out of combat.
 - **Controller spells** opens the Key sets window on its Controller view: your class spells go on the game's controller bars in the same order as your keys, with **Apply** and **Take back spells**.

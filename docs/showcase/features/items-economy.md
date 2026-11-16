@@ -8,6 +8,12 @@ Your bags, your gold and the items you are after.
 
 All bags and the bank in EldoUI windows with categories and a bag bar, item counts across your characters in the tooltip, search with filters, offline viewing and a Blizzard skin mode. Items you already know are tinted, and sorting happens only when you click. `/eui find <text>` searches the items of all your characters; `/eui bank` shows your saved bank anywhere.
 
+Junk coins and dimmed icons in live bags follow Merchant's sell and keep rules while that module is on, including its quest, recipe, equipment-set, and refund protection. The same marks appear in the game's bag windows when their extra information is enabled. With Merchant off, gray items receive the marks.
+
+Ctrl+Alt+right-click an item in EldoUI's bags or bank to change its junk rule. A gray item switches Never sell, and other items switch Always sell. The modifier pair can be changed or disabled in Merchant settings. The coin, Junk category and tooltip update together.
+
+The footer shows free general slots and warns as space runs low. Choose Used of total for the previous count format. Hover the count for each bag's capacity, or the count and gold for vendor values and saved usual auction prices grouped by item kind. Nearly full bags can mark their lowest-value eligible stack. The Loot window names the same stack after the game reports that an item does not fit. Both cues have their own switches.
+
 ## Bag Actions
 
 Alt-click an item in your bags to disenchant it, or Alt-click a lockbox to pick its lock, when you know the profession. You choose the modifier, keep items safe with an exclude list, and set the highest quality it will disenchant. Rows for professions Forever doesn't have stay hidden. The module is off until you turn it on, and nothing happens without your click.
@@ -28,9 +34,17 @@ Upgrade arrows from a stat-weight scale in tooltips, bags, merchants, loot rolls
 
 Shopping lists, quick selling with price checks, canceling, full scans, crafting costs, disenchant values and a price database for the auction house.
 
+Shopping also shows deals from searches and full scans you start. Set a target price on the watch list, open an exact result in Buy, and see a warning when your proposed sale is far below the usual price.
+
+Item tooltips show the last auction price and a usual price once your searches cover at least three days. An arrow marks three days of clearly higher or lower prices, and the tooltip says when a vendor pays more after the auction house takes its share. Hold Shift for the last seven daily lows. Quick Sell suggests the usual price if there are no current listings and you have no remembered price.
+
 ## Merchant
 
 Repair (from guild funds first, then your own) and sell gray items when you open a merchant, both with a switch, restock to exact amounts, fill ammo, and an item list for the merchant window. `/eui restock` opens the restock list.
+
+Keep every sale undoable limits automatic junk selling to one batch of up to 12 stacks per visit, with the number left shown in the sale summary. It is off by default. When it is off, selling continues in batches, and the buyback tab holds the last 12 sold stacks.
+
+The Sell junk button shows the eligible stack count and value when Merchant Improve is enabled. Each click sells at most twelve stacks and works with automatic selling on or off.
 
 ## Mail
 

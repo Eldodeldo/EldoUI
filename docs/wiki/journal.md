@@ -8,6 +8,7 @@ Each character has a journal of its own:
 
 - **Moments**: levels, places, dungeons, bosses, deaths, quests, finds, spells, professions, reputation, mounts, pets and flights, each with when and where.
 - **Quests**: every quest you handed in, with where, when, who gave it and who came along, and quests that left your log without a hand-in.
+- **Dungeons**: all nine WoW: Forever dungeons have their own page with their level range and zone; a boss joins the page the first time you defeat it, with the items you saw it drop.
 - **Runs**: every dungeon and raid run, with who was in it (name, class, level, role and guild as the game showed them) and the loot rolls that ended while you were inside.
 - **Companions**: the people you traveled with, and your notes on them.
 - **Your own words**: goals, notes, reminders and notes on keepsakes.
@@ -86,7 +87,7 @@ All of these go to a copy box: press Ctrl+C and paste them wherever you like. No
 
 ## Moving from Forever Journal
 
-**Import from Forever Journal** (or `/eui journey import`) brings every Forever Journal journal into My Adventure while that addon is still enabled. It only reads Forever Journal's data, merges instead of wiping, backs up first, and **Undo the import** puts every touched journal back. Running it twice adds nothing twice. A Forever Journal `FJ1:` code works with **Paste a journal code** too. See [My Adventure](my-adventure.md#moving-from-forever-journal).
+**Import from Forever Journal** (or `/eui journey import`) brings every Forever Journal journal into My Adventure while that addon is still enabled. It only reads Forever Journal's data, merges instead of wiping, backs up first, and **Undo the import** puts every touched journal back. Running it twice adds nothing twice. **Paste a journal code** also reads Forever Journal `FJ2:` and `FJ1:` codes. Codes with only recent changes are merged into the existing journal. See [My Adventure](my-adventure.md#moving-from-forever-journal).
 
 ## Privacy
 

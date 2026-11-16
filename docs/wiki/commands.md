@@ -59,7 +59,8 @@ Every command starts with `/eui` (or `/eldoui`). Names ignore case, and a unique
 | `/eui import` | Open the import window: EldoUI, EllesmereUI, ElvUI and Edit Mode strings, or a bundle of several strings at once |
 | `/eui send <party\|raid\|guild\|player>` | Offer your settings to a group, guild or player |
 | `/eui capture <addon>` | Save another addon's setup into EldoUI (Details, CooldownManager) |
-| `/eui setup` | Set up every supported addon from EldoUI's profiles |
+| `/eui setup` | Same as `/eui install`: run the EldoUI setup again |
+| `/eui addonsetup` | Set up every supported addon from EldoUI's profiles, after asking which addons it writes to |
 | `/eui plugins [list\|setup [name]]` | The Plugins page, a list in chat, or the plugins' setup pages again |
 
 ## Module commands
@@ -82,7 +83,7 @@ Commands that belong to one module.
 | `/eui sim [bis\|char\|stop]` | Loot Guide | The Loot Guide simulator: open its window, or start or stop a run |
 | `/eui tour lootguide`, `/eui tour journal` | Loot Guide | Start the Loot Guide or My Adventure tour again |
 | `/eui newquest [questID]` | Quest Marks | Whether a quest is new in WoW: Forever; without an ID, the quest in the quest window |
-| `/eui talents [next\|level\|export\|import\|send <party\|raid\|guild\|name>\|reset]` | Talent Planner | Open the Talent Planner, see your plan's next point, or share and reset a plan |
+| `/eui talents [next\|level\|export [current]\|import\|send <party\|raid\|guild\|name>\|reset]` | Talent Planner | Open the Talent Planner, see your plan's next point, share and reset a plan, or use `export current` to copy your displayed talent group as a loadout string |
 | `/eui legacy [challenges\|export\|import]` | Legacy Planner | Plan your Legacy points (it never spends them), browse challenges, or share a plan |
 | `/eui plan [level\|pin <id> [n]\|unpin <id>\|clear]` | Profession Planner | Open the Profession Planner, or pin and unpin recipes |
 | `/eui restock` | Merchant | Open the restock list |
@@ -98,8 +99,11 @@ Commands that belong to one module.
 | `/eui eim [name]` | Instant Messages | The whisper history, or a conversation with a name |
 | `/eui tt` | Chat | Whisper your target: opens the chat box as /w with its name |
 | `/eui chatguild [mute <guild>\|unmute <guild>\|hidden]` | Chat | Muted guilds in chat; no word opens the list |
+| `/eui trade` | Chat | Open the Trade board of recent trade offers (turn it on in Chat settings first) |
 | `/eui note [Name [text]\|good Name\|avoid Name\|clear Name\|list]` | Player Notes | Your notes on other players |
+| `/eui guildlog` | Social | Open your guild history and filterable member list |
 | `/eui streamer [on\|off\|toggle]` | Streamer Mode | Show aliases in place of real names |
+| `/eui nemesis` | Nemesis | Open your opposing-player history and personal priority list |
 | `/eui party` | Party Quests | Show or hide the Party Quests panel |
 | `/eui clickcast` | Click Casting | The click-casting bindings window |
 | `/eui blessings` | Blessing Plan | Open or close the Blessing Plan window |
@@ -111,7 +115,7 @@ Commands that belong to one module.
 | `/eui routes [dungeon\|import]` | Dungeon Routes | The dungeon map with packs and routes; a name opens that dungeon |
 | `/eui instances [log\|add\|count\|stats\|pvp\|options]` | Instances | The run log and how many instances you entered this hour |
 | `/eui deaths` | Hardcore | Open the Hardcore death log |
-| `/eui games` | Flight Games | Open or close the game window, on a flight path or not |
+| `/eui games` or `/eui fg` | Flight Games | Open or close the game window, on a flight path or not |
 | `/eui quickdraw` | Quickdraw | The Quickdraw menu editor |
 | `/eui hud` | Combat HUD | Combat HUD settings |
 | `/eui threat [on\|off\|focus\|target]` | Combat HUD | EldoUI threat meter |

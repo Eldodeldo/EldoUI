@@ -6,7 +6,9 @@ Your own frames, your bars and everything the game shows you in a fight. EldoUI 
 
 ## Unit Frames
 
-Player, target, focus, pet, target-of-target, boss, party pet and party target frames, plus switches for Blizzard's own unit frames and cast bar. Each frame has tabs for its bars, text tags, buffs and debuffs, cast bar and icons. Cast bars can hold a finished cast for a moment, flash, hide casts you cannot interrupt and mark important spells. Heal prediction and a fader are built in. Seven style presets include Classic frames, the shape of the original frames with a round portrait, and with the Vanilla Original skin, frames sized like the originals wear the game's own classic frame art, with the elite and rare dragons on the target. `/eui testframes` shows every frame with sample values so you can place and style them.
+Player, target, focus, pet, target-of-target, boss, party pet and party target frames, plus switches for Blizzard's own unit frames and cast bar. Each frame has tabs for its bars, text tags, buffs and debuffs, cast bar and icons. Target and focus can show a quest icon for unfinished objectives, including when the nameplate is off screen. Cast bars can hold a finished cast for a moment, flash, hide casts you cannot interrupt and mark important spells. Heal prediction and a fader are built in. Seven style presets include Classic frames, the shape of the original frames with a round portrait, and with the Vanilla Original skin, frames sized like the originals wear the game's own classic frame art, with the elite and rare dragons on the target. `/eui testframes` shows every frame with sample values so you can place and style them.
+
+Turn on Show my interrupt separately for target and focus to put your known interrupt's icon and cooldown beside the current cast. It starts off and follows your current pet's Spell Lock when available.
 
 ## Action Bars
 
@@ -55,6 +57,10 @@ For hunters: a Feed Pet button next to the pet frame, and warnings when your pet
 ## Danger Alerts
 
 Sound alarms when you stand in something harmful from a spell list, run low on breath, reach fatigue, or are attacked while away. Off by default.
+
+## Nemesis
+
+Open `/eui nemesis` to see the opposing players your character has encountered and the confirmed kills in each direction. Add players to Priority and move them into your own order. Select a visible player to view their live appearance, or copy their Armory link. Optional outdoor alerts start after three confirmed kills in either direction.
 
 ## Enemy Spotter
 
