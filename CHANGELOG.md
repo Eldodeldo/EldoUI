@@ -6,6 +6,16 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.7.3003] - 2026-11-16
+
+### General
+
+#### Fixed
+
+- Names in Cyrillic, Korean and Chinese show their letters on nameplates, unit frames and every other place EldoUI shows a name, where they were empty boxes before.
+- In Gnome Dash, the gnome and the dwarf wear their own clothes and colors instead of showing plain white.
+- Gnome Dash has calm scenery on every course, and coins and opponents show as round pictures without boxes, so it is easy to see what you can stand on.
+
 ## [0.7.3002] - 2026-11-16
 
 ### Nameplates
@@ -2324,7 +2334,8 @@ The versions from 0.5.0 to 0.6.6005 in short: what they brought that is still in
 - **Paladin:** The Blessing Plan (/eui blessings) plans which blessing each paladin keeps up on each class.
 - **Shaman:** Shaman Totems: a totem bar, a cooldown bar with your shield, weapon imbues, Reincarnation and Ankhs, up to eight totem loadouts, and a group plan for Mana Tide Totem and the resistance totems.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.3002...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.3003...HEAD
+[0.7.3003]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3003
 [0.7.3002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3002
 [0.7.3001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3001
 [0.7.3000]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3000
