@@ -1,17 +1,21 @@
 # Current release
 
-<!-- eldoui:release-docs 0.7.3003 -->
+<!-- eldoui:release-docs 0.7.3004 -->
 
-EldoUI **0.7.3003**, 2026-11-16.
+EldoUI **0.7.3004**, 2026-11-17.
 
-[Download this version](https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3003) · [All changes](https://github.com/Eldodeldo/EldoUI/blob/v0.7.3003/CHANGELOG.md) · [Updating](updating.md)
+[Download this version](https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3004) · [All changes](https://github.com/Eldodeldo/EldoUI/blob/v0.7.3004/CHANGELOG.md) · [Updating](updating.md)
 
 These notes describe this version. Migration guides keep the version numbers of the updates they explain.
+
+### Journal
+
+#### Fixed
+
+- A long attunement or key chain in the Flowchart view has a scroll bar that reaches the last step, and Shift+mouse wheel scrolls a wide chain sideways, so you no longer need to make the window taller to see the end.
 
 ### General
 
 #### Fixed
 
-- Names in Cyrillic, Korean and Chinese show their letters on nameplates, unit frames and every other place EldoUI shows a name, where they were empty boxes before.
-- In Gnome Dash, the gnome and the dwarf wear their own clothes and colors instead of showing plain white.
-- Gnome Dash has calm scenery on every course, and coins and opponents show as round pictures without boxes, so it is easy to see what you can stand on.
+- In Gnome Dash you steer an animated gnome and, after a mushroom, a dwarf that runs, jumps and faces the way it moves, instead of a portrait picture.

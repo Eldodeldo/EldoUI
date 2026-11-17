@@ -6,6 +6,20 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.7.3004] - 2026-11-17
+
+### Journal
+
+#### Fixed
+
+- A long attunement or key chain in the Flowchart view has a scroll bar that reaches the last step, and Shift+mouse wheel scrolls a wide chain sideways, so you no longer need to make the window taller to see the end.
+
+### General
+
+#### Fixed
+
+- In Gnome Dash you steer an animated gnome and, after a mushroom, a dwarf that runs, jumps and faces the way it moves, instead of a portrait picture.
+
 ## [0.7.3003] - 2026-11-16
 
 ### General
@@ -2334,7 +2348,8 @@ The versions from 0.5.0 to 0.6.6005 in short: what they brought that is still in
 - **Paladin:** The Blessing Plan (/eui blessings) plans which blessing each paladin keeps up on each class.
 - **Shaman:** Shaman Totems: a totem bar, a cooldown bar with your shield, weapon imbues, Reincarnation and Ankhs, up to eight totem loadouts, and a group plan for Mana Tide Totem and the resistance totems.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.3003...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.3004...HEAD
+[0.7.3004]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3004
 [0.7.3003]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3003
 [0.7.3002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3002
 [0.7.3001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3001
