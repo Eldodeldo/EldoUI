@@ -6,6 +6,56 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.7.3005] - 2026-11-18
+
+### Setup and profiles
+
+#### Fixed
+
+- Pointing at the Apply button under Preset packs in the setup shows its tooltip again instead of an error.
+
+### Chat
+
+#### Fixed
+
+- At the start of a battleground, "players have joined the battle" no longer repeats in chat with an error flood and lag; later joins and leaves show one line each.
+
+### Tooltips
+
+#### Fixed
+
+- Pointing at a player in a battleground no longer shows an error when a part of EldoUI that adds tooltip lines turns on or off.
+
+### Bags and loot
+
+#### Fixed
+
+- Turning off the loot window's Move switch gives the game's loot window its own scale back without upsetting Edit Mode.
+
+### Leveling and quests
+
+#### Fixed
+
+- The quest tracker no longer reports aura errors in battlegrounds, and the objective counts and quest title colors appear one frame after the game lays the tracker out.
+
+### Map and minimap
+
+#### Fixed
+
+- Opening the world map with its key in a battleground no longer reports a blocked action, after the Info Bar, the flight view or the experience bar opened the map earlier.
+
+### Windows and skins
+
+#### Fixed
+
+- The battleground results window opens without a stutter at the end of a large match, and the score table styling no longer logs time limit errors.
+
+### General
+
+#### Fixed
+
+- Entering a battleground no longer shows an error from the character overview's calendar check.
+
 ## [0.7.3004] - 2026-11-17
 
 ### Journal
@@ -2348,7 +2398,8 @@ The versions from 0.5.0 to 0.6.6005 in short: what they brought that is still in
 - **Paladin:** The Blessing Plan (/eui blessings) plans which blessing each paladin keeps up on each class.
 - **Shaman:** Shaman Totems: a totem bar, a cooldown bar with your shield, weapon imbues, Reincarnation and Ankhs, up to eight totem loadouts, and a group plan for Mana Tide Totem and the resistance totems.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.3004...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.3005...HEAD
+[0.7.3005]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3005
 [0.7.3004]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3004
 [0.7.3003]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3003
 [0.7.3002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3002
