@@ -6,6 +6,26 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+## [0.7.3006] - 2026-11-19
+
+### Info Bar
+
+#### Fixed
+
+- The Hit and Spell hit blocks count the hit rating on your gear, so they match the character sheet.
+
+### Bags and loot
+
+#### Fixed
+
+- Every loot roll gets its roll bar at once, also while the item's details are still loading, so no roll is missed or shown in the game's own window instead.
+- The game's own roll windows no longer reappear over the action bars after a loading screen while EldoUI's roll bars replace them.
+- With the game's roll windows moved, each one opens directly on the roll spot and stays where it opened while other rolls start and end.
+- Roll bars stay in the order their rolls started, so a new roll joins at the end instead of pushing the others down.
+- The loot window closes with Escape, closing it ends the loot, an empty corpse or chest no longer leaves the loot open, and a leftover loot confirmation closes with the loot.
+- Every item in the loot window shows, also one whose details the game keeps hidden, and a row from the last loot no longer disappears under a new item.
+- EldoUI's bank window offers more bank space again: a button on its side bar buys the next bank tab, with its price and the game's own confirmation, also when the bag bar is off.
+
 ## [0.7.3005] - 2026-11-18
 
 ### Setup and profiles
@@ -2398,7 +2418,8 @@ The versions from 0.5.0 to 0.6.6005 in short: what they brought that is still in
 - **Paladin:** The Blessing Plan (/eui blessings) plans which blessing each paladin keeps up on each class.
 - **Shaman:** Shaman Totems: a totem bar, a cooldown bar with your shield, weapon imbues, Reincarnation and Ankhs, up to eight totem loadouts, and a group plan for Mana Tide Totem and the resistance totems.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.3005...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.3006...HEAD
+[0.7.3006]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3006
 [0.7.3005]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3005
 [0.7.3004]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3004
 [0.7.3003]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3003

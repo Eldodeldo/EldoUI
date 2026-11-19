@@ -1,57 +1,27 @@
 # Current release
 
-<!-- eldoui:release-docs 0.7.3005 -->
+<!-- eldoui:release-docs 0.7.3006 -->
 
-EldoUI **0.7.3005**, 2026-11-18.
+EldoUI **0.7.3006**, 2026-11-19.
 
-[Download this version](https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3005) · [All changes](https://github.com/Eldodeldo/EldoUI/blob/v0.7.3005/CHANGELOG.md) · [Updating](updating.md)
+[Download this version](https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3006) · [All changes](https://github.com/Eldodeldo/EldoUI/blob/v0.7.3006/CHANGELOG.md) · [Updating](updating.md)
 
 These notes describe this version. Migration guides keep the version numbers of the updates they explain.
 
-### Setup and profiles
+### Info Bar
 
 #### Fixed
 
-- Pointing at the Apply button under Preset packs in the setup shows its tooltip again instead of an error.
-
-### Chat
-
-#### Fixed
-
-- At the start of a battleground, "players have joined the battle" no longer repeats in chat with an error flood and lag; later joins and leaves show one line each.
-
-### Tooltips
-
-#### Fixed
-
-- Pointing at a player in a battleground no longer shows an error when a part of EldoUI that adds tooltip lines turns on or off.
+- The Hit and Spell hit blocks count the hit rating on your gear, so they match the character sheet.
 
 ### Bags and loot
 
 #### Fixed
 
-- Turning off the loot window's Move switch gives the game's loot window its own scale back without upsetting Edit Mode.
-
-### Leveling and quests
-
-#### Fixed
-
-- The quest tracker no longer reports aura errors in battlegrounds, and the objective counts and quest title colors appear one frame after the game lays the tracker out.
-
-### Map and minimap
-
-#### Fixed
-
-- Opening the world map with its key in a battleground no longer reports a blocked action, after the Info Bar, the flight view or the experience bar opened the map earlier.
-
-### Windows and skins
-
-#### Fixed
-
-- The battleground results window opens without a stutter at the end of a large match, and the score table styling no longer logs time limit errors.
-
-### General
-
-#### Fixed
-
-- Entering a battleground no longer shows an error from the character overview's calendar check.
+- Every loot roll gets its roll bar at once, also while the item's details are still loading, so no roll is missed or shown in the game's own window instead.
+- The game's own roll windows no longer reappear over the action bars after a loading screen while EldoUI's roll bars replace them.
+- With the game's roll windows moved, each one opens directly on the roll spot and stays where it opened while other rolls start and end.
+- Roll bars stay in the order their rolls started, so a new roll joins at the end instead of pushing the others down.
+- The loot window closes with Escape, closing it ends the loot, an empty corpse or chest no longer leaves the loot open, and a leftover loot confirmation closes with the loot.
+- Every item in the loot window shows, also one whose details the game keeps hidden, and a row from the last loot no longer disappears under a new item.
+- EldoUI's bank window offers more bank space again: a button on its side bar buys the next bank tab, with its price and the game's own confirmation, also when the bag bar is off.
