@@ -18,7 +18,7 @@ A bar for leaders and assists with ready check, role check, a pull countdown, wo
 
 ## Instances
 
-Counts your dungeon and raid entries against the hourly instance limit (5 per hour, across every character on the same ruleset, shown as an estimate), with an info bar block that says when the next slot frees up. A run log lists every run with time, XP, kills, gold and reputation, and a battleground tab lists your battlegrounds with result and honor. Walking back into the same instance merges the runs. Reset notices tell you and your group what was reset, and Raid Tools can get a Reset instances button. `/eui instances` opens the log.
+Counts your dungeon and raid entries against the hourly instance limit (10 per hour, across every character on the same ruleset, shown as an estimate; 40-player raids keep their own lockout and do not count), with an info bar block that says when the next slot frees up. A run log lists every run with time, XP, kills, gold and reputation, and a battleground tab lists your battlegrounds with result and honor. Walking back into the same instance merges the runs. Reset notices tell you and your group what was reset, and Raid Tools can get a Reset instances button. `/eui instances` opens the log.
 
 ## Battleground Timers
 
