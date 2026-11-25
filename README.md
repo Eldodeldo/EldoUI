@@ -88,7 +88,6 @@ EldoUI never connects to the internet and sends nothing to its author or to any 
 
 - **Version check** (on by default) tells guild and group members which EldoUI version you have, so you get one chat line when someone has a newer one. Never sent in combat, boss fights or PvP matches. Turn it off under Plugins > Notices.
 - **Party Quests sync** (on by default) shares your quest progress with your group and shows theirs. Not in battlegrounds or arenas. Turn it off under Party Quests > Sync with group.
-- **Layer hop** (off by default) asks your guild, and the hidden layer channel if you join it, for a player who can invite you to another layer. Every invite, accept and leave is your own click. Turn it on or off under Minimap > Layer hop.
 
 ## Documentation
 

@@ -36,6 +36,8 @@ Shopping lists, quick selling with price checks, canceling, full scans, crafting
 
 Shopping also shows deals from searches and full scans you start. Set a target price on the watch list, open an exact result in Buy, and see a warning when your proposed sale is far below the usual price.
 
+Prices and posting history stay with their faction or neutral market. Saved prices are available once the game identifies the market.
+
 Item tooltips show the last auction price and a usual price once your searches cover at least three days. An arrow marks three days of clearly higher or lower prices, and the tooltip says when a vendor pays more after the auction house takes its share. Hold Shift for the last seven daily lows. Quick Sell suggests the usual price if there are no current listings and you have no remembered price.
 
 ## Merchant

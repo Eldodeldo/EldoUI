@@ -14,7 +14,7 @@ Each module name links to its section in the showcase.
 | Module | What it does | `/eui` name | Default |
 |---|---|---|---|
 | [Info Bar](../showcase/features/interface.md#info-bar) | Full-width bars and your own datatext panels with clock, gold, durability, stats and more, plus gold and XP per hour, a group roll tracker and mail on all your characters. | `infobar` | On |
-| [Minimap](../showcase/features/interface.md#minimap) | Square or round minimap with zone, coordinates, clock, button placement, EldoUI's own minimap button, an addon button bin and a layer chip. | `minimap` | On |
+| [Minimap](../showcase/features/interface.md#minimap) | Square or round minimap with zone, coordinates, clock, button placement, EldoUI's own minimap button, and an addon button bin. | `minimap` | On |
 | [Tooltip](../showcase/features/interface.md#tooltip) | Clean tooltips in the game's own style with quality and class borders, a tidy info area and a movable anchor. | `tooltip` | On |
 | [Maps](../showcase/features/interface.md#maps) | World map, quest log, flight map, battlefield map and UI widgets: skin, position, scale, coordinates and fading, and a dungeon map with Live. | `maps` | On |
 | [Quest Tracker](../showcase/features/interface.md#quest-tracker) | Blizzard's quest and objective tracker: EldoUI look, mover, height, font, fade in combat and Questie support. | `objectivetracker` | On |

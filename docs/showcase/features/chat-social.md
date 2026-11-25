@@ -18,7 +18,7 @@ Flat EldoUI speech bubbles with the EldoUI font, and control over which bubbles 
 
 ## Player Notes
 
-Write your own note on any player and mark them Good or Avoid, from their right-click menu (unit frames, chat names, the friends list) or with `/eui note Name text`. Their tooltip shows your note and mark, and how often and when you last grouped with them; the group journal fills itself as you group. When someone you marked Avoid joins your group, a short note tells you. Everything stays on your computer: nothing is sent, and no one is kicked, ignored or invited for you.
+Write your own note on any player and mark them Good or Avoid, from their right-click menu (unit frames, chat names, the friends list). To save a note from chat in WoW: Forever, put the full name in quotes, as in `/eui note "First Surname" text`. Their tooltip shows your note and mark, and how often and when you last grouped with them; the group journal fills itself as you group. When someone you marked Avoid joins your group, a short note tells you. Everything stays on your computer: nothing is sent, and no one is kicked, ignored or invited for you.
 
 ## Streamer Mode
 

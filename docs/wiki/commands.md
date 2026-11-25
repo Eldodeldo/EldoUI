@@ -100,7 +100,8 @@ Commands that belong to one module.
 | `/eui tt` | Chat | Whisper your target: opens the chat box as /w with its name |
 | `/eui chatguild [mute <guild>\|unmute <guild>\|hidden]` | Chat | Muted guilds in chat; no word opens the list |
 | `/eui trade` | Chat | Open the Trade board of recent trade offers (turn it on in Chat settings first) |
-| `/eui note [Name [text]\|good Name\|avoid Name\|clear Name\|list]` | Player Notes | Your notes on other players |
+| `/eui note "First Surname" text` | Player Notes | Save a note. Leave off the text to read it, or use `/eui note list` for all your notes. |
+| `/eui note good "First Surname"` and more | Player Notes | Mark a player. Use `avoid` for an Avoid mark and `clear` to remove a mark. Single-word player names can be used without quotes where supported. |
 | `/eui guildlog` | Social | Open your guild history and filterable member list |
 | `/eui streamer [on\|off\|toggle]` | Streamer Mode | Show aliases in place of real names |
 | `/eui nemesis` | Nemesis | Open your opposing-player history and personal priority list |

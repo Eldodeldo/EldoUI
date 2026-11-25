@@ -56,7 +56,7 @@
     {
       "module": "Minimap",
       "title": "Minimap",
-      "text": "Square or round minimap with zone, coordinates, clock, button placement, an addon button bin and a layer chip that hops you to another layer with a click.",
+      "text": "Square or round minimap with zone, coordinates, a clock, button placement, and an addon button bin.",
       "wiki": "modules",
       "page": "features/interface.md#minimap",
       "settings": [

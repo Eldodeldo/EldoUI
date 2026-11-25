@@ -10,7 +10,7 @@ Full-width bars at the top or bottom of the screen and your own datatext panels 
 
 ## Minimap
 
-A square or round minimap with zone text, coordinates and a clock, rebuilt behind Blizzard's minimap. You decide where the minimap buttons sit, and an addon button bin gathers other addons' buttons in one place. The minimap buttons and the queue button have their own Blizzard switches. With the Vanilla Original skin, a round minimap wears the game's own classic border, scaled with the map. A layer chip on the minimap shows which layer you are on; a click hops you to another layer through players who offer help, and every invite, accept and leave is your own click.
+A square or round minimap with zone text, coordinates and a clock, rebuilt behind Blizzard's minimap. You decide where the minimap buttons sit, and an addon button bin gathers other addons' buttons in one place. The minimap buttons and the queue button have their own Blizzard switches. With the Vanilla Original skin, a round minimap wears the game's own classic border, scaled with the map.
 
 ## Tooltip
 
@@ -25,6 +25,8 @@ The world map, quest log, flight map, battlefield map and UI widgets with an Eld
 ## Quest Tracker
 
 Blizzard's quest and objective tracker in the EldoUI look, on its own mover, with your height and font. It can fade or fold up in combat, shows a button and a key for the tracked quest's item, and works with Questie's tracker.
+
+With the Objective / quest tracker integration on, Questie's tracker takes over while it is visible. To switch back to the game's tracker, turn off Questie's tracker in Questie's options and let it reload the interface.
 
 ## XP and Reputation Bars
 
@@ -56,7 +58,7 @@ Quest, gossip and other NPC dialogs, the pet stable and the barber shop in the E
 
 ## Window Skins
 
-The spellbook, talents, professions, trainer, collections, socketing, dressing room and inspect windows in the EldoUI look, plus the option windows of other addons built with Ace3. With Professions Improve on, the selected recipe shows estimated skill-up steps, crafting costs, sale values, and how many crafts your materials allow. Its shopping list has its own craft quantity. A crowded recipe can open the same summary in a resizable window.
+The spellbook, talents, professions, trainer, collections, socketing, dressing room and inspect windows in the EldoUI look, plus the option windows of other addons built with Ace3. With Professions Improve on, the selected recipe shows known WoW: Forever skill-up thresholds where available, crafting costs, sale values, and how many crafts your materials allow. An estimate is marked when the recipe has no known thresholds. Its shopping list has its own craft quantity. A crowded recipe can open the same summary in a resizable window.
 
 ## System Windows
 
