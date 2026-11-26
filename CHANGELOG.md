@@ -6,6 +6,14 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### Improved
+
+- **Setup and profiles:** The Profiles page saves a named copy in one click and shows who shares a profile.
+
+### Fixed
+
+- **Setup and profiles:** Renaming a profile keeps its recovery copies and updates the name of its imported layout.
+
 ## [0.7.4001] - 2026-11-26
 
 ### Setup and profiles

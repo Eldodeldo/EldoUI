@@ -69,6 +69,8 @@ On an alt that uses a profile another character set up, the steps that change th
 
 The setup waits while the game asks whether to skip the intro cinematic, and while another addon shows its own first-start window, and opens once you have answered.
 
+In **Profiles**, the usage line lists the characters on the selected profile, and the profile and delete menus mark shared profiles. Choose **Save a copy** to add a named copy to the list while continuing to use your current profile.
+
 ## Find your way around
 
 - `/eui` opens the config window. The search box finds any setting by its name, description or choices.
