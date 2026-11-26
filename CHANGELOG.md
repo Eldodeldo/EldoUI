@@ -6,10 +6,19 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
-### Fixed
+## [0.7.4001] - 2026-11-26
 
-- **Setup and profiles:** Creating or renaming a profile rejects a name that differs from another profile only by capitalization.
-- **Journal:** Item tooltips name the WoW: Forever dungeon bosses you saw drop the item and show how often it dropped.
+### Setup and profiles
+
+#### Fixed
+
+- Creating or renaming a profile rejects a name that differs from another profile only by capitalization.
+
+### Journal
+
+#### Fixed
+
+- Item tooltips name the WoW: Forever dungeon bosses you saw drop the item and show how often it dropped.
 
 ## [0.7.4000] - 2026-11-25
 
@@ -2605,7 +2614,8 @@ The versions from 0.5.0 to 0.6.6005 in short: what they brought that is still in
 - **Paladin:** The Blessing Plan (/eui blessings) plans which blessing each paladin keeps up on each class.
 - **Shaman:** Shaman Totems: a totem bar, a cooldown bar with your shield, weapon imbues, Reincarnation and Ankhs, up to eight totem loadouts, and a group plan for Mana Tide Totem and the resistance totems.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.4000...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.4001...HEAD
+[0.7.4001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.4001
 [0.7.4000]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.4000
 [0.7.3100]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3100
 [0.7.3006]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3006
