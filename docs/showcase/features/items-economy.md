@@ -20,7 +20,7 @@ Alt-click an item in your bags to disenchant it, or Alt-click a lockbox to pick 
 
 ## Loot Guide
 
-A loot journal for dungeons and raids, best-in-slot sets, a wishlist, search and item pages, and loot lines in item tooltips. The data (drops, chances, creatures and quests) comes from the separate EldoUI_LootData folder, which is generated from CMaNGOS classic-db: Classic values, so WoW: Forever may differ. Open it with `/lg`. All nine WoW: Forever dungeons have their own pages with their level range and zone; a boss joins its page the first time you defeat it, with the items you see it drop.
+A loot journal for dungeons and raids, best-in-slot sets, a wishlist, search and item pages, and loot lines in item tooltips. The data (drops, chances, creatures and quests) comes from the separate EldoUI_LootData folder, which is generated from CMaNGOS classic-db: Classic values, so WoW: Forever may differ. Open it with `/lg`. All nine WoW: Forever dungeons have their own pages with their level range and zone; a boss joins its page the first time you defeat it, with the items you see it drop. With Drop chances set to Seen or Both, item tooltips show which WoW: Forever dungeon boss you saw drop the item and the number of drops observed across your characters.
 
 ## My Adventure
 

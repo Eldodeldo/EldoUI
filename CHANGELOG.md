@@ -6,6 +6,11 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
+### Fixed
+
+- **Setup and profiles:** Creating or renaming a profile rejects a name that differs from another profile only by capitalization.
+- **Journal:** Item tooltips name the WoW: Forever dungeon bosses you saw drop the item and show how often it dropped.
+
 ## [0.7.4000] - 2026-11-25
 
 ### Highlights
