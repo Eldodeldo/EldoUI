@@ -6,13 +6,17 @@ The in-game **What's New** page (`/eui whatsnew`) shows the highlights of each v
 
 ## [Unreleased]
 
-### Improved
+## [0.7.4002] - 2026-11-26
 
-- **Setup and profiles:** The Profiles page saves a named copy in one click and shows who shares a profile.
+### Setup and profiles
 
-### Fixed
+#### Improved
 
-- **Setup and profiles:** Renaming a profile keeps its recovery copies and updates the name of its imported layout.
+- The Profiles page saves a named copy in one click and shows who shares a profile.
+
+#### Fixed
+
+- Renaming a profile keeps its recovery copies and updates the name of its imported layout.
 
 ## [0.7.4001] - 2026-11-26
 
@@ -2622,7 +2626,8 @@ The versions from 0.5.0 to 0.6.6005 in short: what they brought that is still in
 - **Paladin:** The Blessing Plan (/eui blessings) plans which blessing each paladin keeps up on each class.
 - **Shaman:** Shaman Totems: a totem bar, a cooldown bar with your shield, weapon imbues, Reincarnation and Ankhs, up to eight totem loadouts, and a group plan for Mana Tide Totem and the resistance totems.
 
-[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.4001...HEAD
+[Unreleased]: https://github.com/Eldodeldo/EldoUI/compare/v0.7.4002...HEAD
+[0.7.4002]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.4002
 [0.7.4001]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.4001
 [0.7.4000]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.4000
 [0.7.3100]: https://github.com/Eldodeldo/EldoUI/releases/tag/v0.7.3100
